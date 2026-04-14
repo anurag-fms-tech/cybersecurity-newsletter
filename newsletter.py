@@ -8,12 +8,8 @@ GROQ_API_KEY="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"
 
 client = Groq(api_key=GROQ_API_KEY)
 
-RSS_FEEDS = [
-"https://thehackernews.com/feeds/posts/default",
-"https://krebsonsecurity.com/feed/",
-"https://www.darkreading.com/rss.xml",
-"https://www.bleepingcomputer.com/feed/"
-]
+with open("rss.txt", "r") as file:
+    RSS_FEEDS = file.read().splitlines()
 
 def collect_articles():
 
