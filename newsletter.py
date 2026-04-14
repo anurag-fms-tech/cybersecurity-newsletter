@@ -6,12 +6,22 @@ from datetime import datetime
 import concurrent.futures
 import hashlib
 import os
+import smtplib
+from email.mime.text import MIMEText
 
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+# -----------------------------
+# CONFIG
+# -----------------------------
 
-client = Groq(api_key=GROQ_API_KEY)
+GROQ_API_KEY=os.getenv("GROQ_API_KEY")
+
+EMAIL_USER=os.getenv("EMAIL_USER")
+EMAIL_PASS=os.getenv("EMAIL_PASS")
+EMAIL_TO=os.getenv("EMAIL_TO")
 
 MODEL="llama-3.1-8b-instant"
+
+client=Groq(api_key=GROQ_API_KEY)
 
 with open("rss.txt","r") as f:
     RSS_FEEDS=f.read().splitlines()
@@ -134,7 +144,7 @@ Return only a number.
 
 
 # -----------------------------
-# AGENT 5 — ARTICLE SCRAPER
+# AGENT 5 — SCRAPER
 # -----------------------------
 
 def scrape(url):
@@ -150,7 +160,6 @@ def scrape(url):
         return " ".join(p[:10])
 
     except:
-
         return ""
 
 
@@ -161,13 +170,12 @@ def scrape(url):
 def summarize(text):
 
     if text=="":
-
         return "Summary unavailable"
 
     prompt=f"""
-Summarize the cybersecurity news<<<
+Summarize this cybersecurity news in about 60 words:
 
-{text}>>>
+{text}
 
 return only the summary
 """
@@ -181,7 +189,7 @@ return only the summary
 
 
 # -----------------------------
-# AGENT 7 — NEWSLETTER BUILDER
+# AGENT 7 — REPORT BUILDER
 # -----------------------------
 
 def build_html(news):
@@ -189,29 +197,80 @@ def build_html(news):
     today=datetime.now().strftime("%d %B %Y")
 
     html=f"""
-    <html>
-    <head>
-    <title>Cybersecurity Intelligence Brief</title>
-    </head>
-    <body>
-    <h1>Cybersecurity Intelligence Brief</h1>
-    <h3>{today}</h3>
-    """
+<html>
+<head>
+<title>Cybersecurity Intelligence Brief</title>
+</head>
+
+<body style="font-family:Arial">
+
+<h1>Cybersecurity Intelligence Brief</h1>
+<h3>{today}</h3>
+
+"""
 
     for n in news:
 
         html+=f"""
-        <hr>
-        <h2>{n['title']}</h2>
-        <b>Threat:</b> {n['category']}<br>
-        <b>Severity:</b> {n['score']}/10<br>
-        <p>{n['summary']}</p>
-        <a href="{n['link']}">Read more</a>
-        """
+<hr>
+
+<h2>{n['title']}</h2>
+
+<b>Threat:</b> {n['category']}<br>
+<b>Severity:</b> {n['score']}/10<br>
+
+<p>{n['summary']}</p>
+
+<a href="{n['link']}">Read Full Article</a>
+
+"""
 
     html+="</body></html>"
 
     return html
+
+
+# -----------------------------
+# LINKEDIN POST GENERATOR
+# -----------------------------
+
+def linkedin_post(news):
+
+    post="🔐 Cybersecurity Intelligence Brief\n\n"
+
+    for i,n in enumerate(news[:5]):
+
+        post+=f"{i+1}. {n['title']}\n"
+        post+=f"Threat: {n['category']} | Severity: {n['score']}/10\n"
+        post+=f"{n['summary']}\n\n"
+
+    post+="\n#cybersecurity #infosec #threatintel"
+
+    return post
+
+
+# -----------------------------
+# EMAIL SENDER
+# -----------------------------
+
+def send_email(html):
+
+    if EMAIL_USER is None:
+        return
+
+    msg=MIMEText(html,"html")
+
+    msg["Subject"]="Cybersecurity Intelligence Brief"
+    msg["From"]=EMAIL_USER
+    msg["To"]=EMAIL_TO
+
+    server=smtplib.SMTP_SSL("smtp.gmail.com",465)
+
+    server.login(EMAIL_USER,EMAIL_PASS)
+
+    server.sendmail(EMAIL_USER,EMAIL_TO,msg.as_string())
+
+    server.quit()
 
 
 # -----------------------------
@@ -259,6 +318,14 @@ def run():
     with open(file,"w",encoding="utf8") as f:
 
         f.write(html)
+
+    post=linkedin_post(results)
+
+    with open("linkedin_post.txt","w") as f:
+
+        f.write(post)
+
+    send_email(html)
 
     print("Report generated:",file)
 
