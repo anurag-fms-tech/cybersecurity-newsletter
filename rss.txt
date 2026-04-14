@@ -1,0 +1,4 @@
+https://thehackernews.com/feeds/posts/default
+https://krebsonsecurity.com/feed/
+https://www.darkreading.com/rss.xml
+https://www.bleepingcomputer.com/feed/
