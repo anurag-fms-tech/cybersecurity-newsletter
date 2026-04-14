@@ -236,7 +236,7 @@ def build_html(news):
 
 def linkedin_post(news):
 
-    post="🔐 Cybersecurity Intelligence Brief\n\n"
+    post="Cybersecurity Intelligence Brief\n\n"
 
     for i,n in enumerate(news[:5]):
 
