@@ -321,7 +321,7 @@ def run():
 
     post=linkedin_post(results)
 
-    with open("linkedin_posts/linkedin_post_{datetime.now().date()}.txt","w") as f:
+    with open(f"linkedin_posts/linkedin_post_{datetime.now().date()}.txt","w") as f:
 
         f.write(post)
 
