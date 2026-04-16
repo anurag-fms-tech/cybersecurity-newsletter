@@ -329,6 +329,9 @@ def run():
 
     send_email(html)
 
+    with open("docs/index.html","w",encoding="utf8") as f:
+        f.write(html)
+
     print("Report generated:",file)
 
 
