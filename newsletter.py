@@ -410,15 +410,28 @@ def run():
     file=f"reports/report_{datetime.now().date()}.html"
 
     with open(file,"w",encoding="utf8") as f:
-
         f.write(html)
 
-    os.makedirs("linkedin_posts",exist_ok=True)
+    # Save archive report
+    save_archive(html)
 
+    # Generate category pages
+    build_category_pages(results)
+
+    # Generate homepage
+    homepage=build_homepage(results)
+    
+    os.makedirs("docs",exist_ok=True)
+
+    with open("docs/index.html","w",encoding="utf8") as f:
+        f.write(homepage)
+
+    # LinkedIn post
+    os.makedirs("linkedin_posts",exist_ok=True)
+    
     post=linkedin_post(results)
 
     with open(f"linkedin_posts/linkedin_post_{datetime.now().date()}.txt","w") as f:
-
         f.write(post)
 
     send_email(html)
@@ -428,14 +441,7 @@ def run():
 
     print("Report generated:",file)
 
-    homepage=build_homepage(results)
-
-save_archive(html)
-
-build_category_pages(results)
-
-with open("docs/index.html","w",encoding="utf8") as f:
-    f.write(homepage)
+  
 
 
 run()
