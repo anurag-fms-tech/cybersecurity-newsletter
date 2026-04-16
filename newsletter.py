@@ -272,6 +272,100 @@ def send_email(html):
 
     server.quit()
 
+#------------------------------
+# Generate Daily Homepage
+#------------------------------
+def build_homepage(news):
+
+    today=datetime.now().strftime("%d %B %Y")
+
+    html=f"""
+<html>
+<head>
+<title>Cyber Threat Intelligence Portal</title>
+</head>
+
+<body style="font-family:Arial">
+
+<h1>Global Cyber Threat Intelligence</h1>
+<h3>{today}</h3>
+
+<h2>Top 10 Global Cyber Threats</h2>
+
+"""
+
+    for i,n in enumerate(news[:10]):
+
+        html+=f"""
+<h3>{i+1}. {n['title']}</h3>
+<b>Category:</b> {n['category']} |
+<b>Severity:</b> {n['score']}/10
+
+<p>{n['summary']}</p>
+<a href="{n['link']}">Read more</a>
+<hr>
+"""
+
+    html+="</body></html>"
+
+    return html
+
+#------------------------------
+# CATEGORY PAGES
+#------------------------------
+
+from collections import defaultdict
+
+def build_category_pages(news):
+
+    categories=defaultdict(list)
+
+    for n in news:
+        categories[n["category"]].append(n)
+
+    os.makedirs("docs/categories",exist_ok=True)
+
+    for cat,items in categories.items():
+
+        html=f"<h1>{cat} Threat Intelligence</h1>"
+
+        for n in items:
+
+            html+=f"""
+<h3>{n['title']}</h3>
+Severity: {n['score']}/10
+<p>{n['summary']}</p>
+<a href="{n['link']}">Source</a>
+<hr>
+"""
+
+        with open(f"docs/categories/{cat.lower().replace(' ','_')}.html","w",encoding="utf8") as f:
+            f.write(html)
+
+
+#------------------------------
+# Report Archive
+#------------------------------
+
+def save_archive(html):
+
+    os.makedirs("docs/archive",exist_ok=True)
+
+    date=str(datetime.now().date())
+
+    with open(f"docs/archive/{date}.html","w",encoding="utf8") as f:
+        f.write(html)
+
+#------------------------------
+# Homepage
+#------------------------------
+
+os.makedirs("docs",exist_ok=True)
+
+homepage=build_homepage(results)
+
+with open("docs/index.html","w",encoding="utf8") as f:
+    f.write(homepage)
 
 # -----------------------------
 # MAIN PIPELINE
@@ -333,6 +427,15 @@ def run():
         f.write(html)
 
     print("Report generated:",file)
+
+    homepage=build_homepage(results)
+
+save_archive(html)
+
+build_category_pages(results)
+
+with open("docs/index.html","w",encoding="utf8") as f:
+    f.write(homepage)
 
 
 run()
