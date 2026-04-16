@@ -319,6 +319,8 @@ def run():
 
         f.write(html)
 
+    os.makedirs("linkedin_posts",exist_ok=True)
+
     post=linkedin_post(results)
 
     with open(f"linkedin_posts/linkedin_post_{datetime.now().date()}.txt","w") as f:
