@@ -352,9 +352,11 @@ Severity: {n['score']}/10
 <hr>
 """
 
-        with open(f"docs/categories/{cat.lower().replace(' ','_')}.html","w",encoding="utf8") as f:
-            f.write(html)
+    safe_cat = cat.lower().replace(" ", "_")[:40]
 
+    with open(f"docs/categories/{safe_cat}.html","w",encoding="utf8") as f:
+        f.write(html)
+
 
 #------------------------------
 # Report Archive
