@@ -96,9 +96,8 @@ def deduplicate(articles):
 def classify(title):
 
     prompt=f"""
-Classify this cybersecurity news:
+Classify this cybersecurity news into ONE of these categories:
 
-Categories:
 Ransomware
 Zero-Day
 Data Breach
@@ -106,10 +105,10 @@ Malware
 Vulnerability
 Nation State
 
+Return ONLY the category name.
+
 News:
 {title}
-
-Return only the category.
 """
 
     completion=client.chat.completions.create(
@@ -117,7 +116,21 @@ Return only the category.
         messages=[{"role":"user","content":prompt}]
     )
 
-    return completion.choices[0].message.content.strip()
+    category=completion.choices[0].message.content.strip()
+
+    allowed=[
+        "Ransomware",
+        "Zero-Day",
+        "Data Breach",
+        "Malware",
+        "Vulnerability",
+        "Nation State"
+    ]
+
+    if category not in allowed:
+        category="Vulnerability"
+
+    return category
 
 
 # -----------------------------
