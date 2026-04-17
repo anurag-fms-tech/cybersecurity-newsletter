@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. Apache ActiveMQ CVE-2026-34197 Added to CISA KEV Amid Active Exploitation
+Threat: Vulnerability | Severity: 10/10
+A high-severity security flaw (CVE-2026-34197) in Apache ActiveMQ Classic has been exploited in the wild, prompting CISA to add it to its Known Exploited Vulnerabilities catalog. The vulnerability, discovered after 13 years, allows attackers to execute arbitrary code and requires urgent fixes by April 30, 2026, to prevent potential data exfiltration or disruption.
+
+2. Newly Discovered PowMix Botnet Hits Czech Workers Using Randomized C2 Traffic
+Threat: Vulnerability | Severity: 8/10
+Cybersecurity researchers have uncovered a malicious botnet called PowMix targeting the Czech workforce since at least December 2025. The botnet uses randomized command-and-control beaconing intervals and mimics legitimate URLs to evade detection. It drops a multi-stage infection chain and can remotely update its configuration, facilitating remote access, reconnaissance, and code execution with decoy documents to distract victims.
+
+3. ThreatsDay Bulletin: Defender 0-Day, SonicWall Brute-Force, 17-Year-Old Excel RCE and 15 More Stories
+Threat: Zero-Day | Severity: 8/10
+Multiple cybersecurity incidents occurred this week. A North Korean hacker group stole $100,000 from a cryptocurrency wallet service, Zerion, using AI-enabled social engineering. The European Union is launching a new online age verification app to protect minors. Microsoft's Windows has been breached with several vulnerabilities, including one that affects Windows 11. The U.S. Cybersecurity and Infrastructure Security Agency has added an old Microsoft Office vulnerability to its known exploits list, requiring Federal agencies to fix it by April 28.
+
+4. [Webinar] Find and Eliminate Orphaned Non-Human Identities in Your Environment
+Threat: Vulnerability | Severity: 6
+
+(This severity rating is relatively low as it suggests a best practice or a security awareness initiative to identify potential vulnerabilities. However, it's essential to understand the specific risks and controls involved, as the actual severity may vary.)/10
+Compromised service accounts and forgotten API keys were behind 68% of cloud breaches in 2024, not phishing or weak passwords, but rather unmonitored non-human identities that attackers exploited. Join a webinar to learn how to find and eliminate "Ghost Identities" and secure automated credentials that carry admin-level access, and can cause significant damage even after a 200-day average dwell time.
+
+5. Cisco Patches Four Critical Identity Services, Webex Flaws Enabling Code Execution
+Threat: Vulnerability | Severity: 9/10
+Cisco has released patches to address four critical vulnerabilities in Identity Services and Webex Services. The flaws, including CVE-2026-20147, CVE-2026-20180, and CVE-2026-20186, could lead to arbitrary code execution, user impersonation, and denial-of-service conditions. Customers are advised to update to the latest version for optimal protection.
+
+
+#cybersecurity #infosec #threatintel
