@@ -356,16 +356,6 @@ def save_archive(html):
     with open(f"docs/archive/{date}.html","w",encoding="utf8") as f:
         f.write(html)
 
-#------------------------------
-# Homepage
-#------------------------------
-def build_homepage(results):
-    os.makedirs("docs",exist_ok=True)
-    
-    homepage=build_homepage(results)
-    
-    with open("docs/index.html","w",encoding="utf8") as f:
-        f.write(homepage)
 
 # -----------------------------
 # MAIN PIPELINE
