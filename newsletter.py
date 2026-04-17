@@ -390,7 +390,7 @@ def run():
 
     results=[]
 
-    for a in articles[:15]:
+    for a in articles[:45]:
 
         text=scrape(a["link"])
 
