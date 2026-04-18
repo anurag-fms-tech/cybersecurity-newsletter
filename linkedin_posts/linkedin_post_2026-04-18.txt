@@ -1,0 +1,28 @@
+Cybersecurity Intelligence Brief
+
+1. Three Microsoft Defender Zero-Days Actively Exploited; Two Still Unpatched
+Threat: Zero-Day | Severity: 8/10
+Huntress has warned that threat actors are exploiting three vulnerabilities in Microsoft Defender, codenamed BlueHammer, RedSun, and UnDefend, to gain elevated privileges. BlueHammer has been fixed in Microsoft's latest Patch Tuesday updates, but RedSun and UnDefend lack patches. All three have been seen in the wild, with BlueHammer being exploited since April 10 and RedSun and UnDefend since April 16.
+
+2. Google Blocks 8.3B Policy-Violating Ads in 2025, Launches Android 17 Privacy Overhaul
+Threat: Vulnerability | Severity: 3/10
+Google announced new Android policy updates to strengthen user privacy by introducing a Contact Picker for secure and searchable contact selection, and a location button for one-time access to a user's precise location. The updates aim to minimize permission footprints and require developers to justify access to full contact lists and persistently precise location.
+
+3. NIST Limits CVE Enrichment After 263% Surge in Vulnerability Submissions
+Threat: Vulnerability | Severity: 8
+
+This means the news may be somewhat worrying for cybersecurity, as it reflects changes in reporting and submission of vulnerabilities./10
+The National Institute of Standards and Technology (NIST) has implemented changes to its National Vulnerability Database (NVD) due to an explosion in cybersecurity vulnerability submissions. NIST will only enrich vulnerabilities that meet specific criteria. Others will be listed but not automatically enriched. The change aims to focus on vulnerabilities with maximum potential for widespread impact.
+
+4. Operation PowerOFF Seizes 53 DDoS Domains, Exposes 3 Million Criminal Accounts
+Threat: Nation State | Severity: 6
+
+A DDoS attack can be a significant threat, but the actual security breach severity rating for this event might be lower since it only involves seizing DDoS domains and exposing criminal accounts. However, with 3 million criminal accounts exposed, it could still pose risks for users who unknowingly interact with these accounts./10
+International authorities took down 53 domains and arrested 4 people connected to commercial DDoS operations used by over 75,000 cybercriminals. Operation PowerOFF disabled access to 3 million user accounts and disrupted technical infrastructure supporting the services, warning users and issuing 25 search warrants across 21 countries. This latest effort aims to dismantle worldwide criminal DDoS-for-hire infrastructures.
+
+5. Apache ActiveMQ CVE-2026-34197 Added to CISA KEV Amid Active Exploitation
+Threat: Vulnerability | Severity: 9/10
+A high-severity security flaw in Apache ActiveMQ Classic (CVE-2026-34197) has been actively exploited in the wild. The US CISA has added it to the Known Exploited Vulnerabilities catalog, requiring Federal agencies to apply fixes before April 30, 2026. The flaw allows arbitrary code execution, exploiting default admin:admin credentials, and a separate vulnerability (CVE-2024-32114) exposes the Jolokia API without authentication. Users should upgrade to 5.19.4 or 6.2.3.
+
+
+#cybersecurity #infosec #threatintel
