@@ -1,0 +1,28 @@
+Cybersecurity Intelligence Brief
+
+1. [Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data
+Threat: Vulnerability | Severity: 8
+
+(Note: This topic indicates the presence of potential identity-based cyber threats, emphasizing the need for prevention, which suggests a moderate to high risk.)/10
+In 2024, 68% of cloud breaches resulted from compromised service accounts and forgotten API keys, not phishing or weak passwords. Unmanaged automated credentials, 40-50 for every employee, remain active after projects end or employees leave, granting attackers easy access. A compromised token can lead to lateral movement across the environment.
+
+2. $13.74M Hack Shuts Down Sanctioned Grinex Exchange After Intelligence Claims
+Threat: Data Breach | Severity: 8/10
+Grinex, a cryptocurrency exchange sanctioned by the U.K. and U.S., has suspended operations after a $13.74 million hack, blaming Western intelligence agencies for the theft of over 1 billion rubles in user funds. The exchange claims the attack was coordinated to destabilise Russia's financial sector. The hack occurred on April 15, 2026, with stolen funds sent to further accounts on the TRON or Ethereum blockchains.
+
+3. Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet
+Threat: Vulnerability | Severity: 8
+
+This rating is based on the information that a vulnerability (CVE-2024-3721) is being exploited in a new Mirai variant to create a DDoS botnet. DDoS attacks can have significant impact on affected networks, and the Mirai variant has been known for its ability to create sizable botnets./10
+Threat actors are exploiting vulnerabilities in TBK DVR and TP-Link Wi-Fi routers, deploying Mirai-botnet variants. A medium-severity command injection vulnerability in TBK DVR devices (CVE-2024-3721) delivers a Mirai variant called Nexcorium. The malware targets IoT devices, often with weak security settings, and can persist, spread, and cause DDoS attacks, highlighting the ongoing threat to IoT devices lacking patches and robust security.
+
+4. Three Microsoft Defender Zero-Days Actively Exploited; Two Still Unpatched
+Threat: Zero-Day | Severity: 8/10
+Huntress warns of threat actors exploiting three Microsoft Defender vulnerabilities, including BlueHammer, RedSun, and UnDefend, to gain elevated privileges. While Microsoft has addressed BlueHammer (CVE-2026-33825), RedSun and UnDefend lack fixes. Huntress observed these flaws being exploited in the wild since April 10, 2026, and has taken steps to isolate affected organizations. Microsoft confirmed it has addressed the BlueHammer exploit.
+
+5. Google Blocks 8.3B Policy-Violating Ads in 2025, Launches Android 17 Privacy Overhaul
+Threat: Vulnerability | Severity: 6/10
+Google updated its Play policy to improve user privacy, introducing a more secure "Contact Picker" for accessing contacts and a streamlined location button to request precise location access. Third-party apps must now use these updated features to access contacts and location data, with developers needing to justify persistent access through a Play Developer Declaration.
+
+
+#cybersecurity #infosec #threatintel
