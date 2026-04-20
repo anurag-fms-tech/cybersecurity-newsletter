@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. [Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data
+Threat: Vulnerability | Severity: 6/10
+In 2024, compromised service accounts and forgotten API keys were the cause of 68% of cloud breaches, not phishing or weak passwords. AI agents and automated workflows create "Ghost Identities" with admin-level access that can be used by attackers for lateral movement. Traditional IAM isn't equipped to handle this issue, but a step-by-step plan can be taken to secure these non-human identities.
+
+2. $13.74M Hack Shuts Down Sanctioned Grinex Exchange After Intelligence Claims
+Threat: Vulnerability | Severity: 9/10
+Cryptocurrency exchange Grinex, linked to Russia and sanctioned by the US and UK, blames a $13.74 million hack on Western intelligence agencies. The attack, which stole over 1 billion rubles from users, is believed to be a coordinated effort to destabilize Russia's financial sector. Grinex has suspended operations and claims the attack showcased "capabilities typically available exclusively to the agencies of hostile states."
+
+3. Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet
+Threat: Vulnerability | Severity: 8/10
+Threat actors are exploiting vulnerabilities in TBK DVRs and end-of-life TP-Link routers to deploy Mirai-botnet variants, including Nexcorium and RondoDox. The Nexcorium malware uses XOR-encoding and brute-force attacks to persist and launch DDoS attacks, evading analysis by deleting the original binary. Similar vulnerabilities have been exploited before to deploy malware, highlighting the ongoing threat to IoT devices.
+
+4. Three Microsoft Defender Zero-Days Actively Exploited; Two Still Unpatched
+Threat: Zero-Day | Severity: 9/10
+Huntress is warning that threat actors are exploiting three vulnerabilities in Microsoft Defender, including local privilege escalation flaws BlueHammer and RedSun, as well as UnDefend which causes denial-of-service. Microsoft has addressed one of the flaws, BlueHammer, but the others do not have a fix. Huntress confirmed all three are being exploited in the wild, with weaponized BlueHammer activity since April 10.
+
+5. Google Blocks 8.3B Policy-Violating Ads in 2025, Launches Android 17 Privacy Overhaul
+Threat: Vulnerability | Severity: 3
+
+This news does not indicate a significant cybersecurity threat or breach. Google is taking proactive steps to protect users by blocking policy-violating ads, which helps prevent malicious ads or phishing scams, but it does not pose an immediate severity level of security threat./10
+Google has updated its Play policy to strengthen user privacy and protect against fraud, announcing the removal of over 8.3 billion ads and suspending 24.9 million accounts in 2025. New Android 17 policy changes include a Contact Picker for secure contact selection and a streamlined location button allowing users to make choices about when to share their location.
+
+
+#cybersecurity #infosec #threatintel
