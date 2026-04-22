@@ -1,0 +1,28 @@
+Cybersecurity Intelligence Brief
+
+1. SystemBC C2 Server Reveals 1,570+ Victims in The Gentlemen Ransomware Operation
+Threat: Ransomware | Severity: 6
+
+(Note: The lack of specific information about the breach, potential data exposure, or financial impact limits the severity rating. However, the large number of victims and the identification of the C2 server suggests a significant threat, hence a mild to moderate severity rating of 6.)/10
+Gentlemen ransomware gang has been linked to a proxy malware called SystemBC, infecting over 1,570 victims worldwide. SystemBC establishes SOCKS5 network tunnels and can download additional malware. The gang has claimed over 320 victims, using a double-extortion model and targeting various systems, including Windows and Linux. They use legitimate drivers and custom tools to evade defenses and have been abusing Group Policy Objects to compromise domains.
+
+2. 22 BRIDGE:BREAK Flaws Expose Thousands of Lantronix and Silex Serial-to-IP Converters
+Threat: Vulnerability | Severity: 8/10
+Cybersecurity researchers discovered 22 vulnerabilities in Lantronix and Silex serial-to-IP converters, potentially allowing attackers to hijack devices or tamper with data. The flaws, codenamed BRIDGE:BREAK, could disrupt serial communications and enable lateral movement across networks. Vulnerable devices, nearly 20,000 of which were exposed online, are advised to be patched and users should follow security guidelines to prevent exploitation.
+
+3. Ransomware Negotiator Pleads Guilty to Aiding BlackCat Attacks in 2023
+Threat: Ransomware | Severity: 9/10
+Angelo Martino, 41, has pleaded guilty to conducting ransomware attacks against US companies in 2023. As a negotiator, he provided BlackCat attackers with confidential information to maximize ransoms from victims. Authorities seized $10 million in assets, and Martino faces up to 20 years in prison. He teamed up with other incident responders who also pleaded guilty, working for companies DigitalMint and Sygnia.
+
+4. 5 Places where Mature SOCs Keep MTTR Fast and Others Waste Time
+Threat: Vulnerability | Severity: 1
+
+This news appears to be more of an informational or best practices article, rather than a report of a specific cybersecurity incident./10
+Cybersecurity teams are urged to reevaluate their Mean Time to Respond (MTTR) metrics, focusing on containment and prevention rather than just reaction time. Mature security operations centers (SOCs) embedded threat intelligence in their workflows, reducing MTTR by detecting threats early and making swift decisions, resulting in lower risk and costs.
+
+5. NGate Campaign Targets Brazil, Trojanizes HandyPay to Steal NFC Data and PINs
+Threat: Malware | Severity: 8/10
+Cybersecurity researchers have discovered a new version of Android malware, NGate, that uses legitimate app HandyPay to steal contactless payment data. The malicious code, possibly AI-generated, captures PINs and relays payment information to attackers. A campaign has targeted Brazil, distributing the trojanized app through fake lottery websites and Google Play Store listings. This is the first reported NGate campaign in South America.
+
+
+#cybersecurity #infosec #threatintel
