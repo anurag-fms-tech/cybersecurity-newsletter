@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Malicious KICS Docker Images and VS Code Extensions Hit Checkmarx Supply Chain
+Threat: Vulnerability | Severity: 7/10
+Cybersecurity researchers have discovered malicious images in the official Checkmarx/kics Docker Hub repository, which have been archived. The threat actors modified a KICS binary to collect and exfiltrate data, posing a risk to teams that use KICS to scan infrastructure-as-code files. Related Checkmarx tooling, including a Microsoft Visual Studio Code extension, may also be affected, compromising sensitive configuration data.
+
+2. Self-Propagating Supply Chain Worm Hijacks npm Packages to Steal Developer Tokens
+Threat: Vulnerability | Severity: 9/10
+Cybersecurity researchers have discovered a supply chain worm spreading via compromised npm packages. The malware steals developer credentials and secrets, leverages stolen tokens, and pushes poisoned packages to expand its reach. The worm, dubbed CanisterSprawl, also targets credentials in Chromium-based browsers and cryptocurrency wallet extensions, and exfiltrates data to two online locations.
+
+3. Harvester Deploys Linux GoGra Backdoor in South Asia Using Microsoft Graph API
+Threat: Vulnerability | Severity: 9/10
+A threat actor known as Harvester has been linked to a new Linux version of its backdoor, GoGra, targeting entities in South Asia, particularly India and Afghanistan. Harvester uses Microsoft's Graph API to bypass defenses and steal information, employing social engineering tactics to infect Linux machines with the malware, which abuses cloud infrastructure to communicate with operators.
+
+4. Lotus Wiper Malware Targets Venezuelan Energy Systems in Destructive Attack
+Threat: Malware | Severity: 9/10
+Cybersecurity researchers have discovered a data wiper, "Lotus Wiper," used in attacks targeting Venezuela's energy and utilities sector. The wiper erases recovery mechanisms, overwrites drives, and deletes files, leaving systems inoperable. Researchers from Kaspersky believe the attack is targeted and not financially motivated, noting its use weeks before the US military action in January 2026.
+
+5. Toxic Combinations: When Cross-App Permissions Stack into Risk
+Threat: Vulnerability | Severity: 6/10
+Researchers found Moltbook's database exposed 35,000 email addresses and 1.5 million agent API tokens, including plaintext third-party credentials. This highlights a "toxic combination" of unauthorized integrations and AI agent permissions that can lead to security breaches, particularly when each application owner lacks visibility into the connections made by AI agents.
+
+
+#cybersecurity #infosec #threatintel
