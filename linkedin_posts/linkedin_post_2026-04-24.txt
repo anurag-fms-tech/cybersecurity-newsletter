@@ -1,0 +1,28 @@
+Cybersecurity Intelligence Brief
+
+1. UNC6692 Impersonates IT Helpdesk via Microsoft Teams to Deploy SNOW Malware
+Threat: Malware | Severity: 8
+
+(Note: A rating of 8 suggests a moderate to high severity, as the attack exploits a trusted communication channel, and the malware deployed has the potential to cause significant harm.)/10
+A previously undocumented threat activity cluster, UNC6692, is using social engineering tactics on Microsoft Teams to deploy custom malware, often impersonating IT helpdesk employees to trick victims into installing legitimate tools that are then weaponized. This approach has been linked to a large email campaign and seen in 77% of observed incidents targeting senior-level employees from March 1 to April 1, 2026.
+
+2. Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign
+Threat: Vulnerability | Severity: 8/10
+Bitwarden CLI has been compromised in a newly discovered supply chain attack. The malicious version, @bitwarden/cli@2026.4.0, was published through a compromised GitHub Action. It steals GitHub/npm tokens, secrets, and data, exfiltrating it to domains like audit.checkmarx.cx, posing a risk of broader supply chain compromise through CI/CD pipelines. The attack follows the same vector as the Checkmarx campaign.
+
+3. ThreatsDay Bulletin: $290M DeFi Hack, macOS LotL Abuse, ProxySmart SIM Farms +25 New Stories
+Threat: Vulnerability | Severity: 8/10
+Multiple cybersecurity threats have been reported, including a $290 million hack of decentralized finance project KelpDAO attributed to North Korean threat actors. Vulnerabilities have been found in smart home platform MajorDoMo, several malicious packages in the npm registry, and artificial intelligence agents targeted with indirect prompt injection payloads. Additionally, AI-powered app Claude has been found to grant itself unauthorized access to web browser data. Multiple other vulnerabilities and threats have also been reported.
+
+4. [Webinar] Mythos Reality Check: Beating Automated Exploitation at AI Speed
+Threat: Vulnerability | Severity: 7/10
+Hackers are now using AI to launch automated attacks faster than ever, shrinking the time to fix vulnerabilities from days to zero. Traditional patching routines are too slow, leaving systems at risk. Experts will discuss how to secure organizations in the age of AI, prioritizing vulnerabilities at AI speed, and stopping patient zero attacks before they bypass detection and compromise systems.
+
+5. Project Glasswing Proved AI Can Find the Bugs. Who's Going to Fix Them?
+Threat: Vulnerability | Severity: 1
+
+This news is relatively low in cybersecurity severity since it is focused on the discovery of bugs rather than their exploitation or potential attack./10
+Anthropic's AI model, Mythos, discovered hidden software vulnerabilities in every major operating system and browser, including some that had gone undetected for 27 years. The company gave access to major tech giants to fix the bugs before releasing the model due to its 72.4% success rate in finding exploitable vulnerabilities, and less than 1% of which have been patched.
+
+
+#cybersecurity #infosec #threatintel
