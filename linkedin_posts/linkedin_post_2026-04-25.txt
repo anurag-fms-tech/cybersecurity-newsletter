@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches
+Threat: Vulnerability | Severity: 8/10
+The US Cybersecurity and Infrastructure Security Agency (CISA) and the UK's National Cyber Security Centre (NCSC) reported a malware attack known as FIRESTARTER, a backdoor used for remote access and control, which compromised a federal agency's Cisco Firepower device in September 2025. The malware persists even after patching and allows threat actors to re-access compromised devices, compromising security. Its origins are unknown, though a May 2024 analysis suggested links to China.
+
+2. NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software
+Threat: Nation State | Severity: 8/10
+A Chinese national, Song Wu, posed as a US researcher in a spear-phishing campaign to obtain sensitive defense technology from US government agencies, universities, and private companies, violating export control laws. Wu, an engineer at a Chinese state-owned aerospace firm, targeted dozens of US professors and researchers from 2017 to 2021, faces 20 years in prison for wire fraud and two years for identity theft.
+
+3. Bridging the AI Agent Authority Gap: Continuous Observability as the Decision Engine
+Threat: Vulnerability | Severity: 4
+
+(This rating is based on the general tone of the news article, which appears to be focused on a research or thought paper and does not indicate any actual cybersecurity breaches or vulnerabilities.)/10
+Enterprises struggle to govern AI agents due to a "delegation gap," where AI agents inherit authority from existing identities, often fragmented and unmanaged. To safely adopt Agent-AI, organizations must first reduce "identity dark matter" by illuminating human and traditional machine identities, understanding authentication, credentials, and workflows. A continuous observability model, like Orchid's, is essential for establishing a verified baseline of real identity behavior, enabling real-time evaluation of delegation authority and agent intent.
+
+4. 26 FakeWallet Apps Found on Apple App Store Targeting Crypto Seed Phrases
+Threat: Data Breach | Severity: 8/10
+Cybersecurity researchers discovered 26 malicious apps on the Apple App Store impersonating popular cryptocurrency wallets, attempting to steal recovery phrases and private keys since at least fall 2025. The FakeWallet apps mimic various wallets, with some having intentional typos or unrelated icons to trick users. They were removed following disclosure, but Kaspersky suspects they may be linked to a Chinese threat actor targeting cryptocurrency assets.
+
+5. Tropic Trooper Uses Trojanized SumatraPDF and GitHub to Deploy AdaptixC2
+Threat: Malware | Severity: 9/10
+Chinese-speaking individuals in Taiwan, South Korea, and Japan are being targeted by a hacking group, believed to be Tropic Trooper, using a trojanized SumatraPDF reader to deploy a post-exploitation agent and facilitate remote access via Microsoft Visual Studio Code. The threat actor uses GitHub as their command-and-control platform, employing a multi-stage attack and alternative trojanized applications to camouflage their actions.
+
+
+#cybersecurity #infosec #threatintel
