@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software
+Threat: Malware | Severity: 8/10
+Researchers have discovered a new Lua-based malware called Fast16, created in 2005, which aimed to sabotage Iran's nuclear program by altering high-precision calculations. It predates the notorious Stuxnet worm by at least five years, making it the first documented Windows malware to embed a Lua engine. The malware's core logic resides in the Lua bytecode, with the binary referencing a kernel driver responsible for intercepting and modifying executable code.
+
+2. CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline
+Threat: Vulnerability | Severity: 8/10
+The US Cybersecurity and Infrastructure Security Agency (CISA) has added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, citing active exploitation. These flaws affect SimpleHelp software, Samsung MagicINFO 9 Server, and D-Link DIR-823X series routers, with links to ransomware attacks and Mirai botnet activity.
+
+3. FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches
+Threat: Vulnerability | Severity: 9/10
+In September 2025, a federal civilian agency's Cisco Firepower device was compromised by new malware called FIRESTARTER. This backdoor malware allowed remote access and control, persisting even after patching and enabling threat actors to re-access devices without re-exploiting vulnerabilities. FIRESTARTER was found in a widespread campaign by an APT actor, likely deployed in conjunction with the LINE VIPER post-exploitation toolkit.
+
+4. NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software
+Threat: Nation State | Severity: 9/10
+A Chinese national, Song Wu, posed as a US researcher to orchestrate a spear-phishing campaign. From 2017 to 2021, he targeted US professors, researchers, and engineers to obtain sensitive defense technology. The campaign involved research institutions, government entities, and private companies, and Wu was indicted for wire fraud and identity theft, facing up to 20 years in prison if convicted.
+
+5. Bridging the AI Agent Authority Gap: Continuous Observability as the Decision Engine
+Threat: Vulnerability | Severity: 1
+
+The news article appears to be a technical discussion about AI agent authority and continuous observability, and does not mention any cybersecurity threats or vulnerabilities./10
+A structural gap exists in enterprise security due to AI agents being delegated actors with authority sourced from human and machine identities. This "delegation gap" requires enterprises to govern identities first, not just who has access, but also the authority being delegated, by whom, and under what conditions. Illuminating all identities, understanding credential embedding, and workflow execution can prevent AI agents from amplifying hidden access and risks.
+
+
+#cybersecurity #infosec #threatintel
