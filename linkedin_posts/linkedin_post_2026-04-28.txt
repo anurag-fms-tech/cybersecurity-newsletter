@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. Checkmarx Confirms GitHub Repository Data Posted on Dark Web After March 23 Attack
+Threat: Data Breach | Severity: 8/10
+Checkmarx disclosed a cybercrime group published its data on the dark web, originating from a GitHub repository compromised in a March 2026 supply chain attack. The data includes source code, employee database, API keys, and credentials. The company is investigating and has locked down the affected repository, stating it will notify customers if their information was involved.
+
+2. ⚡ Weekly Recap: Fast16 Malware, XChat Launch, Federal Backdoor, AI Employee Tracking & More
+Threat: Malware | Severity: 8/10
+New malware called fast16, created in 2005, was designed to target high-precision calculation software to tamper with results. It's believed to have existed before the notorious Stuxnet worm, marking an earlier timeline for sophisticated cyber warfare operations. Meanwhile, a list of 23 high-severity vulnerabilities was identified, including ones in Microsoft ASP.NET Core and MOVEit WAF, with patching advised to prevent potential attacks.
+
+3. Mythos Changed the Math on Vulnerability Discovery. Most Teams Aren't Ready for the Remediation Side
+Threat: Vulnerability | Severity: 5
+
+The article mentions a change in vulnerability discovery, which could indicate a shift in attack vectors and potential new vulnerabilities. However, without specific details on the severity or exploitability of these vulnerabilities, it's difficult to assign a higher severity rating./10
+Anthropic's AI system Claude Mythos Preview can identify vulnerabilities at scale, sparking debate on its impact. However, a quieter operational issue looms: triaging, prioritizing, and verifying fixes. AI models like Mythos may accelerate the discovery process, but if organizational infrastructure hasn't kept pace, a faster-growing backlog of unresolved critical issues may result, increasing security team burden and reducing efficiency.
+
+4. PhantomCore Exploits TrueConf Vulnerabilities to Breach Russian Networks
+Threat: Vulnerability | Severity: 8/10
+A pro-Ukrainian hacktivist group, PhantomCore, has been linked to attacks on Russian organizations using vulnerable TrueConf video conferencing software, exploiting three unpatched vulnerabilities since September 2025. The group has used these exploits to gain network access, steal data, and deploy ransomware, with some attacks remaining undetected for extended periods due to the group's use of in-house offensive tools and strong stealth capabilities.
+
+5. Researchers Uncover 73 Fake VS Code Extensions Delivering GlassWorm v2 Malware
+Threat: Malware | Severity: 8/10
+Cybersecurity researchers have flagged 73 cloned Microsoft Visual Studio Code extensions on the Open VSX repository linked to a malware campaign dubbed GlassWorm. Six extensions have been confirmed malicious, while 67 are seemingly harmless sleeper packages aimed at building user trust, before manifesting their true intent through updates. Over 320 artifacts have been linked to the campaign since December 21, 2025.
+
+
+#cybersecurity #infosec #threatintel
