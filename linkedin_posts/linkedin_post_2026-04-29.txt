@@ -1,0 +1,28 @@
+Cybersecurity Intelligence Brief
+
+1. Researchers Discover Critical GitHub CVE-2026-3854 RCE Flaw Exploitable via Single Git Push
+Threat: Vulnerability | Severity: 10
+
+(Severity: Critical)/10
+Cybersecurity researchers discovered a critical vulnerability (CVE-2026-3854) in GitHub.com and GitHub Enterprise Server, allowing an authenticated user to execute remote code with a single "git push" command. The flaw, credited to Google-owned firm Wiz, affects 88% of instances and was exploited by researchers to gain full control over shared storage nodes. GitHub validated and deployed a fix within 2 hours of the issue's report on March 4, 2026.
+
+2. Brazilian LofyGang Resurfaces After Three Years With Minecraft LofyStealer Campaign
+Threat: Malware | Severity: 6/10
+A cybercrime group known as LofyGang, originating from Brazil, has resurfaced to target Minecraft players with malware called LofyStealer (aka GrabBot), disguised as the "Slinky" hack. The malware harvests sensitive data from various web browsers and exfiltrates it to a C2 server. This marks a departure from LofyGang's previous methods, adopting a malware-as-a-service model with free and premium tiers.
+
+3. VECT 2.0 Ransomware Irreversibly Destroys Files Over 131KB on Windows, Linux, ESXi
+Threat: Ransomware | Severity: 9/10
+Cybersecurity threat hunters warn that VECT 2.0, a ransomware operation, acts like a data wiper due to a critical encryption flaw. Files over 131KB are irrevocably destroyed, rendering recovery impossible even for the attackers. VECT 2.0 has a triple-threat business model, requiring a $250 entry fee for new affiliates and has partnered with the BreachForums marketplace and TeamPCP hacking group. Its encryption implementation is weak, causing permanent file destruction, making recovery for victims impossible.
+
+4. Why Secure Data Movement Is the Zero Trust Bottleneck Nobody Talks About
+Threat: Vulnerability | Severity: 7
+
+(Note: This rating is somewhat moderate. Secure data movement is an important aspect of zero trust security, but it's not as immediately severe or critical as other cybersecurity threats like ransomware or large-scale breaches.)/10
+A recent survey of 500 government and critical services leaders found that 84% agree sharing sensitive data heightens cyber risk, yet 53% still rely on manual processes to move data between systems. The average number of cyberattacks per week against national security organizations surged 25%, with average data breach costs rising to $5.05 million due to attacks on data transfer boundaries.
+
+5. Critical Unpatched Flaw Leaves Hugging Face LeRobot Open to Unauthenticated RCE
+Threat: Vulnerability | Severity: 9/10
+Cybersecurity researchers discovered a critical flaw (CVE-2026-25874, CVSS 9.3) in LeRobot, a 24,000-star GitHub open-source robotics platform, that could allow remote code execution through unauthenticated gRPC channels. The vulnerability, caused by deserializing unsanitized data with the pickle format, has been successfully exploited and remains unpatched until LeRobot version 0.6.0.
+
+
+#cybersecurity #infosec #threatintel
