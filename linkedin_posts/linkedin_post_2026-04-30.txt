@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack
+Threat: Vulnerability | Severity: 7/10
+Cybersecurity researchers have discovered a new supply chain attack campaign targeting SAP-related npm Packages with credential-stealing malware. The "mini Shai-Hulud" campaign, which affected packages since April 29, 2026, steals local developer credentials, GitHub and npm tokens, and cloud secrets, encrypting and exfiltrating data to public GitHub repositories. The malware uses GitHub Actions workflows to self-propagate and inject malicious code.
+
+2. New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fake Firms, and RATs
+Threat: Malware | Severity: 9/10
+Cybersecurity researchers discovered malicious code in an npm package called "@validate-sdk/v2," linked to infamous North Korean threat actor Famous Chollima. The malware campaign, codenamed PromptMink, targets cryptocurrency wallets and funds through compromised packages and AI-generated dependencies. Attackers utilize tactics like typosquatting and mimicking legitimate library functions to evade detection. The campaign involves a phased approach and has been operational since at least February 2026.
+
+3. Webinar: How to Automate Exposure Validation to Match the Speed of AI Attacks
+Threat: Vulnerability | Severity: 8/10
+Researchers uncovered a significant cybersecurity shift in 2026, with threat actors using AI to automate attacks directly into the kill chain, outpacing traditional defensive workflows. To overcome this, a new defensive paradigm called Autonomous Exposure Validation is being introduced, with a webinar discussing how to effectively combat AI-driven attacks.
+
+4. What to Look for in an Exposure Management Platform (And What Most of Them Get Wrong)
+Threat: Vulnerability | Severity: 1
+
+This news appears to be informative and advisory in nature, discussing the features and shortcomings of exposure management platforms, which does not indicate any direct cybersecurity threat./10
+Security teams struggle to provide a clear answer to "are we actually safer now" after closing vulnerabilities. Exposure management platforms aim to bridge this gap but vary in effectiveness. The four dominant approaches are: stitched portfolios, aggregators, single-domain platforms, and integrated platforms. When evaluating, consider factors such as coverage of emerging exposure types, native discovery capabilities, and attack path modeling to ensure the platform provides accurate risk reduction insights.
+
+5. Critical cPanel Authentication Vulnerability Identified — Update Your Server Immediately
+Threat: Vulnerability | Severity: 9/10
+cPanel has released security updates to address various authentication issues that could grant unauthorized access. The vulnerability affects all currently supported versions and has been addressed in updated versions. Web hosting company Namecheap applied a firewall rule to block access until a full patch is applied, and access has since been restored to those with the fix.
+
+
+#cybersecurity #infosec #threatintel
