@@ -1,0 +1,28 @@
+Cybersecurity Intelligence Brief
+
+1. PyTorch Lightning and Intercom-client Hit in Supply Chain Attacks to Steal Credentials
+Threat: Vulnerability | Severity: 8
+
+(Note: The severity would depend on the specific vulnerabilities and potential impact of the attacks. However, supply chain attacks on popular libraries and tools like PyTorch Lightning and Intercom-client can compromise multiple applications, making them relatively severe.)/10
+Threat actors compromised the popular Python package Lightning, pushing two malicious versions (2.6.2 and 2.6.3) to conduct credential theft on April 30, 2026. The package compromises users by executing a Python script that downloads and executes a malicious payload, stealing credentials, and spreading through npm and GitHub.
+
+2. ThreatsDay Bulletin: SMS Blaster Busts, OpenEMR Flaws, 600K Roblox Hacks and 25 More Stories
+Threat: Vulnerability | Severity: 8/10
+Cybersecurity threats are escalating. Hackers use fake cell towers to send scam texts, while software developers inadvertently download malicious tools. Millions of servers are exposed online without passwords, and old software bugs resurface. Data is being resold for profit through browser tools. New phishing kits and hacking tools are emerging, including ones that use fake cell towers to bypass carrier-level filtering.
+
+3. New Python Backdoor Uses Tunneling Service to Steal Browser and Cloud Credentials
+Threat: Malware | Severity: 8/10
+Cybersecurity researchers exposed a stealthy Python-based backdoor framework called DEEP#DOOR that grants persistent access and harvests sensitive information from compromised hosts. The intrusion chain involves disabling Windows security controls and establishing persistence through multiple means. The malware uses a Rust-based tunneling service and various anti-analysis and evasion mechanisms to evade detection and complicate incident response efforts.
+
+4. EtherRAT Distribution Spoofing Administrative Tools via GitHub Facades
+Threat: Malware | Severity: 9
+
+Explanation: The use of GitHub to spoof administrative tools and distribute malware (EtherRAT) suggests a sophisticated and targeted attack, indicating a moderate to high level of cybersecurity severity./10
+Researchers at Atos Threat Research Center have identified a sophisticated, high-resilience cyberattack targeting enterprise administrators with malicious software disguised as tools like PsExec and Sysmon. The malware uses SEO poisoning, GitHub repositories, and blockchain-based command-and-control resolving to evade detection and maintain persistence, allowing hackers to potentially gain access to sensitive systems.
+
+5. New Linux 'Copy Fail' Vulnerability Enables Root Access on Major Distributions
+Threat: Vulnerability | Severity: 8/10
+Cybersecurity researchers disclosed a Linux local privilege escalation (LPE) flaw called "Copy Fail" (CVE-2026-31431) that allows an unprivileged user to obtain root on Linux systems shipped since 2017. The vulnerability exploits a logic flaw in the Linux kernel's cryptographic subsystem, permitting a simple 732-byte Python script to gain root access on various distributions, including Amazon Linux, RHEL, and Ubuntu.
+
+
+#cybersecurity #infosec #threatintel
