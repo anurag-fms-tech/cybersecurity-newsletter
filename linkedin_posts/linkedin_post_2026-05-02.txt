@@ -1,0 +1,28 @@
+Cybersecurity Intelligence Brief
+
+1. 30,000 Facebook Accounts Hacked via Google AppSheet Phishing Campaign
+Threat: Data Breach | Severity: 8/10
+A Vietnamese-linked operation codenamed "AccountDumpling" by Guardio has been discovered using a Google AppSheet to distribute phishing emails targeting Facebook accounts. The scheme compromised an estimated 30,000 accounts, with victims being sold back on an illicit storefront. The operation used various lures and evasion techniques, and has been found to offer digital marketing services through a legitimate-sounding website.
+
+2. Cybercrime Groups Using Vishing and SSO Abuse in Rapid SaaS Extortion Attacks
+Threat: Vulnerability | Severity: 8/10
+Cybersecurity researchers have identified two cybercrime groups, Cordial Spider and Snarky Spider, operating within SaaS environments, carrying out high-impact attacks with minimal digital footprints. The groups, linked to extortion campaigns, use tactics like voice phishing and manipulate SSO-integrated applications to steal data and credentials, often evading detection by operating within trusted environments.
+
+3. China-Linked Hackers Target Asian Governments, NATO State, Journalists, and Activists
+Threat: Nation State | Severity: 8/10
+Cybersecurity researchers disclosed a China-aligned espionage campaign targeting governments and defense sectors in Asia and a NATO European government, using N-day vulnerabilities in Microsoft Exchange and IIS servers to deploy web shells and ShadowPad implants via DLL sideloading. Targets include Poland, Pakistan, Thailand, Malaysia, and others.
+
+4. Top Five Sales Challenges Costing MSPs Cybersecurity Revenue
+Threat: Vulnerability | Severity: 6
+
+This news may be related to cybersecurity but appears to be about the commercial side of managed service providers (MSPs). It does not seem to be a direct security breach or threat./10
+The managed security services market is projected to grow to $69.16 billion by 2030, but many MSPs struggle to connect technical expertise with business needs, leading to a revenue gap. To succeed, MSPs must align security value with business priorities and address go-to-market challenges, including lack of client urgency, diverse stakeholder concerns, and cost sensitivity, through a tailored, outcome-driven approach and strategic account expansion.
+
+5. Two Cybersecurity Professionals Get 4-Year Sentences in BlackCat Ransomware Attacks
+Threat: Ransomware | Severity: 8
+
+Note: The high rating may be due to the fact that the individuals involved were cybersecurity professionals, which indicates that the security vulnerabilities exploited may have been particularly sophisticated or the attackers may have had inside knowledge./10
+Two U.S. cybersecurity professionals, Ryan Goldberg and Kevin Martin, were sentenced to four years in prison each for facilitating BlackCat ransomware attacks from April to December 2023, conspiring to split a 20% ransom share with other attackers, resulting in one victim being extorted for $1.2 million in Bitcoin.
+
+
+#cybersecurity #infosec #threatintel
