@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV
+Threat: Vulnerability | Severity: 9
+
+The fact that CISA (Cybersecurity and Infrastructure Security Agency) has added this vulnerability to the KEV (Known Exploited Vulnerabilities) list suggests that it is actively being exploited and poses a significant threat to cybersecurity./10
+The US CISA has added a nine-year-old "Copy Fail" Linux flaw (CVE-2026-31431) to its Known Exploited Vulnerabilities catalog, citing active exploitation. The vulnerability, a local privilege escalation flaw, allows unprivileged users to obtain root access. Fixes are available for Linux kernel versions 6.18.22 and later, but a working exploit proof-of-concept exists, posing a significant risk to cloud environments and containerized systems.
+
+2. Trellix Confirms Source Code Breach With Unauthorized Repository Access
+Threat: Data Breach | Severity: 8/10
+Cybersecurity company Trellix announced a breach that allowed unauthorized access to a portion of its source code. The company is investigating, working with forensic experts, and notifying law enforcement. While no evidence suggests the attackers exploited the source code, the exact nature of the data accessed remains unknown and more information will be shared as the investigation progresses.
+
+3. 30,000 Facebook Accounts Hacked via Google AppSheet Phishing Campaign
+Threat: Data Breach | Severity: 8/10
+A Vietnamese operation, "AccountDumpling," has been using Google AppSheet to distribute phishing emails to compromise Facebook accounts. The scam sold over 30,000 stolen accounts on an illicit storefront. The campaign evolved with real-time panels and evasion tactics. Threat actors targeted Facebook Business owners with urgent appeals, harvested credentials, and used phishing kits with varying lures to create a "Meta-related panic."
+
+4. Cybercrime Groups Using Vishing and SSO Abuse in Rapid SaaS Extortion Attacks
+Threat: Data Breach | Severity: 8/10
+Cybersecurity researchers warn of two high-speed data theft and extortion groups, Cordial Spider and Snarky Spider, operating within SaaS environments, leaving minimal traces. They use voice phishing and impersonate IT staff to obtain credentials and MFA codes, and pivot into SaaS applications to steal high-value files and business-critical reports. Their SaaS-only operation creates significant detection challenges for defenders.
+
+5. China-Linked Hackers Target Asian Governments, NATO State, Journalists, and Activists
+Threat: Nation State | Severity: 9/10
+Cybersecurity researchers discovered a China-aligned espionage campaign targeting government and defense sectors in Asia, including Pakistan, Thailand, and Taiwan, as well as Poland in Europe. The group exploits N-day vulnerabilities, deploys web shells, and stages ShadowPad implants for persistent access. Trend Micro advises prioritizing security updates and using intrusion prevention systems or web application firewalls to block exploit attempts.
+
+
+#cybersecurity #infosec #threatintel
