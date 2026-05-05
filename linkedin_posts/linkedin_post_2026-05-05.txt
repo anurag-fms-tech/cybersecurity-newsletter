@@ -1,0 +1,28 @@
+Cybersecurity Intelligence Brief
+
+1. Phishing Campaign Hits 80+ Orgs Using SimpleHelp and ScreenConnect RMM Tools
+Threat: Data Breach | Severity: 7
+
+This rating reflects the relatively high impact of a widespread phishing campaign targeting Remote Monitoring and Management (RMM) tools used by numerous organizations. However, the use of 'simple' tools like SimpleHelp and ScreenConnect reduces the overall severity somewhat, as these may be less complex and therefore less damaging than other potential vulnerabilities./10
+An active phishing campaign, codenamed VENOMOUS#HELPER or STAC6405, has impacted over 80 U.S. organizations since at least April 2025. Legitimate RMM software, such as SimpleHelp and ScreenConnect, is used to establish remote access to compromised hosts, allowing attackers to bypass defenses and create redundant access channels. The campaign aligns with financially motivated Initial Access Broker or ransomware precursor operations.
+
+2. Progress Patches Critical MOVEit Automation Bug Enabling Authentication Bypass
+Threat: Vulnerability | Severity: 9/10
+Progress Software has released updates to address two security flaws in MOVEit Automation, including a critical bug that could result in authentication bypass and privilege escalation. The vulnerabilities, with CVSS scores 9.8 and 7.7, affect enterprise environments and may lead to unauthorized access and data exposure if not patched immediately.
+
+3. ⚡ Weekly Recap: AI-Powered Phishing, Android Spying Tool, Linux Exploit, GitHub RCE & More
+Threat: Vulnerability | Severity: 7/10
+Multiple critical vulnerabilities have been discovered, including a flaw in cPanel, Linux kernel, and several open-source pipelines, allowing attackers to gain control, deploy malware, and wipe entire websites. Patches are available, but attackers are exploiting these vulnerabilities quickly. It's crucial to patch high-severity vulnerabilities like CVE-2026-41940, CVE-2026-31431, and others as soon as possible to prevent potential chaos.
+
+4. 2026: The Year of AI-Assisted Attacks
+Threat: Nation State | Severity: 8
+
+This rating is based on the emerging threat of AI-assisted attacks, which could potentially lead to more sophisticated and damaging cyber threats if left unchecked./10
+A 17-year-old in Japan was arrested for hacking into an internet cafe chain's user data to buy Pokémon cards. However, unlike typical hacking cases, the teenager was not technical, instead using LLM-backed chat and agent systems to commit the crime. This is an indication of a new era in cybercrime, where nontechnical individuals can conduct sophisticated attacks with ease, thanks to AI-powered coding tools, resulting in significant increases in bot activity, malware, and phishing.
+
+5. Silver Fox Deploys ABCDoor Malware via Tax-Themed Phishing in India and Russia
+Threat: Malware | Severity: 7/10
+Chinese cybercrime group Silver Fox has launched a campaign targeting Russia and India, using phishing emails to spread malware called ValleyRAT and a new backdoor, ABCDoor. Over 1,600 phishing emails were flagged, impacting various sectors. The attackers use a modified loader called RustSL to deliver the payload, which implements geofencing, VM detection, and a novel persistence method called Phantom Persistence.
+
+
+#cybersecurity #infosec #threatintel
