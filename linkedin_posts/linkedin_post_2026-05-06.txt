@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. Critical Apache HTTP/2 Flaw (CVE-2026-23918) Enables DoS and Potential RCE
+Threat: Vulnerability | Severity: 10/10
+The Apache Software Foundation released security updates to address a severe vulnerability, CVE-2026-23918, in Apache HTTP Server 2.4.66 that could lead to remote code execution (RCE) or denial-of-service (DoS) attacks. The vulnerability was discovered by Striga.ai and ISEC.pl researchers and affects version 2.4.66, resolved in version 2.4.67. The RCE path is considered critical and has a high exploitability rate.
+
+2. DAEMON Tools Supply Chain Attack Compromises Official Installers with Malware
+Threat: Malware | Severity: 9/10
+A DAEMON Tools supply chain attack has compromised the software's installers, serving a malicious payload via the legitimate website since April 8, 2026. Kaspersky researchers reported thousands of infection attempts across 100+ countries, but only a dozen hosts received the next-stage backdoor, primarily targeting organizations in Russia, Belarus, and Thailand.
+
+3. China-Linked UAT-8302 Targets Governments Using Shared APT Malware Across Regions
+Threat: Nation State | Severity: 8/10
+A sophisticated China-nexus APT group, tracked by Cisco Talos as UAT-8302, has been attacking government entities in South America since 2024 and southeastern Europe in 2025. The group uses custom-made malware, such as NetDraft, previously seen in other China-aligned groups, as well as proxy and VPN tools. UAT-8302 also exploits zero-day and N-day vulnerabilities to breach networks.
+
+4. The Back Door Attackers Know About — and Most Security Teams Still Haven’t Closed
+Threat: Vulnerability | Severity: 6
+
+(This rating is somewhat uncertain, but based on commonality of the term "back door" it suggests that some knowledge about the potential vulnerability in systems could be known, making it a moderate concern.)/10
+Researchers found that 80% of security leaders consider unmanaged OAuth grants a significant risk, but 45% of organizations do nothing to monitor them at scale. OAuth tokens with no expiration date are an active attack vector, allowing attackers to bypass MFA and access sensitive data without a password. The incident with Drift highlights the danger of unmonitored OAuth integrations.
+
+5. MetInfo CMS CVE-2026-29014 Exploited for Remote Code Execution Attacks
+Threat: Vulnerability | Severity: 9/10
+Threat actors are exploiting a critical vulnerability (CVE-2026-29014) in MetInfo CMS versions 7.9, 8.0, and 8.1, allowing remote code execution and full server control. Patches were released on April 7, 2026, but the vulnerability has been exploited, with a surge in activity on May 1, 2026, targeting China and Hong Kong IP addresses, potentially affecting up to 2,000 online instances of the CMS.
+
+
+#cybersecurity #infosec #threatintel
