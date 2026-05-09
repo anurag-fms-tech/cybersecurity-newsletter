@@ -1,0 +1,28 @@
+Cybersecurity Intelligence Brief
+
+1. TCLBANKER Banking Trojan Targets Financial Platforms via WhatsApp and Outlook Worms
+Threat: Malware | Severity: 8/10
+Threat hunters have discovered a Brazilian banking trojan called TCLBANKER targeting 59 platforms across banking, fintech, and cryptocurrency. The malware employs anti-analysis techniques and uses WhatsApp, Microsoft Outlook, and a Logitech app to spread, evading detection. It checks system language, removes security hooks, and verifies Brazilian Portuguese is set to execute its payload before beacons out to an external server for further actions.
+
+2. Fake Call History Apps Stole Payments From Users After 7.3 Million Play Store Downloads
+Threat: Data Breach | Severity: 9/10
+Cybersecurity researchers discovered 28 fake apps on Google Play Store that promised access to call histories but instead led users to pay for fake data and incur financial loss. The apps, which have collectively been downloaded over 7.3 million times, primarily targeted Android users in India and Asia-Pacific regions, with one app alone racking up over 3 million downloads before being removed.
+
+3. One Click, Total Shutdown: The "Patient Zero" Webinar on Killing Stealth Breaches
+Threat: Vulnerability | Severity: 6
+
+(This would rate as relatively severe, as "Patient Zero" implies a high-risk, potentially catastrophic threat, but the context isn't immediately clear, and it might be an educational or awareness-raising webinar rather than a genuine attack.)/10
+As of 2026, hackers are using AI to create sophisticated phishing attacks making it difficult to spot the initial breach. Experts emphasize that the key to cybersecurity lies in the people, specifically having a plan to stop the spread of malware if a single laptop is compromised before it takes down the entire company.
+
+4. Quasar Linux RAT Steals Developer Credentials for Software Supply Chain Compromise
+Threat: Malware | Severity: 9/10
+A previously undocumented Linux implant, Quasar Linux RAT (QLNX), is targeting developers' systems to steal credentials and gain control. It harvests secrets from high-value files, compromises software supply chains, and supports 58 commands for operators to control compromised hosts. QLNX is delivered through an unknown method, establishes persistence via seven methods, and conceals processes, files, and network ports to cover its tracks.
+
+5. One Missed Threat Per Week: What 25M Alerts Reveal About Low-Severity Risk
+Threat: Vulnerability | Severity: 6
+
+This rating is based on the information provided in the news title, indicating a large number of low-severity risk alerts but implying that most of them are relatively minor threats and not high-impact or high-severity incidents./10
+A report analyzing 25 million security alerts reveals that threat actors exploit predictable gaps in traditional, severity-based security operations. Nearly 1% of confirmed incidents originated from low-severity or informational alerts, indicating 54 real threats annually that went undetected due to triage economics. Endpoint defenses also failed to catch active infections, with some EDR vendors incorrectly declaring threats resolved.
+
+
+#cybersecurity #infosec #threatintel
