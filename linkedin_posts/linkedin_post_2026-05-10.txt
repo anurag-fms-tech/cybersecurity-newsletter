@@ -1,0 +1,28 @@
+Cybersecurity Intelligence Brief
+
+1. cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now
+Threat: Vulnerability | Severity: 6
+
+(Note: The severity of the vulnerability could vary, but since it is a general statement, I rated it a moderate severity, considering cPanel is a critical management interface for many servers and releasing fixes for vulnerabilities indicates that they could be exploited, but the specific details, such as the CVSS score, are not provided.)/10
+cPanel has released updates to address three vulnerabilities in cPanel and WHM that could lead to privilege escalation, code execution, and denial-of-service. The vulnerabilities have been patched in versions such as cPanel 110.0.114 for CentOS 6 and CloudLinux 6 users, and customers are advised to update to the latest versions for optimal protection, although there's no evidence of in-the-wild exploitation.
+
+2. TCLBANKER Banking Trojan Targets Financial Platforms via WhatsApp and Outlook Worms
+Threat: Malware | Severity: 8
+
+The banking trojan and worms targeting financial platforms via messaging platforms pose a significant risk to users' financial information and security, hence the medium-high risk level of 8./10
+Threat hunters have discovered a Brazilian banking trojan, TCLBANKER, targeting 59 platforms including banks, fintech and cryptocurrency services. The malware uses robust anti-analysis capabilities to evade detection, spreading via WhatsApp and Outlook, and updates itself remotely. It also monitors the user's browser activity and requires the system language to be Brazilian Portuguese. The threat is attributed to a threat cluster known as Water Saci.
+
+3. Fake Call History Apps Stole Payments From Users After 7.3 Million Play Store Downloads
+Threat: Data Breach | Severity: 9/10
+Researchers discovered 28 fraudulent apps on Google Play Store that falsely promised call history access, tricking users into joining a subscription with fake data and financial losses, with 7.3 million downloads. The apps, codenamed CallPhantom, targeted Android users in India and Asia-Pacific, using tactics such as phony developer names and subscription payment systems to incur losses, with users being charged up to $80 for fake services.
+
+4. One Click, Total Shutdown: The "Patient Zero" Webinar on Killing Stealth Breaches
+Threat: Nation State | Severity: 8/10
+Cybersecurity breaches often start with a single employee clicking on a malicious email. In 2026, hackers are using AI to make these "first clicks" harder to spot. A Webinar, "The Patient Zero Playbook," provides a technical deep dive into how modern breaches start and how to instantly stop them with a defense that anticipates custom-made attacks.
+
+5. Quasar Linux RAT Steals Developer Credentials for Software Supply Chain Compromise
+Threat: Malware | Severity: 9/10
+A previously undocumented Linux malware, Quasar Linux RAT (QLNX), targets developers' systems for silent access, credential harvesting, and various post-compromise functions. QLNX poses significant risks by harvesting DevOps credentials from high-value files, allowing attackers to push malicious packages and gain unauthorized access to publishing pipelines.
+
+
+#cybersecurity #infosec #threatintel
