@@ -1,0 +1,30 @@
+Cybersecurity Intelligence Brief
+
+1. TeamPCP Compromises Checkmarx Jenkins AST Plugin Weeks After KICS Supply Chain Attack
+Threat: Vulnerability | Severity: 8/10
+Checkmarx confirms a modified Jenkins AST plugin was published to the Jenkins Marketplace, exploiting a vulnerability targeting developer secrets. Attackers, linked to TeamPCP, gained unauthorized access to the plugin's GitHub repository, renaming it and defacing its description. Checkmarx has released a patched version (2.0.13-848), and users must ensure they are using the correct version (2.0.13-829 or later) or update to 2.0.13-848.
+
+2. cPanel CVE-2026-41940 Under Active Exploitation to Deploy Filemanager Backdoor
+Threat: Vulnerability | Severity: 9
+
+(Note: The severity of this CVE is difficult to assess without knowing the impact, complexity, or ease of exploitation. However, based on the information provided (CVE being actively exploited), we can infer significant potential for security breaches, resulting in a high severity rating.)/10
+Cybersecurity researchers attribute the exploitation of a critical cPanel flaw to a threat actor named Mr_Rot13, deploying a backdoor called Filemanager on compromised environments. The vulnerability, CVE-2026-41940, allows remote attackers to gain control, resulting in malicious activities like cryptocurrency mining, ransomware, and backdoor implantation. Over 2,000 attacker IPs worldwide are involved in automated attacks targeting this vulnerability.
+
+3. Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation
+Threat: Zero-Day | Severity: 10/10
+Google identified a threat actor using a zero-day exploit likely developed with an AI system, marking its first known malicious use. The tech giant described it as a "mass vulnerability exploitation operation." Although it's unclear if Google's Gemini AI tool was used, the exploit featured characteristics of large language model-generated code, highlighting AI's acceleration of vulnerability discovery and faster exploitation timelines.
+
+4. ⚡ Weekly Recap: Linux Rootkit, macOS Crypto Stealer, WebSocket Skimmers and More
+Threat: Malware | Severity: 7
+
+(Note: A rootkit and a crypto stealer suggest severe vulnerabilities, but the impact is limited to Linux and macOS respectively, which is why I've rated it a 7 out of 10.)/10
+Multiple high-severity vulnerabilities have been discovered in popular security products, including Ivanti EPMM and Palo Alto Networks PAN-OS, allowing attackers to exploit them with minimal effort. Other affected products include Linux Kernel, PostgreSQL, and Cisco devices. Patches are expected to be released starting May 13, 2026, to fix these vulnerabilities and prevent exploitation.
+
+5. Your Purple Team Isn't Purple — It's Just Red and Blue in the Same Room
+Threat: Vulnerability | Severity: 1
+
+This news appears to be more about team dynamics and naming conventions rather than a serious cybersecurity threat./10
+Cybersecurity defenses are falling behind attackers. The gap between a security vulnerability being published and a working exploit shrinking from 56 days to just 10 hours. Purple teaming, a practice that brings red (attackers) and blue (defenders) teams together to continuously tighten security posture, is a good solution but rarely executed effectively due to human communication and meeting issues.
+
+
+#cybersecurity #infosec #threatintel
