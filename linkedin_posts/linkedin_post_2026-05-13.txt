@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. New Exim BDAT Vulnerability Exposes GnuTLS Builds to Potential Code Execution
+Threat: Vulnerability | Severity: 6/10
+Exim has released updates to address a severe security issue (CVE-2026-45185) that can enable memory corruption and code execution. The vulnerability affects certain Unix-like system configurations using GnuTLS and Exim versions 4.97-4.99.2. An attacker can exploit it by establishing a TLS connection and sending a specific sequence of bytes. A fix is available in version 4.99.3, and users are advised to upgrade as soon as possible.
+
+2. RubyGems Suspends New Signups After Hundreds of Malicious Packages Are Uploaded
+Threat: Vulnerability | Severity: 7/10
+RubyGems, a Ruby package manager, has paused account sign-ups due to a major malicious attack, involving hundreds of packages with exploits. The incident is being contained by Mend.io, and details will be released when it's under control. This comes amid a rise in software supply chain attacks targeting open-source ecosystems.
+
+3. New TrickMo Variant Uses TON C2 and SOCKS5 to Create Android Network Pivots
+Threat: Vulnerability | Severity: 7/10
+Cybersecurity researchers have identified a new version of the TrickMo Android banking trojan that utilizes The Open Network (TON) for command-and-control. The malware targets users in France, Italy, and Austria, stealing credentials and enabling remote device control. The new variant grants attackers complete access, including network reconnaissance capabilities, by turning infected devices into programmable network pivots and traffic-exit nodes.
+
+4. Webinar: What the Riskiest SOC Alerts Go Unanswered - and How Radiant Security Can Help
+Threat: Vulnerability | Severity: 7
+
+This rating is due to the potential discussion or revelation of unaddressed security alerts, which could indicate a vulnerability or a security threat that hasn't been properly managed. However, the exact severity is not specified in the news title and could depend on the specifics of the discussion during the webinar./10
+Security operations teams are struggling to investigate high-risk alert categories due to a lack of specialized expertise and time-consuming investigation processes. A structural gap in current security coverage models and AI SOC automation platforms leave a blind spot in detecting novel threats and unfamiliar alerts, leaving enterprises vulnerable to breaches.
+
+5. Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI & More Packages
+Threat: Malware | Severity: 8/10
+TeamPCP, a threat actor, has been linked to a cyber attack involving compromised npm and PyPI packages from several companies, including TanStack. The modified packages contain credential-stealing malware that targets cloud providers, cryptocurrency, and AI tools, exfiltrating data to a decentralized messaging service domain, and committing it to GitHub repositories via stolen tokens. The attack is considered critical with a CVSS score of 9.6.
+
+
+#cybersecurity #infosec #threatintel
