@@ -1,0 +1,32 @@
+Cybersecurity Intelligence Brief
+
+1. Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday
+Threat: Vulnerability | Severity: 2
+
+This is relatively minor since Microsoft has actively identified and fixed the vulnerabilities through Patch Tuesday, which is a regular process for addressing discovered security flaws./10
+Microsoft unveiled MDASH, a multi-model AI-driven system for vulnerability discovery and remediation. It uses over 100 AI agents to autonomously discover and prove exploitable defects in complex codebases. MDASH has already detected 16 vulnerabilities in this month's Patch Tuesday release, including two critical flaws. The system is being tested by customers and is designed to be a structured pipeline for ingesting codebases and producing validated findings.
+
+2. Azerbaijani Energy Firm Hit by Repeated Microsoft Exchange Exploitation
+Threat: Vulnerability | Severity: 8/10
+A cyber attack linked to China, attributed to the hacking group FamousSparrow, targeted an Azerbaijani oil and gas company between December 2025 and February 2026. The attackers exploited a vulnerable Microsoft Exchange Server entry point to deploy backdoors Deed RAT and TernDoor across three waves, demonstrating tactics to evade detection and establish a persistent foothold.
+
+3. [Webinar] How Modern Attack Paths Cross Code, Pipelines, and Cloud
+Threat: Vulnerability | Severity: 6
+
+(This rating is due to the vague nature of the topic and the potential for modern, targeted attacks that may be relevant, but the actual severity is difficult to determine without further context or details of specific vulnerabilities.)/10
+Experts warn that traditional security tools focus on individual "noise" alerts, overlooking sophisticated attackers building a "Lethal Chain" through tiny flaws. Join a briefing with Wiz security leaders to learn about today's most dangerous attack patterns and gain insights on stopping patient zero attacks before they compromise systems. Register for free to attend live or watch a recording later.
+
+4. Most Remediation Programs Never Confirm the Fix Actually Worked
+Threat: Vulnerability | Severity: 8
+
+(This rating is based on the potential impact of a large number of vulnerable systems remaining unpatched due to the remediation programs not confirming the effectiveness of the fixes.)/10
+Security teams have improved environmental visibility, but struggles persist with confirming fixes are effective. Reports show mean time to exploit is just -7 days, while median time to remediate is 32 days. Prioritizing patching is insufficient - the real challenge is verifying fixes worked, as current methods may be bypassed or incomplete, leaving vulnerabilities unresolved.
+
+5. Microsoft Patches 138 Vulnerabilities, Including DNS and Netlogon RCE Flaws
+Threat: Vulnerability | Severity: 9 
+
+(This is a high-severity rating due to the number of vulnerabilities and the fact that one of them is a remote code execution (RCE) flaw.)/10
+Microsoft released patches for 138 security vulnerabilities, with 30 rated Critical, in its product portfolio. The most severe vulnerability (CVSS 9.8) is a heap-based buffer overflow flaw in Windows DNS, potentially allowing remote code execution without authentication. Other vulnerabilities include privilege escalation, remote code execution, and information disclosure bugs, with several having Critical ratings.
+
+
+#cybersecurity #infosec #threatintel
