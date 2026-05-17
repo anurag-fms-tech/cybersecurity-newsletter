@@ -1,0 +1,28 @@
+Cybersecurity Intelligence Brief
+
+1. Funnel Builder Flaw Under Active Exploitation Enables WooCommerce Checkout Skimming
+Threat: Vulnerability | Severity: 8/10
+A critical vulnerability in the Funnel Builder plugin for WordPress is being actively exploited to steal payment data. Unauthenticated attackers inject malicious JavaScript code into WooCommerce checkout pages, allowing them to steal credit card numbers, CVVs, and billing addresses. FunnelKit has released a patch for the vulnerability, and site owners are advised to update to version 3.15.0.3 and review their checkout settings for unfamiliar code.
+
+2. Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access
+Threat: Malware | Severity: 9/10
+Russian state-sponsored hacking group Turla has upgraded its custom backdoor Kazuar into a modular peer-to-peer (P2P) botnet, designed for stealth and persistent access to compromised hosts. This transformation aligns with its strategic objectives of gaining long-term access to systems for intelligence collection, allowing Turla to engineer resilience and stealth into its tooling.
+
+3. Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence
+Threat: Vulnerability | Severity: 7
+
+(This rating is based on the fact that it involves vulnerabilities (flaws) with multiple attack vectors, such as data theft, privilege escalation, and persistence, indicating a moderate to high level of severity in terms of potential impact and exploitation.)/10
+Cybersecurity researchers disclosed four security flaws in OpenClaw, collectively dubbed 'Claw Chain', that can enable data theft, privilege escalation, and persistence. The vulnerabilities can be chained to allow attackers to establish a foothold, expose sensitive data, and plant backdoors. All four vulnerabilities have been addressed in OpenClaw version 2026.4.22, and users are advised to update to the latest version to stay protected.
+
+4. What 45 Days of Watching Your Own Tools Will Tell You About Your Real Attack Surface
+Threat: Vulnerability | Severity: 6
+
+This news doesn't specifically mention a severe cybersecurity incident or a particular vulnerability. It's more of a general awareness and educational piece, suggesting a self-exploration or monitoring approach to understanding one's own cybersecurity posture./10
+Legitimate tools used by IT teams are being exploited by threat actors in 84% of high-severity cyber incidents, making them a bigger security risk than malware. Bitdefender offers a complimentary 45-day assessment to identify and prioritize mitigation of these risks, known as "living-off-the-land" binaries, which can significantly reduce an organization's attack surface and prevent breaches.
+
+5. TanStack Supply Chain Attack Hits Two OpenAI Employee Devices, Forces macOS Updates
+Threat: Vulnerability | Severity: 5/10
+OpenAI disclosed a Mini Shai-Hulud supply chain attack on TanStack that impacted two employee devices, but no user data was compromised. The attack led to limited unauthorized access to internal source code, but only limited credential material was transferred. OpenAI has taken steps to protect systems, isolated affected devices, and revoked certificate signing keys to prevent potential app tampering. macOS users must update their apps to latest versions before June 12, 2026.
+
+
+#cybersecurity #infosec #threatintel
