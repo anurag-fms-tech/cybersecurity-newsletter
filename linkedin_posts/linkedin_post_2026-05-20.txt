@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. GitHub Investigating TeamPCP Claimed Breach of ~4,000 Internal Repositories
+Threat: Data Breach | Severity: 9/10
+GitHub is investigating unauthorized access to its internal repositories after threat actor TeamPCP listed 4,000 repositories for sale on a cybercrime forum for $50,000. GitHub says it's monitoring its infrastructure and will notify customers if any impact is discovered. GitHub detected a compromise of an employee device involving a poisoned extension, but claims the activity was limited to internal exfiltration with no customer data affected.
+
+2. Trapdoor Android Ad Fraud Scheme Hit 659 Million Daily Bid Requests Using 455 Apps
+Threat: Vulnerability | Severity: 10/10
+Cybersecurity researchers exposed "Trapdoor," an Android malvertising operation involving 455 malicious apps and 183 command-and-control domains. The scheme coerced users into downloading additional apps, which requested ads and laundered illicit revenue to fund follow-on campaigns. It exploited install attribution tools, using anti-analysis and obfuscation techniques to bypass detection.
+
+3. DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability
+Threat: Vulnerability | Severity: 8
+
+(This vulnerability exploits a kernel privilege escalation vulnerability, which has the potential for severe impacts if successfully exploited, but it is still relatively specific to Linux systems.)/10
+Proof-of-concept exploit code for a Linux kernel vulnerability dubbed DirtyDecrypt has been released. Discovered on May 9, 2026, the flaw allows local privilege escalation (LPE) and affects distributions with CONFIG_RXGK enabled, including Fedora, Arch Linux, and openSUSE Tumbleweed. The flaw is a variant of previous vulnerabilities like Copy Fail, which can grant root access, and is rated 7.5 on the CVSS scale.
+
+4. The New Phishing Click: How OAuth Consent Bypasses MFA
+Threat: Vulnerability | Severity: 8/10
+A phishing-as-a-service (PhaaS) platform called EvilTokens compromised over 340 Microsoft 365 organizations in five weeks. It exploited OAuth consent screens, causing users to unwittingly hand over valid refresh tokens, which granted attackers long-term access to mailboxes, drives, calendars, and contacts. The attack succeeded because users instinctively click through consent screens, and controls cannot detect OAuth grant abuse as a threat.
+
+5. Drupal to Release Urgent Core Security Updates on May 20, Sites Told to Prepare
+Threat: Vulnerability | Severity: 9/10
+Drupal will release a "core security release" on May 20, 2026. The Drupal Security Team urges users to reserve time for core updates between 5-9 p.m. UTC, warning that exploits might be developed shortly. Supported branches include 11.1.x, 10.4.x, and others. Users should update to the latest patch release and consider upgrading to Drupal 11.3 or 10.6 afterwards.
+
+
+#cybersecurity #infosec #threatintel
