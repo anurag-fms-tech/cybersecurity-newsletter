@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. GitHub Internal Repositories Breached via Malicious Nx Console VS Code Extension
+Threat: Data Breach | Severity: 9/10
+GitHub confirmed a breach of its internal repositories due to a compromised employee device with a poisoned VS Code extension. The extension, nrwl.angular-console, allowed threat actors to exfiltrate 3,800 repositories. GitHub has taken steps to contain the incident, rotated secrets, and is monitoring for follow-on activity. The attack is part of a larger software supply chain attack trend, highlighting the need for deeper security changes.
+
+2. Highly Critical Drupal Core Flaw Exposes PostgreSQL Sites to RCE Attacks
+Threat: Vulnerability | Severity: 9/10
+Drupal has released security updates for a "highly critical" CVE-2026-9082 vulnerability that could lead to SQL injection, privilege escalation, and remote code execution. The flaw affects sites using PostgreSQL databases and can be exploited by anonymous users. Supported branches (versions 11.3, 11.2, 10.6, and 10.5) and manual patches for Drupal 9 and 8 are available to fix the issue, but Drupal 8 and 9 are end-of-life.
+
+3. Microsoft Open-Sources RAMPART and Clarity to Secure AI Agents During Development
+Threat: Vulnerability | Severity: 3
+
+(This news is more on the side of proactive cybersecurity measures and does not appear to have any severe or immediate security implications.)/10
+Microsoft released open-source tools RAMPART and Clarity to test AI security at development stage. RAMPART is a Pytest-native safety testing framework that detects risks like cross-prompt injections and unintended behavioral regressions. Clarity is a structured guide that helps developers clarify AI design intent, identify potential issues before coding, and address them early on. This aims to make AI safety a continuous process, reducing errors and scaling learnings from red teaming exercises.
+
+4. Microsoft Takes Down Malware-Signing Service Behind Ransomware Attacks
+Threat: Malware | Severity: 6/10
+Microsoft disrupted a malware-signing-as-a-service (MSaaS) operation, Fox Tempest, which used its Artifact Signing system to deliver malicious code and conduct ransomware attacks globally. The operation compromised thousands of machines and networks between May 2025 and the seizure, enabling deployment of Rhysida ransomware and various malware families, targeting healthcare, education, and financial services worldwide.
+
+5. Webworm Deploys EchoCreep and GraphWorm Backdoors Using Discord and MS Graph API
+Threat: Vulnerability | Severity: 10/10
+Cybersecurity researchers have detected new activity from China-aligned threat actor Webworm in 2025, using custom backdoors with Discord and Microsoft Graph API for command-and-control communications. Webworm targets government agencies and enterprises in Russia, Georgia, and Asian nations, and has added new tools like EchoCreep and GraphWorm to its arsenal, which use proxy tools for stealthy operations.
+
+
+#cybersecurity #infosec #threatintel
