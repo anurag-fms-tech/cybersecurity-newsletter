@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. Showboat Linux Malware Hits Middle East Telecom with SOCKS5 Proxy Backdoor
+Threat: Malware | Severity: 8/10
+Cybersecurity researchers discovered a new Linux malware called Showboat, used in a campaign targeting a Middle Eastern telecommunications provider since 2022. The malware is a modular framework with remote shell capabilities, designed for China-linked threat actors, including Calypso, known for using PlugX and other tools since 2016. Showboat's use suggests a shared digital quartermaster among China-nexus groups.
+
+2. ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories
+Threat: Zero-Day | Severity: 8/10
+$1.3m in rewards were collected by security researchers at this year's Pwn2Own hacking contest for exploiting 47 zero-day flaws. Meanwhile, the U.K.'s NCSC warned of the risks of agentic AI tools in enterprises and the Polish government advised officials to stop using Signal due to social engineering attacks. Another initiative displayed blurred photos of fraud suspects on billboards. U.S. President Trump acknowledged cyber attacks and espionage conducted by both the U.S. and China.
+
+3. Microsoft Warns of Two Actively Exploited Defender Vulnerabilities
+Threat: Vulnerability | Severity: 9/10
+Microsoft has disclosed two actively exploited flaws in its Defender security software: a privilege escalation bug (CVE-2026-41091, CVSS score: 7.8) and a denial-of-service bug (CVE-2026-45498, CVSS score: 4.0). Both have been addressed in the latest updates. The U.S. CISA has added them to its Known Exploited Vulnerabilities catalog, requiring federal agencies to apply fixes by June 3, 2026.
+
+4. When Identity is the Attack Path
+Threat: Data Breach | Severity: 8
+
+This rating is based on the fact that a key part of an individual's identity (presumably in a digital context) is being exploited as an attack path, which has significant potential for causing harm. However, the lack of specific details in the news article makes it difficult to assess the exact severity./10
+A single cached Windows access key on a single machine could have exposed nearly 98% of a company's cloud environment to a minor-league attacker, highlighting that identity itself has become the attack path. Identity weaknesses played a role in 90% of Palo Alto's 2025 incident response investigations, and non-human identity theft is a growing concern, particularly with AI agents carrying admin-level permissions.
+
+5. 9-Year-Old Linux Kernel Flaw Enables Root Command Execution on Major Distros
+Threat: Vulnerability | Severity: 10/10
+Cybersecurity researchers discovered a nine-year-old vulnerability (CVE-2026-46333) in the Linux kernel that permits an unprivileged local user to access sensitive files and execute arbitrary commands as root. The flaw affects default installations of Debian, Fedora, and Ubuntu and is considered reliable and exploitable. Updates and workarounds are recommended to mitigate the risk, and immediate action is advised.
+
+
+#cybersecurity #infosec #threatintel
