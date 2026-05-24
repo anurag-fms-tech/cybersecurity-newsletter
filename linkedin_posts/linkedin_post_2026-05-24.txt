@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks
+Threat: Vulnerability | Severity: 4/10
+GitHub has rolled out "staged publishing" controls for npm to improve software supply chain security. A human maintainer must approve each package release via two-factor authentication before it becomes publicly available for installation. This feature is now generally available on npm, ensuring "proof of presence" for every publish, primarily aimed at reducing software supply chain attacks targeting open-source ecosystems.
+
+2. Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware
+Threat: Vulnerability | Severity: 8/10
+Cybersecurity firm Socket reported a "coordinated" supply chain attack campaign targeting eight Packagist packages with malicious code. The code, hiding in package.json files, attempts to download a Linux binary from GitHub and run it in the background, granting execute permissions to all users. The malicious versions have been removed, but the attack may be part of a broader campaign with 777 references found across GitHub.
+
+3. Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software
+Threat: Vulnerability | Severity: 9/10
+Anthropic's Project Glasswing discovered over 10,000 high- or critical-severity vulnerabilities across critical software since its launch last month, with 97 patched and 88 advisories issued. The AI-powered platform, Claude Mythos Preview, has proven effective in autonomously identifying vulnerabilities before they can be exploited. Project leaders urge software developers to shorten patch cycles to stay ahead of emerging threats, as similar models become increasingly available.
+
+4. Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer
+Threat: Vulnerability | Severity: 9/10
+Cybersecurity researchers have discovered a fresh software supply chain attack targeting multiple PHP packages in the Laravel-Lang organization. The affected packages contain a credential-stealing framework that harvests sensitive data and exfiltrates it to an external server. Over 700 compromised versions have been identified, suggesting a large-scale automated attack or misuse of organizational credentials.
+
+5. LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root
+Threat: Vulnerability | Severity: 10/10
+A maximum-severity security vulnerability (CVE-2026-48172) is being actively exploited in LiteSpeed User-End cPanel Plugin. The flaw allows attackers to run arbitrary scripts with elevated permissions as root. LiteSpeed has released patches and recommends upgrading to version 2.4.7 or higher, or uninstalling the plugin if immediate patching is not possible.
+
+
+#cybersecurity #infosec #threatintel
