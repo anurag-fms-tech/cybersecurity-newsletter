@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks
+Threat: Vulnerability | Severity: 2/10
+GitHub has rolled out "staged publishing" for npm to improve security, requiring a human maintainer to approve packages via two-factor authentication before they're publicly available for installation. This feature, now generally available, also includes new install source flags to allow explicit allowlisting of non-registry sources. This change aims to enhance "proof of presence" for publishes amid growing software supply chain attacks targeting open-source ecosystems.
+
+2. Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware
+Threat: Vulnerability | Severity: 8/10
+A coordinated supply chain attack impacted eight Packagist packages, inserting malicious code into package.json files. The code targets projects with both PHP and JavaScript code, evading standard PHP dependency scanning. The attack is "cross-ecosystem," with a postinstall script attempting to download a Linux binary from GitHub, granting execute permissions, and running it in the background. The exact payload nature is unclear due to the GitHub account's unavailability.
+
+3. Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software
+Threat: Vulnerability | Severity: 8
+
+However, note that a scale of 1-10 does not capture the complexity and potential impact of the issue. A more nuanced assessment would require additional information such as the types of flaws found, the vendors affected, and the likelihood of exploitation./10
+Anthropic's Project Glasswing uncovered over 10,000 vulnerabilities in critical software due to its AI-powered tool, Claude Mythos Preview, which grants exclusive access to partners. The initiative identified 1,094 high- or critical-severity flaws, with some patched upstream and 88 advisories issued. It also detected a critical flaw in WolfSSL and a $1.5 million fraudulent transaction, highlighting the model's effectiveness beyond vulnerability discovery.
+
+4. Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer
+Threat: Malware | Severity: 8/10
+Cybersecurity researchers have discovered a software supply chain attack targeting Laravel-Lang's PHP packages. Over 700 versions of multiple packages were compromised, allowing attackers to rewrite existing git tags to include malware in a helper file ("src/helpers.php"). When infected applications load this file, a Visual Basic Script launcher is delivered on Windows, and a cross-platform payload runs on Linux and macOS, stealing credentials.
+
+5. LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root
+Threat: Vulnerability | Severity: 10/10
+A critical security vulnerability (CVE-2026-48172) in LiteSpeed's User-End cPanel Plugin has been exploited in the wild. Attackers can run arbitrary scripts with elevated permissions. The flaw impacts versions 2.3-2.4.4 and has been patched in version 2.4.5. Users are advised to upgrade to version 2.4.7 or remove the plugin if patching is not an option.
+
+
+#cybersecurity #infosec #threatintel
