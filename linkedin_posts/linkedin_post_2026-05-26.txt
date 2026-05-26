@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. ⚡ Weekly Recap: Linux Flaws, Defender 0-Days, Router Botnets, and Supply Chain Chaos
+Threat: Zero-Day | Severity: 8/10
+A security breach at GitHub occurred when a developer's system was hacked through a compromised Nx Console VS Code extension, allowing attackers to exfiltrate 3,800 repositories. Further, a list of high-severity vulnerabilities were discovered in various products, including LiteSpeed, Trend Micro, and Cisco, highlighting the ongoing software supply chain threats and the need for prompt patching to prevent exploitation.
+
+2. Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks
+Threat: Vulnerability | Severity: 5/10
+Threat actors are exploiting a recently disclosed SQL injection vulnerability (CVE-2026-26980) in Ghost CMS to inject malicious JavaScript code and fuel ClickFix attacks. The flaw, which has been patched in version 6.19.1, allows attackers to access admin API keys and inject code into websites, compromising over 700 sites across various sectors since detection on May 7, 2026.
+
+3. The Alert Firehose Finally Meets Its Match
+Threat: Vulnerability | Severity: 3/10
+Cybersecurity teams have long viewed Network Detection and Response (NDR) as "noisy" due to excessive data. However, with the integration of agentic AI, NDR now enables earlier threat detection, faster triage, and reduced false positives. AI automatically processes vast data, allowing analysts to focus on high-priority threats and uncover actionable signals within low-profile activity.
+
+4. Lazarus Deploys RemotePE Memory-Only RAT Against Financial and Crypto Firms
+Threat: Zero-Day | Severity: 9/10
+Cybersecurity researchers have unveiled a North Korea-linked Lazarus Group malware called RemotePE, targeting financial and cryptocurrency organizations. RemotePE is a multi-stage malware that infiltrates systems through a loader, leaving no disk artifacts. The malware has been under active development since mid-2023 and supports various commands, including file deletion and command-and-control server polling.
+
+5. TrapDoor Supply Chain Attack Spreads Credential-Stealing Malware via npm, PyPI, and CratesIO
+Threat: Vulnerability | Severity: 9/10
+A new coordinated software supply chain attack, "TrapDoor," targets npm, PyPI, and Crates.io, distributing credential-stealing malware. The campaign spans 34 malicious packages and targets developers in crypto, DeFi, Solana, and AI communities. Malicious packages steal secrets, crypto wallets, SSH keys, cloud credentials, and browser data, with diverse delivery paths and persistence mechanisms.
+
+
+#cybersecurity #infosec #threatintel
