@@ -1,0 +1,28 @@
+Cybersecurity Intelligence Brief
+
+1. Critical Gogs RCE Vulnerability Lets Any Authenticated User Execute Arbitrary Code
+Threat: Vulnerability | Severity: 8/10
+A critical security vulnerability has been disclosed in Gogs, a self-hosted Git service, allowing authenticated users to execute arbitrary code. The flaw, with a CVSS score of 9.4, does not require admin privileges and can be exploited by creating a malicious pull request. The vulnerability remains unpatched despite being reported, putting 1,141 estimated internet-facing Gogs instances at risk.
+
+2. Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer
+Threat: Vulnerability | Severity: 9/10
+Threat actors are exploiting a patched security flaw in FortiClient Endpoint Management Server (EMS) to deliver credential-stealing malware. The attack involves using PowerShell to disguise the payload as a Fortinet update, allowing the malicious executable to silently execute. This enables the threat actors to modify configurations and insert scripts for execution on managed endpoints, stealing sensitive data.
+
+3. Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal
+Threat: Zero-Day | Severity: 4
+
+(This rating suggests a moderate level of severity. Public zero-day disclosures can be concerning, but the context suggests a company is pushing back, which may indicate a disagreement rather than an immediate threat.)/10
+Microsoft has come out in support of Coordinated Vulnerability Disclosure (CVD), criticizing the public disclosure of multiple zero-day Windows vulnerabilities without prior notice. The tech giant urges researchers to share findings before public disclosure, citing unnecessary risks to customers and actively working to understand and patch the vulnerabilities, including BlueHammer and RedSun, which are now under active exploitation.
+
+4. ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More
+Threat: Data Breach | Severity: 7/10
+Security experts have identified over 1,350 command-and-control servers in 98 Middle East infrastructure providers. A vulnerability in Microsoft Azure Backup for AKS was silently patched after a researcher discovered it allowed users with limited permissions to gain cluster-admin access. A Romanian national was sentenced to 56 months in prison for cyber attacks in the US. The US CISA has added a DAEMON Tools supply chain attack to its Known Exploited Vulnerabilities catalog.
+
+5. New AI Usage Report: Enterprise AI Risk Is Heavily Concentrated Among a Small Group of AI "Power users"
+Threat: Vulnerability | Severity: 6
+
+(This rating reflects the potential for risk and impact but also considers the current lack of explicit mention of serious vulnerabilities, exploits, or sensitive information exposed in the news.)/10
+A new report by LayerX Security reveals a "cybersecurity blind spot" in enterprise AI usage, where AI risk is concentrated among a small group of "AI power users" who engage in deeper interactions with AI tools. This group, making up only 5% of users, drives a disproportionate amount of enterprise AI exposure. AI platforms like ChatGPT and Copilot M365 dominate enterprise usage, but most organizations lack visibility into these platforms, especially consumer-driven AI adoption like Gemini.
+
+
+#cybersecurity #infosec #threatintel
