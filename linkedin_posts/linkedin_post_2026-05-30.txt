@@ -1,0 +1,30 @@
+Cybersecurity Intelligence Brief
+
+1. ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface
+Threat: Vulnerability | Severity: 9/10
+Cybersecurity researchers disclosed a vulnerability in OpenAI ChatGPT that allows for phishing attacks by exploiting the AI assistant's trust in Markdown links and images. Hackers can append malicious payloads to web pages, triggering ChatGPT to auto-fetch and render these elements, potentially leaking user data and tricking victims into scanning malicious QR codes. This exploit expands the attack surface for phishing attacks.
+
+2. Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit
+Threat: Vulnerability | Severity: 8
+
+(Note: The rating assumes that the exploit is specific to a newly discovered CVE (Common Vulnerabilities and Exposures) number, which suggests it has not been widely exploited yet, but still poses a significant threat to organizations with vulnerable systems. Further details on the severity of the exploit would be required for a more accurate rating.)/10
+An unknown threat actor used a large language model agent to conduct post-exploitation activities after compromising a Marimo network via a critical vulnerability (CVE-2026-39987). The agent retrieved cloud credentials, an SSH private key, and used it to exfiltrate an internal PostgreSQL database in under two minutes. The attack chain lasted over an hour, showcasing a sophisticated technique that bypasses traditional detection methods.
+
+3. New Russian-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks
+Threat: Nation State | Severity: 8
+
+(Note: This rating is based on the availability of threat information and AI-powered cyberattacks typically being sophisticated and concerning, especially during conflicts like the one between Russia and Ukraine.)/10
+A previously undocumented threat actor, GREYVIBE, is targeting Ukraine and Ukraine-related entities with persistent attacks since at least August 2023. Linked to Russian-speaking group with Kremlin ties, it leverages custom malware, AI, and large language models to supercharge operations, employing multiple attack vectors and tools. GREYVIBE's AI usage accelerates development and obscures attribution efforts, but also introduces design flaws, raising questions about the group's sophistication.
+
+4. What 2,000 Exposed Vibe-Coded Apps Reveal About the Limits of Most Security Stacks
+Threat: Vulnerability | Severity: 4
+
+The cybersecurity severity score is relatively low (4) as the article does not mention a specific vulnerability or hack, but rather a potential weakness in security stacks that might be exploited./10
+Employees, often competent and non-malicious, are building custom applications with AI and publishing them on the open internet without IT's knowledge. This "Shadow Builders" phenomenon exposes sensitive data and grants admin access, with over 380,000 publicly accessible web assets identified, including 2,000 with corporate data. This bypasses traditional security measures, leaving a large category of risk unaddressed.
+
+5. Malicious Sicoob NuGet Steals Banking Credentials as npm Packages Target Cloud Secrets
+Threat: Malware | Severity: 8/10
+Cybersecurity researchers discovered a malicious NuGet package "Sicoob.Sdk" that stole client IDs and PFX certificates by masquerading as a software development kit for a Brazilian financial system. Estimated 500 downloads, it was listed under a legitimate GitHub repository and appeared in Google Search results before being blocked by NuGet, posing risks to users through compromised Sicoob API authentication material.
+
+
+#cybersecurity #infosec #threatintel
