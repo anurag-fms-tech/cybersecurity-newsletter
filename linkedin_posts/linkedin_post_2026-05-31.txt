@@ -1,0 +1,28 @@
+Cybersecurity Intelligence Brief
+
+1. PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation
+Threat: Vulnerability | Severity: 9
+
+(PAN-OS is a widely used security platform, and a global authentication bypass vulnerability is highly concerning and could potentially be widely exploited.)/10
+Palo Alto Networks warns that a medium-severity vulnerability, CVE-2026-0257, is being actively exploited to bypass security restrictions and establish unauthorized VPN connections. The flaw affects PAN-OS and Prisma Access firewalls, prompting Rapid7 to urge affected organizations to upgrade to a vendor-supplied patch immediately, while also recommending temporary mitigations to avoid exploitation attempts.
+
+2. ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface
+Threat: Vulnerability | Severity: 9/10
+Researchers have discovered a vulnerability in OpenAI's ChatGPT that allows attackers to inject phishing links, spoofed alerts, and images, by tricking the AI assistant into summarizing malicious web pages. This technique, called ChatGPhish, enables attackers to use a regular webpage to transform ChatGPT into a phishing surface, putting employees and organizations at risk of cyber attacks.
+
+3. Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit
+Threat: Vulnerability | Severity: 8
+
+(Note: The number 8 indicates a high level of potential severity, but the exact impact of the vulnerability and the capabilities of the LLM Agent are not fully detailed in the snippet provided, so a precise rating is difficult without more information.)/10
+An unknown threat actor used a large language model (LLM) agent to conduct post-compromise actions after exploiting a publicly-accessible Marimo network via a recently disclosed vulnerability (CVE-2026-39987). They extracted credentials, replayed them, and used an SSH private key to exfiltrate an internal PostgreSQL database in under two minutes through eight parallel SSH sessions. The attack lasted over an hour and occurred on May 10, 2026.
+
+4. New Russia-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks
+Threat: Nation State | Severity: 8/10
+A previously undocumented threat actor group, GREYVIBE, has been attacking Ukraine and Ukraine-related entities since at least August 2025, with ties to Russian state interests and the broader Russian cybercrime ecosystem. The group uses AI-assisted tooling to deliver malware through various vectors, but AI has also introduced design flaws in their malware, suggesting they may not be a purely nation-state actor.
+
+5. What 2,000 Exposed Vibe-Coded Apps Reveal About the Limits of Most Security Stacks
+Threat: Vulnerability | Severity: 6/10
+"Shadow Builders" refers to employees building custom AI-driven applications outside of IT's knowledge, deploying them to production without security controls, and publishing them on the open internet. A new report identifies over 380,000 publicly accessible web assets, with 2,000 holding sensitive data, often with default admin access. This poses a significant risk as it goes beyond traditional Shadow IT, where data was contained within sanctioned SaaS vendors.
+
+
+#cybersecurity #infosec #threatintel
