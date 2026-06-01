@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. Dutch Authorities Dismantle Botnet Linked to 17 Million Infected Devices
+Threat: Vulnerability | Severity: 10/10
+Dutch authorities took down a botnet comprising at least 17 million infected devices, used for malicious attacks. The botnet, run by Asocks, offered residential proxies for subscription. The NCSC advises securing devices by keeping software up-to-date, using strong passwords, and enabling two-factor authentication, and warns that devices with poor security can become part of a botnet controlled remotely through malware.
+
+2. PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation
+Threat: Vulnerability | Severity: 9/10
+Palo Alto Networks warned that a medium-severity security flaw, tracked as CVE-2026-0257, is being actively exploited by attackers to bypass security restrictions and establish unauthorized VPN connections. This issue affects firewalls with GlobalProtect portal or gateway configured when specific configurations exist. Affected organizations are urged to upgrade to a vendor-supplied patch on an urgent basis and apply temporary mitigations until patched.
+
+3. ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface
+Threat: Vulnerability | Severity: 8/10
+Cybersecurity researchers uncovered a vulnerability in OpenAI's ChatGPT, allowing attackers to use it for phishing attacks. The "ChatGPhish" technique exploits ChatGPT's trust in certain links and images, enabling malicious payloads to be automatically fetched and displayed as live elements, even when users summarize a harmless web page. This expands the potential attack surface and poses a threat to organizations using ChatGPT.
+
+4. Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit
+Threat: Vulnerability | Severity: 6
+
+(Note: Since the news involves an exploit of a vulnerability, it indicates a potential threat, but the severity rating could vary depending on more information. A 6 is a moderate rating for the moment, as more data would be needed to give a more precise rating.)/10
+Unknown actors used a large language model (LLM) agent after exploiting the CVE-2026-39987 vulnerability in Marimo network, obtaining cloud credentials, and exfiltrating an internal PostgreSQL database in under two minutes. This marks the first documented example of an LLM driving post-compromise actions, highlighting potential risks of AI-powered threats.
+
+5. New Russia-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks
+Threat: Nation State | Severity: 8/10
+A previously undocumented Russian-speaking threat actor, GREYVIBE, has been linked to ongoing attacks targeting Ukraine and related entities since at least August 2025. GREYVIBE uses AI and custom-developed malware, and its operation relies on multiple attack vectors. The group shares ties to the Russian cybercrime ecosystem and suffers from operational security blunders, suggesting it may not be a pure nation-state actor.
+
+
+#cybersecurity #infosec #threatintel
