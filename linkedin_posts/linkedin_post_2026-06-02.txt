@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded
+Threat: Data Breach | Severity: 8/10
+Dashlane disclosed a brute-force attack led by an unknown party that successfully compromised the encrypted vaults of "fewer than" 20 personal subscription users. The attackers aimed to break 2FA protections, and temporary account suspensions were triggered due to high volumes of attempts. Access has been restored, and affected users have been notified, with the attackers' ability to download encrypted vaults being the only known consequence.
+
+2. Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm
+Threat: Vulnerability | Severity: 8/10
+A new supply chain attack, codenamed Miasma, has compromised Red Hat Cloud Services packages to steal credentials and secrets from developer machines, using tactics similar to the Mini Shai-Hulud worm. The attack affects npm packages and uses encrypted exfiltration to transmit data. Attribution is difficult due to open-sourced tools, and similar attacks may follow, further poisoning the software supply chain.
+
+3. ⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More
+Threat: Vulnerability | Severity: 8/10
+A list of vulnerabilities was reported, including a recently disclosed medium-severity flaw (CVE-2026-0257) in Palo Alto Networks' PAN-OS that has been under active exploitation. Patched and exploitable issues included vulnerabilities affecting widely used software such as Microsoft Windows, Google Chrome, and various security and development applications. Users are advised to patch high-severity issues immediately and be cautious of the rapidly shrinking gap between patch releases and exploits.
+
+4. China-Aligned Groups Ramp Up Attacks: Dragon Weave Hits Czech Republic & Taiwan
+Threat: Nation State | Severity: 6/10
+A new cyber espionage campaign, Operation Dragon Weave, targeting Czech Republic and Taiwan officials and civilians has been discovered. The attack, attributed to a China-aligned threat actor, distributes spear-phishing emails containing ZIP attachments with a Rust loader that decrypts and runs an AdaptixC2 agent, allowing the attacker to perform a wide range of post-compromise actions with complete control over the endpoint.
+
+5. The Security Growth Platform: Why MSPs Are Moving Beyond vCISO Tools
+Threat: Vulnerability | Severity: 1
+
+The provided news appears to pertain to MSPs (Managed Service Providers) and vCISO (Virtual Chief Information Security Officer) tools. This doesn't seem to imply a cybersecurity incident or vulnerability, making it a minor issue on the scale of 1 to 10 in terms of cybersecurity severity./10
+The cybersecurity landscape for Managed Service Providers (MSPs) and MSSPs has outgrown traditional "vCISO platforms" that provide assessments, advisory, and reporting. The new term "Security Growth Platform" combines security program management, CISO-grade decision intelligence, and multi-tenant portfolio architecture in one system, catering to the needs of MSPs managing security across numerous small and medium businesses.
+
+
+#cybersecurity #infosec #threatintel
