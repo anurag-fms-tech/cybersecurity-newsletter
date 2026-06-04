@@ -1,0 +1,28 @@
+Cybersecurity Intelligence Brief
+
+1. WhatsApp, Slack Notifications Could Hijack Google Gemini on Android
+Threat: Vulnerability | Severity: 6
+
+The severity appears moderate because it involves Android, a widely used operating system, and Google Gemini, a feature that deals with notifications. However, the article doesn't provide detailed information about the type of vulnerability, its exploitability, and potential consequences./10
+A malicious notification, such as one from WhatsApp or Slack, could have hijacked Google Gemini's voice assistant on Android without needing a malicious app. The notification would be treated as useful context, allowing the assistant to perform various actions, including opening connected windows, sending fake messages, and making phone calls. Google has since patched the issue.
+
+2. Google DoubleClick Abused in New Malspam Campaign to Deliver DesckVB RAT
+Threat: Malware | Severity: 8/10
+Cybersecurity researchers have found a malspam campaign using Google's DoubleClick domain to evade detection and deliver a remote access trojan (RAT) named DesckVB RAT. The attack personalizes itself on the fly and eliminates the need for bespoke kits, making it scalable and cost-effective. The RAT communicates with a command-and-control server, conducts system reconnaissance, and configures security exclusions, giving attackers full control over infected machines.
+
+3. Beyond the Zero-Day: See Your Network Like an Attacker | Webinar with HD Moore
+Threat: Zero-Day | Severity: 8
+
+(Note: The news suggests that someone is sharing knowledge on how to potentially attack networks, which can be seen as promoting or sharing malicious techniques. While the webinar itself may be for educational purposes, the description may be concerning from a cybersecurity perspective.)/10
+Expert HD Moore warns that traditional patching methods can't keep up with rapidly evolving cyber threats. He advises shifting focus from patching to network segmentation, highlighting how many organizations' networks are poorly designed, with critical systems vulnerable to lateral movement due to unseen connections and misconfigured devices, making it easier for attackers to move undetected.
+
+4. Microsoft 365 Android Apps Let Any App Steal Account Tokens via Leftover Debug Flag
+Threat: Vulnerability | Severity: 8/10
+A vulnerability in Microsoft 365 Android apps allowed malicious apps to access a user's account token, enabling them to read email, access files, and send messages as the user without a password or permission prompt. The flaw, known as "FlagLeft," was discovered by Enclave and patched by Microsoft, which advises users to update affected apps, with four CVEs issued for Word, PowerPoint, Excel, and Microsoft 365 Copilot.
+
+5. Autonomous AI Tool Finds 2-Year-Old RCE Flaw in Redis (CVE-2026-23479)
+Threat: Vulnerability | Severity: 8/10
+A critical Redis vulnerability, CVE-2026-23479, went unnoticed for over two years. It affects all stable Redis branches until a May 5 fix. The flaw allows remote code execution without authentication in default deployments due to a use-after-free bug, which was accidentally introduced in January 2023 and exploited through a complex chain, including authenticated sessions and commands.
+
+
+#cybersecurity #infosec #threatintel
