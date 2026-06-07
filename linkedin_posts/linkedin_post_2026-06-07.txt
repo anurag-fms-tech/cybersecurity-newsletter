@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration
+Threat: Vulnerability | Severity: 5
+
+(This rating indicates a potential moderate severity issue, but the exact severity may depend on the context of the lock-down mode and the specific tools it aims to restrict.)/10
+OpenAI introduces Lockdown Mode for ChatGPT, an optional advanced security setting available to eligible personal and business accounts. It limits web and external services connections to reduce data exfiltration from prompt injection attacks, disabling features like URL-based data exfiltration mechanisms. Lockdown Mode does not guarantee complete protection but reduces the risk and substantially hardens the attack surface against prompt injections.
+
+2. Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI
+Threat: Vulnerability | Severity: 9/10
+A cybersecurity researcher has reverse-engineered Bright Data's iOS SDK, revealing how it turns devices into exit nodes for web-scraping traffic. The SDK, embedded in free apps behind an opt-in screen, can use devices' home internet connections without detection, putting users' bandwidth at risk. This can occur even when a VPN is configured and in the background, while the device is in use.
+
+3. CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog
+Threat: Vulnerability | Severity: 8/10
+The U.S. CISA added a high-severity vulnerability, CVE-2026-28318 (CVSS 7.5), to its Known Exploited Vulnerabilities catalog, citing evidence of exploitation. This denial-of-service bug in SolarWinds Serv-U multi-protocol file server software can be mitigated by limiting access and blocking specific requests. CISA has ordered Fed agencies to address the flaw by June 19, 2026, and recommends that users update to SolarWinds Serv-U version 15.5.4 HF1.
+
+4. AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs
+Threat: Zero-Day | Severity: 8/10
+A security startup, depthfirst, discovered 21 previously unknown vulnerabilities in FFmpeg using an autonomous AI agent, including 9 that are now assigned CVE identifiers. These were found in just 1 run costing $1,000. Similarly, Google patched a record 429 security bugs in Chrome 149 but emphasized it wasn't due to AI. However, AI has been generating a flood of reports, prompting Google to overhaul its bounty program. AI is putting more pressure on security teams to deal with vulnerabilities faster than ever.
+
+5. Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack
+Threat: Vulnerability | Severity: 9/10
+Microsoft's GitHub repositories have been compromised by the Miasma self-replicating supply chain attack campaign, impacting 73 repositories across four organizations. Notable is the re-compromise of the "durabletask" PyPI package, which was previously infected in May to deliver an information stealer on Linux systems. The threat actors have continued to refine Miasma's tactics and infect more packages, skipping the npm registry in some cases. GitHub has disabled access to the affected repositories.
+
+
+#cybersecurity #infosec #threatintel
