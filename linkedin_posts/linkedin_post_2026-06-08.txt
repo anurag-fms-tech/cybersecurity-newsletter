@@ -1,0 +1,30 @@
+Cybersecurity Intelligence Brief
+
+1. New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration
+Threat: Vulnerability | Severity: 8./10
+OpenAI has introduced Lockdown Mode for eligible ChatGPT accounts to reduce data exfiltration risks from prompt injection attacks. The optional feature limits outbound network requests and disables some capabilities. Available for Free, Go, Plus, Pro, and Business users, Lockdown Mode aims to eliminate pathways for sensitive data exfiltration without stopping prompt injections or memory/file uploads. It does not guarantee complete protection, as risk may still occur through enabled apps or newly discovered techniques.
+
+2. Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI
+Threat: Vulnerability | Severity: 8
+
+(Note: A rating of 8 indicates a moderate severity risk. The fact that smart TVs can be compromised without users' knowledge, and used as proxies for web scraping, is a significant concern for user data security and AI misuse. However, the full extent and potential impact of this vulnerability are currently unknown.)/10
+A researcher has revealed that Bright Data's iOS SDK enables consumer apps to turn devices into exit nodes for web scraping, turning home internet connections into someone else's infrastructure. The scraping traffic bypasses VPNs and security checks, can operate in the background, and ties together multiple devices. This is part of Bright Data's 400 million residential IP network, largely comprised of consumer apps' opt-in SDKs.
+
+3. CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog
+Threat: Vulnerability | Severity: 9/10
+The US Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity vulnerability (CVE-2026-28318) to its catalog, citing evidence of active exploitation. The flaw, in SolarWinds Serv-U software, causes a denial-of-service bug that crashes the service with specifically crafted requests. It's been addressed in version 15.5.4 HF1, and CISA has ordered federal agencies to address it by June 19, 2026.
+
+4. AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs
+Threat: Zero-Day | Severity: 8
+
+The news involves the discovery of zero-day vulnerabilities in a widely used media processing library (FFmpeg) as well as a large number of bugs patched in Google Chrome. This is indicative of potential serious security weaknesses and a large potential attack surface./10
+A security startup, depthfirst, used AI to discover 21 unknown vulnerabilities in the media library FFmpeg, spanning 15-23 years old bugs. In related news, Google released Chrome 149 with a record 429 security bug patches, mostly from internal finds, but an overhaul of its bounty program was prompted by a flood of AI-generated reports.
+
+5. Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack
+Threat: Data Breach | Severity: 6
+
+Note: This rating is based on the severity level assuming it involves an initial vector into the repositories from an unknown entity. The potential impact of a supply chain attack on various organizations, depending on how those repositories are integrated within those organizations' development processes might not be immediately apparent. Hence, assigning this a higher rating would be speculation./10
+Microsoft's GitHub repositories have been compromised in an ongoing Miasma supply chain attack campaign. 73 repositories across four organizations were affected, prompting GitHub to disable access. The campaign is linked to a previously compromised "durabletask" package, suggesting a re-compromise of stolen credentials. Miasma, a variant of the Mini Shai-Hulud worm, has infected multiple packages, including pushing malicious code directly to several repositories.
+
+
+#cybersecurity #infosec #threatintel
