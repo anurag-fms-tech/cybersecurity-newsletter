@@ -1,0 +1,30 @@
+Cybersecurity Intelligence Brief
+
+1. Six Proto6 Vulnerabilities in protobuf.js Expose Node.js Apps to RCE and DoS
+Threat: Vulnerability | Severity: 9/10
+Cybersecurity researchers have discovered six vulnerabilities in protobuf.js, a JavaScript implementation of Protocol Buffers, that could lead to remote code execution and denial-of-service attacks. The flaws, known as Proto6, affect Node.js applications, Google Cloud client libraries, and CI/CD pipelines, allowing attackers to inject malicious data and trigger code execution or crashes.
+
+2. Meta to Use Off-Site Business Data for Feed and AI Personalization
+Threat: Vulnerability | Severity: 3
+
+It's possible that there could be some security risks if this data is being transferred and processed remotely, however, the lack of information suggests this might not be a major concern./10
+Meta will use information shared by other businesses to personalize users' feeds and AI chatbot responses. The company emphasizes that this is not collecting new data and is giving users control over how this information is used. A new setting, "Activity from other businesses," allows users to choose how their data is used for personalized content, including ads and non-ad content, and will be available in several countries starting next month.
+
+3. Veeam Backup & Replication RCE Flaw Lets Domain Users Run Remote Code
+Threat: Vulnerability | Severity: 8
+
+(This is a high-severity rating as Remote Code Execution (RCE) flaws allow attackers to execute arbitrary code on a vulnerable system with the privileges of the currently logged-in user. In this case, a Domain User has elevated privileges within an organization, making the impact more significant.)/10
+Veeam released security patches for a critical vulnerability in its Backup & Replication software, allowing remote code execution by an authenticated domain user with a CVSS score of 9.4. The flaw impacts versions 12.3.2.4465 and earlier, but not version 13.x. Updates to version 12.3.2.4854 resolve the issue; users should prioritize upgrading for optimal security, given prior exploited vulnerabilities.
+
+4. Microsoft Restores Some GitHub Repos, Keeps Others Offline as Miasma Probe Continues
+Threat: Vulnerability | Severity: 6
+
+This rating is based on the potential impact of a malicious actor gaining access to sensitive information or disrupting service availability on GitHub, a widely used development platform. The fact that some repositories have been restored may indicate the company is taking steps to contain the issue, but keeping others offline suggests further investigation or cleaning is necessary./10
+Microsoft removed and then restored some GitHub open-source projects temporarily due to a security incident where 73 projects were compromised with an information stealer. Some projects, including a Python package, delivered malware capable of executing auto-code on AI-powered coding tools. The incident is part of an ongoing software supply chain campaign codenamed Miasma, infecting 96 open-source packages, including AI and bioinformatics libraries.
+
+5. WinRAR Flaw Exploited by Russia-Aligned Groups to Deploy Stealers in Ukraine
+Threat: Vulnerability | Severity: 9/10
+Russia-aligned cyber attack campaigns by Earth Dahu (aka Gamaredon) and SHADOW-EARTH-066 (aka UAC-0226) continue to exploit a WinRAR vulnerability (CVE-2025-8088) almost a year after patches were released, targeting Ukrainian organisations and harvesting passwords, cookies, and documents. The attacks have adapted and evolved, with new tactics and command-and-control channels utilised to evade detection.
+
+
+#cybersecurity #infosec #threatintel
