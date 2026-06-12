@@ -1,0 +1,28 @@
+Cybersecurity Intelligence Brief
+
+1. ShinyHunters Exploits Oracle PeopleSoft Zero-Day (CVE-2026-35273) to Breach Universities
+Threat: Zero-Day | Severity: 6
+
+This exploit involves a zero-day vulnerability in a widely used enterprise software, PeopleSoft, potentially impacting educational institutions. While it's a significant breach, it doesn't appear to have widespread implications or involve highly sensitive information (yet), as it has recently occurred./10
+The ShinyHunters extortion crew exploited a zero-day flaw in Oracle PeopleSoft, stealing data and demanding payment. The vulnerability, CVE-2026-35273, is a remote code execution bug in PeopleTools, rated 9.8/10. Affected are universities and enterprises, with over 455,000 unique email addresses leaked, including names, addresses, and passport numbers. Oracle recommends disabling the Environment Management Hub service or blocking external access to affected endpoints.
+
+2. New Attacks Trick OpenClaw AI Agent Into Running Code and Leaking Secrets
+Threat: Vulnerability | Severity: 9
+
+(Note: The rating is subjective based on the information provided. This could potentially allow malicious actors to execute arbitrary code, access sensitive data, etc.)/10
+Researchers at Imperva and Varonis discovered vulnerabilities in OpenClaw, a self-hosted AI agent, that can be exploited to run attacker-controlled code or leak sensitive data. Imperva's flaw is patched, but Varonis's phishing weakness can't be fixed with a patch and requires limiting the agent's capabilities. Untrusted data is being executed as trusted, compromising agents that ingest shared content.
+
+3. New GreatXML Exploit Bypasses Windows BitLocker via Recovery Partition XML Files
+Threat: Vulnerability | Severity: 10/10
+Security researcher Chaotic Eclipse has released a Windows BitLocker bypass called GreatXML, found after only 4 hours of research. The exploit occurs when Windows Defender Offline Scan has been executed, allowing unrestricted access to the BitLocker volume. However, researcher Will Dormann disputes the exploit's feasibility, citing the need for a user to be logged in and have admin credentials, making BitLocker vulnerable.
+
+4. The Gentlemen Ransomware Claims 478 Victims, Can Spread Like a Worm
+Threat: Ransomware | Severity: 8/10
+The financially motivated threat group "The Gentlemen" (formerly Phantom Mantis) has been linked to double extortion attacks, leveraging resources from RaaS schemes like LockBit and Qilin. Led by Russian-speaking cybercriminal LARVA-368, the group is using artificial intelligence for ransomware development and post-exploitation procedures and has been active since March 2025, claiming 478 victims. The group's identity was recently exposed as 36-year-old Alexander Andreevich Yapaev from Russia.
+
+5. Cybersecurity Stars Awards 2026: Winners Announced Across 95 Categories
+Threat: Vulnerability | Severity: 3/10
+The 2026 Cybersecurity Stars Awards recognizes outstanding cybersecurity work with independent judging across 95 subcategories. Winners are selected based on innovation, impact, and technical excellence, not popularity or brand size. The full list of 97 subcategories is live now, honoring teams and companies that "quietly close real gaps" and raise the baseline for cybersecurity.
+
+
+#cybersecurity #infosec #threatintel
