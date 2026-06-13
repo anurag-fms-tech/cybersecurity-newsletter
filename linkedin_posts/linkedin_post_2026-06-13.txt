@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit
+Threat: Malware | Severity: 9/10
+Attackers took over over 400 Arch User Repository packages, rewriting build scripts to install a credential stealer that harvests developer secrets and hides itself with an eBPF rootkit. Affected packages were not compromised, but their build instructions were altered, exploiting the trust model.
+
+2. Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing
+Threat: Vulnerability | Severity: 8/10
+Google is taking legal action against a Chinese cybercrime network accused of using its Gemini AI to send phishing texts targeting Americans. The network developed the PhaaS kit called Outsider, distributing fake text messages claiming to be from trusted brands. Estimated 100,000 victims and $millions in losses occurred due to these schemes. Google is suing to dismantle the network, with phone carriers AT&T, T-Mobile, and Verizon to block the messages.
+
+3. China-Linked Hackers Backdoored Linux Login Software to Hide for Nearly a Decade
+Threat: Vulnerability | Severity: 9/10
+A China-nexus group, known as Velvet Ant, spent nearly a decade hidden in the Linux login system PAM and OpenSSH, altering them to secretly record login credentials and remote sessions. This allowed them to bypass normal containment and access isolated networks. Researchers found nine separate backdoored versions of the login system, with the group exploiting trusted systems to gain access, similar to tactics used in previous cases.
+
+4. Agentjacking Attack Tricks AI Coding Agents Into Running Malicious Code
+Threat: Zero-Day | Severity: 8/10
+Cybersecurity researchers have discovered "Agentjacking", a new type of attack that tricks AI coding agents into running arbitrary code on developer machines. This attack exploits a flaw in Sentry's error-tracking platform, causing AI agents to interpret crafted input as legitimate diagnostic steps and run attacker-controlled code. 2,388 organizations have been found exposed to this vulnerability.
+
+5. Rethinking MDR as Attackers and Defenders Embrace AI
+Threat: Vulnerability | Severity: 6
+
+(This news article seems to discuss the growing use of AI by both attackers and defenders, which could have implications for the field of Managed Detection and Response (MDR) cybersecurity. However, the article may not specifically mention a major new threat or vulnerability, which might keep the severity rating relatively low.)/10
+Managed Detection and Response (MDR) no longer effectively adapts to the changing threat landscape, which includes AI-driven attacks and expanded network surfaces. Alerts often go unreviewed or are deprioritized, allowing threats to hide in low-severity notifications. Analysis of 25 million alerts reveals nearly 1% of real threats originate in these deprioritized alerts, leading to an estimated 54 hidden incidents per year in a typical enterprise.
+
+
+#cybersecurity #infosec #threatintel
