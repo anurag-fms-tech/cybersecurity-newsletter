@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication
+Threat: Vulnerability | Severity: 9/10
+Splunk has released security updates to address a critical flaw, CVE-2026-20253, in Splunk Enterprise versions below 10.2.4 and 10.0.7, allowing unauthenticated file operations and remote code execution through PostgreSQL sidecar service endpoints, with a CVSS score of 9.8.
+
+2. U.S. Orders Anthropic to Suspend Fable 5 and Mythos 5 Access for Foreign Nationals
+Threat: Vulnerability | Severity: 8/10
+Anthropic temporarily disabled its AI models, Claude Fable 5 and Mythos 5, due to US government orders citing national security concerns. The move followed a US government instruction to suspend access to the models for foreign nationals, reportedly due to a method to "jailbreak" the models. Other AI models will remain unaffected, except for one of Mythos' safeguard-lifted versions accessible to vetted users.
+
+3. Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit
+Threat: Malware | Severity: 8/10
+Hackers compromised over 400 packages in the Arch User Repository (AUR), rewriting build scripts to install a credential stealer. The malware harvests developer secrets and can load an eBPF rootkit to hide itself. The attack exploits the trust model, altering package build scripts rather than the software itself. The compromised packages retained their original names, histories, and trust.
+
+4. Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing
+Threat: Vulnerability | Severity: 7/10
+Google is pursuing a lawsuit against a Chinese cybercrime network, accusing it of using AI to send phishing text messages targeting Americans. The operation, using a phishing-as-a-service kit called Outsider, victimized over 100,000 people and generated millions in losses, with up to 2.5 million messages sent daily to Android users. Google is working with carriers to block the messages and dismantle the network's infrastructure.
+
+5. China-Linked Hackers Backdoored Linux Login Software to Hide for Nearly a Decade
+Threat: Vulnerability | Severity: 9/10
+A China-nexus group, known as Velvet Ant, spent nearly a decade hiding in the Linux login system, compromising PAM and OpenSSH components to gain access to isolated networks. They exploited internet-facing systems to reach their targets, altering trusted login programs to log credentials and bypass security measures.
+
+
+#cybersecurity #infosec #threatintel
