@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Cisco Releases Security Updates for Actively Exploited SD-WAN Manager Flaw
+Threat: Vulnerability | Severity: 9/10
+Cisco has released security updates for a medium-severity flaw in Catalyst SD-WAN Manager (CVE-2026-20262) due to inadequate input validation during file upload. An authenticated attacker could create or overwrite files, elevating to root access. Exploitation requires valid credentials and write access. Patches are available, and Cisco urges customers to audit logs for suspicious file uploads and malicious activity.
+
+2. CISA Flags LiteSpeed cPanel Plugin Flaw Exploited for Root Privilege Escalation
+Threat: Vulnerability | Severity: 8/10
+CISA has added a security flaw in LiteSpeed cPanel Plugin to its Known Exploited Vulnerabilities catalog, requiring FCEB agencies to apply fixes by June 18, 2026. Users can check if their servers are affected and should upgrade to LiteSpeed WHM Plugin v5.3.2.1 to patch the vulnerability (CVE-2026-54420), which allows privilege escalation to root on shared hosting servers via FTP or web shell access.
+
+3. Chinese Hackers Abused Google Workspace Rules to Steal Research and Defense Emails
+Threat: Nation State | Severity: 9/10
+A China-linked espionage group, UNC6508, hid in North American medical, academic, and military networks for over a year, stealing defense and research data. They used a REDCap server backdoor to gain access, then rewired Google Workspace rules to steal sensitive emails matching specific keywords. Google notified affected organizations and disrupted the group's infrastructure, but did not name them. The group's activity began in September 2023 and continued until November 2025.
+
+4. North Korean Hackers Are Turning Developer Tools Into Malware Delivery Channels
+Threat: Nation State | Severity: 8/10
+Cybersecurity researchers at Proofpoint have flagged malicious campaigns orchestrated by the Contagious Interview threat cluster, believed to be from North Korea. The campaigns target nearly 100 organizations in various sectors, using phishing emails with links to GitHub repositories hosting malware. The malicious scripts execute cross-platform malware on macOS, Linux, and Windows, stealing credentials and data from wallet browser extensions and applications.
+
+5. LiteLLM Vulnerability Chain Lets Low-Privilege Users Take Over AI Gateway Servers
+Threat: Vulnerability | Severity: 8/10
+Researchers at Obsidian Security discovered a vulnerability in the widely deployed open-source AI gateway LiteLLM, allowing a default low-privilege account to gain admin access and run code on the server by chaining three vulnerabilities. A server takeover could expose sensitive keys and data. A fix was released in LiteLLM v1.83.14-stable on May 2, and users are urged to upgrade to close the vulnerabilities.
+
+
+#cybersecurity #infosec #threatintel
