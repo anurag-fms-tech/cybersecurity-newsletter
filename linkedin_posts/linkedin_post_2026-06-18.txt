@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments
+Threat: Ransomware | Severity: 8/10
+An unknown threat actor uses paid or promoted posts on legitimate news websites, along with fake social media accounts and a YouTube channel, to create a "fake reputation economy" and trick victims into downloading a cryptocurrency clipboard hijacker. The malware hides within Solana and Pump.fun apps, and its purpose is to steal digital assets from Windows and macOS users who download it thinking it's legitimate.
+
+2. Microsoft Confirms RoguePlanet Defender Zero-Day, Says Patch is in Development
+Threat: Zero-Day | Severity: 8/10
+Microsoft has disclosed a Microsoft Defender zero-day vulnerability, "RoguePlanet," which allows attackers to gain SYSTEM-level privileges through a race condition. The company is working on a patch and is aware of previous similar vulnerabilities disclosed by security researcher Chaotic Eclipse, who demonstrated a 100% success rate on some machines.
+
+3. Junior Hacker Used Tailscale and OpenSSH to Keep Access After His C2 Went Offline
+Threat: Malware | Severity: 6/10
+A French-speaking attacker, nicknamed "Poisson," breached a French automotive business, stealing credentials and installing malware. He left behind evidence, including his SSH keys and a step-by-step guide. Researchers found that pulling the command-and-control server offline was not sufficient to stop the attack, as Poisson had built a separate doorway using OpenSSH and Tailscale, allowing him to maintain access.
+
+4. Adversarial Exposure Validation Turns Security Visibility into Confident Prioritization
+Threat: Vulnerability | Severity: 4
+
+This news appears to be related to advancements in cybersecurity, specifically a method for validating and prioritizing security risks. However, without more specific information on potential vulnerabilities, exploits, or data breaches, I wouldn't rate it as a high-severity threat (which is typically an 8 or 9)./10
+Security teams now face a "validation problem" rather than a "visibility problem." With numerous tools providing insights into vulnerabilities, they must decide which risk deserves attention first under pressure and incomplete information. Prioritization is crucial, and success depends on quickly distinguishing between theoretical exposure and practical risk to focus resources effectively. The challenge is creating context around each finding to determine its urgency.
+
+5. Malicious JetBrains Plugins Steal AI API Keys as Chrome Extensions Capture Chatbot Chats
+Threat: Malware | Severity: 7/10
+Cybersecurity researchers discovered 15 malicious plugins on JetBrains Marketplace that exfiltrate AI provider keys. The plugins, masquerading as AI coding assistants, secretly send keys to an attacker's server. Since October 2025, over 50,000 downloads occurred; the attackers may share stolen keys with other threat actors, generating revenue through paid tiers and illicit services.
+
+
+#cybersecurity #infosec #threatintel
