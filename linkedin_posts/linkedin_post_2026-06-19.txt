@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. F5 Patches Two Critical NGINX Open Source Flaws Enabling Remote Code Execution
+Threat: Vulnerability | Severity: 10/10
+F5 has issued security updates to address two critical vulnerabilities in NGINX Open Source that could enable code execution. The vulnerabilities have been patched in new versions, and mitigations include taking immediate action. While there's no mention of in-the-wild exploits, previous F5 security flaws were exploited.
+
+2. Orphaned AI Agents: How to Find Hidden Access Risks Inside Your Network
+Threat: Vulnerability | Severity: 6/10
+Companies adopting internal AI tools are accumulating "administrative debt" - orphaned AI agents and standing privileges with unmonitored access to sensitive databases. Traditional security tools can't track AI activity, as it adapts and interacts continuously, masking malicious intent. A webinar, "Orphaned Agents & Standing Privileges," aims to address this issue by teaching security teams to unify AI, human, and machine identities under one control plane.
+
+3. ThreatsDay Bulletin: Claude Chat Abuse, NastyC2 npm Packages, Device-Code Phishing + 25 More Stories
+Threat: Malware | Severity: 8/10
+Cyberattacks were widespread this week, with victims targeted through browser add-ons, AI chat links, and cloud agents. A cluster of 23 Chrome extensions was found to be stealing search queries and selling user data, while Mac users fell victim to an AppleScript-based infostealer. Other threats included phishing campaigns, malware delivery via ClickFix, and credential-stealing via Anthropic Claude's shared chat feature.
+
+4. Microsoft Details Windows Clipper Malware Campaign Using USB LNK Worm and Tor-Based C2
+Threat: Malware | Severity: 7/10
+Microsoft has disclosed a Windows-based cryptocurrency clipper campaign targeting users since February 2026 with malware using Tor to hide communication. The campaign intercepts clipboard data, exfiltrates screenshots, and substitutes wallet addresses, relying on Windows Script Host and ActiveX logic. The malware uses a portable Tor client and routes traffic through a local proxy, turning a data stealer into a lightweight backdoor.
+
+5. INC Ransomware Emerges as Major RaaS Threat in 2026 with 830+ Victims Since 2023
+Threat: Ransomware | Severity: 9
+
+(Note: A rating of 9 indicates a severe threat, with a large number of known victims and the threat emerging as a major RaaS threat, making it a concern for cybersecurity professionals.)/10
+Cybersecurity researchers have charted INC's rapid evolution into a top ransomware group, claiming 830 victims since August 2023, mainly in US organizations. INC rewritten its Windows and Linux encryptors in Rust for easier cross-platform development and better resistance to reverse engineering. Its attacks use a credential dumper targeting Veeam backups and employ a mix of tools to move through victim networks.
+
+
+#cybersecurity #infosec #threatintel
