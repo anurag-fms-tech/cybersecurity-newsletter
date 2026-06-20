@@ -1,0 +1,28 @@
+Cybersecurity Intelligence Brief
+
+1. Unpatchable 'usbliter8' Exploit Breaks Apple A12 and A13 SecureROM Boot Chain
+Threat: Vulnerability | Severity: 9
+
+(Note: An "unpatchable" exploit in a SecureROM boot chain can lead to a permanent vulnerability, suggesting a high level of severity.)/10
+Security researchers at Paradigm Shift have published an exploit, usbliter8, that allows arbitrary code execution in Apple's A12 and A13 chip SecureROM. This hardware flaw requires physical device access and can't be fixed by software updates. The vulnerability is in the Synopsys DWC2 USB controller and affects various Apple devices from 2018 to 2020, but not A11 or A14 and later models.
+
+2. The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes
+Threat: Ransomware | Severity: 8
+
+This rating is based on the fact that it's a Ransomware as a Service (RaaS) using an EDR (Endpoint Detection and Response) framework, which is a sophisticated attack method. However, there's limited information provided in the news snippet regarding the potential impact or severity of the attacks./10
+The Gentlemen ransomware group is developing EDR-killing tools called GentleKiller, which impersonate security vendors, and can quickly exploit newly disclosed exploits. The group, led by Russian national Alexander Yapaev, has claimed 504 victims since March 2025, primarily in Southeast Asia, South America, and Western Europe. It uses advanced techniques to evade detection, making it a highly agile RaaS operation.
+
+3. AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution
+Threat: Zero-Day | Severity: 8/10
+Microsoft researchers discovered an exploit chain called AutoJack that uses an AI browsing agent to deliver remote code execution. An attacker can load an malicious web page via the agent, which executes privileged code on the host machine without user credentials or interaction, exploiting a weakness in the open-source AutoGen Studio's Model Context Protocol (MCP) WebSocket surface.
+
+4. Operation Endgame Disrupts SocGholish Servers, Cleans 14,971 WordPress Sites
+Threat: Vulnerability | Severity: 6/10
+Dutch and international law enforcement have disrupted SocGholish malware and cleaned up over 14,000 infected WordPress websites. The takedown, part of Operation Endgame, prevents further damage and limits malware spread. Website owners have been notified to update their systems, change credentials, and delete suspicious accounts. This action is ongoing to combat botnets and associated cybercrime.
+
+5. CISA Warns Fortinet Customers as FortiBleed Hits 86,644 FortiGate Devices
+Threat: Vulnerability | Severity: 10/10
+The CISA warned Fortinet customers of a "FortiBleed" breach, attributed to Russian-speaking threat actors, compromising 86,644 devices as of June 19, 2026. The attack primarily uses default and factory-set credentials like generic admin accounts and built-in Fortinet system accounts, with telecom, government, and education sectors being the top impacted areas, mainly in India, the U.S., Mexico, Colombia, and Thailand.
+
+
+#cybersecurity #infosec #threatintel
