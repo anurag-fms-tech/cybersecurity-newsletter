@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys
+Threat: Vulnerability | Severity: 8/10
+Threat actors are exploiting a recently patched vulnerability in the Gravity SMTP WordPress plugin, installed on around 100,000 sites. The flaw, rated medium severity (CVSS 5.3), allows unauthenticated attackers to extract sensitive information, such as configuration data and API keys. A patch has been released, and Wordfence has blocked 17 million exploit attempts, advising users to update and rotate credentials ASAP.
+
+2. Unpatchable 'usbliter8' Exploit Breaks Apple A12 and A13 SecureROM Boot Chain
+Threat: Vulnerability | Severity: 8/10
+Security researchers have published a working exploit called usbliter8 that affects Apple's A12 and A13 chips, allowing arbitrary code execution in SecureROM. The flaw lies in the Synopsys DWC2 USB controller and requires physical possession of a device in DFU mode. The exploit is device-specific, with A11, A14, and later chips unaffected.
+
+3. The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes
+Threat: Ransomware | Severity: 9/10
+The "Gentlemen" ransomware group is rapidly rising in ranks, claiming 504 victims since its emergence in March 2025. This group's maturity is evident in its suite of Endpoint Detection and Response (EDR) killers, which includes "GentleKiller," that impair system defenses before deploying the encryptor. Their tools mimic security vendors and use fake version information and copied certificates, making them difficult to detect.
+
+4. AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution
+Threat: Vulnerability | Severity: 8/10
+Microsoft researchers discovered an exploit chain called AutoJack that turns an AI browsing agent into a delivery vehicle for remote code execution. This exploit targets a vulnerable open-source prototyping interface, AutoGen Studio, in pre-release builds 0.4.3.dev1 and 0.4.3.dev2 on PyPI, allowing attackers to run commands without authentication.
+
+5. Operation Endgame Disrupts SocGholish Servers, Cleans 14,971 WordPress Sites
+Threat: Data Breach | Severity: 6/10
+Dutch and international law enforcement disrupted malicious SocGholish infrastructure, removing over 14,000 infected WordPress sites and taking down 106 servers. The operation prevents further malware damage and limits cyber attacks on critical infrastructure. Website owners are being notified to update their systems, change credentials, and delete suspicious accounts, marking the start of further action against SocGholish, a JavaScript downloader malware active since 2017.
+
+
+#cybersecurity #infosec #threatintel
