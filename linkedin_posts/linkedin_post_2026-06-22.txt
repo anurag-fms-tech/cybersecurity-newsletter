@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. INTERPOL Warns Phishing, Ransomware, and AI Scams Are Rising Across Asia-Pacific
+Threat: Ransomware | Severity: 8/10
+A new INTERPOL report reveals a "dramatic increase" in cybercrime in Asia and the South Pacific, fueled by rapid digitalization and new technologies. Phishing is the most widespread form of cybercrime, with over 10,000 reported cases in a third of countries. The region has seen a surge in ransomware attacks and sophisticated scams driven by artificial intelligence and deepfakes, resulting in over $37 billion in losses.
+
+2. Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys
+Threat: Vulnerability | Severity: 7/10
+Threat actors are exploiting a recently patched security flaw in Gravity SMTP, a WordPress plugin installed on about 100,000 sites, using unauthenticated HTTP requests to extract sensitive data. Over 17 million exploits have been blocked since May 2026, with a significant spike in June. Site owners are advised to update the plugin to the latest version and rotate email credentials.
+
+3. Unpatchable 'usbliter8' Exploit Breaks Apple A12 and A13 SecureROM Boot Chain
+Threat: Vulnerability | Severity: 9 
+
+This news article suggests a critical vulnerability affecting Apple A12 and A13 SecureROM Boot Chain, allowing potential exploitation even after patches. The use of the word "unpatchable" indicates the severity of the vulnerability, suggesting it would be hard or impossible to fix which poses a significant threat to system security./10
+Security researchers at Paradigm Shift have published an exploit that allows arbitrary code execution on Apple's A12 and A13 chips. The vulnerability requires physical possession and exploits a hardware flaw in the Synopsys DWC2 USB controller. It affects devices including iPhone XS, 11 series, iPads, and Apple Watches, but not Apple 11 or newer A14 chips. The exploit requires a microcontroller board and can execute malicious code in less than two seconds.
+
+4. The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes
+Threat: Malware | Severity: 7/10
+The Gentlemen ransomware group has developed a suite of EDR-killers, known as GentleKiller and others, to impair system defenses. They incorporate third-party tools and mimic security vendors to evade detection. The group has claimed 504 victims and is known for quickly operationalizing newly disclosed exploits. It uses various techniques to evade detection, including binary protection and mimicking legitimate software.
+
+5. AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution
+Threat: Zero-Day | Severity: 8/10
+Microsoft researchers revealed the AutoJack exploit chain, which turns an AI browsing agent into a delivery vehicle for remote code execution. The bug, in the AutoGen Studio, allows an attacker to load malicious JavaScript on the same machine by getting the agent to open a planted link, URL field, or prompt injection, exploiting three weaknesses in the Model Context Protocol (MCP) WebSocket. Two pre-release builds have no fix, but no PyPI releases are vulnerable by default.
+
+
+#cybersecurity #infosec #threatintel
