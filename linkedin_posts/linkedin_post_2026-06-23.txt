@@ -1,0 +1,28 @@
+Cybersecurity Intelligence Brief
+
+1. OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws
+Threat: Vulnerability | Severity: 8
+
+(This is a positive piece of news in the cybersecurity field, as it relates to the development of a tool that can aid in identifying and resolving security vulnerabilities. However, since it's a positive piece of news it cannot be a high number. It's somewhat of a defensive measure which may reduce the actual severity in real-world. A number slightly below a 10 would be more accurate)/10
+OpenAI is releasing an updated GPT model, GPT-5.5-Cyber, and an updated Codex Security plugin to help security defenders patch software vulnerabilities. The model and plugin can analyze large codebases, identify security issues, and develop patches. The new model and plugin tools aim to streamline the process of discovering and patching vulnerabilities, while also launching a new initiative, Patch the Planet, to help secure open-source projects.
+
+2. ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack
+Threat: Vulnerability | Severity: 9/10
+Multiple WordPress plugins from ShapedPlugin were compromised in a supply chain attack, with attackers tampering with the release channels and injecting backdoor code into Pro plugin releases. This incident affects only Pro plugin builds distributed through Easy Digital Downloads, and is identified as CVE-2026-49777 and CVE-2026-10735 with a CVSS score of 10.0 and 9.8, respectively.
+
+3. Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants
+Threat: Vulnerability | Severity: 8/10
+Cybersecurity researchers disclosed four vulnerabilities in Dify, a popular AI workflow platform, that could allow attackers to read AI conversations from other customers' apps without authentication. Two were critical, and three had cross-tenant impact allowing data exposure. The flaws also enabled cross-tenant API calls and file exposure, and a related security issue in the PDF parser. All issues have been addressed in version 1.14.2, but one remains pending in the next release.
+
+4. 29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests
+Threat: Vulnerability | Severity: 8/10
+Researchers at Calif.io have discovered a vulnerability, dubbed "Squidbleed," in the Squid web proxy that allows a malicious user to access another user's cleartext HTTP request, including credentials or session tokens, through the same proxy. The bug affects Squid's default configuration and can be exploited by a trusted client in a shared network setting, but no in-the-wild exploitation has been reported.
+
+5. New OXLOADER Loader Uses Malicious Google Ads to Deliver CastleStealer
+Threat: Malware | Severity: 8
+
+This rating assumes that this malware variant, which leverages malicious Google Ads to deliver the CastleStealer malware, has a moderate to high potential for impact but likely does not have the same widespread, catastrophic effects as other high-severity threats, such as a 0-day exploit affecting widely used software./10
+Cybersecurity researchers uncovered a campaign using Google Ads to spread CastleStealer malware via a loader called OXLOADER. The threat actor, likely Russian-speaking and financially motivated, bypasses machines in the CIS region. Victims are redirected to a fake site, and a Storj-hosted executable is download and launched as OXLOADER, evading static detection through obfuscation and anti-VM measures.
+
+
+#cybersecurity #infosec #threatintel
