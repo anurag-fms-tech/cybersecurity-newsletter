@@ -1,0 +1,28 @@
+Cybersecurity Intelligence Brief
+
+1. FortiBleed Targeted FortiGate Firewalls in 110 Million-Credential Harvesting Operation
+Threat: Vulnerability | Severity: 10/10
+A large-scale credential-harvesting operation, FortiBleed, has targeted over 430,000 FortiGate firewalls worldwide since February 2026. A Russian-speaking group is driving the attack, using a Golang-based tool to capture authentication traffic and extract credentials. They've also been targeting other vendors, including Synology, Sophos, and Citrix, and have launched multiple credential-harvesting pipelines, exposing over 110 million credentials.
+
+2. Fake AI Agent Skill Passed Security Scans and Reportedly Reached 26,000 Agents
+Threat: Vulnerability | Severity: 7/10
+Security firm AIR created a fake AI skill, marketed as a harmless tool for building landing pages, and reached 26,000 agents, including corporate accounts. Despite being flagged as safe by multiple scanners, the skill collected users' email addresses, illustrating concerns over trusting AI skills based on signals like GitHub stars and scanner verdicts.
+
+3. Trump Order Sets 2030 Deadline for Federal Post-Quantum Crypto Migration
+Threat: Vulnerability | Severity: 5
+
+However, I should note that the given news is positive as it indicates a proactive approach to migrating to post-quantum cryptography, but the severity rating is relatively low since the migration is not an immediate response to a security threat, but rather a long-term strategic plan./10
+President Trump signed an executive order setting deadlines for federal agencies to move high-value assets and high-impact systems to post-quantum cryptography by 2030 and 2031. This is to address the "harvest now, decrypt later" threat, where encrypted data can be decrypted once a large-scale quantum machine exists. The order pulls the government's PQC timeline forward, aligning with finalized NIST standards. Agencies must review their systems and submit migration plans within 90 days.
+
+4. GitHub Updates actions/checkout to Block Common Pwn Request Attack Patterns
+Threat: Vulnerability | Severity: 8/10
+GitHub is strengthening software supply chain security by updating "actions/checkout" to block common pwn request attacks that exploit the "pull_request_target workflow" trigger. From June 18, 2026, the latest version of "actions/checkout" will refuse pwn request patterns, and by July 16, 2026, the change will be backported to all supported versions, preventing security vulnerabilities and data breaches.
+
+5. Agentic AI: The Weapon That No Longer Needs a Warrior
+Threat: Nation State | Severity: 5
+
+Note that the article's content isn't mentioned, so this rating is based on the title alone./10
+Cyber offensive capabilities are evolving rapidly with the emergence of Artificial Intelligence (AI) and "agentic" tools that can act autonomously. This enables even unskilled attackers to launch sophisticated attacks, and experienced practitioners can operate at lightning speed, creating a "script kiddie as a service" effect and a threat landscape with increased volume and convergence of attack methods.
+
+
+#cybersecurity #infosec #threatintel
