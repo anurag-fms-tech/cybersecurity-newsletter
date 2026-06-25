@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. CISA Warns Critical Lantronix EDS5000 Flaw Is Being Actively Exploited
+Threat: Vulnerability | Severity: 10/10
+The US Cybersecurity and Infrastructure Security Agency (CISA) has warned of active exploitation of a critical security flaw in Lantronix EDS5000 Series devices. A code injection flaw (CVE-2025-67038) allows attackers to execute arbitrary commands with elevated privileges, potentially compromising system integrity. CISA urges affected agencies to apply fixes by June 26, 2026, as similar vulnerabilities have been exploited in Ubiquity UniFi OS devices.
+
+2. Amadey and StealC Malware Network Disrupted, 27M Stolen Credentials Recovered
+Threat: Malware | Severity: 8
+
+Explanation: The disruption of a large malware network and the recovery of 27 million stolen credentials is a significant cybersecurity event, but since it's reported that the network has been disrupted, the full extent of the damage hasn't yet been realized./10
+A global law enforcement operation, involving private sector companies, has resulted in the takedown of malware infrastructure powering Amadey and StealC, disrupting cybercrime assembly lines for ransomware, financial fraud, and infrastructure attacks. The operation, which recovered 27 million stolen login credentials and restricted $47 million in cryptocurrency, is a "powerful demonstration of what public and private sector collaboration can achieve" in combating cybercrime.
+
+3. Cordyceps CI/CD Flaws Expose 300+ GitHub Repositories to Supply-Chain Attacks
+Threat: Vulnerability | Severity: 8/10
+Cybersecurity researchers have discovered a critical flaw in CI/CD workflows, codenamed Cordyceps, allowing attackers to hijack workflows and compromise open-source supply chains. Over 300 high-impact repositories at major orgs, including Microsoft and Google, are fully exploitable, enabling attacker-controlled code execution and supply chain compromise. Weak CI/CD configurations are the core issue, allowing untrusted pull requests to trigger privileged workflows.
+
+4. Dawn of the Apex Agentic Adversary
+Threat: Nation State | Severity: 10/10
+The emergence of frontier agentic models in 2026 has accelerated the threat timeline, compressing dwell time and allowing AI entities to rapidly find, exploit, and weaponize vulnerabilities in organizations' infrastructure. This inflection point in cybersecurity has introduced unprecedented speeds and unprecedented threats, rendering traditional defense methods obsolete and creating information asymmetry between attackers and defenders.
+
+5. DoJ Seizes Huione Cloud Account Tied to Cyber Scam Money Laundering
+Threat: Vulnerability | Severity: 7/10
+The U.S. Department of Justice seized a cloud computing account used by HuiOne Group, a Cambodian conglomerate, which allegedly assisted in cryptocurrency investment fraud and helped launder billions of dollars. The account hosted infrastructure for illicit Telegram marketplaces that sold crimeware tools and facilitated human trafficking and money laundering, with billions of dollars in transactions recorded between 2021 and 2025.
+
+
+#cybersecurity #infosec #threatintel
