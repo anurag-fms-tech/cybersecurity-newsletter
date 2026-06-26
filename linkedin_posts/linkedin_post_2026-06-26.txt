@@ -1,0 +1,32 @@
+Cybersecurity Intelligence Brief
+
+1. Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability
+Threat: Vulnerability | Severity: 8/10
+Researchers found a Google Chrome ad block extension, Adblock for YouTube, with over 10 million installs, can execute arbitrary JavaScript code, allowing potential data theft and malicious activity on any website. This capability is dormant, but can be activated without an extension update or store review, raising significant privacy and security risks.
+
+2. ThreatsDay Bulletin: Smart TV Proxyware, 24-Year curl Bug, AI Crime Forums + 13 More Stories
+Threat: Vulnerability | Severity: 6/10
+Cybersecurity news highlights include: 
+
+Cloudflare and browser leaders collaborate on a privacy-preserving protocol to block unwanted traffic. 
+Vulnerabilities in curl and Hoppscotch API platform have been patched. 
+Many LG and Samsung smart TV apps contain proxyware, posing a threat to users' internet connections. 
+A Microsoft Teams phishing campaign delivered a malicious browser extension. 
+A leaked Salesforce credential from 2022 was exploited by extortionists to steal data from corporate customers.
+
+3. Surviving the Mythos Era: Richard Bejtlich on the Case for NDR
+Threat: Vulnerability | Severity: 1
+
+This news appears to be related to network detection and response (NDR), a security control, and does not indicate any specific cybersecurity threat or vulnerability./10
+Security operations teams struggle to answer basic questions during incident investigation due to reliance on alerts, which often offer assumptions rather than defensible evidence. As vulnerability discovery accelerates, teams need validated evidence of active exploit and exposure. Network Detection and Response (NDR) helps teams validate findings, understand attacker behavior, and stop suspicious traffic before a breach.
+
+4. New Gaslight macOS Malware Uses Prompt Injection to Disrupt AI-Assisted Analysis
+Threat: Malware | Severity: 8/10
+Researchers discovered a previously undocumented macOS malware, codenamed "Gaslight", used by North Korea-aligned threat actors. The malware embeds prompt injection payloads to deceive AI analysis tools and contains a Telegram bot API for command-and-control, harvesting sensitive information and uploading it via Telegram. Gaslight evades detection by incorporating fabricated system messages and self-redacting its bot token, suggesting it was generated using a large language model.
+
+5. New Mistic Backdoor Linked to KongTuke in ClickFix and ModeloRAT Campaigns
+Threat: Malware | Severity: 9/10
+A stealthy backdoor named Mistic has been deployed in suspected financially motivated attacks targeting organizations across insurance, education, IT, and professional services. It is linked to the initial access broker (IAB) KongTuke and dropped with ModeloRAT, a Python remote access trojan. Mistic runs payloads in memory with a kill switch and blends in with trusted Microsoft tooling, enabling long-term, low-visibility access.
+
+
+#cybersecurity #infosec #threatintel
