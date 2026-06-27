@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys
+Threat: Ransomware | Severity: 9/10
+The FBI and CISA have updated their warning about Russian intelligence phishing Signal accounts, requiring targets to reveal their Signal Backup Recovery Key. This allows attackers to restore accounts, read message history, and take over accounts. To protect themselves, users should generate a new key in app settings.
+
+2. New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks
+Threat: Malware | Severity: 8/10
+A newly discovered campaign, dubbed StrikeShark, has been delivering SharkLoader malware to target diverse organizations worldwide, with possible ties to a Chinese-speaking threat actor. The campaign uses open-source tools and exploits known vulnerabilities to gain access and deploy Cobalt Strike Beacon, with methods including exploitation of Exchange Server and GeoServer flaws, and distribution via custom installer-themed droppers.
+
+3. Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign
+Threat: Nation State | Severity: 9/10
+A Chinese-speaking APT actor, known as CL-STA-1062, has been linked to cyber attacks targeting government entities and critical infrastructure in Southeast Asia. The group uses a custom backdoor called TinyRCT and a hybrid toolkit, deploying it via ASPX web shells, to exfiltrate data and broaden their access. At least 10 organizations in the region were breached between October and December 2025.
+
+4. New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries
+Threat: Vulnerability | Severity: 9
+
+This exploit involves a critical vulnerability in the Linux kernel's Copy-On-Write (COW) mechanism that allows attackers to gain root access by poisoning cached binaries, making it a severe threat to systems using affected versions of Linux./10
+A Linux kernel vulnerability, CVE-2026-46331 ("pedit COW"), allows a local unprivileged user to gain root access. The flaw corrupts shared memory, enabling exploitation with just CAP_NET_ADMIN capability. Red Hat rates it as important. A public exploit was released after the CVE assignment, using the Linux 'tc' traffic-control tool, and can target affected systems, including RHEL and Debian.
+
+5. Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs
+Threat: Vulnerability | Severity: 7/10
+Amazon has patched a high-severity flaw in Amazon Q Developer (CVE-2026-12957, CVSS 8.5) that allowed malicious code in a cloned repository to steal a developer's cloud credentials by launching Model Context Protocol (MCP) servers, which inherited the developer's environment and ran commands on their machine. A single config file was enough to compromise the cloud session, with no need for a password or additional sign-in.
+
+
+#cybersecurity #infosec #threatintel
