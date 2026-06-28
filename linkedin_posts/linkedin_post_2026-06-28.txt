@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials
+Threat: Nation State | Severity: 9/10
+Ukraine's Security Service and the US FBI uncovered a Russian-led cyber campaign targeting government officials, military personnel, and activists in Ukraine, Europe, and the US. The attackers send phishing messages that trick victims into revealing account credentials. The SSU advises users to enable two-factor authentication, review messaging app sessions, and avoid disclosing sensitive info to suspicious messages and unknown users.
+
+2. OpenAI Previews GPT-5.6 Sol With Restricted Access and Stronger Cyber Safeguards
+Threat: Vulnerability | Severity: 1
+
+This news may potentially have minor cybersecurity implications, but they are not explicitly stated, and the safeguards and restricted access being implemented may minimize any potential risks or threats./10
+OpenAI released three versions of GPT-5.6, called Sol, Terra, and Luna, for a limited preview with the US government. GPT-5.6 Sol is a powerful model with a robust safety stack for cybersecurity, suitable for vulnerability research and exploitation. It's designed for legitimate work but with strong guardrails to block offensive activity. The goal is to help defenders strengthen systems. However, users may encounter safeguards that block or pause requests during the preview phase.
+
+3. FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys
+Threat: Data Breach | Severity: 9/10
+The FBI and CISA have updated a warning about Russian intelligence phishing Signal accounts, with attackers now targeting users for their Signal Backup Recovery Keys to gain access to their account history and allow future account takeover. The fix is to generate a new recovery key, rendering old ones useless, and accept potential loss of sensitive information.
+
+4. New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks
+Threat: Malware | Severity: 8/10
+A newly discovered malware family called SharkLoader is being spread in a campaign dubbed StrikeShark, which has targeted various organizations worldwide. Identified victims include diplomatic organizations, government entities, and software development companies, spanning multiple countries. The campaign does not appear to be directly linked to a known threat actor, but is suspected to be operated by a Chinese-speaking group exploiting known vulnerabilities and publicly available exploits.
+
+5. Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign
+Threat: Nation State | Severity: 9/10
+A Chinese-speaking APT actor, known as CL-STA-1062, has been linked to cyber attacks targeting government and critical infrastructure in Southeast Asia. The actor used a custom backdoor called TinyRCT, which can run arbitrary commands, exfiltrate data, and delete itself. Palo Alto Networks detected the breach of at least 10 organizations in Southeast Asia between October and December 2025, with CL-STA-1062 expanding its focus to critical infrastructure since mid-2025.
+
+
+#cybersecurity #infosec #threatintel
