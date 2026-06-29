@@ -1,0 +1,32 @@
+Cybersecurity Intelligence Brief
+
+1. Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials
+Threat: Nation State | Severity: 8/10
+Ukraine's Security Service, assisted by the US FBI, uncovered a long-running Russian cyber campaign targeting government officials, military personnel, politicians, and activists in Ukraine, Europe, and the US. The attacks aim to steal sensitive information and personal data by disguising malicious SMS messages as support bots, encouraging users to disclose account credentials.
+
+2. OpenAI Previews GPT-5.6 Sol With Restricted Access and Stronger Cyber Safeguards
+Threat: Vulnerability | Severity: 8/10
+OpenAI released a limited preview of GPT-5.6, dubbed Sol, Terra, and Luna, to select companies. The model is touted as the most capable for cybersecurity, suitable for vulnerability research and exploitation. OpenAI aims to make the technology accessible for defenders, but warns that safeguards may block legitimate requests due to the "dual-use" nature of the technology. However, the model will not conduct autonomous end-to-end attacks.
+
+3. FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys
+Threat: Nation State | Severity: 8/10
+The FBI and CISA have updated a March warning about Russian intelligence phishing Signal accounts. The attackers now target users' Signal Backup Recovery Keys to access messages and take over accounts. To prevent this, users should generate a new key in Settings. This tactic is specific to Signal and targets high-value individuals, including government officials and journalists. The campaign has already compromised thousands of accounts worldwide.
+
+4. New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks
+Threat: Malware | Severity: 9
+
+Note: This rating is based on the potential impact of the malware and its deployment of Cobalt Strike, a known threat actor tool. A score of 9 indicates a severe threat level. 
+
+Reasoning: 
+- Malware deployment is generally a risk to users.
+- Cobalt Strike is a sophisticated tool used by nation-state actors, indicating a high-level threat.
+- The deployment of Cobalt Strike by the SharkLoader malware increases the risk of targeted attacks, data breaches, and potential lateral movement within an organization.
+- The fact that the malware is using a "strike" strategy might indicate a coordinated attack./10
+A cyber attack campaign, dubbed StrikeShark, has been discovered targeting organizations globally, including diplomatic and government entities in various countries. The attacker uses previously unknown malware, SharkLoader, to deploy Cobalt Strike Beacon. Targets were compromised through exploit kits, open-source tools, and custom droppers, likely employed by Chinese-speaking threat actors, with an opportunistic approach to initial access via public PoC exploits and GitHub platforms.
+
+5. Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign
+Threat: Nation State | Severity: 8/10
+A Chinese-speaking APT actor called CL-STA-1062 has been linked to a new custom backdoor called TinyRCT in cyber attacks targeting government entities and critical infrastructure in Southeast Asia. Unit 42 detected at least 10 organizations breached between October and December 2025, with attacks focusing on state-owned energy and government sectors since March 2022. TinyRCT enables system reconnaissance, command execution, and data exfiltration.
+
+
+#cybersecurity #infosec #threatintel
