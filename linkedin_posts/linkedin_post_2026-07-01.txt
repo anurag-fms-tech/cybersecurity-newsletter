@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. Citrix Patches Six NetScaler Flaws Allowing File Read and Denial-of-Service
+Threat: Vulnerability | Severity: 8/10
+Citrix released security updates to address multiple vulnerabilities in NetScaler ADC and Gateway that could be exploited for file reads or denial-of-service. Vulnerabilities include arbitrary file reads (CVE-2026-13474 and CVE-2026-8451) and an earlier flaw (CVE-2026-3055). No evidence of exploitation in the wild exists, but security researcher Aliz Hammond warns of fragile memory management in Citrix appliances that can lead to leaks even with misconfiguration.
+
+2. Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data
+Threat: Vulnerability | Severity: 8/10
+Microsoft research reveals a vulnerability in AI agents that can be hijacked by "poisoned" tool descriptions, tricking them into handing over company data to outsiders without breaking any rules. This exploit targets agents' ability to send emails, create files, and interact with business systems through the Model Context Protocol, putting companies at risk.
+
+3. RustDuck Botnet Rebuilds in Rust to Hijack Routers and Servers for DDoS
+Threat: Malware | Severity: 8
+
+(Rationale: This indicates a significant risk, as it involves a botnet specifically designed to hijack devices and carry out DDoS attacks, potentially impacting multiple victims and disrupting critical services. However, it's not a particularly novel threat, as DDoS attacks have been a concern for several years. The fact that it's rebuilt in Rust (a high-performance systems programming language) may increase its potency but not significantly alter the overall severity.)/10
+Researchers at QiAnXin's XLab have identified a two-stage malware family called RustDuck that hijacks devices and builds a network for a DDoS attack. It targets devices with weak passwords, unpatched bugs, and web software vulnerabilities to create a mix of old weaknesses. RustDuck's unique feature is being rewritten in Rust, making it harder to analyze and indicating active development. Over 20 internet addresses spread the malware, with its busiest point at 176.65.139.204.
+
+4. Langflow RCE Exploited to Deploy Monero Miner on Exposed AI App Endpoints
+Threat: Vulnerability | Severity: 9/10
+Threat actors are exploiting a critical Langflow vulnerability to deliver a Monero cryptocurrency miner. The attacks, observed from March 27 to April 15, 2026, scan exposed AI application endpoints for initial access to enterprise networks and disable security controls to establish persistence and mine cryptocurrency. The malware terminates competing miner processes, propagates through reused SSH keys, and covers its tracks by removing system logs.
+
+5. Silent Swap Crypto Clipper Uses Fake Google Notes Extension to Replace Wallet Addresses
+Threat: Malware | Severity: 8/10
+Cybersecurity researchers have identified an active browser extension campaign called Silent Swap that replaces cryptocurrency wallet addresses, stealing funds when users initiate transactions. The malware uses unsigned installers to inject a Chromium extension, masquerading as a Google Notes utility, and requests permissions to access clipboard, URLs, and browsing history. This can result in permanent financial loss, with evidence pointing to a possible connection to a prior crypto clipper campaign.
+
+
+#cybersecurity #infosec #threatintel
