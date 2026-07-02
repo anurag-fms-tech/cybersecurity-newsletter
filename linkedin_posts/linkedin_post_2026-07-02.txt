@@ -1,0 +1,28 @@
+Cybersecurity Intelligence Brief
+
+1. Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters
+Threat: Vulnerability | Severity: 8/10
+Argo CD, a widely used Kubernetes tool, has an unpatched flaw in its repo-server component that lets unauthenticated attackers run code, potentially leading to a full cluster takeover. First discovered in January 2025, the flaw remains unpatched and can be exploited by reaching the component's internal network port. The bug can be used to read sensitive data and deploy attacker-supplied workloads.
+
+2. 19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges
+Threat: Nation State | Severity: 1
+
+This news does not seem to involve any significant cybersecurity threats or vulnerabilities./10
+A 19-year-old, Peter Stokes, has been extradited from Finland to face US charges of conspiracy, computer intrusion, and fraud for his alleged ties to the hacking group Scattered Spider, also known as Octo Tempest. He's accused of being part of at least four intrusions, including a 2025 break-in at a luxury jewelry retailer, and is linked to over $100 million in ransom payments.
+
+3. SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT
+Threat: Malware | Severity: 8/10
+Hackers are using the ScreenConnect remote access tool to distribute AsyncRAT malware through spoofed websites hosting installer archives disguised as popular software. The malicious install.exe binary loads a rogue library, then deploys the ScreenConnect service to maintain control over compromised endpoints, collecting sensitive data and controlling infected Windows systems.
+
+4. VEIL#DROP Malware Chain Uses Blogger Platform to Deliver PureLogs Stealer
+Threat: Malware | Severity: 6
+
+Note: A rating of 6 indicates a moderate severity level. The use of a well-known platform like Blogger may increase the likelihood of unsuspecting users being targeted, but it does not necessarily indicate a highly sophisticated or widespread attack./10
+Cybersecurity researchers have discovered a new malware attack chain called VEIL#DROP that uses social engineering and Blogger pages to deliver an information stealer called PureLogs. The attack begins with a deceptive JavaScript file that launches PowerShell, which retrieves a next-stage payload from a Blogger page and bypasses reputation-based defenses. The malware uses dynamic stage generation, runtime mutation, and polymorphism to evade detection.
+
+5. Ousaban Banking Trojan Targets Iberian Bank Users with Fake PDF Lures
+Threat: Malware | Severity: 4/10
+A Brazilian banking trojan called Ousaban targets Windows users in Spain and Portugal by opening with a phishing PDF, checking the visitor's location, and hiding a malicious payload inside an image. It captures banking logins, takes over accounts, and has remote control, watching for over two dozen banks. The trojan uses steganography to download a ZIP file and deletes traces leaving it difficult to detect.
+
+
+#cybersecurity #infosec #threatintel
