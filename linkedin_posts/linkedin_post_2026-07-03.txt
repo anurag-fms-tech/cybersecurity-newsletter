@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. Google Disrupts NetNut Residential Proxy Network Spanning 2 Million Home Devices
+Threat: Vulnerability | Severity: 9/10
+Google has significantly degraded NetNut, a proxy network turning home devices into relays for strangers' traffic, reducing its pool by millions. Estimated at 2 million devices, NetNut allows attackers to route traffic through users' internet connections, making it look like ordinary browsing. The network is used by cybercriminals, including those in large botnets, to hide their location and conduct attacks.
+
+2. Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials
+Threat: Ransomware | Severity: 9/10
+Threat actors associated with Anubis ransomware are exploiting the Citrix Bleed 2 (CVE-2025-5777) vulnerability for initial access. They abuse legitimate remote access tools, use VPN credentials, and engage in lateral movement, targeting various sectors, particularly in the US, UK, Australia, France, and Canada. Anubis offers attractive profit splits to affiliates, pressuring victims to pay through irreversible data-wiping.
+
+3. ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories
+Threat: Ransomware | Severity: 8/10
+Cybersecurity vulnerabilities continue to plague various platforms. Multiple attacks have been reported, including a phishing campaign targeting small businesses with fake law enforcement emails, a vulnerability in Apple's Hide My Email service, and a customized malware framework distributed via Chinese phone number management utilities. AI systems also struggled with well-defended targets in security benchmarks.
+
+4. ToddyCat-Linked Umbrij Malware Abuses OAuth to Access Gmail via Google API
+Threat: Malware | Severity: 8/10
+ToddyCat, an advanced persistent threat (APT), has been linked to a new malware called Umbrij that gains access to a victim's email correspondence via the Google API using the OAuth 2.0 protocol. Umbrij exploits an active Gmail session, launching the browser in headless mode to seize control and obtain access to Google account resources, targeting corporate emails hosted on Gmail in Europe and Asia since at least 2020.
+
+5. Identity Lifecycle Management Wasn't Built for AI Agents
+Threat: Vulnerability | Severity: 9
+
+The severity rating of 9 out of 10 suggests a moderate to high level of concern. This is because an AI system (with potential capabilities to interact with various systems and interfaces) may not have proper security protocols, which could lead to vulnerabilities in sensitive identities and their management./10
+Identity governance models fail to detect and govern autonomous agents due to their lack of employment records, managers, and departure dates. Traditional IGA tools were built for human identity management and cannot extend to AI agents, which create access blind spots, requiring new governance and lifecycle management approaches.
+
+
+#cybersecurity #infosec #threatintel
