@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices
+Threat: Vulnerability | Severity: 8/10
+Security firm runZero discovered seven vulnerabilities in the FatFs library, a widely-used filesystem library. The flaws can allow attackers to corrupt memory and run code on devices like security cameras, drones, and hardware crypto wallets after physical access. FatFs maintainer hasn't responded to disclosure attempts, and downstream vendors must patch the bugs independently. The vulnerabilities allow memory corruption and code execution through malformed storage volumes or firmware images.
+
+2. New "Bad Epoll" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android
+Threat: Vulnerability | Severity: 10/10
+A Linux kernel flaw called "Bad Epoll" allows an ordinary user to take full control of a machine as root due to a "use-after-free" bug. A researcher, Jaeyoung Chung, found and exploited it, widening the timing window to achieve a successful attack about 99% of the time. A fix is available, affecting Linux desktops, servers, and Android.
+
+3. New Avalon Malware Framework Packs CrownX Ransomware Capabilities
+Threat: Ransomware | Severity: 8
+
+(This rating is based on the fact that the malware framework has the capabilities of the CrownX ransomware, but without specific details on the current spread or the potential impact. A higher rating could be given if more context is provided, but based on the given information, it is moderately severe.)/10
+Cybersecurity researchers have discovered a new modular malware framework, codenamed Avalon, which combines credential collection, lateral movement, ransomware, and other functions. It bypasses security controls and features AI-assisted development, with a multi-stage phishing chain and an extensive defense evasion subsystem, allowing it to evade detection by popular security tools.
+
+4. North Korea-Linked npm Packages Mimic Rollup Polyfills to Steal Developer Secrets
+Threat: Nation State | Severity: 9/10
+Threat actors linked to North Korea have published six malicious npm packages, mimicking the Rollup polyfill tool to facilitate remote access and data theft. The packages include lookalike names and metadata, and install second-stage malware that fetches and executes JavaScript malware, enabling remote access, data theft, and other malicious activities.
+
+5. Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer
+Threat: Malware | Severity: 8/10
+A new threat actor, Armored Likho, has been linked to cyber attacks targeting governments and the energy sector in Russia, Brazil, and Kazakhstan. The threat actor combines financially motivated campaigns with targeted cyber espionage, using a variety of tools, including modular RATs and infostealers, to steal credentials, sensitive data, and maintain persistent access to compromised hosts.
+
+
+#cybersecurity #infosec #threatintel
