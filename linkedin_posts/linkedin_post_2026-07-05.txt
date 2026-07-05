@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case
+Threat: Data Breach | Severity: 9/10
+A U.S. government entity, identified as Union County, Ohio, paid $1 million to ransomware group Kairos to prevent stolen data from being leaked. Although Kairos calls itself a ransomware gang, it doesn't lock machines and demands money not to publish stolen files. Union County initially detected a potential ransomware attack in May 2025, affecting 45,487 residents and staff, and later paid Kairos $1 million to prevent a potential data breach.
+
+2. North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign
+Threat: Nation State | Severity: 8/10
+North Korean threat actors linked to the Contagious Interview campaign have been publishing 108 unique malicious packages and browser extensions across various platforms as part of the PolinRider activity. The campaign, active since at least 2023, uses compromised maintainer accounts to spread malware, including a new JavaScript variant called BeaverTail. 1,951 public GitHub repositories have been compromised, with victims infected through malicious VS Code extensions or npm packages, not stolen credentials.
+
+3. Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices
+Threat: Vulnerability | Severity: 8/10
+Security firm runZero disclosed seven vulnerabilities in FatFs, a widely-used filesystem library found in many devices, including security cameras, drones, and industrial controllers. The flaws can allow an attacker to run arbitrary code on affected systems, giving physical access to full control, as devices often lack memory protections. Seven bugs were found, with one rated CVE-2026-6682 (CVSS 7.6), and no upstream fix available, forcing downstream vendors to patch the issues themselves.
+
+4. New "Bad Epoll" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android
+Threat: Vulnerability | Severity: 9/10
+A newly disclosed Linux kernel flaw, "Bad Epoll" (CVE-2026-46242), allows an attacker to take control of a machine as root with no special access. It affects Linux desktops, servers, Android, and was discovered by a researcher who built a working attack. A fix is out, but not before the flaw was shown to allow attackers to reach root about 99% of the time on tested systems, including within Chrome's renderer sandbox.
+
+5. New Avalon Malware Framework Packs CrownX Ransomware Capabilities
+Threat: Ransomware | Severity: 8/10
+Researchers have discovered a modular malware framework called Avalon, which can bypass security controls and execute ransomware. Avalon, distributed through a multi-stage phishing chain, collects credentials, enables lateral movement, and disrupts recovery options. The framework uses artificial intelligence-assisted development and incorporates defense evasion methods to conceal execution from various security tools, allowing it to cause extensive damage before encrypting data.
+
+
+#cybersecurity #infosec #threatintel
