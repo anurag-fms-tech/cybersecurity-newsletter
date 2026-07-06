@@ -1,0 +1,28 @@
+Cybersecurity Intelligence Brief
+
+1. U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case
+Threat: Data Breach | Severity: 5/10
+A US government entity paid $1 million to a group called Kairos, which stole their files, after a month-long negotiation. Unusually, Kairos didn't demand a decryption key, instead threatening to leak sensitive data unless paid. Research suggests Kairos may not be a traditional ransomware gang but a "data extortion" group. The payment was traced to cryptocurrency exchanges, but the attackers' identities remain unknown.
+
+2. North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign
+Threat: Nation State | Severity: 7/10
+North Korean threat actors linked to the Contagious Interview campaign have published 108 malware packages and extensions across npm, Packagist, Go, and Google Chrome as part of PolinRider. The campaign remains active, with threat actors compromising maintainer accounts and modifying legitimate repositories to deliver malicious JavaScript payloads, compromising over 1,900 public GitHub repositories since March 2026.
+
+3. Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices
+Threat: Vulnerability | Severity: 9
+
+(This rating is based on the fact that the news involves unpatched flaws in filesystems, which could potentially affect a large number of devices, creating a significant cybersecurity risk if exploited.)/10
+Security firm runZero discovered seven vulnerabilities in FatFs, a widely used filesystem library found in various devices, including security cameras, drones, and industrial controllers. The flaws can cause memory corruption and code execution by mishandling malformed data, potentially allowing an attacker to take control of the device with physical access. Many devices lack robust memory protections, making them vulnerable to attack.
+
+4. New "Bad Epoll" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android
+Threat: Vulnerability | Severity: 10/10
+A newly discovered Linux kernel flaw called Bad Epoll (CVE-2026-46242) allows an ordinary user to take full control of a machine as root, affecting Linux desktops, servers, and Android. The vulnerability was found by Jaeyoung Chung and can be triggered by a specific timing collision in the kernel code, which an attacker can widen to successfully reach root 99% of the time. A fix is available.
+
+5. New Avalon Malware Framework Packs CrownX Ransomware Capabilities
+Threat: Ransomware | Severity: 8
+
+Note: The presence of a new malware framework (Avalon) with incorporated ransomware capabilities, specifically CrownX, indicates a moderate to high level of cybersecurity severity, likely due to potential widespread use and increased threat from unknown actors. However, without further information on exploitation methods, user bases, etc., a precise rating cannot be given./10
+Cybersecurity researchers discovered the "Avalon" modular malware framework, which bypasses traditional security controls through a multi-stage phishing chain. Avalon combines credential collection, lateral movement, remote access, ransomware, and recovery disruption, and exhibits AI-assisted development. It evades detection using sophisticated techniques and can conceal execution from popular security tools, ultimately leading to devastating consequences for affected systems.
+
+
+#cybersecurity #infosec #threatintel
