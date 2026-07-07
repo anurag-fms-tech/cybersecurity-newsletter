@@ -1,0 +1,28 @@
+Cybersecurity Intelligence Brief
+
+1. Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations
+Threat: Nation State | Severity: 8/10
+An Iranian hacking group linked to the country's intelligence ministry has developed a modular command-and-control framework called Cavern, targeting Israeli organizations, particularly IT and government sectors. The framework's mature design makes it adaptable and difficult to analyze, using uncommon .NET compilation formats to reduce forensic visibility and ensure persistent access.
+
+2. 16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems
+Threat: Vulnerability | Severity: 9/10
+A 16-year-old "use-after-free" bug in Linux's KVM hypervisor, dubbed "Januscape", allows a virtual machine to corrupt the host's kernel, potentially leading to full host code execution. Researcher Hyunwoo Kim discovered the flaw, which can crash the host or, in a rarer scenario, grant limited control. The bug affects both Intel and AMD chips, and a proof-of-concept demonstration has been released.
+
+3. Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure
+Threat: Vulnerability | Severity: 8
+
+This rating is based on the fact that 13 days have passed since the vulnerability was disclosed, which is considered a relatively short time for a malicious actor to take action./10
+Threat actors are trying to exploit a critical vulnerability (CVE-2026-20896) in Gitea Docker images, allowing unauthenticated users to gain elevated access. The flaw was patched in version 1.26.3, but attackers were detected 13 days after public disclosure, attempting to exploit the vulnerability in about 6,200 internet-facing Gitea instances.
+
+4. ⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More
+Threat: Malware | Severity: 8/10
+Google collaborated with the FBI and other partners to disrupt the NetNut residential proxy network, estimated to have at least 2 million devices globally, which distributed malware SDKs for smart TV and streaming boxes. Meanwhile, a long list of high-severity vulnerabilities were discovered, including ones affecting Adobe, Google Chrome, Linux Kernel, and various other software, emphasizing the need for prompt patching.
+
+5. How to Evaluate an AI SOC Platform in 2026: 6 Capabilities That Separate Leaders from Bolt-On AI solutions
+Threat: Vulnerability | Severity: 2
+
+This news item does not appear to pose any direct threat to cybersecurity, but rather provides guidance on evaluating AI-powered security operations center (SOC) platforms./10
+When evaluating AI Security Operations Center (SOC) platforms, the ability to materially change outcomes for a team matters more than the label. Key differences include agent platforms that run detection, triage, investigation, and response, versus bolt-on AI that summarizes alerts inside an existing SIEM. Measurable outcomes include investigation time, false-positive volume, and total cost of running a SOC, with platforms like Exaforce offering reliable and efficient solutions.
+
+
+#cybersecurity #infosec #threatintel
