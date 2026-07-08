@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service
+Threat: Malware | Severity: 8/10
+A malware operation called RedWing is being rented on Telegram to commit bank fraud, targeting financial institutions, particularly Russian firms. It allows low-skilled buyers to steal logins and one-time codes with a phishing link, then takes control of the phone via fake app-store pages and Accessibility service abuse, evading conventional security tools with custom-built apps and payloads.
+
+2. Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots
+Threat: Vulnerability | Severity: 6/10
+A critical flaw in Google's Dialogflow CX, known as "Rogue Agent," could have allowed a malicious insider or compromised developer to read live conversations, steal user data, and send attacker-written messages to chatbots. The flaw was fixed, and there's no sign it was used in a real attack, affecting only organizations using custom Code Blocks and Playbooks with Dialogflow's Dialogflow CX in Google Cloud.
+
+3. DEBULL Tooling Abuses Microsoft Device-Code Flow to Target M365 Accounts
+Threat: Vulnerability | Severity: 7/10
+A Microsoft 365 device code phishing campaign has been observed, targeting users with collaboration-themed lures to obtain device codes and hijack accounts. The tactic bypasses multi-factor authentication and relies on a legitimate authentication flow to access accounts without passwords, posing a risk for full account takeover and various cybersecurity threats.
+
+4. Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data
+Threat: Vulnerability | Severity: 8/10
+Cybersecurity researchers at Noma Security have discovered a vulnerability, called GitLost, that can leak private repository contents on GitHub Agentic Workflows. By opening a public issue with malicious instructions, an attacker can trick the agent into pulling private contents into a public comment, exploiting indirect prompt injection. Guardrails can supposedly prevent this, but Noma's test showed it was possible to slip past with a simple one-word change.
+
+5. Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker
+Threat: Vulnerability | Severity: 2
+
+This appears to be a relatively low-severity incident involving law enforcement tracing a hacker using Windows device ID information./10
+US prosecutors linked a 19-year-old dual citizen to the May 2025 break-in at a luxury jewelry retailer. Peter Stokes, known online as "Bouquet," used a persistent Windows device ID to gain and maintain access. He's charged with conspiracy, computer intrusion, and fraud after the retailer suffered $2 million in losses despite not paying the attackers' $8 million ransom demand.
+
+
+#cybersecurity #infosec #threatintel
