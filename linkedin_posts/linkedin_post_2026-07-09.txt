@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers
+Threat: Vulnerability | Severity: 6
+
+(This indicates a moderate level of cybersecurity severity. While the issue could potentially expose vulnerabilities, the use of AI coding agents as "innocuous" entities may reduce the likelihood of malicious intent.)/10
+Sophos found that AI coding agents like Claude Code, Cursor, and OpenAI Codex triggered human-intruder detection rules due to common work activities. These activities, such as decrypting browser credentials and listing Windows credential store contents, resemble typical malicious behavior. The analysis from June 2026 found that 56.2% of blocked activity was credential access and 28.8% was code execution by these agents, often performing tasks for developers on ordinary work.
+
+2. New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware
+Threat: Malware | Severity: 6/10
+Researchers have uncovered a cybersecurity risk called "HalluSquatting," where AI coding assistants invent fake tools and names that an attacker can register first, making the assistant fetch the trap on a user's behalf. This allows attackers to run code on the machine, potentially assembling a botnet, as the AI assistant's quirks of hallucination and prompt injection are exploited.
+
+3. Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS
+Threat: Vulnerability | Severity: 8/10
+Ubiquiti released updates to address multiple critical security flaws in its UniFi products, which could lead to privilege escalation and arbitrary command execution. Vulnerabilities in UniFi OS (CVE-2026-34908, CVE-2026-34909, and CVE-2026-34910) have been weaponized in real-world attacks, and compromised Ubiquiti routers were part of a February 2024 law enforcement operation to dismantle the botnet "MooBot".
+
+4. New Ghost Phishing Wave Is Breaking Traditional Email Security
+Threat: Vulnerability | Severity: 7/10
+A recent cyber attack, dubbed "EvilTokens," is targeting US and European businesses with a new "ghost phishing" technique. This method keeps a malicious page hidden until it's decrypted and appears within a victim's browser, potentially leading to Microsoft 365 account takeover without stealing passwords. Traditional URL checks may miss the attack, putting sensitive data at risk.
+
+5. SCMBANKER Malware Uses ClickFix Lures to Target Mexican Banking Users
+Threat: Malware | Severity: 7/10
+A new banking fraud operation is targeting Mexican bank customers using fake CAPTCHA verification pages. The malicious toolkit, SCMBANKER, infects victims' computers, allowing operators to monitor banking sessions, lock screens, and deploy remote-access tools for full takeover. Researchers discovered the operation's infrastructure, revealing a multi-stage malware installation process, with evidence pointing to the use of a large language model to develop the tooling, specifically designed to target Mexico's financial ecosystem.
+
+
+#cybersecurity #infosec #threatintel
