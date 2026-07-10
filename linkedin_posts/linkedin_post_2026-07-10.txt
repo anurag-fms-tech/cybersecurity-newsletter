@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs
+Threat: Data Breach | Severity: 8/10
+Datadog warns of multiple campaigns systematically enumerating corporate GitHub organizations through automated scraping tooling. The campaigns use "ghost" accounts (years old and inactive) or compromised OAuth tokens to obtain data. This allows attackers to map out public repositories, members, and projects, and in some cases, clone private repositories. The tactic avoids raising red flags by blending into normal API usage.
+
+2. New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware
+Threat: Ransomware | Severity: 9/10
+Microsoft has uncovered a Windows backdoor called GigaWiper, comprised of 3 destructive programs that can wipe entire disks or mimic ransomware, but with no key to retrieve encrypted files. Found to be part of another malware called BLUERABBIT, GigaWiper is designed for destruction, taking screenshots, and remote control. It hides its tracks by disguising itself as OneDrive, making early detection and offline backups crucial defense against it.
+
+3. npm 12 Disables Install Scripts by Default to Reduce Supply Chain Risk
+Threat: Vulnerability | Severity: 3
+
+This change is aimed at mitigating supply chain risks, which is a common attack vector in the cybersecurity space. However, disabling install scripts by default doesn't seem to be a drastic measure, and such changes usually don't pose a significant risk on their own./10
+GitHub has released npm version 12 with install scripts disabled by default, requiring users to opt-in to approve trusted scripts. GitHub is also deprecating 2FA-bypass tokens, recommending developers switch to trusted publishing (OIDC) or staged publishing with human approval by January 2027. pnpm 11.10 introduces a new "_auth" setting to secure registry authentication against tampered project files.
+
+4. ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust + 17 More Stories
+Threat: Vulnerability | Severity: 7/10
+This week's cybersecurity news includes several incidents involving small gaps and vulnerabilities that have led to significant damage. Notable stories include: a global anti-fraud operation resulting in 5,811 arrests and $293 million in asset seizures; 17 malicious npm and PyPI packages stealing system information and developer secrets; a technique called Process Parameter Poisoning allowing code injection without raising security alarms; critical vulnerabilities in Esri ArcGIS Server and Claude Code gathering sensitive user data; and ransomware operations linked to various malware families.
+
+5. AI Attacks Move in Minutes. Join This Webinar on Building a Defense That Keeps Up
+Threat: Vulnerability | Severity: 8/10
+Cyberattacks now unfold at machine speed using AI models like Mythos, outpacing traditional network defenses. A free webinar, "Outpacing Mythos," breaks down AI-powered attacks, explains how they breach systems and evade defenses, and provides practical strategies to stop them, focusing on a Zero Trust approach and real-world solutions to mitigate risk and stay ahead of attackers.
+
+
+#cybersecurity #infosec #threatintel
