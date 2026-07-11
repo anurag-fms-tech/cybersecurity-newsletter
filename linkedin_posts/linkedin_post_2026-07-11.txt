@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat
+Threat: Vulnerability | Severity: 8/10
+Progress Software has told ShareFile customers to shut down Windows servers running Storage Zone Controllers due to a "credible external security threat". While access to affected accounts is temporarily disabled, the company claims no unauthorized access to accounts or data has occurred. However, the exact nature of the threat and who is behind it remain unknown, suggesting a potentially newly found flaw or issue that can't be addressed with patches.
+
+2. Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages
+Threat: Data Breach | Severity: 8/10
+Unknown threat actors compromised the Injective Labs SDK project on GitHub, embedding malicious functionality into the npm registry that steals cryptocurrency wallet private keys and mnemonic seed phrases. A version of the SDK, @injectivelabs/sdk-ts@1.20.21, released on July 8, 2026, has been deprecated but remains downloadable. Transitive users are put at risk if they installed the affected libraries.
+
+3. Six New U-Boot Flaws Could Let Malicious Images Crash Devices or Run Code at Boot
+Threat: Vulnerability | Severity: 8/10
+Researchers at Binarly discovered six vulnerabilities in U-Boot, a program that initializes hardware, allowing attackers to exploit them before the device verifies software authenticity. The flaws can cause device crashes or allow malicious code execution. All six bugs, found in code since 2013, fall into two groups: four that crash the device and two that allow attackers to run their own code, which can undermine the entire operating system.
+
+4. Laser Attack Resets Tangem Wallet Passwords on Cards That Can't Be Patched
+Threat: Vulnerability | Severity: 8/10
+Researchers discovered a vulnerability in Tangem crypto wallet cards that can be exploited with a precisely timed laser pulse, resetting the card's password without requiring the old password. This attack requires physical access to the card, specialized lab equipment ($250,000), and damage to the card. The attack is not internet-based and cannot be patched, but it is not an emergency for most users, aside from those whose cards are lost or stolen.
+
+5. Researcher Details WhatsApp-to-Host Attack Chain Using Three OpenClaw Flaws
+Threat: Vulnerability | Severity: 8/10
+Three high-severity security flaws in the OpenClaw AI assistant have been patched. The vulnerabilities, which included credential theft and arbitrary code execution, could be exploited via an external message, regardless of prior access. A security researcher demonstrated using WhatsApp to trigger host code execution and highlighted the need for users to update OpenClaw to the latest version and implement additional security measures.
+
+
+#cybersecurity #infosec #threatintel
