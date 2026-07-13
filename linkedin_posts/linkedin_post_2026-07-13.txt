@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install
+Threat: Malware | Severity: 10/10
+The popular npm package "jscrambler" was compromised, releasing a malicious version (8.14.0) on July 11, 2026. Installing this release runs an infostealer on a machine, stealing sensitive information from developers, including cloud credentials, cryptocurrency wallets, and browser-stored passwords. The payload also includes backdoor access to the Linux kernel. Six minutes after the release, it was detected by Socketers, but users who installed it within that window are at risk.
+
+2. Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns
+Threat: Nation State | Severity: 8/10
+Cybersecurity researchers discovered ongoing cyber espionage against Pakistani law enforcement organizations from February 2024 to April 2026, attributed to China- and India-aligned threat actors. Compromised assets included servers hosting sensitive data such as biometric records and case files. Four malware families, including PlugX and ShadowPad, typically associated with Chinese groups, were detected along with Remcos RAT, linked to an India-nexus threat actor.
+
+3. Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions
+Threat: Vulnerability | Severity: 8/10
+Zimbra urges customers to update their Classic Web Client due to a critical security vulnerability that could allow malicious emails to execute arbitrary code, potentially exposing mailbox information, session data, and account settings. The vulnerability is a stored cross-site scripting (XSS) flaw that has been a recurring issue for the company and poses a high risk of abuse, prompting users to update to version 10.1.19 for optimal protection.
+
+4. URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat
+Threat: Data Breach | Severity: 7/10
+Progress Software has temporarily disabled Windows servers for ShareFile Storage Zone Controllers, citing a "credible external security threat" and instructing customers to shut them down out of caution. Only controllers, not standard cloud accounts, are affected. The company has not disclosed the threat or who is behind it, but the shutdown suggests a newly discovered flaw or a breach that a patch cannot address.
+
+5. Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages
+Threat: Data Breach | Severity: 8/10
+Unknown threat actors compromised the Injective Labs SDK project's GitHub repository and npm registry, releasing a malicious package (@injectivelabs/sdk-ts@1.20.21) that stole cryptocurrency wallet private keys and mnemonic seed phrases by masquerading as telemetry functionality. The version was released on July 8, 2026, but is still available for download, putting users who directly or indirectly installed the library at risk.
+
+
+#cybersecurity #infosec #threatintel
