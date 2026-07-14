@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks
+Threat: Malware | Severity: 8/10
+Researchers have identified a new macOS information stealer called CrashStealer that harvests sensitive data from compromised systems. Implemented in native C++, it collects login credentials, browser data, cryptocurrency wallet information, password manager data, and keychain material. Distributed through a notarized and signed dropper, it bypasses Gatekeeper checks and establishes persistence as a LaunchAgent.
+
+2. Google and Microsoft Pull ModHeader With 1.6 Million Installs After Dormant Collector Found
+Threat: Vulnerability | Severity: 8/10
+Google and Microsoft removed ModHeader, a header-editing extension with 1.6 million users, after discovering a hidden browsing-history collector dormant in its code. The collector was supposed to collect and store browsing data locally but was gated off by an empty allow-list. It was only active on first run, uploading data to a Stanford website once a day. Despite being dormant, the collector evaded automated risk assessments, which rated it low risk.
+
+3. ⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More
+Threat: Ransomware | Severity: 6/10
+Cybersecurity threats are escalating rapidly, with bugs being exploited faster than they can be patched. A list of over 30 high-severity vulnerabilities has been identified, including in widely used software such as Windows, Google Chrome, and Microsoft Edge. Attackers are using automated tools to take advantage of these vulnerabilities, and users are advised to patch their systems as soon as possible to avoid being exploited.
+
+4. New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email
+Threat: Vulnerability | Severity: 10/10
+A new cybersecurity threat, called "stealth memory injection," allows attackers to trick AI assistants by sending a malicious email that modifies the assistant's memory without alerting the user. The researcher-built tool automatically writes the compromising emails, potentially changing the assistant's responses or actions in future sessions, without requiring a password or account access.
+
+5. Forg365 PhaaS Targets Microsoft 365 with Device Code and AitM Session Theft
+Threat: Malware | Severity: 8
+
+(This ranking is based on the severity of PhaaS (Platform-as-a-Service), targeting a widely used service like Microsoft 365, and the potential for device code and AITM session theft, which could enable malicious access and activities.)/10
+A new phishing-as-a-service (PhaaS) operation called Forg365 targets Microsoft 365 accounts using various tactics, including device code phishing, AI-assisted lure creation, and post-compromise mailbox operations. Sold on Telegram for $400 a month, Forg365 combines lure creation, delivery, evasion, and token/session handling under a subscription-based setup, making it accessible to non-technical threat actors and allowing large-scale phishing campaigns with minimal effort.
+
+
+#cybersecurity #infosec #threatintel
