@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. Two Scattered Spider Hackers Get 5.5 Years Each for £29 Million TfL Hack
+Threat: Data Breach | Severity: 3
+
+This incident has been resolved, the hackers have been caught and sentenced, and the financial damage has been mitigated./10
+Two men, Owen Flowers (18) and Thalha Jubair (20), were sentenced to 5.5 years each at Woolwich Crown Court for hacking Transport for London in 2024. The attack made 148 TfL systems inoperable, forced 27,000 employees into office password resets, and cost TfL £29 million. They were the first hackers successfully prosecuted under Section 3ZA of the Computer Misuse Act 1990.
+
+2. ThreatsDay: Game Cheat Spyware, 24-Hour Ransomware, Chrome Sync Stalking + 12 More Stories
+Threat: Ransomware | Severity: 7/10
+Cybersecurity threats have been on the rise this week, with several malicious campaigns targeting users worldwide. Hackers have been publishing fake NuGet packages, deploying a Python-based RAT and C2 memory implant, and distributing ransomware. Authorities have also arrested individuals involved in international investment fraud and call center scams, with over 700 employees implicated in the operation.
+
+3. n8n Token Exchange Flaw Could Let Attackers Log In as Users From Another Issuer
+Threat: Vulnerability | Severity: 8/10
+workflow automation platform n8n had a vulnerability (CVE-2026-59208) where it could incorrectly match external tokens to local user accounts due to a flaw in its token exchange feature. It trusted the "sub" claim over the "iss" claim, allowing a valid token from one issuer to log a user in with a different account. The bug was fixed on June 24 and publicly disclosed on July 9.
+
+4. New TELEPUZ Malware Spreads via ClickFix to Steal Data and Run Commands
+Threat: Malware | Severity: 8/10
+Cybersecurity researchers have detected a new malware called TELEPUZ, spreading through websites infected with ClickFix since April 2026. The modular malware is lightweight, full-featured, and likely developed by a solo expert or small team, with signs of a malware-as-a-service model. It uses clipboard hijacking, obfuscation, and anti-VM checks to evade detection, disabling security monitoring to ensure persistence.
+
+5. New ClickLock macOS Stealer Kills Apps Every 210ms Until Victims Type Their Password
+Threat: Malware | Severity: 10/10
+A new macOS malware, ClickLock Stealer, targets victims with a command-line prompt, forcing them to enter their login password after repeated app crashes. Once compromised, the malware steals login credentials, browser data, and crypto wallet keys. Analyzing the code structure, researchers assume it's still under development and have not identified the malware's origin.
+
+
+#cybersecurity #infosec #threatintel
