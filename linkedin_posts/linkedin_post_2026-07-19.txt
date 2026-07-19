@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code
+Threat: Vulnerability | Severity: 9/10
+An anonymous HTTP request can run code on a WordPress site due to a bug, known as wp2shell, affecting versions 6.9 and 7.0. It consists of two chained vulnerabilities: REST API batch-route confusion (CVE-2026-63030) and a SQL injection (CVE-2026-60137). Since July 15, WordPress has shipped updates to patch the issue, and the full mechanism has been published.
+
+2. OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests
+Threat: Vulnerability | Severity: 8/10
+A newly discovered OpenSSL vulnerability, "HollowByte," allows an attacker to exhaust up to 131 KB of memory from an unpatched server in a denial-of-service attack. This occurs when the server incorrectly allocates a large buffer for a message that never arrives. OpenSSL patched this flaw in June, but its lack of visibility in update pipelines makes affected versions difficult to identify.
+
+3. Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT
+Threat: Malware | Severity: 8/10
+Cybersecurity researchers discovered a Vite frontend tooling ecosystem attack, codenamed ViteVenom, which exploited seven malicious npm packages to deliver a remote access trojan (RAT). The attack utilized a four-tier blockchain-based command-and-control infrastructure, making it difficult to disable. Activity dates back to February 27, 2026, and the malicious packages imitated @vitejs/* namespace to gain legitimacy.
+
+4. New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens
+Threat: Vulnerability | Severity: 9/10
+A Go botnet called NadMesh is exploiting exposed AI services, searching for exposed AWS keys and credentials. It targets image generators and workflow builders through Shodan searches. The botnet's operator reports 3,811 unique AWS keys and 47 credential hauls, and 12,100 exposed MCP services. Research suggests the botnet is focused on cloud credentials and Kubernetes privileges rather than the host itself.
+
+5. GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft
+Threat: Data Breach | Severity: 8/10
+Cybersecurity researchers attributed the April 2026 DigiCert security incident to CylindricalCanine, a sub-group of the Chinese cybercrime group GoldenEyeDog. The threat actor stole certificates intended for DigiCert customers by leveraging malware, a modified version of Gh0st RAT. This attack highlights the group's capabilities and targets, consistent with previous Chinese cybercrime activity, including targeting finance organizations in the Asia-Pacific region.
+
+
+#cybersecurity #infosec #threatintel
