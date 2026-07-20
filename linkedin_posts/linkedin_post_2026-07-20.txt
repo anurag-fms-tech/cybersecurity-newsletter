@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution
+Threat: Vulnerability | Severity: 9/10
+F5 has released patches for a critical flaw in nginx (CVE-2026-42533) that can cause a denial of service or potentially remote code execution, particularly in systems with disabled Address Space Layout Randomization (ASLR) or where it can be bypassed. The vulnerable versions span from 0.9.6 to 1.31.2. Users on earlier builds should upgrade to/nginx 1.30.4 (stable), 1.31.3 (mainline), or NGINX Plus 37.0.3.1.
+
+2. UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware
+Threat: Malware | Severity: 7
+
+(Note: UAC-0145 is likely a threat named by a cybersecurity firm, suggesting it's a targeted attack. The use of ClickFix CAPTCHAs is a clever evasion tactic, but specific targeting of Ukrainian devices implies the attack's scope is somewhat limited.)/10
+Russian state-sponsored hackers (UAC-0145, affiliated with GRU) are using the "ClickFix" strategy to infect Ukrainian machines with data-stealing malware. They've compromised at least 10 websites, using CAPTCHA checks to trick targets into downloading VBS files and PowerShell scripts, including SCOUTCURL for reconnaissance and COWARDDUCK for backdoor access.
+
+3. SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access
+Threat: Zero-Day | Severity: 8/10
+Researchers have identified a newly discovered threat actor, tracked as UTA0533, exploiting zero-day vulnerabilities in SonicWall Secure Mobile Access VPN appliances. CVE-2026-15409 and CVE-2026-15410 were used to facilitate arbitrary command execution and take over devices. Patches for the vulnerabilities were released by SonicWall. Two compromised appliances were identified, with the threat actor removing memory-resident artifacts after a reboot.
+
+4. New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code
+Threat: Vulnerability | Severity: 9/10
+An anonymous HTTP request can run code on a WordPress site due to two bugs, CVE-2026-63030 (REST API batch-route confusion) and CVE-2026-60137 (SQL injection in WordPress core), discovered in versions 6.9 and 7.0. The flaws were patched with 6.9.5 and 7.0.2, which were automatically updated on affected sites. However, sites running 6.8 are only exposed to the SQL injection, not RCE through this chain.
+
+5. OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests
+Threat: Vulnerability | Severity: 9/10
+A vulnerability in OpenSSL's TLS handshake has been revealed, allowing attackers to exhaust system memory by causing a denial-of-service (DoS) with unpatched servers. The "HollowByte" flaw allows an attacker to claim an excessively large message size, causing the server to allocate memory but then drop the connection, freezing fragments of memory that can persist until the process restarts.
+
+
+#cybersecurity #infosec #threatintel
