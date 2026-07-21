@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware
+Threat: Malware | Severity: 8/10
+Cybersecurity researchers detected nearly 7,600 malicious GitHub repositories, 800 of which pose as AI skills or MCP servers to distribute SmartLoader malware. The campaign, "FakeGit," uses copied projects and convincing READMEs to deliver malware, with the goal of establishing persistence and pushing secondary payloads like StealC, a data-stealing tool.
+
+2. Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign
+Threat: Vulnerability | Severity: 6/10
+A malware operator left an open delivery server, allowing Rapid7 to retrieve over 1,000 files detailing a phishing operation. The operator, suspected of using generative AI, was developing a phishing delivery with a novel WebDAV hijacking technique. This method exploits a patched flaw that allowed the operator to run malicious code without raising security warnings on Windows systems, with testing notes indicating plans to expand the attack to other file-handling flaws.
+
+3. HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated 2050
+Threat: Malware | Severity: 8/10
+A newly discovered malware, named HollowGraph by Group-IB, uses Microsoft 365 calendars as a command channel, smuggling stolen files and instructions through legitimate API traffic. The implant queries compromised calendars for hidden events, uses encryption for communication, and is linked to a previously discovered Iranian-linked framework, Cavern, but attribution remains uncertain. The technique could be reused beyond this campaign, and Microsoft has no software vulnerability to patch; instead, users should focus on identity and application permissions.
+
+4. ⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More
+Threat: Zero-Day | Severity: 8/10
+Cybersecurity news: A recently disclosed WordPress Core flaw, CVE-2026-63030 and CVE-2026-60137, allows unauthenticated attackers to run code on standard installations. A PoC exploit is already in circulation and being exploited in the wild. The threat applies to hundreds of millions of WordPress sites and requires immediate patching to prevent damage. Several other widely used vulnerabilities are also being exploited.
+
+5. Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine
+Threat: Nation State | Severity: 9/10
+Russian intelligence is systematically hijacking internet-connected security cameras in Europe and Ukraine to gather military intelligence, track troop locations, and even target Ukrainian military personnel. The operation targets exposed cameras with default passwords, outdated firmware, and factory settings, and uses automated searches for military vehicles. Over 87,000 vulnerable cameras exist across the EU and Ukraine, providing an enormous surveillance opportunity.
+
+
+#cybersecurity #infosec #threatintel
