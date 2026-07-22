@@ -1,0 +1,28 @@
+Cybersecurity Intelligence Brief
+
+1. Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs
+Threat: Vulnerability | Severity: 8/10
+Apple has fixed a security flaw in its Hide My Email service, which allowed users' real email addresses to be unmasked by sending a rejected email. The issue was reported in June 2025 and Apple attempted to patch it earlier but failed. A fix was finally deployed on July 3, 2026, after more than a year, though some users previously using the service may still be vulnerable to the issue.
+
+2. AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code
+Threat: Vulnerability | Severity: 9
+
+Note: The specific details of the 'AWS Kiro Flaw' are not explicitly mentioned in my training data, but a flaw in a high-level AWS service, potentially affecting configuration and allowing code execution, suggests a potentially severe vulnerability./10
+Researchers found a vulnerability in Kiro, AWS's coding IDE, allowing attackers to execute code on a developer's machine via a hidden text request on a web page. The flaw relied on Kiro's human-approval model failing when changing a configuration file, enabling arbitrary code execution. AWS has patched the issue, but it highlights the importance of verifying security boundaries in AI-powered tools.
+
+3. Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities
+Threat: Vulnerability | Severity: 8 
+
+(Relatively, it seems Google is taking steps for improving software security and detecting vulnerabilities, a positive event for cybersecurity.)/10
+Google's DeepMind released Gemini 3.5 Flash Cyber, a specialized AI model for vulnerability discovery and patching. It's available exclusively to governments and trusted partners via CodeMender in a limited-access pilot program. The model is cost-efficient, highly capable, and outperforms existing models in finding unique vulnerabilities in complex codebases, including those of Google Chrome and Apple Safari.
+
+4. Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC
+Threat: Vulnerability | Severity: 9/10
+A critical SharePoint Server flaw (CVE-2026-50522, CVSS 9.8) has been actively exploited, allowing attackers to execute code remotely. The vulnerability, patched by Microsoft in July 2026, enables unauthorized access to on-premises SharePoint deployments, even with just Site Owner authentication. Attackers can also steal machine keys for persistent access, with security vendors warning that patching alone is insufficient to mitigate the issue.
+
+5. Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access
+Threat: Ransomware | Severity: 9/10
+Threat actors are exploiting a now-patched vulnerability (CVE-2026-0257) in Palo Alto Networks' PAN-OS software to deploy Qilin ransomware. The flaw allows unauthenticated attackers to bypass authentication and establish VPN sessions, and has been used in multiple intrusions with varied post-exploitation tradecraft, suggesting multiple RaaS affiliates operating under the Qilin umbrella.
+
+
+#cybersecurity #infosec #threatintel
