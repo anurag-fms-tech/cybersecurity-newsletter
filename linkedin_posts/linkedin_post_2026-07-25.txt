@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery
+Threat: Malware | Severity: 8/10
+North Korean threat actors, known as BlueNoroff, are operating an active phishing kit to impersonate Zoom and Microsoft Teams domains. They use compromised industry contacts, social engineering, and malware delivery to target high-value victims, primarily in the cryptocurrency space, by stealing their Telegram sessions and reselling to unsuspecting contacts.
+
+2. Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller
+Threat: Vulnerability | Severity: 7/10
+Researchers found a vulnerability, named Certighost, in Active Directory Certificate Services (AD CS) that allows a low-privileged user to obtain a certificate for a Domain Controller and authenticate as that machine. Microsoft patched this issue as CVE-2026-54121 on July 14, but the exploit was disclosed before that, requiring updates to be installed on AD CS hosts to prevent exploitation.
+
+3. ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link
+Threat: Vulnerability | Severity: 9
+
+(Note: A 9 indicates a critical vulnerability, and the ability for a phishing link to deploy rogue agents, could have serious consequences, especially if such a phishing link were to be widely disseminated.)/10
+Cybersecurity researchers discovered a critical vulnerability in OpenAI's ChatGPT Workspace Agents allowing unauthorized AI agent deployment via a single phishing link. The issue, codenamed "AgentForger," was fixed by OpenAI on June 8, 2026. The vulnerability relied on cross-site request forgery (CSRF), allowing attackers to spawn AI agents with real employee access, using a benign-looking ChatGPT link.
+
+4. Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers
+Threat: Vulnerability | Severity: 8/10
+Microsoft released critical CVEs (CVE-2026-32194 and CVE-2026-32191) with a 9.8 CVSS rating after an autonomous security startup, XBOW, discovered vulnerabilities in Bing's image-processing workers. Exploits allowed attackers to run commands as SYSTEM on Windows machines and root on Linux machines. The bugs were fixed server-side and not publicly disclosed until XBOW published exploit mechanics, revealing a vulnerability in handling image formats through ImageMagick-compatible paths.
+
+5. Seeing AI Agents Is Not Enough. Security Teams Must Enforce What They Can Do
+Threat: Vulnerability | Severity: 6/10
+Security teams are struggling to enforce least privilege for AI agents due to their dynamic nature and ability to adapt actions based on context. Simply discovering AI agents is not enough, as they can reason, plan, and take action without human oversight. Organizations need to move beyond visibility to achieve control over these agents through enforcement mechanisms, addressing privilege, authentication, accountability, and behavioral risks.
+
+
+#cybersecurity #infosec #threatintel
