@@ -1,0 +1,28 @@
+Cybersecurity Intelligence Brief
+
+1. Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable
+Threat: Malware | Severity: 9
+
+Note that this type of attack (malware delivered in pieces via malvertising, requiring browser or system compilation to complete) is highly sophisticated, difficult to detect, and poses a significant risk to users. This warrants a high severity rating./10
+A malvertising operation called SourTrade targets cryptocurrency investors with convincing impersonation of trading sites. It uses a legitimate Bun runtime to build a custom Windows executable in victims' browsers. Confiant discovered the campaign, which has operated since late 2024 in 12 countries across 25 languages. Users are advised to install software only from the vendor's site, not from ads.
+
+2. Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available
+Threat: Vulnerability | Severity: 8/10
+Attackers are targeting a critical flaw in Alibaba's JSON library for Java, Fastjson, that affects Spring Boot applications. A malicious JSON request can execute code without authentication with the privileges of the Java process. The vulnerability, tracked as CVE-2026-16723, has a 9.0 CVSS score and requires affected versions of Fastjson and Spring Boot. No fixed version is available yet.
+
+3. Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git
+Threat: Vulnerability | Severity: 9/10
+Security researchers at depthfirst have published working exploit code for a previously patched GitLab flaw. The vulnerability, affecting self-managed 18.11.3 servers, allows an authenticated user to run commands as 'git' without admin rights. A patch release on June 10 didn't label it as a security fix, and operators may have missed the urgent need for an update. All tiers of GitLab are affected, and users are advised to upgrade to versions 18.10.8, 18.11.5, or 19.0.2.
+
+4. CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking
+Threat: Data Breach | Severity: 8/10
+Phishing campaigns targeting financial institutions, particularly insurance providers, are evolving. Instead of collecting credentials for later use, attackers now authenticate victims in real-time, compromising accounts within a single browsing session. This shift highlights the need for organizations to understand the infrastructure, techniques, and workflows behind these attacks, as compromised insurance accounts contain sensitive customer data that can support extensive fraud.
+
+5. Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE
+Threat: Vulnerability | Severity: 8
+
+(This is a relatively high-severity alert, as it involves a remote code execution vulnerability that can be exploited by unauthorized attackers.)/10
+Threat actors linked to the Cl0p ransomware campaign are exploiting flaws in PTC Windmill and FlexPLM to conduct a new data extortion campaign, targeting manufacturing, automotive, aerospace, and retail sectors. They are using a chained exploit of CVE-2026-12569 and an information-disclosure flaw in FlexPLM, enabling remote code execution and file system enumeration.
+
+
+#cybersecurity #infosec #threatintel
