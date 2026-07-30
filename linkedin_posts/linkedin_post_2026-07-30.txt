@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads
+Threat: Vulnerability | Severity: 7/10
+A critical vulnerability, tracked as CVE-2026-66066, has been discovered in Ruby on Rails' Active Storage, which allows unauthenticated attackers to read arbitrary files from application servers through crafted image uploads. The flaw affects Rails versions 7.0-7.2.3.1, 8.0.0-8.0.5, and 8.1.0-8.1.3, and can expose sensitive information, potentially enabling remote code execution or lateral movement.
+
+2. Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory
+Threat: Vulnerability | Severity: 10/10
+Researchers identified a high-severity flaw in Ruflo, a multi-agent orchestration platform, allowing unauthenticated remote code execution through its Model Context Protocol bridge. Exposed tools included shell command execution, database operations, and memory storage, potentially enabling API key theft, conversation harvesting, and AI memory poisoning. A patch was released within 24 hours of responsible disclosure, fixing the issue in Ruflo version 3.16.3.
+
+3. Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape
+Threat: Vulnerability | Severity: 10/10
+Broadcom has released security updates to address multiple flaws in VMware ESX, vCenter, Workstation, and Fusion products. Three critical flaws, including an authentication bypass and directory-traversal vulnerability, have been patched. Additionally, flaws including a virtual machine escape have been addressed. Broadcom found no evidence of these issues being exploited in the wild.
+
+4. Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline
+Threat: Vulnerability | Severity: 8/10
+A coordinated cyberattack targeted operational technology at over 30 Minnesota community water systems July 26-27, triggering a statewide response. Multiple water plants went offline or experienced disruptions, but no active requests for residents to change drinking-water use were made. The nature and extent of the impact are being investigated. Officials have not yet identified the attacker, exploited vulnerability, or whether data was stolen.
+
+5. Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments
+Threat: Data Breach | Severity: 7/10
+Cybersecurity researchers have uncovered a large-scale fraud campaign targeting international firms via lookalike websites of major Russian companies, set up to siphon funds. This scheme, which began in 2017, has involved fake websites and cold calls, resulting in losses of over $150,000. More than 100 counterfeit domains were identified, linked to a single coordinated campaign.
+
+
+#cybersecurity #infosec #threatintel
