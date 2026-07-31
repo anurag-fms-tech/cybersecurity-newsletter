@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware
+Threat: Malware | Severity: 8/10
+Threat actors with ties to North Korea have launched a sophisticated macOS malvertising campaign called "Contagious Interview." The campaign pretends to be a software update, copying an attack command to the clipboard and prompting users to execute it via Terminal. The malware uses blockchain-hosted command-and-control servers and steals cryptocurrency wallet information, with the ultimate goal of remote code execution for further payloads.
+
+2. ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories
+Threat: Vulnerability | Severity: 8/10
+Russian organizations are being targeted by various cyber threats, including phishing emails with Xworm malware, an Android trojan called LunaSpy, and a custom ransomware called GenieLocker. GenieLocker has been used to extort organizations in the manufacturing, financial services, and technology sectors. Other threats include malware loader CastleLoader, used to distribute cryptocurrency-stealing payloads, and a Mac malware called MacSync Stealer, which tricks users by disguising itself as Apple Support.
+
+3. Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database
+Threat: Vulnerability | Severity: 9/10
+A patched vulnerability in Azure Cosmos DB, codenamed CosmosEscape, allowed attackers to escape the service's security restrictions and gain full read and write access to databases across customer tenants. Microsoft fixed the issue within 48 hours and completed a longer-term fix in July 2026, with no evidence of customer data access or unauthorized activity.
+
+4. Microsoft Copilot for Word Can Copy Hidden Prompts Into New Documents
+Threat: Vulnerability | Severity: 9/10
+A cybersecurity vulnerability in Microsoft 365 Copilot was disclosed on July 28, after being reported to Microsoft 144 days prior. The vulnerability allows malicious Word documents to inject instructions that are rewritten into Copilot-generated files. The instructions can also be copied into the finished file, posing a risk of tampering without exploitation in the wild being reported.
+
+5. The Network Has Become the Control Plane for AI Security
+Threat: Vulnerability | Severity: 5
+
+The cybersecurity severity associated with this news is relatively moderate, as it implies a shift in AI security management, but it does not explicitly mention a new vulnerability or threat./10
+Check Point introduces the industry's first AI Network Firewall to protect networks from AI-related threats. Traditional firewalls are unable to understand AI interactions, leading to a visibility gap. The AI Network Firewall is designed to move beyond traffic inspection, becoming intent-aware to control AI activity, prevent attacks, and detect threats in real-time, addressing the growing challenges of AI adoption and operational complexity in modern networks.
+
+
+#cybersecurity #infosec #threatintel
