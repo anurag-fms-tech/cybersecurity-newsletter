@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures
+Threat: Malware | Severity: 8/10
+A sophisticated macOS malware operation, tracked by Microsoft Threat Intelligence, has been observed using a server-side gate to fingerprint visitors before showing them a malicious page. The gate, which analyzes 250+ front-end domains, hides the malicious content from crawlers and sandboxes, presenting selected users with a fake software download. Users are urged not to follow Terminal instructions from unknown websites.
+
+2. OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes
+Threat: Nation State | Severity: 7/10
+OpenAI disrupted a Cambodia-based scam operation using its ChatGPT AI chatbot, banning a network of 100s of accounts. The scammers used ChatGPT to create fake personas, generate messages, promotional content, and support their schemes, targeting Bangladesh and India. The operation involved multiple scams including investment, romance, and law enforcement impersonation, using various techniques to deceive victims.
+
+3. Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt
+Threat: Ransomware | Severity: 1
+
+(The term "Poison Claude" seems to be a made-up or fictional term, but without any context about its operation or functionality, it's difficult to assess the severity of the cybersecurity risk)/10
+Cybersecurity researchers discovered six underground services offering access to large AI models like Anthropic's Opus and OpenAI's GPT Codex. One service, Poison Claude, allows customers to access models with a 5-15% markup, using free bonus credits and cryptocurrency payments, exposing users to risks and potential data breaches.
+
+4. Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports
+Threat: Vulnerability | Severity: 8/10
+Two open-source security flaws in Paperclip, a control plane for AI agents, can allow attackers to execute commands on a network server or developer's computer. The vulnerabilities, one with a CVSS score of 10.0, don't require victim interaction, while the other requires a user to visit an attacker-controlled page. Paperclip has released an updated version and operators are advised to update to v2026.416.0 or later.
+
+5. Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug
+Threat: Vulnerability | Severity: 10/10
+HashiCorp, Veeam, and Django have patched 11 vulnerabilities. Updates are available for Terraform MCP Server (version 1.1.0 or later), Veeam Service Provider Console (version 9.3.0.35057), and Django (version 6.0.8 or 5.2.17). Two critical fixes in Veeam's build address unauthenticated exploitation, affecting multi-tenant backup monitoring for hosted firms and managed service providers. No public exploits or activity has been reported as of August 5, 2026.
+
+
+#cybersecurity #infosec #threatintel
