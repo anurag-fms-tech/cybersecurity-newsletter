@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts
+Threat: Vulnerability | Severity: 9.5/10
+A new Linux kernel vulnerability, Zapscape, was discovered, allowing attackers with kernel privileges in a guest virtual machine to execute code on the host. The flaw affects KVM/x86's shadow memory management and can lead to a use-after-free, granting kernel privileges on the host. Administrators should update their kernels to fixed stable versions or vendor packages that backport the patch to mitigate this risk.
+
+2. Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.8 CVSS Score Bugs
+Threat: Vulnerability | Severity: 9/10
+Cisco has released updates to address multiple critical security vulnerabilities in Catalyst SD-WAN and IOS XE Software. The issues, found through internal testing including AI models, impact devices regardless of configuration and could lead to improper access control, command injection, and input validation flaws. Fixes are available for affected software, and separate critical flaw patches were shipped for the Integrated Management Controller.
+
+3. New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs
+Threat: Vulnerability | Severity: 8
+
+(Note: The news refers to a vulnerability that can bypass existing defenses, potentially leading to severe security risks. However, the exact impact and mitigation plans are not provided in the snippet, making it harder to determine the exact severity.)/10
+MIT researchers discovered a vulnerability called INTERRUPT INJECTION in some AMD Zen processors, allowing an unprivileged Linux program to leak kernel memory, compromising system security. A fix has shipped in the Linux kernel and AMD plans a patch, but it may be tricky for administrators to apply the fix without knowing the commit subject or a CVE name.
+
+4. ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories
+Threat: Vulnerability | Severity: 8/10
+A new ThreatsDay Bulletin highlights a week's worth of cybersecurity threats. Key findings include China-controlled infrastructure in the US telecommunications backbone, a malware campaign using exposed servers and recycled bugs, and a large-scale malicious package campaign on npm. Additionally, AI-powered attacks have been observed, including a DeepSeek AI agent used for proxyjacking and other follow-on attacks.
+
+5. Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities
+Threat: Vulnerability | Severity: 8/10
+Forescout found 4,407 exposed Rockwell Automation PLCs worldwide, including 2,844 in the US, but couldn't confirm any were compromised. Attackers exploited exposed controllers by changing IP addresses and passwords, causing operators to lose visibility and control. Utilities in at least 12 states have reported cyber incidents, and defenders can act by taking controllers off public internet to prevent future attacks.
+
+
+#cybersecurity #infosec #threatintel
