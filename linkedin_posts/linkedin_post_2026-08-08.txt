@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer
+Threat: Malware | Severity: 8/10
+Nearly 800 malicious packages have been discovered on the npm registry, targeting Windows, Mac, and Linux systems with a powerful cross-platform malware. The packages use AI-generated names and deliver a RAT and infostealer payload, leading to the execution of a downloader followed by a final-stage payload that writes a binary to a temporary folder and executes it as a detached process.
+
+2. ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets
+Threat: Malware | Severity: 8/10
+Cybercriminals are using ClickFix-style attacks to deliver Go-based malware targeting macOS devices. The malware can steal passwords, cryptocurrency assets, and cached credentials, and contains a unique "DRAIN" routine to slowly drain cryptocurrency wallets into attacker-controlled accounts. The attack chain involves pasting a command into Terminal and retrieves malware payloads matching the victim's processor architecture.
+
+3. UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data
+Threat: Data Breach | Severity: 8/10
+A data extortion group called UNC6671 is behind a recent wave of cyber attacks targeting financial services, private equity, and professional services, using voice phishing to trick employees into revealing login credentials. The group then uses this data to access cloud environments and SaaS applications, with Google warning that phishing-resistant MFA is crucial to protect against these attacks.
+
+4. New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP
+Threat: Vulnerability | Severity: 9
+
+Note: A Pre-Auth XSS (Cross-Site Scripting) leading to PHP Code Execution is a severe vulnerability./10
+WordPress has patched a high-severity pre-authentication XSS flaw (CVE-2026-64638), affecting all versions, which can lead to code execution if a logged-in administrator interacts with an attacker-controlled page. Pwn.ai discovered the flaw, which requires no authentication, and can be chained into RCE with social engineering and explicit interaction. The issue was fixed in WordPress 7.0.3, with recommended immediate updates for affected sites.
+
+5. Growing Up The Hard Way
+Threat: Vulnerability | Severity: 1/10
+Open Source, once an idealistic and carefree system, has matured rapidly due to security breaches like SolarWinds and Log4Shell. As a result, new regulations and rules may change how enterprises utilize Open Source, focusing on secure, accountable, and patched versions. In the next few years, regulated enterprises will be required to meet these standards rather than choosing to do so.
+
+
+#cybersecurity #infosec #threatintel
