@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers
+Threat: Vulnerability | Severity: 8/10
+Two security firms independently found vulnerabilities in Atlassian's Rovo assistant. An attacker can use hidden instructions in content or URLs to collect Jira or Confluence data and send it to an outside server without approval. While one issue is confirmed fixed, the other requires Atlassian to scope apps and groups that can use Rovo. This allows indirect data exfiltration through prompts or content.
+
+2. New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens
+Threat: Vulnerability | Severity: 8/10
+New research from PortSwigger researcher Gareth Heyes found multiple bugs in webmail interfaces, allowing attackers to capture passwords, leak tokens, and hijack trusted UI actions across Outlook, Gmail, Fastmail, Proton Mail, Yahoo Mail, and AOL Mail. The techniques abuse allowed HTML and CSS or find discrepancies between sanitizer approvals and browser or application creations, often using click-based exfiltration. Several vulnerabilities remain unpatched as of August 8.
+
+3. Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication
+Threat: Zero-Day | Severity: 9/10
+Metabase warns of a zero-day security flaw (CVSS score: 10.0) in its business intelligence software, allowing unauthenticated attackers to gain administrator access and steal data. The vulnerability has been exploited in the wild and affects versions 1.58 and above. Users are advised to update to the latest version and apply security patches, especially Framework customers whose customer data was accessed during the hack.
+
+4. N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist
+Threat: Data Breach | Severity: 6
+
+(Note: Based on the context of managed systems being reached and persistence by attackers, this indicates potential exploitation of vulnerabilities rather than widespread, catastrophic breaches. However, it highlights a concerning trend that could lead to more severe consequences without prompt mitigation.)/10
+N-able has released hotfix 2 to address an actively exploited security flaw in its Remote Monitoring and Management (RMM) product, CVE-2026-18577, which allows authentication bypass and account takeover. This flaw, with a CVSS score of 8.2, has been exploited by threat actors since at least July 2026, impacting all versions prior to 2026.3.1.7.
+
+5. Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts
+Threat: Vulnerability | Severity: 7/10
+The US Cybersecurity and Infrastructure Security Agency (CISA) has added a critical vulnerability, CVE-2026-8037, to its Known Exploited Vulnerabilities catalog, as reports emerge of active exploitation of the Progress Kemp LoadMaster flaw. Successful exploitation allows unauthenticated attackers to execute arbitrary commands on the appliance. CISA recommends FCEB agencies patch their networks by August 10, 2026, to prevent further attacks.
+
+
+#cybersecurity #infosec #threatintel
