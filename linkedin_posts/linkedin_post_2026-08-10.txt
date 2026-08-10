@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers
+Threat: Vulnerability | Severity: 9/10
+Researchers from PromptArmor and Varonis discovered vulnerabilities in Atlassian's Rovo AI assistant, allowing attackers to extract Jira or Confluence data and send it to outside servers. The flaws, known as indirect prompt-injection attacks, involved hiding malicious instructions in content or URL parameters. Atlassian has addressed one of the issues, but the exact remediation steps and impact on customers are unclear.
+
+2. New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens
+Threat: Vulnerability | Severity: 8/10
+New research shows how email content can escape its message boundary, allowing attackers to capture passwords, steal tokens, and hijack trusted UI actions across webmail interfaces, including Outlook, Gmail, and others. This can be done by exploiting vulnerabilities in CSS, HTML, and sanitizer weaknesses, putting users at risk of password capture, account takeover, and data theft.
+
+3. Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication
+Threat: Zero-Day | Severity: 8/10
+Metabase has warned of a severity 10.0 security flaw in its business intelligence software, which has been exploited in the wild as a zero-day vulnerability. An attacker can inject arbitrary SQL to gain administrator access, change configuration, steal credentials, read data, and export it. Users are advised to update to the latest version or apply security patches to prevent exploitation.
+
+4. N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist
+Threat: Vulnerability | Severity: 7/10
+N-able released hotfixes to address ongoing exploitation of a security flaw in its RMM product, a zero-day flaw (CVE-2026-18577) that allows authentication bypass and account takeover. The company detected unusual activity on July 31, 2026, and confirmed a limited number of customers were affected. Customers are advised to install hotfix 2 and update their instances to 026.3.1.10 immediately to ensure protection.
+
+5. Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts
+Threat: Vulnerability | Severity: 8/10
+The US Cybersecurity and Infrastructure Security Agency (CISA) added a critical security flaw, CVE-2026-8037, in Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV) catalog due to active exploitation. The flaw, a command injection vulnerability, can lead to arbitrary code execution. CISA recommended federal agencies patch the issue by August 10, 2026, to secure their networks.
+
+
+#cybersecurity #infosec #threatintel
