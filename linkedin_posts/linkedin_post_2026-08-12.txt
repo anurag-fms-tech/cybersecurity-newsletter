@@ -1,0 +1,26 @@
+Cybersecurity Intelligence Brief
+
+1. Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack
+Threat: Vulnerability | Severity: 9/10
+Microsoft released its monthly security updates, closing a critical flaw, CVE-2026-68820, that allows attackers to escalate to SYSTEM by exploiting a race condition in the Windows kernel driver. This bug is actively being used in attacks, but four other high-priority flaws, each with a CVSS score of 9.8, require no user interaction and can provide remote code execution.
+
+2. Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing
+Threat: Malware | Severity: 6
+
+(This news suggests a sophisticated and evasive malware, which makes it a moderate cybersecurity threat. However, it doesn't report an actual large-scale breach, a major data leak, or a widespread exploit.)/10
+Researchers have discovered a new version of the Kimwolf/AISURU botnet, tracked as Kimwolf v7, which enhances its resilience and can conduct more sophisticated DDoS attacks. It adds an HTTP/2-based flood, makes its command-and-control infrastructure harder to take down, and removes some scanning functionality, instead using external loaders for initial access. The botnet targets Android TV boxes and Linux IoT devices, and was active since at least mid-2024.
+
+3. Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee's Client
+Threat: Vulnerability | Severity: 8/10
+A critical flaw in Zoom's annotation tool allowed malicious participants to take over viewers' and presenters' computers. The flaw was patched in June and July but only publicly disclosed recently. Researchers from "A Security" discovered the exploit in under a day using AI models. Although no exploitation has been reported, the vulnerability has significant implications for Zoom users.
+
+4. Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands
+Threat: Nation State | Severity: 9/10
+Ukraine's CERT-UA has disclosed a social engineering campaign by Russian nation-state threat actors targeting IT workers by posing as recruiters, using malicious VPN links and Zoom calls to trick them into installing malware. The campaign is ongoing since May 2026.
+
+5. Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE
+Threat: Vulnerability | Severity: 10/10
+Security researchers discovered a vulnerability in Microsoft SharePoint servers, allowing an unauthenticated attacker to assume any user's identity, including an administrator. Aiding the discovery was an AI agent. The flaw, with a CVSS score of 9.1, affects SharePoint Server Subscription Edition, SharePoint Server 2019, and SharePoint Server 2016. A separate flaw, also discovered, allows attacker code execution.
+
+
+#cybersecurity #infosec #threatintel
