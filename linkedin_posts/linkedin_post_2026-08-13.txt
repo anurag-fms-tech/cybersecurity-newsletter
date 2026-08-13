@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor
+Threat: Zero-Day | Severity: 9/10
+The Lazarus Group, a North Korean threat actor, has been linked to a zero-day exploit of a newly patched Windows flaw, CVE-2026-68820, to deliver a backdoor to defense and aerospace companies worldwide. The "Operation Dream Job" campaign involves fake job offers on LinkedIn, tricking victims into installing malware through PDF downloads or trojanized viewers to steal data and gain remote access.
+
+2. 737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One
+Threat: Vulnerability | Severity: 8/10
+A massive set of 737 suspicious VPN and proxy extensions, mostly targeting Russian users, were found on the Chrome Web Store. The extensions, impersonating well-known brands like NordVPN and Proton VPN, intercepted browser traffic to route it through a proxy infrastructure. The developers aim to monetize user data, and while their functionality may seem legitimate, the extensions have several red flags, including undisclosed proxy configurations and false statements to reviewers.
+
+3. OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning
+Threat: Vulnerability | Severity: 9/10
+Researchers discovered a flaw in OpenAI, Anthropic, and Google's AI reasoning APIs, allowing them to recover internal reasoning and secrets from session logs, including API keys and passwords. The weakness relied on intact opaque blocks being accepted and processed, rather than cracking encryption. The issue has been mitigated, but developers are advised to strip reasoning blocks from shared traces to prevent similar attacks.
+
+4. Enterprise Defenses Recovered at the Edge and Collapsed Inside
+Threat: Vulnerability | Severity: 6/10
+According to Picus Labs' new Blue Report 2026, enterprise defenses are strongest at the perimeter but falter when attacks are quiet and stealthy inside the network. While 69% of attacks are blocked at the perimeter, post-compromise prevention only stops 37% of attacks once the adversary is inside.
+
+5. Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws
+Threat: Vulnerability | Severity: 10/10
+Adobe has released updates to address multiple critical security vulnerabilities in ColdFusion, Commerce, and Campaign Classic, which can result in arbitrary code execution and privilege escalation. Priority 1-rated updates are recommended for immediate installation within 72 hours to prevent potential exploitation, especially by malicious cyber attacks.
+
+
+#cybersecurity #infosec #threatintel
