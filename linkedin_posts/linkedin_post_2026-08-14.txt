@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Attackers Exploit SharePoint Authentication Bypass After Public PoC Release
+Threat: Vulnerability | Severity: 7/10
+Threat actors are exploiting a critical Microsoft SharePoint vulnerability (CVE-2026-55040) patched in July 2026. The vulnerability allows attackers to bypass authentication and perform arbitrary operations as a SharePoint user or administrator. Since its discovery, there have been 12 recorded exploitation attempts, with 8 on August 12 and 13, 2026, following the release of a PoC code by Rapid7.
+
+2. Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor
+Threat: Zero-Day | Severity: 10/10
+North Korea's Lazarus Group exploited a patched Microsoft Windows flaw (CVE-2026-68820) to deliver a new backdoor in a "Dream Job" cyber espionage campaign targeting defense and aerospace companies worldwide. The attackers use social engineering tactics and trojanized PDF viewers to install malware, granting remote access and control of compromised machines.
+
+3. 737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One
+Threat: Vulnerability | Severity: 9/10
+737 free VPN and proxy extensions have been discovered to target Russian users, installing on 75,486 Chrome devices. At least 274 extensions impersonate popular brands, intercepting browser traffic and routing it through a proxy infrastructure. Researchers found that most extensions place the user in an adversary-in-the-middle position, allowing them to observe browser activity. 221 extensions have been removed, while 516 remain active.
+
+4. OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning
+Threat: Vulnerability | Severity: 9/10
+A flaw was found in the way OpenAI, Anthropic, and Google's AI reasoning APIs shared encrypted objects between sessions, allowing researchers to recover internal reasoning and sensitive data like API keys and passwords. The weakness was mitigated by the providers, and developers are advised to strip encrypted reasoning blocks from shared traces to prevent similar attacks.
+
+5. Enterprise Defenses Recovered at the Edge and Collapsed Inside
+Threat: Vulnerability | Severity: 8/10
+Enterprise defenses have seen a 7% increase in average prevention effectiveness, reaching 69%, due to perimeter security improving. However, the same defenses are failing to catch "quiet" attacks like reconnaissance, credential theft, and lateral movement, with a post-compromise prevention rate of only 37%. Noisy actions like running code are mostly blocked, but stealthy techniques are evading detection, highlighting a gap in interior security.
+
+
+#cybersecurity #infosec #threatintel
