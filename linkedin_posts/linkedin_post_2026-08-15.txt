@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Attackers Exploit SharePoint Authentication Bypass After Public PoC Release
+Threat: Vulnerability | Severity: 8/10
+Threat actors are exploiting a newly disclosed Microsoft SharePoint vulnerability (CVE-2026-55040) despite Microsoft releasing patches in its July 2026 Patch Tuesday updates. PoC code released by Rapid7 is being rapidly abused in real-world attacks. Successful exploitation allows an unauthenticated attacker to sidestep authentication, perform arbitrary operations, and potentially disclose files and modify data. Over 12 exploitation attempts were recorded since July 19, 2026.
+
+2. Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor
+Threat: Zero-Day | Severity: 9/10
+Lazarus Group, a North Korean threat actor, exploited a newly patched Windows security flaw (CVE-2026-68820) to deliver a never-before-seen backdoor in Operation Dream Job, targeting defense and aerospace companies worldwide. The attack, part of a long-running cyber espionage campaign, uses fake job offers to steal sensitive data and install malware via trojanized PDF viewers, granting remote access to compromised machines.
+
+3. 737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One
+Threat: Data Breach | Severity: 8/10
+A large set of 737 free VPN and proxy Chrome extensions have been discovered, mainly targeting Russian-speaking users to intercept browser traffic. These extensions, installed over 75,486 times, impersonate 66 established VPN brands and route users' browser sessions through proxy servers, placing the threat actor in an adversary-in-the-middle position. 221 extensions were removed, while 516 remain active, likely linked to a Russian VPN business.
+
+4. OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning
+Threat: Vulnerability | Severity: 8/10
+Researchers discovered a flaw in AI reasoning APIs from OpenAI, Anthropic, and Google, allowing them to recover internal reasoning and secrets from session logs, including API keys and passwords. The flaw was fixed after mitigations, but developers are advised to strip reasoning blocks and avoid committing raw API transcripts to prevent similar attacks.
+
+5. Enterprise Defenses Recovered at the Edge and Collapsed Inside
+Threat: Vulnerability | Severity: 8/10
+According to Picus Labs' Blue Report 2026, enterprise defenses have seen a strong year, with average prevention effectiveness increasing to 69% and logging reaching a four-year high of 58%. However, a significant vulnerability was exposed as defenses become softer after a perimeter breach, with only 37% of post-compromise prevention successfully stopping attacks, mostly due to quieter, reconnaissance-type actions being undetected.
+
+
+#cybersecurity #infosec #threatintel
