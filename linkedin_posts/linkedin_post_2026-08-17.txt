@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Attackers Exploit SharePoint Authentication Bypass After Public PoC Release
+Threat: Vulnerability | Severity: 7/10
+Threat actors are exploiting a newly patched Microsoft SharePoint vulnerability, CVE-2026-55040, using a proof-of-concept (PoC) exploit released by Rapid7. This CVE allows an unauthenticated attacker to bypass authentication and perform arbitrary operations as a SharePoint site user or administrator. 12 exploitation attempts have been recorded, with 8 occurring on August 12-13, suggesting that the PoC release has facilitated these attacks.
+
+2. Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor
+Threat: Zero-Day | Severity: 9/10
+The Lazarus Group, a North Korean threat actor, has exploited a newly patched Windows vulnerability (CVE-2026-68820) to deliver a backdoor to defense and aerospace companies in several countries. Part of Operation Dream Job, the attacks use fake job offers to lure victims into installing malware and install a trojanized PDF viewer to gain remote access, allowing the threat actors to bypass security controls and seize complete control of infected computers.
+
+3. 737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One
+Threat: Vulnerability | Severity: 7/10
+A massive set of 737 free VPN and proxy Chrome extensions have been found to target Russian-speaking users, intercepting their browser traffic and routing it through a proxy infrastructure. The extensions, published across 40 developer accounts and masquerading as established VPN brands, have amassed 75,486 installs, with 221 removed from the Chrome Web Store and 516 still active. The threat actor is believed to be running a subscription VPN business in Russia.
+
+4. OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning
+Threat: Vulnerability | Severity: 8/10
+Researchers discovered a flaw in the encrypted AI reasoning of OpenAI, Anthropic, and Google's APIs, allowing them to recover internal reasoning, API keys, and passwords from session logs. The weakness was mitigated after the disclosure, and developers are advised to strip reasoning blocks from shared traces to prevent similar attacks.
+
+5. Enterprise Defenses Recovered at the Edge and Collapsed Inside
+Threat: Data Breach | Severity: 8/10
+New data shows enterprise defenses are effective at stopping noisy attacks, blocking 2 out of 3 attempts. However, quiet attacks such as reconnaissance and credential theft succeed 63% of the time. Internal defenses fail to catch these subtle threats, with a post-compromise prevention rate of just 37%, indicating a significant fault line in modern cybersecurity defenses.
+
+
+#cybersecurity #infosec #threatintel
