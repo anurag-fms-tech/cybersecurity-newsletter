@@ -19,7 +19,8 @@ EMAIL_USER=os.getenv("EMAIL_USER")
 EMAIL_PASS=os.getenv("EMAIL_PASS")
 EMAIL_TO=os.getenv("EMAIL_TO")
 
-MODEL="openai/gpt-oss-20b"
+FAST_MODEL="openai/gpt-oss-20b"
+ANALYST_MODEL="openai/gpt-oss-120b"
 
 client=Groq(api_key=GROQ_API_KEY)
 
@@ -112,7 +113,7 @@ News:
 """
 
     completion=client.chat.completions.create(
-        model=MODEL,
+        model=FAST_MODEL,
         messages=[{"role":"user","content":prompt}]
     )
 
@@ -149,7 +150,7 @@ Return only a number.
 """
 
     completion=client.chat.completions.create(
-        model=MODEL,
+        model=FAST_MODEL,
         messages=[{"role":"user","content":prompt}]
     )
 
@@ -194,7 +195,7 @@ return only the summary
 """
 
     completion=client.chat.completions.create(
-        model=MODEL,
+        model=ANALYST_MODEL,
         messages=[{"role":"user","content":prompt}]
     )
 
