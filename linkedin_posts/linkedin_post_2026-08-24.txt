@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit
+Threat: Data Breach | Severity: 4/10
+The U.S. Department of Justice announced TikTok will pay $400 million to settle a 2024 lawsuit alleging COPPA violations. The company will pay $300 million now and $100 million after a court vacates an earlier consent decree. The case accused TikTok of letting under‑13 users create accounts, collecting data in Kids Mode, and ignoring deletion requests. The DOJ called it a major victory for children’s privacy.
+
+2. 14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2
+Threat: Malware | Severity: 9/10
+Researchers found malicious npm packages posing as calendar and streak utilities that silently drop the Linux implant RedC2 4.0. Importing any module runs a bundled binary (e.g., math‑core.bin) as a background process, delivering the RedShell beacon which contacts a C2 server. Sold on Hack Forums by “MarlboroMan,” RedC2 provides features such as shell access, credential theft, file transfer, tunneling and in‑memory code execution.
+
+3. Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot
+Threat: Vulnerability | Severity: 9/10
+Check Point Research revealed that Microsoft Defender’s built‑in boot‑time driver BTR.sys can be hijacked to execute arbitrary kernel‑level file and registry actions on Windows 7‑11 without exploiting a flaw or loading external code. The driver’s RC4‑encrypted protocol is undocumented, and the researchers released a proof‑of‑concept BTR_CLI tool. No real‑world abuse has been seen yet.
+
+4. Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet
+Threat: Malware | Severity: 7/10
+Researchers discovered a new malware family targeting Android‑based vehicle head‑unit firmware on multiple vehicle models from DoFun. Kaspersky says the dropper, delivered via the legitimate TWCore update app, installs a multi‑stage downloader for ad‑fraud and proxy botnet operations. Linked to the MoYu Group’s BADBOX scheme, it spreads through built‑in updaters, uses MQTT communication, and was mitigated after disclosure.
+
+5. Wazuh and AI For Enhanced SOC Workflows
+Threat: Malware | Severity: 1/10
+AI is reshaping SOCs: attackers use it to automate assaults, while defenders employ AI to cut alert fatigue and speed investigations. Wazuh introduces an AI Analyst for its Cloud service—leveraging Amazon Bedrock and Anthropic’s Claude—to auto‑generate periodic security posture reports without manual setup, keeping data private. It also supports self‑hosted LLMs (e.g., Ollama + Llama) for on‑premise, privacy‑focused threat‑hunting.
+
+
+#cybersecurity #infosec #threatintel
