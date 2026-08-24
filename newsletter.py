@@ -19,7 +19,7 @@ EMAIL_USER=os.getenv("EMAIL_USER")
 EMAIL_PASS=os.getenv("EMAIL_PASS")
 EMAIL_TO=os.getenv("EMAIL_TO")
 
-MODEL="llama-3.1-8b-instant"
+MODEL="openai/gpt-oss-20b"
 
 client=Groq(api_key=GROQ_API_KEY)
 
@@ -356,7 +356,8 @@ Severity: {n['score']}/10
 
     with open(f"docs/categories/{safe_cat}.html","w",encoding="utf8") as f:
         f.write(html)
-
+
+
 
 #------------------------------
 # Report Archive
