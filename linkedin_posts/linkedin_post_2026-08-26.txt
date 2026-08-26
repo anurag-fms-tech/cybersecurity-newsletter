@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches
+Threat: Nation State | Severity: 9/10
+The U.S. Treasury announced Operation Economic Outcast, imposing fresh sanctions on nearly 60 Iran‑linked entities, individuals and vessels, including a Ministry of Intelligence cyber group responsible for compromising U.S. critical‑infrastructure and stealing cryptocurrency. The move targets the IRGC, nuclear, missile and oil sectors, and five indicted members of the Tehran‑based Mabna Institute, aiming to cut Iran’s global financial lifelines.
+
+2. A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw
+Threat: Vulnerability | Severity: 8/10
+Oasis Security uncovered a flaw in NVIDIA’s open‑source NemoClaw stack that lets a malicious webpage hijack a local Ollama AI instance and inject hidden instructions into the model. The bug stems from NemoClaw binding Ollama to 0.0.0.0:11434, bypassing authentication and CORS checks. NVIDIA fixed it in NemoClaw v0.0.35 for macOS/Linux; Windows/WSL remain vulnerable. No CVE or active exploits reported as of Aug 25, 2026.
+
+3. WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android
+Threat: Vulnerability | Severity: 1/10
+Meta announced new WhatsApp security upgrades, adding support for multiple passkeys per account to allow phishing‑resistant sign‑ins on iOS and Android. Over 1 billion users already use passkeys. A full‑password option replaces the six‑digit PIN in two‑step verification, and Android callers get extra context (origin, contact status, shared groups) to deter scams. Users can manage them via Settings > Account > Passkeys, enhancing account safety.
+
+4. Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode
+Threat: Vulnerability | Severity: 8/10
+Marimo patched a high‑severity code‑injection flaw (CVE‑2026‑75149) that let attackers execute arbitrary Model Context Protocol commands when a crafted notebook was opened in edit mode. The vulnerability affected all versions before 0.23.15 and required only user interaction, scoring 8.7‑8.8 on CVSS. The issue was fixed in version 0.23.15 (July 23 2026); users should upgrade to 0.23.15 or newer (current release 0.24.0).
+
+5. Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows
+Threat: Data Breach | Severity: 8/10
+Mirage2FA, a phishing‑as‑service kit active 2024‑2026, compromised thousands of firms, chiefly US‑based, by abusing Microsoft 365 login flows to bypass 2FA and steal passwords and session cookies. ANY.RUN found 48% of targeted emails compromised across 4,532 domains, with over 9,000 theft events. Hijacked sessions enable SSO abuse, impersonation, fraud, affecting technology, manufacturing and education sectors globally and other regions.
+
+
+#cybersecurity #infosec #threatintel
