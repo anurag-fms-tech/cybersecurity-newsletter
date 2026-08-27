@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. GoCaracal Malware Uses Ethereum Smart Contract to Fetch Replacement C2 Address
+Threat: Malware | Severity: 8/10
+Arctic Wolf links a June 2026 intrusion at a Venezuelan communications firm to the Dark Caracal group with medium confidence. The attackers used an undocumented Go‑based framework, GoCaracal, that provides remote shell access, payload execution and, in an extended profile, browser‑data theft, keylogging, remote‑desktop control and SOCKS5 proxying. Arctic Wolf released a YARA rule, IoCs and noted the campaign’s phishing, SVG lures, Bandook loader and Latin‑American focus.
+
+2. New GPUThor Rowhammer Defeats ECC on NVIDIA RTX A6000 to Gain Host Root Access
+Threat: Vulnerability | Severity: 9/10
+Researchers at the University of Toronto unveiled “GPUThor,” a Rowhammer attack that flips bits in NVIDIA Ampere‑class workstation GPUs with GDDR6 memory, bypassing ECC and the vendor’s Rowhammer mitigation. By running an unprivileged CUDA kernel, attackers can cause denial‑of‑service or gain a root shell via non‑uniform hammering that evades TRR. NVIDIA advises enabling system‑level ECC, avoiding cross‑tenant GPU sharing, monitoring ECC counters and restricting untrusted CUDA workloads.
+
+3. CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server Bugs
+Threat: Vulnerability | Severity: 8/10
+CISA added six flaws to its Known Exploited Vulnerabilities catalog, notably a high‑severity Citrix NetScaler ADC/Gateway issue (CVE‑2026‑8452) that attackers are exploiting with “x.php” and “z.php” web shells. 36 attempts from 12 IPs across ten countries were logged. The update also includes CVE‑2022‑0995, CVE‑2015‑5287, CVE‑2015‑3246, CVE‑2021‑23758 and CVE‑2019‑1068, with remediation deadlines of Aug 29 and Sep 9 2026. CISA’s new review highlights injection, memory‑safety and input‑validation bugs as top KEV drivers and notes AI‑enabled, automated exploitation.
+
+4. FBI Disrupts China-Linked QTFY Infrastructure Used to Steal Data From U.S. Organizations
+Threat: Nation State | Severity: 8/10
+The U.S. Department of Justice announced it has dismantled two Chinese‑run hacking platforms, QScan and QTRouter, used by the state‑backed group QTFY (linked to Nanjing Xinjiuwei Network Technology). The botnet, active since 2018, infected IoT devices worldwide and cloaked attacks on U.S. critical infrastructure—including NASA, the Federal Reserve, the Energy Department, DOJ, HHS, NIH and the Senate—and academic targets. The FBI and FBI‑partnered researchers helped expose the operation.
+
+5. Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler
+Threat: Malware | Severity: 8/10
+Researchers at Group‑IB uncovered new infrastructure and undocumented malware linked to Iran’s APT group Nimbus Manticore (aka GalaxyGato, Mirage Kitten). Tied to the Tortoiseshell/Charming Kitten cluster, the actor uses a Dream‑Job phishing campaign, an SSH tunneling tool masquerading as Windows Terminal Server SDK, and a C++ backdoor similar to TWOSTROKE. Targets now span Middle Eastern, European, African and South‑Asian defense, aerospace and IT sectors.
+
+
+#cybersecurity #infosec #threatintel
