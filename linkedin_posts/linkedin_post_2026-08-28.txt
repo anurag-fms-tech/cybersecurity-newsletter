@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Three CVSS 10.0 ServiceNow Flaws Could Let Unauthenticated Attackers Execute Code and SQL
+Threat: Vulnerability | Severity: 10/10
+ServiceNow issued patches on Aug 27 2026 for four flaws in its AI Platform, three of which receive a 10.0 CVSS rating and can be exploited remotely without authentication. The fixes were applied to hosted instances and provided to partners and self‑hosted customers, who must install them themselves. The vulnerabilities follow a pre‑auth sandbox‑escape (CVE‑2026‑6875) that has been seen exploited in the wild.
+
+2. China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access
+Threat: Vulnerability | Severity: 10/10
+VulnCheck uncovered two undocumented factory implants—SPEAKINGSTONE (CVE‑2026‑74232) and DARKLANTERN (CVE‑2026‑74233)—in firmware of Shenzhen Zhibotong Electronics routers. Both grant unauthenticated remote attackers root command execution, scoring 9.3 (CVSS 4.0) and 9.8 (CVSS 3.1). SPEAKINGSTONE beacons via UDP 10000 to a hard‑coded C2; DARKLANTERN listens on UDP 9992 with a flawed auth. Over 200 internet‑exposed devices were found in 22 countries on an $88 Deep Orange 3G/4G router.
+
+3. Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server
+Threat: Vulnerability | Severity: 10/10
+cPanel has patched a critical vulnerability (CVE‑2026‑65643) that lets an authenticated user who can add parked or addon domains create arbitrary files and execute code as root, giving full server control. The flaw affects all supported cPanel & WHM versions. Updated builds for branches 110, 134, 136 and 138 were released on Aug 27 and are applied automatically on servers with daily updates, or manually via /scripts/upcp --force or WHM’s Upgrade tool.
+
+4. PaperCut Zero-Day Exploited in Attacks, Affecting All NG and MF Versions
+Threat: Zero-Day | Severity: 9/10
+PaperCut warns that attackers are exploiting a zero‑day flaw in all versions of its PaperCut NG and MF print‑management software. An emergency patch for versions 25 and 26 has been released, and the firm is investigating confirmed customer incidents. No details on the vulnerability or its perpetrators are known yet. Users with internet‑exposed PaperCut servers must immediately block access to untrusted IPs via firewalls or network controls. This follows a 2023 CVE‑2023‑27350 attack that delivered ransomware such as Cl0p and LockBit.
+
+5. APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations
+Threat: Nation State | Severity: 9/10
+Recorded Future’s Insikt Group reports a new campaign (Sept 2025‑Apr 2026) targeting Romanian, Spanish and Turkish government and diplomatic bodies. Attackers use macro‑enabled Word docs with diplomatic lures to drop a lightweight Windows batch backdoor called HOOKEDGE. The tool, linked to Russian APT28, evolves from the earlier HEADLACE backdoor, leveraging webhook.site for C2, payload staging and exfiltration while self‑deleting to evade detection. The campaign shows refined sandbox‑evasion and infrastructure‑free tactics.
+
+
+#cybersecurity #infosec #threatintel
