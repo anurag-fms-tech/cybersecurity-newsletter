@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network
+Threat: Data Breach | Severity: 8/10
+Berlin’s state government confirmed it is being extorted after hackers breached the city’s administrative network in early August 2026. Forensic analysis uncovered additional data exfiltration from the Senate Department for Mobility, Transport, Climate Protection and Environment between Aug 7‑12, possibly including personal records. Authorities refuse the ransom, are investigating, and have not identified the attackers; the darknet group Rhysida later claimed to have leaked 5.79 TB of data affecting over 12,000 individuals.
+
+2. Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable
+Threat: Vulnerability | Severity: 9/10
+Cosmos Labs warned that a critical balance‑handling bug (GHSA‑7g4w‑cg88‑2cq2) in its Cosmos EVM module was exploited Aug 20‑25 2026, draining funds on six blockchains. The flaw affected versions <0.6.2 and >=0.7.0 < 0.7.2; patches released in v0.6.2 and v0.7.2 on Aug 19. Operators must upgrade through a coordinated upgrade or halt the chain. The issue, reported Apr 25, was mis‑classified and a silent patch was used despite policy requiring private emergency mitigation.
+
+3. Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication
+Threat: Vulnerability | Severity: 9/10
+Researchers discovered that unpatched PaperCut NG and MF servers contain two linked vulnerabilities (CVE‑2026‑81578 and CVE‑2026‑82078) that let an unauthenticated attacker bypass authentication, modify configuration and execute arbitrary Java code. PaperCut issued an emergency patch and a second hardening update. Early exploitation appears limited to reconnaissance in the wild, but attackers can chain the flaws for full remote code execution.
+
+4. Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers
+Threat: Vulnerability | Severity: 1/10
+Google unveiled Android 17’s new network‑security suite, featuring Encrypted Client Hello (ECH) with default GREASE to hide visited domain names from eavesdroppers, and extending ECH support to the OS via Chrome, Firefox and the OkHttp library. It also adds mandatory Local Network Protection prompts, enables Certificate Transparency by default, and lets carriers disable 2G to block downgrade attacks and rogue base‑station exploits.
+
+5. ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body
+Threat: Data Breach | Severity: 9/10
+CISA added ownCloud’s critical WebDAV authentication‑bypass flaw (CVE‑2023‑49105, CVSS 9.8) to its KEV catalog after a Chinese‑speaking threat actor exploited it against a Philippine nuclear research agency. The attacker used custom Python scripts and open‑source tools to retrieve 176 files (≈372 MB), including reactor data, personnel records, and encryption keys. The bug affected ownCloud 10.6.0‑10.13.0 and was patched in 10.13.1.
+
+
+#cybersecurity #infosec #threatintel
