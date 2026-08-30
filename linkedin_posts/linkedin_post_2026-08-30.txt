@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE
+Threat: Vulnerability | Severity: 10/10
+Critical flaws were uncovered in several popular WordPress plugins and themes—WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP—that could enable authentication bypass, account takeover, and remote code execution. The bugs stem from unsafe PHP object‑serialization handling: inadequate sanitisation, unserialising untrusted data, and shipping development‑only libraries that supply gadget chains. Patchstack and Wordfence urge rapid patching and tighter validation.
+
+2. Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network
+Threat: Data Breach | Severity: 8/10
+Berlin’s state government confirmed it’s the target of an extortion attempt after its administrative network was breached in August. Forensic analysis revealed data exfiltration from the Senate Department for Mobility, Transport, Climate Protection and Environment between 7‑12 August 2026, possibly including personal information. Attackers, linked to the hacker group Rhysida, claim to have stolen 5.79 TB of data affecting over 12,000 individuals. Authorities are investigating; officials refuse to pay.
+
+3. Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable
+Threat: Vulnerability | Severity: 9/10
+Cosmos Labs disclosed a critical balance‑handling bug (GHSA‑7g4w‑cg88‑2cq2) in its shared Cosmos EVM module that was exploited to siphon funds from six blockchains between Aug 20‑25 2026. The flaw affected versions < 0.6.2 and ≥ 0.7.0 < 0.7.2; patches were released in v0.6.2 and v0.7.2 on Aug 19. Operators must upgrade—requiring a state‑breaking, coordinated network upgrade—or halt chains. The bug was mis‑rated in April, and the company’s silent‑patch process conflicted with its own emergency‑response policy.
+
+4. Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication
+Threat: Vulnerability | Severity: 9/10
+A newly patched flaw in PaperCut NG and MF lets unauthenticated attackers alter server configuration and execute arbitrary Java code. The vulnerability stems from a crafted request that bypasses authorization checks, granting remote control of trusted settings. PaperCut issued a second emergency patch with extra hardening, while Huntress confirmed the exploit is being used for early‑stage reconnaissance, though the attackers’ ultimate goals remain unclear.
+
+5. Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers
+Threat: Vulnerability | Severity: 1/10
+Google announced Android 17’s new network‑security suite, adding Encrypted Client Hello (ECH) with default GREASE to hide visited domains from network snoops, and extending ECH support to the OS via Chrome, Firefox and the OkHttp library. It also enforces Local Network Protection (user consent for LAN scans), enables Certificate Transparency by default, and lets carriers disable 2G to block downgrade attacks.
+
+
+#cybersecurity #infosec #threatintel
