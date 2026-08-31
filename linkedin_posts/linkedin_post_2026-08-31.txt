@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor
+Threat: Malware | Severity: 9/10
+Microsoft revealed a new ClickFix variant called TerminalFix that lures users to run malicious PowerShell or Windows Terminal commands via fake Cloudflare CAPTCHAs on compromised sites. The chain uses DLL sideloading, steganographic payloads hidden in PNGs, AD reconnaissance, and a Python reverse‑tunnel implant, granting persistent network‑level proxy access and enabling further internal exploitation.
+
+2. Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE
+Threat: Vulnerability | Severity: 10/10
+Critical flaws were disclosed in popular WordPress plugins and themes—including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP—that could allow authentication bypass, account takeover, and remote code execution. The issues stem from unsafe PHP unserialize handling, trusting serialized data from the database, and shipping development‑only libraries that provide gadget chains. Vendors are urged to patch promptly.
+
+3. Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network
+Threat: Data Breach | Severity: 7/10
+Berlin’s state government confirmed it is being blackmailed after a cyber‑attack that compromised the city’s administrative network in early August. Forensic analysis revealed a data exfiltration from the Senate Department for Mobility, Transport, Climate Protection and Environment between Aug 7‑12, possibly including personal records. Attackers – linked to the darknet group Rhysida – claim to have stolen 5.79 TB affecting 12,076 individuals, but no ransom demand was disclosed. Police, prosecutors and federal security agencies are investigating.
+
+4. Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable
+Threat: Vulnerability | Severity: 9/10
+Cosmos Labs disclosed that a critical balance‑handling flaw (GHSA‑7g4w‑cg88‑2cq2) in its shared Cosmos EVM module was exploited from Aug 20‑25 2026, draining funds on six blockchains. The bug affected versions < 0.6.2 and 0.7.0‑<0.7.2; patches were released in v0.6.2 and v0.7.2 on Aug 19. Operators must upgrade—requiring a state‑breaking, coordinated network upgrade—or halt chains. The flaw was mis‑classified in April, and the public silent‑patch process used conflicted with Cosmos Labs’ emergency‑response policy.
+
+5. Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication
+Threat: Vulnerability | Severity: 9/10
+Researchers at Huntress found that an unauthenticated attacker could exploit a newly patched vulnerability in PaperCut NG and MF to alter server configuration and run arbitrary Java code. The flaw let a crafted request bypass authorization checks, granting remote control of trusted settings. PaperCut issued an emergency patch with extra hardening and shared IoCs, noting the activity appears to be early‑stage reconnaissance.
+
+
+#cybersecurity #infosec #threatintel
