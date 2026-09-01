@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. North Korean Job Fraud Expands Beyond IT Into Healthcare and Sales
+Threat: Nation State | Severity: 7/10
+North Korean threat actors are expanding beyond IT, securing roles in sales, marketing and healthcare using stolen or forged IDs, VPNs and proxies. Their “IT worker scheme” (aka Famous Chollima, Jasper Sleet, etc.) tricks firms into hiring them, sometimes allowing work while installing tools like PiKVM and Guermok USB cards to access devices. These insiders fund Pyongyang’s missile and nuclear programs.
+
+2. ⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More
+Threat: Nation State | Severity: 8/10
+The FBI took down a Chinese‑run proxy infrastructure (QTYF’s QScan/QTRouter) used for espionage against U.S. critical‑infrastructure. Meanwhile, IT teams wrestle with fragmented AI‑spend dashboards, and a flood of high‑severity CVEs—from TP‑Link routers to Docker, Jenkins, Chrome, and ServiceNow—hit the market. Across the board, attackers succeed by abusing trusted hardware, familiar prompts, support tools, and existing security systems, urging a deeper trust‑verification mindset.
+
+3. ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions
+Threat: Malware | Severity: 8/10
+Silver Fox is distributing the ValleyRAT backdoor by repackaging the signed Chinese adware QN Wallpaper. The malware uses DLL sideloading (malicious libcef.dll) inside the legitimate QnWallpaper.exe, disables Windows Defender, adds itself to autorun and escalates privileges. ValleyRAT gives full control, logs keystrokes, clipboard, screenshots, and can trigger a BSOD if terminated. Kaspersky links the campaign to Silver Fox and warns against using software of doubtful reputation or excluding it from security tools.
+
+4. Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets
+Threat: Ransomware | Severity: 8/10
+Aurora (Aur0ra) ransomware groups have begun leveraging SpaceX’s AI‑powered coding assistant Cursor to craft attacks, researchers say. Leaked infrastructure revealed activity against 20‑plus firms in nine countries from April‑July 2026, using email‑bombing, fake IT calls, and the Xray‑core tool to gain footholds, then moving laterally via SMB, LDAP, WinRM, RDP and RPC. Both Windows and Linux/ESXi encryptors are built from a single Zig codebase, delete shadow copies, and kill VMs before encryption. Ransom proceeds are split 54‑79 % to affiliates, the rest to operators.
+
+5. Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance
+Threat: Vulnerability | Severity: 2/10
+Anthropic’s Claude Code runs locally, reading files, executing shell commands and using developers’ credentials via MCP tools. With its new Compliance API transcript endpoints, security teams gain clearer logs, but activity data alone can’t verify legitimacy. Local agents—making up 68.6% of detected AI agents—inherit user permissions, lack central monitoring, and shift responsibility to admins, prompting a needed security‑model overhaul.
+
+
+#cybersecurity #infosec #threatintel
