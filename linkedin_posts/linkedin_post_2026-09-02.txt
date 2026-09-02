@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure
+Threat: Vulnerability | Severity: 10/10
+Threat actors began exploiting a newly patched critical flaw (CVE‑2026‑82329, CVSS 9.8) in JFrog Artifactory within days of disclosure. The authentication bypass lets unauthenticated network users forge admin tokens via a default “phantom” join key, enabling supply‑chain poisoning and lateral movement. JFrog released version 7.161.20 on Aug 28 2026; affected installations should patch, audit logs, rotate credentials, and check for malicious changes.
+
+2. Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems
+Threat: Malware | Severity: 8/10
+Breeze Comet (formerly UNC5669) has been hitting Brazilian finance, retail and e‑commerce firms since 2024, stealing tens of thousands of dollars by hijacking payment systems such as Pix, STR and Boleto. The group gains entry via password‑spraying, vishing attacks that install RMM tools (e.g., AnyDesk) or JBoss‑based web shells, then uses custom malware, reverse‑SOCKS5 proxies and stolen mTLS credentials to execute fraudulent transfers. Analysts warn the actor may expand across Latin America and Africa.
+
+3. 13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds
+Threat: Malware | Severity: 9/10
+Researchers found 13 malicious Composer theme packages on Packagist targeting Vietnamese movie/comic sites. The injected JavaScript runs mobile ad‑fraud and gambling redirects, and on iPhones launches a WebKit‑to‑kernel exploit chain (CVE‑2025‑31277, CVE‑2025‑43529) that installs spyware stealing keychain data, passwords, photos and crypto‑wallet seeds. Apple patched the kernel escape in iOS/macOS 26.1; the campaign was first seen in March 2026 and resurfaced in August 2026.
+
+4. Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests
+Threat: Malware | Severity: 8/10
+Iranian hacking group Nimbus Manticore has added two new cross‑platform RATs—NodeRabbit and PollCat—written in Node.js/JavaScript, extending attacks to Linux and macOS. Kaspersky says the malware is delivered via spear‑phishing on LinkedIn and job‑search sites, using trojanized coding‑challenge ZIPs that embed malicious npm packages. The first NodeRabbit sample was found in Afghanistan, with later cases in Egypt and Ethiopia, marking the group’s shift from C/C++/Go tools to JavaScript‑based payloads.
+
+5. Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones
+Threat: Malware | Severity: 5/10
+Microsoft found “ClickFix” – a social‑engineering trick that copies a command to a user’s clipboard via a fake captcha page – was the top initial‑access method in 2023, accounting for 47% of attacks. No attachments or exploits are needed; attackers simply run trusted admin tools already on the system. Meanwhile, vulnerability‑based intrusions rose to 31% (up 55% YoY). Hackers now favor repeatable, low‑skill procedures: scanning for unpatched, internet‑facing devices with public proof‑of‑concept exploits, then mass‑deploying them. This scalable “generic” approach outweighs novel research.
+
+
+#cybersecurity #infosec #threatintel
