@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories
+Threat: Data Breach | Severity: 9/10
+
+
+2. Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root
+Threat: Vulnerability | Severity: 10/10
+Cisco issued patches for a critical flaw (CVE‑2026‑20212, CVSS 9.8) in ten Silicon One‑based Nexus 9000 switches that lets an unauthenticated remote attacker reach TCP ports 43210/43211, execute arbitrary code as root, or crash the device. No workaround exists; Cisco recommends using an iACL or Live Protect shield until the fixed release is available. A separate IOS XR hardening update bundles seven CVEs (two at 9.8) with no current workaround, urging customers to apply the new SMU‑based releases.
+
+3. BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory
+Threat: Malware | Severity: 8/10
+Researchers uncovered BraZetsu, a Python‑based Windows malware framework used by Portuguese‑speaking group Exilware to sell access to compromised Iberian and Latin American targets via the Infected Marketplace. The modular, AI‑enhanced toolkit evades detection, gathers deep reconnaissance, extracts financial CNAB files and browser history, and lets buyers deploy secondary payloads for as little as $5.80 per host.
+
+4. Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data
+Threat: Data Breach | Severity: 8/10
+Thomson Reuters said an unauthorized party accessed files from its West Publishing C‑Track court‑case platform in March 2026, affecting courts in 11 U.S. states, the U.S. Virgin Islands and Ontario. Exposed data include names, SSNs, driver’s licenses, birth dates, medical and health‑insurance info. The company offers Experian (U.S.) and TransUnion (Canada) identity‑monitoring and a hotline; no fraud has been detected yet.
+
+5. US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries
+Threat: Malware | Severity: 8/10
+A remote‑monitoring‑and‑management (RMM) phishing campaign first linked to Canada’s CRA tax forms actually spans 46 countries, with 45 % of activity targeting the United States. Attackers lure victims with fake tax, shipping, SSA and invoice documents to install legitimate RMM tools. They rotate Vercel, GitHub Pages, Netlify and cloud storage daily—425 URLs on 240 hosts—yet reuse assets (fonts, images, delivery structure) to tie the infrastructure together. Education, government, finance and manufacturing are the primary sectors affected.
+
+
+#cybersecurity #infosec #threatintel
