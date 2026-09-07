@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication
+Threat: Vulnerability | Severity: 10/10
+Attackers are exploiting MikroTik routers’ internet‑exposed SSH service to gain unauthenticated admin access, CERT Polska warned on Sep 5, with attacks dating back to Sep 2. MikroTik’s security update fixes the flaw; users should install it immediately and verify for unauthorized changes. Until patched, disable or restrict SSH, web, and bandwidth‑test services, avoid TLS/SSH from unpatched devices, and inspect logs for suspicious configurations.
+
+2. Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner
+Threat: Malware | Severity: 8/10
+Elastic Security Labs identified four new components—ProManager, WinUpdate, SoftManager and LockAppHost—linked to the REVSTEALER Windows infostealer. After the stealer deletes itself, these programs remain, with LockAppHost disabling Windows Update and Defender before launching a crypto‑miner. All share the same packer, runtime tricks and Polygon‑based backup config. REVSTEALER, sold commercially since early 2026, exfiltrates passwords, wallets, gaming and messaging data, then self‑destructs, leaving no persistence. The four tools are separate executables that persist in the user profile.
+
+3. Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores
+Threat: Zero-Day | Severity: 9/10
+Sansec has identified an unpatched Magento Open Source/Adobe Commerce flaw, dubbed **StyleSmuggler**, that lets attackers execute code and install a backdoor on any store without logging in. The unauthenticated chain works on all current versions (2.4.7‑2.4.9 and 2.4.6‑p15). Adobe has yet to release a CVE, advisory, or patch. Sansec advises disabling GraphQL until a fix arrives, likely in Adobe’s scheduled September 8 security update.
+
+4. Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials
+Threat: Vulnerability | Severity: 9/10
+JetBrains warned Cadence users to revoke or rotate all credentials after a breach where threat actors exploited the critical TeamCity CVE‑2026‑63077 (CVSS 9.8) to access the Cadence server. The attackers accessed 2024 backups, exposing email addresses, source code, and stored secrets. JetBrains urges treating all Cadence executions, inputs, outputs, and related data as untrusted and advises immediate credential rotation.
+
+5. Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code
+Threat: Vulnerability | Severity: 10/10
+Broadcom patched two high‑severity flaws in VMware Workstation and Fusion (versions 25H2/26H1). CVE‑2026‑59346 is a critical integer‑overflow in the VMXNET3 adapter that lets a locally‑privileged attacker run code on the host (CVSS 9.3). CVE‑2026‑59347 is a stack‑buffer overflow in HGFS (CVSS 8.1). Both require local admin rights, which can be gained via phishing or misconfiguration. The fixes are in VMware Workstation 26H1u1 and Fusion 26H1u1; no wild exploits are known.
+
+
+#cybersecurity #infosec #threatintel
