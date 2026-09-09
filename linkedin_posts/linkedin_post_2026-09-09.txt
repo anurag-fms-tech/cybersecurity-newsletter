@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. N-able N-central Pre-Auth RCE Flaw Exploited in the Wild
+Threat: Vulnerability | Severity: 10/10
+CISA added N‑able N‑central’s critical flaw (CVE‑2026‑86218, CVSS 10.0) to its KEV catalog, requiring Federal Civilian Executive Branch agencies to apply the September 5 hotfix (2026.3 Hotfix 4) by September 11, 2026. The static‑code‑injection bug enables pre‑auth remote code execution. Huntress reported a breach on September 4 but cannot confirm whether this or related CVEs 86206/86207 were used. N‑able says the vulnerability is exploited and urges immediate patching.
+
+2. Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution
+Threat: Data Breach | Severity: 9/10
+CrowdStrike has identified a new financially‑motivated group, “Slim Spider,” targeting Brazil’s banking sector since March 2026. The actors leveraged deep knowledge of Pix, crypto platforms and cloud services, using custom Bash scripts to harvest cloud metadata, extract secret credentials and hijack Ethereum wallets via OpenSSL. They deployed backdoors and malicious Azure DevOps pipelines to infiltrate Kubernetes clusters, even mimicking the Pix‑processing SPI system.
+
+3. Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding $47M in BTC
+Threat: Vulnerability | Severity: 8/10
+On Sep 6, hackers who called themselves white‑hats stole ~4,000 BTC (~$320 M) from the Liquid Network’s federation wallet, wiping out ~95% of its reserves. The next day they returned 3,400 BTC (~$265 M); the remaining 598.5 BTC is change sitting in the address. Liquid remains paused, and Blockstream and SideSwap say no key was compromised, attributing the withdrawal to a bug in the Elements software.
+
+4. ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account
+Threat: Vulnerability | Severity: 8/10
+
+
+5. Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours
+Threat: Data Breach | Severity: 9/10
+Google’s Threat Intelligence Group says threat actors are using AI to automate attacks, including a group that deployed a multi‑agent framework to harvest credentials across sectors in six hours. Hackers are stealing API keys, hijacking cloud environments, and targeting AI models and tools with AI‑enhanced malware such as SANDCLOCK and DUSTMAKER, while a China‑aligned espionage unit uses Gemini to build an agentic pen‑testing system.
+
+
+#cybersecurity #infosec #threatintel
