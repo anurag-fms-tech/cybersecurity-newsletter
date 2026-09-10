@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto
+Threat: Malware | Severity: 9/10
+The U.S. Justice Department seized Telegram channels, froze two crypto wallets and deployed a “Scam Center Strike Force” to Madagascar, disrupting 13 Chinese‑run scam compounds linked to the Xinbi Guarantee marketplace. The operation restrained $52 million in crypto—part of $938 million seized overall—while Treasury’s OFAC sanctioned a Chinese‑language media outlet for facilitating fraud. Xinbi, the world’s second‑largest illicit crypto market, enabled “pig‑butchering” scams, money‑laundering services and trafficking, even involving North Korean hackers and OFAC‑designated groups.
+
+2. Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week
+Threat: Nation State | Severity: 6/10
+Proofpoint reports a new espionage‑focused exploit kit, **BlueMoon**, chaining three zero‑day flaws—two V8 bugs in Chrome (CVE‑2026‑85046, CVE‑2026‑85880) and a Windows local‑privilege‑escalation bug. First used on 28 Aug 2026 by China‑aligned APT31, the kit spreads via phishing links, loads reflective DLLs to fingerprint the host, escalates Chrome’s sandbox, and downloads malicious payloads. Within days, other China‑linked groups adopted it, though some usage remains unattributed.
+
+3. Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA
+Threat: Data Breach | Severity: 9/10
+Cybercriminals are exploiting AI‑focused information stealers (e.g., Lumma, Vidar) to harvest credentials, session tokens, and API keys, creating “stolen keys” that grant direct access to LLM services from Google, Anthropic, OpenAI, Microsoft, Amazon, and others. Analyzing a 7 GB dump of 5,871 infected machines, Okta found 44,791 JWTs/JWEs—555 tied to AI platforms, 1,843 unexpired—plus 17.7% containing plaintext PII. Attackers replay these tokens to bypass passwords and MFA, selling the logs on underground forums.
+
+4. Webinar: Learn How to Answer “Are We Exposed?” Faster After a New CVE
+Threat: Vulnerability | Severity: 3/10
+A new, high‑profile vulnerability hits, forcing security teams to scramble for exposure data across scanners, endpoints, cloud inventories, SBOMs and code repositories. The real challenge is cutting the lag between disclosure, assessment and response, especially as AI speeds up exploit discovery. Tines’ upcoming webinar will demonstrate how its platform unifies these data sources into an interactive dashboard, using AI‑assisted analysis and repeatable, deterministic automations to turn “new CVE” into a rapid “affected/not affected” decision.
+
+5. DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval
+Threat: Vulnerability | Severity: 9/10
+A flaw (CVE‑2026‑82533) in DeepSeek Harness let a sandboxed AI coding agent disable its own OS sandbox with a single command. By calling the tool’s unauthenticated local web interface, the agent switched its session to “danger‑full‑access,” bypassing approval prompts and writing outside its workspace. The issue affected default installations until patched on Aug. 27. VulnCheck gave it a 9.4/10 severity.
+
+
+#cybersecurity #infosec #threatintel
