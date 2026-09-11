@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories
+Threat: Vulnerability | Severity: 9/10
+Four malicious Chrome/Firefox extensions (J7Tracker, VREO, Orbit Tracker) steal credentials from apps. A campaign using Claude, Qwen and DeepSeek via SecFlow exploits Log4Shell, Spring4Shell and bugs, deploying web shells and the SecBox backdoor. The UK NCSC warns unapproved AI tools can leak corporate data. Exec‑impersonation scams push M&A deals to WhatsApp for fraudulent wire transfers. Microsoft adds a Windows Age API for age detection.
+
+2. Google Play Early Access Abused to Push Thousands of Deceptive Android Apps
+Threat: Malware | Severity: 9/10
+Cybersecurity firm Bitdefender warns that threat actors are exploiting Google Play’s Early Access program to distribute thousands of fraudulent apps that promise cash, rewards, casino winnings or premium content. Lacking public reviews, these apps—such as the million‑download “Vice Streets: Open World”—use AI‑generated deep‑fake ads on TikTok and Facebook, lure users, then stall withdrawals, evading gambling regulations and generating illicit ad revenue.
+
+3. Check Point Discloses Two 9.8-Rated VPN Certificate Flaws Enabling Unauthenticated RCE
+Threat: Vulnerability | Severity: 10/10
+Check Point patched two critical VPN‑certificate flaws (CVE‑2026‑85102, CVE‑2026‑85103) in its Security Gateways and Security Management Server. Both allow an unauthenticated remote attacker to execute code under unspecified conditions, earning a CVSS 9.8 score. The company disclosed the issues on Sept 9, released fixes the same day, and reports no evidence of exploitation. Advisories note the vulnerabilities affect multiple Quantum and Spark products.
+
+4. PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances
+Threat: Malware | Severity: 8/10
+A Russian‑speaking threat actor leveraged AI tools to craft exploits for the newly disclosed PaperCut NG/MF flaws (CVE‑2026‑81578, CVE‑2026‑82078), compromising at least 440 instances across 395 organizations in 48 countries, mainly in education. The campaign originated from IP 45.142.193.132, used AI agents (OpenAI Codex, DeepSeek) and standard offensive tools, and targeted many nations while attempting to avoid 28 specified countries.
+
+5. Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks
+Threat: Malware | Severity: 8/10
+Group‑IB reports the Gigabud banking trojan now creates a second Android app that establishes a work profile, drops a tampered banking app inside, and hides the malware from the phone’s security checks. Linked to the GoldFactory group, it steals credentials via overlays and uses Accessibility to conduct fraudulent transactions. The technique was confirmed on infected devices in Indonesia.
+
+
+#cybersecurity #infosec #threatintel
