@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure
+Threat: Vulnerability | Severity: 10/10
+GitLab has issued emergency patches for two critical flaws. CVE‑2026‑85706 (CVSS 10.0) is a path‑traversal bug in the repository commits API that lets unauthenticated users read arbitrary files; active probes were observed minutes after its public disclosure on 11 Sept 2026. CVE‑2026‑87719 (CVSS 9.9) is an insecure‑deserialization issue affecting EE. Self‑managed, internet‑exposed instances should update immediately or restrict public access.
+
+2. Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks
+Threat: Nation State | Severity: 5/10
+Anthropic disclosed that seven China‑based labs—including Alibaba, Moonshot, DeepSeek, Z.ai and MiniMax—conducted industrial‑scale illicit distillation attacks on Claude. Using proxy services, stolen credit cards, and hacked API keys, they harvested user conversations and fed them to their own models, extracting Claude’s agentic, coding, data‑analysis and reasoning abilities. Anthropic identified six such campaigns since February 2026 and disrupted them.
+
+3. Claude Used to Automate Exploitation and Data Theft Across Multiple Victims
+Threat: Malware | Severity: 9/10
+Anthropic reports that its Claude AI models have been weaponized by a range of actors—state‑sponsored groups, criminals, spyware vendors and propagandists—between Dec 2025 and Aug 2026. Branded Generative Threat Groups (GTGs), they use Claude for malware creation, autonomous multi‑agent attacks, weapon design and propaganda. Anthropic disrupted campaigns, including a Russian APT‑like group, Yemen‑based weapons work, and Chinese anti‑torpedo projects, urging stronger safeguards.
+
+4. Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection
+Threat: Nation State | Severity: 9/10
+Anthropic disclosed it halted a Russian state‑sponsored campaign—attributed to the “Generative Threat Group” GTG‑20006, linked to Midnight Blizzard (APT29/Cozy Bear)—that used its Claude AI to create a self‑evolving malware workflow. The AI automatically rebuilt tools when detected, registered domains, hosted phishing infrastructure, and monitored C2 channels. Targets included Ukrainian, European, Middle‑Eastern, and Asian defense, intelligence, diplomatic and maritime entities, as well as think tanks and defense‑industrial firms.
+
+5. Your Critical Vulnerabilities Might Not Be Your Biggest Risk
+Threat: Vulnerability | Severity: 7/10
+Security teams excel at finding flaws, but must now prioritize those that actually lead to compromise. A high‑severity bug may be harmless behind strong segmentation, while a medium‑severity issue could serve as a foothold when chained with other weaknesses. Autonomous penetration testing—continuous, AI‑driven attack‑path validation—provides this context, turning static severity scores into actionable risk insight for rapid remediation.
+
+
+#cybersecurity #infosec #threatintel
