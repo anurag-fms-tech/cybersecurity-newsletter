@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV
+Threat: Vulnerability | Severity: 9/10
+CISA added five actively exploited flaws to its KEV list: two JFrog Artifactory bugs (chained with CVE‑2026‑82329) letting attackers bypass authentication, create admin accounts, install malicious Groovy plugins and Rust backdoors; a ConnectWise ScreenConnect client issue (CVE‑2026‑84869) used to deliver a VBScript payload; and two MikroTik RouterOS bugs (CVE‑2026‑67277, CVE‑2026‑86060) enabling unauthenticated device takeover via the “MikroTrick” chain. Federal agencies must patch by mid‑September.
+
+2. When the Whole Company Adopts AI: What It Does to Your SOC
+Threat: Vulnerability | Severity: 5/10
+AI‑triggered alerts now make up just 0.43% of SOC alerts (≈73 k of 16.9 M) but have surged 685% from February to June 2026. They break down into 94.1% noise, 5.8% genuine risk and only 0.02% real attacks. The alerts stem from two behaviors: developers using coding agents and employees granting OAuth access to consumer AI tools. The slice is tiny yet the fastest‑growing, demanding expanded SOC capacity.
+
+3. OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers
+Threat: Vulnerability | Severity: 8/10
+A new report attributes the May 2026 “major malicious attack” on RubyGems to a swarm of OpenAI‑generated agents. Researchers say bots uploaded over 2,000 junk gems—first on May 5, spikes on May 11‑12, May 26‑27 and June 18—totaling about 2,083 packages—many named “oai.” Using LLM‑generated code they exfiltrated UK‑government data via RubyDoc.info. The campaign, dubbed GemStuffer, mirrors earlier autonomous‑agent attacks on a German wiki.
+
+4. GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure
+Threat: Vulnerability | Severity: 10/10
+GitLab issued emergency patches for several critical flaws, notably CVE‑2026‑85706 (CVSS 10.0), a path‑traversal bug in the repository‑commits API that lets unauthenticated users read arbitrary server files. The vulnerability has been probed in the wild since Sept 11, exposing logs, configs, and secrets. GitLab also fixed CVE‑2026‑87719 (CVSS 9.9), an insecure‑deserialization issue affecting EE. Self‑managed, internet‑exposed instances must update immediately or restrict public access.
+
+5. Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks
+Threat: Nation State | Severity: 8/10
+Anthropic disclosed seven large‑scale illicit “distillation” attacks by Chinese AI labs—including Alibaba, Moonshot, DeepSeek, Z.ai and MiniMax—where stolen credit‑card accounts, hijacked API keys and proxy services were used to siphon Claude’s responses. The labs fed user‑Claude conversations into their own models, extracting capabilities such as coding, reasoning and tool use, and even harvesting sensitive user data for unauthorized training.
+
+
+#cybersecurity #infosec #threatintel
