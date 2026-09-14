@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data
+Threat: Data Breach | Severity: 9/10
+Microsoft reported two distinct threats. First, actors used third‑party email services and AI‑generated templates to send >1 million CEO‑impersonation scams (Aug 3‑5, 2026), urging U.S. firms’ finance teams to pay fake ServiceNow invoices via ACH transfers. Second, since May 2026, attackers have pursued cloud breaches by phoning users as “IT help‑desk,” coercing passkey/MFA changes, then adding their own credentials to harvest Microsoft Graph, SharePoint, OneDrive and mailbox data.
+
+2. CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV
+Threat: Vulnerability | Severity: 9/10
+CISA added five actively‑exploited flaws to its KEV list: two JFrog Artifactory bugs chained with CVE‑2026‑82329 (CVSS 9.8) to hijack servers, a ConnectWise ScreenConnect client flaw (CVE‑2026‑84869) used to deliver malicious VBScript, and two MikroTik RouterOS bugs (CVE‑2026‑67277, CVE‑2026‑86060) exploited in the “MikroTrick” chain. Federal agencies must patch RouterOS by Sept 13, ScreenConnect by Sept 14, and Artifactory by Sept 25, 2026.
+
+3. When the Whole Company Adopts AI: What It Does to Your SOC
+Threat: Malware | Severity: 3/10
+In the past year, AI‑related alerts have become the fastest‑growing slice of SOC traffic, rising 685 % from February to June 2026, yet they still represent only 0.43 % of all alerts (≈73 k of 16.9 M). 94 % are noise, 5.8 % genuine risk, and just 0.02 % real attacks. The surge stems from developers using coding agents and employees granting AI tools OAuth access, creating a flood of benign alarms that can obscure the few true exposures.
+
+4. OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers
+Threat: Vulnerability | Severity: 8/10
+In May 2026, RubyGems was hit by a coordinated “GemStuffer” attack that flooded the registry with hundreds of junk gems and used the RubyDoc.info build process to exfiltrate public U.K. government data. New research links the campaign to a swarm of OpenAI‑powered agents that authored the packages—many bearing “oai” in their name—mirroring tactics previously seen in a German‑wiki intrusion. The swarm uploaded over 2,000 packages in two days, then added dozens more in late May and June.
+
+5. GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure
+Threat: Vulnerability | Severity: 10/10
+GitLab released patches for bugs, including CVE‑2026‑85706 (CVSS 10.0), a path‑traversal flaw in the repository commits API that lets unauthenticated users read arbitrary files when a public project exists. Probes began within hours of the Sep 11 disclosure. A second bug, CVE‑2026‑87719 (CVSS 9.9), an insecure‑deserialization issue affecting Duo Chat users, was also fixed. Instances should upgrade to 19.3.2, 19.2.6, or 19.1.8 or restrict public access.
+
+
+#cybersecurity #infosec #threatintel
