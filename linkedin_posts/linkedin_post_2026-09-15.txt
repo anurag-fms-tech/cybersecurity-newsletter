@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing
+Threat: Zero-Day | Severity: 9/10
+Researchers unveiled DDRop, a $200 interposer that silently drops writes on DDR5 memory, letting Intel TDX, Scalable SGX and AMD SEV‑SNP processors read stale encrypted data as current. By exploiting the lack of “freshness” guarantees, the attack—requiring brief physical access to insert the board—breaks integrity of confidential‑computing workloads in cloud servers. The team will release designs and code on GitHub.
+
+2. 3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials
+Threat: Malware | Severity: 8/10
+A Hunt.io investigation revealed an attacker had infiltrated Thailand’s 3BB broadband network, using the legitimate remote‑management tool MeshCentral as a hidden backdoor. By exploiting an exposed server, they gained root on internal machines, sprayed passwords, harvested RADIUS credential databases, and left the MeshCentral agent for persistent access. The operation also targeted a related Jasmine network via a stolen VPN certificate.
+
+3. Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports
+Threat: Vulnerability | Severity: 6/10
+Researchers at ExPatch discovered a Telegram Desktop vulnerability where a bot’s message could embed hidden JavaScript in HTML chat exports. The script, triggered when the exported file is opened in a browser, could exfiltrate all messages and rewrite the page. Telegram fixed the bug in July, but older export files remain vulnerable. No known abuse reported.
+
+4. Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries
+Threat: Vulnerability | Severity: 8/10
+Red‑Heron, a suspected Chinese threat group, rapidly weaponised the July‑2026 Gitea RCE flaw (CVE‑2026‑60004), scanning 1,386 public instances in seven countries and compromising 14 organisations across Canada, Argentina, Taiwan, the U.S., Qatar and Sri Lanka. Using a Python exploit framework, the actors stole source code, harvested credentials, and achieved root access to a three‑node Proxmox cluster via a C++ implant (JITTERLY) that includes an undocumented LD_PRELOAD rootkit (SIXZUT). The campaign targets sectors aligned with China’s intelligence priorities.
+
+5. WordPress Adds Automated Plugin Reviews to Block High-Risk Updates Before Distribution
+Threat: Vulnerability | Severity: 2/10
+WordPress is adding an automated security review to every plugin update before it’s delivered via the WordPress.org API. The new “Protect The Shire” initiative introduces a six‑hour cooldown (down from 24) and halts distribution of releases with high‑risk scores—whether from bugs or malicious code. The system recently caught a backdoor in a plugin with ~20 k users, preventing its release. Developers are urged to follow WordPress coding standards and use tools like PHPCS and the Quality Insights Toolkit.
+
+
+#cybersecurity #infosec #threatintel
