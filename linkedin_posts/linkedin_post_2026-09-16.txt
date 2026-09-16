@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens
+Threat: Malware | Severity: 9/10
+Researchers uncovered a Brazilian banking malware suite called KREMLIN (tracked as REF9334) active since May 2025. It lures victims with fake bank emails, then runs a JavaScript loader that evades sandboxes, installs a Chrome/Edge extension, and deploys a C++ installer that sideloads a fake SentinelAgentCore.dll. C2 URLs are stored in Ethereum smart contracts, enabling blockchain‑based updates and persistence via scheduled tasks.
+
+2. Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists
+Threat: Malware | Severity: 8/10
+U.S., U.K. and Dutch cyber agencies say Iran’s Ministry of Intelligence uses a Windows Trojan—called HEAVYGRAM by the FBI and CHOSEN BRICK by the NCSC—to spy on dissidents, journalists and activists worldwide. Controlled via Telegram, it harvests emails, chats, screenshots and audio. The campaign began in late‑2023, targeting Iranian critics globally, and has led to data leaks on pro‑Iran sites that threaten victims’ safety.
+
+3. BambooToken Malware Uses MQTT to Control Windows and Linux Systems
+Threat: Malware | Severity: 8/10
+Researchers uncovered BambooToken, a multi‑platform malware family using MQTT for C2, active since Feb 2023 and seen in attacks on Asian and South American organizations through July 2026. The group sideloads agents via Tendyron’s OnKey PKI USB token software, exploiting DLL‑sideloading vulnerabilities. Samples mostly originate from Chinese IPs. The bot extracts C2 info from a .DAT file, contacts chat5188.tk, and follows MQTT‑based command patterns.
+
+4. Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds
+Threat: Vulnerability | Severity: 9/10
+Sysdig reported that a skilled attacker pivoted from a vulnerable Marimo notebook to an AWS bastion host in just eight seconds using a hand‑written Python toolkit—no AI involved—exploiting the high‑severity CVE‑2026‑39987 (CVSS 9.3). Over a nine‑hour session they ran 850+ commands, evading traps that AI‑assisted groups fall into. Meanwhile, Hunt.io uncovered a cryptomining campaign that compromised 3,562 Redis servers via the SLAVEOF command to deploy XMRig miners, attribution unknown.
+
+5. Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point
+Threat: Vulnerability | Severity: 3/10
+Security teams excel at testing isolated techniques—EDR detection, phishing simulations, SIEM rules—but attackers now chain multiple tactics, often AI‑enhanced, into end‑to‑end campaigns. This “technique‑by‑technique” approach misses gaps where tools and teams don’t communicate, letting a full attack slip through. Filigran reports 93% of leaders faced impactful breaches despite validation, with 88% seeing AI‑driven attack speed and 84% blaming siloed tools for missed exposures. The industry must shift to testing continuous attack chains, not just individual tactics.
+
+
+#cybersecurity #infosec #threatintel
