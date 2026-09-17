@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution
+Threat: Vulnerability | Severity: 10/10
+A critical flaw (CVE‑2026‑89026) in the Issabel Framework—used for open‑source PBX software—allows unauthenticated attackers to forge JWTs using a hard‑coded signing key, then call the /pbxapi/manager/originate endpoint to execute arbitrary OS commands as the Asterisk user. The vulnerability, rated 9.8/9.3 CVSS, was first seen exploited on Sept 9 2026. A patch released Aug 1 2026 replaces the hard‑coded key with one stored in /etc/issabel.conf. Users should apply the update immediately.
+
+2. Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers
+Threat: Malware | Severity: 8/10
+Russian enterprises are being hit by threat clusters—NightEagle (APT‑Q‑95), Hacking Cat and Toy Ghouls—Kaspersky reports. NightEagle compromises VPNs using stolen credentials from Cloudflare WARP and European cloud IPs, then implants the GhostContainer backdoor on Microsoft Exchange, disguising it as a server component and leveraging CVE‑2020‑0688. For lateral movement it uses RDP tunnels, exploits CVE‑2019‑0708 (BlueKeep) and performs DCSync attacks, hijacking Directory.
+
+3. One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude
+Threat: Malware | Severity: 9/10
+Security researchers at Forever Security showed that a single browser extension can hijack AI assistants in five Chromium‑based products—Gemini Live (Chrome), Perplexity Comet, Microsoft Edge, Opera Neon and Claude’s Chrome extension. The extension, using only two common permissions, seizes the trusted page the AI “body” listens to, allowing it to read files, activate camera/mic, and command the AI to act on the attacker’s behalf. The demos are not seen in the wild; Chrome’s issue (CVE‑2026‑0628) was patched in Jan 2026, Edge’s (CVE‑2026‑55945) in July 2026, while the other findings lack CVEs. Forever Security earned roughly $20K in bug‑bounty rewards.
+
+4. Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories
+Threat: Malware | Severity: 8/10
+Mandiant reports that an attacker hijacked an active AI coding‑assistant session at an unnamed SaaS provider, used it to poison a PyPI package, and then spread the self‑propagating Shai‑Hulud worm across roughly 100 internal code repositories. The worm stole secrets, source code, and GitHub OAuth tokens, and a second infection occurred when another employee pulled the compromised package. Mandiant urges new AI‑assisted development controls.
+
+5. Parallels Desktop Flaw Lets Non-Admin Mac Users Gain Root, but Intel Macs Can't Install Fix
+Threat: Vulnerability | Severity: 9/10
+Parallels Desktop for Mac contains a local privilege‑escalation flaw dubbed “ParaShells” (CVE‑2026‑90894) that lets any non‑admin user run code as root. The vulnerability stems from a world‑writable socket used by the background prl_disp_service, which accepts unvalidated commands that are passed to tar running as root, allowing arbitrary programs to execute with full system privileges. JFrog disclosed the issue, rated it 7.8/10, and confirmed a fix in Parallels Desktop 27—though Intel‑based Macs cannot install that version. The exploit works locally without network access and affects the host Mac, not the VMs.
+
+
+#cybersecurity #infosec #threatintel
