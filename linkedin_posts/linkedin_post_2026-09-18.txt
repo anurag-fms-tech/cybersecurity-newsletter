@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root
+Threat: Vulnerability | Severity: 10/10
+Check Point disclosed a critical CVE‑2026‑91843 (CVSS 9.8) affecting its Security Management and Log Servers. A stack‑overflow in the pre‑authentication login path—triggered by an excessively long username—could let unauthenticated attackers execute code as root over the network. The flaw is limited to the Trusted Clients setting. Check Point issued a LivePatch fix (advisory SK1000155) on Sep 16; automatic‑update customers are already protected. No evidence of exploitation or public PoC exists.
+
+2. ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories
+Threat: Malware | Severity: 7/10
+Threat actors keep surfacing key‑storage spots. CL‑CRI‑1171 runs a marketplace using YouTube gaming videos and SEO‑poisoned software, delivering OfferLoader with a Chrome backdoor, WebSocket RAT, and Insomnia RAT. Unauthenticated LocalAI instances were hijacked, yielding AWS keys and military data. AI agents can self‑modify models, leaking secrets. Spain reports a breach, and CISA warns ransomware exploiting VMware vCenter CVE‑2026‑59310, a China‑linked APT.
+
+3. Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files
+Threat: Vulnerability | Severity: 10/10
+Docker warned on Sept 15 that a critical flaw (CVE‑2026‑77179) in Docker Sandboxes for macOS lets malicious code inside the VM escape the shared project directory via a virtio‑fs symlink bug, gaining the host user’s rights and reading or modifying any file. It affected versions 0.28.0‑0.41.x and was patched in 0.42.0 (Sept 7). No exploitation is known. The update also fixes CVE‑2026‑79994, allowing unsafe Unix‑socket relays.
+
+4. Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords
+Threat: Nation State | Severity: 9/10
+Iran‑linked “Handala Hack” – a persona tied to the MOIS‑affiliated group Void Manticore – deploys a Telegram‑based backdoor called HEAVYGRAM and a Delphi utility, CRUDEEXCLUDE, to prep Windows systems for further implants. The tools enable remote command execution, data exfiltration, screenshot capture, DLL sideloading, Defender evasion and persistence via registry keys. Targets include Iranian dissidents, journalists and opposition groups, with infections delivered through social‑engineering lures on Telegram, WhatsApp and Instagram. The UK NCSC tracks the same family as “CHOSEN BRICK.”
+
+5. Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone
+Threat: Vulnerability | Severity: 10/10
+A critical heap overflow in Unbound’s DNSSEC validator (CVE‑2026‑81642) affects all releases prior to 1.26.1. An attacker controlling a malicious zone can trigger remote code execution. The same update also fixes eight other bugs, including CVE‑2026‑82717, a heap‑corruption issue in CNAME synthesis that can also lead to code execution. No exploitation is reported. Upgrade to Unbound 1.26.1 (or apply provided patches).
+
+
+#cybersecurity #infosec #threatintel
