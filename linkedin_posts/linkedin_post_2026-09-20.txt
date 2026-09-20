@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws
+Threat: Vulnerability | Severity: 9/10
+Hacktron researchers used Anthropic’s Claude Opus 5 to chain two OpenAI flaws—one in its public forum software and another in its SSO login—gaining control of several OpenAI employees’ ChatGPT and Codex accounts and briefly accessing an internal code repo. The proof‑of‑concept pull request caused no damage. OpenAI fixed the login issue within 14 hours and paid a $6,500 bounty, noting the forum bug itself was out of scope.
+
+2. Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar
+Threat: Vulnerability | Severity: 2/10
+A new CVE with a high severity score highlights a growing problem: attackers, aided by mythos‑class AI, are shortening the gap between disclosure and exploitation, while many security teams still validate risk on weekly or quarterly cycles. The real challenge is speed, not just technical severity. Picus’s Solutions Architect Lead, Ishak Celikkanat, will demo a rapid CVE‑to‑validation workflow in an upcoming webinar, “How to Prove You’re Ready for Mythos‑Class Attacks,” with recordings available after the live session.
+
+3. Identity Visibility in 2026: The Foundation of Identity Security
+Threat: Vulnerability | Severity: 1/10
+Identity visibility—seeing every user, its permissions, and real‑time usage—is the foundation of modern IAM security. Cloud and multicloud growth create “identity dark matter” (untracked service accounts, legacy creds) that widens the gap between intended policies and actual execution. Effective programs require accurate inventory, entitlement mapping, continuous contextual analysis, and enable rapid response to credential‑based attacks.
+
+4. SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE
+Threat: Vulnerability | Severity: 9/10
+SolarWinds issued patches for a critical, unauthenticated remote‑code‑execution flaw (CVE‑2026‑28326, CVSS 8.8) in Access Rights Manager 2026.2 and earlier, stemming from a hard‑coded static key and credited to researcher Kai Huang. The update (ARM 2026.2.1) follows recent fixes for severe Web Help Desk and Serv‑U vulnerabilities, though no wild exploitation has been reported.
+
+5. Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild
+Threat: Vulnerability | Severity: 10/10
+A critical unauthenticated remote‑code‑execution flaw (CVE‑2026‑58138, CVSS 9.8/9.3) in Orkes Conductor 3.21.21‑3.30.1 lets attackers send malicious JavaScript or Python in workflow definitions to execute OS commands via unsandboxed GraalVM evaluators. Fortinet saw a surge of exploitation, blocking 1,290 attempts in 24 hours (≈7,000 total in a week) from Germany, Hong Kong, Indonesia, UAE, India and elsewhere. Users should upgrade to Conductor 3.30.2+ or restrict and monitor API access.
+
+
+#cybersecurity #infosec #threatintel
