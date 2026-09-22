@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR
+Threat: Malware | Severity: 9/10
+Researchers discovered a malicious “LastPass Authenticator” installer on GitHub that uses a legitimate, Microsoft‑signed kernel driver to disable antivirus before deploying a password‑stealer. The fake page redirects users to a ZIP containing a renamed Microsoft debugging tool and a malicious DLL, which side‑loads the driver (Alinubx.sys). The driver, signed via Microsoft’s hardware‑compatibility program, terminates 145 security processes from kernel level. No genuine LastPass systems were compromised.
+
+2. Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto
+Threat: Malware | Severity: 9/10
+
+
+3. Google Fined €403 Million Over GDPR Violations Tied to Location Data
+Threat: Data Breach | Severity: 7/10
+Google was fined €403 million by Ireland’s Data Protection Commission for GDPR breaches involving three features—Web & App Activity, Location History, and Location Accuracy—that mishandled users’ location data from May 2018 to February 2020. The regulator said Google failed on lawful, fair and transparent processing and kept data longer than needed. Google must remediate within six months and can appeal the decision.
+
+4. ⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks
+Threat: Zero-Day | Severity: 10/10
+This week’s alerts highlight a surge of high‑severity flaws in trusted software. Cisco warned that CVE‑2026‑76460, a critical ISE API auth‑bypass, is being exploited. Other CVEs—affecting Google Pixel, Nintendo Switch, AWS SSM, Chrome, Firefox, Docker, and more—earned urgent patches. Experts stress moving from training to a security‑first culture and monitoring AI agents, as attack windows shrink and old payloads resurface.
+
+5. TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data
+Threat: Malware | Severity: 8/10
+A new campaign named TASK#STOMP deploys a PowerShell backdoor that exfiltrates business documents, Wi‑Fi passwords, clipboard data, screenshots, and executes remote commands via two token‑authenticated C2 servers. It starts with a disguised VBScript run through wscript.exe, establishes persistence via scheduled tasks and the Startup folder, uses timestomping and cleanup tricks, and likely spreads through phishing or social engineering.
+
+
+#cybersecurity #infosec #threatintel
