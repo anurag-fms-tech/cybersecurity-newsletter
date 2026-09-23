@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks
+Threat: Zero-Day | Severity: 9/10
+Check Point disclosed that attackers exploited a new path‑traversal bug (CVE‑2026‑93616) in its Security Management Server on July 23, allowing unauthenticated script execution via the web service. The company issued a patch on September 22. Separately, since September 12 attackers have tried to abuse a VPN flaw (CVE‑2026‑85102) fixed on September 9, targeting Spark small‑business firewalls, though no exploitation was confirmed. Both issues received separate LivePatch updates, but the September 22 fix does not address CVE‑2026‑93616.
+
+2. WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers
+Threat: Vulnerability | Severity: 9/10
+WordPress patched a critical core vulnerability (CVE‑2026‑87902, CVSS 9.2) that lets unauthenticated attackers load external PHP files and, on some servers, execute their own code. All supported versions from 4.7.0 through 7.1.1 are affected. The fix shipped in WordPress 7.1.2 on Sep 22 and was back‑ported to older branches. Users must update immediately; no workaround is available.
+
+3. Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials
+Threat: Malware | Severity: 9/10
+Researchers discovered a malicious npm package, tw‑pkgprobe‑7731, posing as a Twilio security tool. Uploaded in August 2026 by the account twdepprobe7731, several versions were released within minutes. The version pretended to be a bug‑bounty probe, checked for a Twilio environment, harvested data, and exfiltrated it via webhook. Later versions targeted Twilio SIDs, injected code, and stole ACCOUNT_SID and AUTH_TOKEN
+
+4. Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises
+Threat: Data Breach | Severity: 8/10
+Microsoft shut down the AI‑powered EvilTokens phishing‑as‑a‑service platform after a U.S. court order, with help from Health‑ISAC, Cloudflare, Coinbase, OpenAI and others. EvilTokens abused OAuth 2.0 device codes to hijack email accounts, using a chatbot to scan inboxes, map trusted relationships and craft fraud messages, enabling large‑scale business‑email compromise. The operation, linked to threat actor Storm‑2992, led to two arrests in London.
+
+5. Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials
+Threat: Vulnerability | Severity: 10/10
+A flaw (CVE‑2026‑90898, CVSS 9.8) in Bifrost’s HTTP transport lets attackers run arbitrary commands via POST to /api/mcp/client when management authentication is disabled—the default. The exploit runs as the gateway user (appuser), exposing stored LLM API keys. Fixed in transports/v2.1.0; until then enable authentication, restrict the management API, and rotate credentials. Also see CVE‑2026‑86242 (CVSS 8.1) for malicious plugin loading, patched in v2.0.0.
+
+
+#cybersecurity #infosec #threatintel
