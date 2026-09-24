@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry
+Threat: Malware | Severity: 8/10
+Researchers uncovered Go‑based malware hidden in two Go modules and two Terraform providers—marking the first use of HashiCorp’s central repository for distribution. The code mirrors the Graphalgo campaign linked to North Korean actors, which also appears in recent malicious npm packages. Activation requires a specific cryptographic solve; the payload decrypts via an Ethereum Sepolia smart contract and communicates through a Slack bot, employing dual C2 channels and encrypted, asymmetric‑encrypted payloads whose final actions remain unknown.
+
+2. A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You
+Threat: Vulnerability | Severity: 9/10
+GitLab gives each user a permanent, token‑based email address for filing issues. Anyone who knows this address can email a patch that GitLab will commit under the user’s identity, push to any branch they can access, and trigger CI/CD jobs. The same token works across all projects the user can see, and incoming email bypasses IP restrictions. Thus, possession of the address effectively grants the holder the user’s permissions, from minor guest actions up to full maintainer privileges.
+
+3. MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key
+Threat: Vulnerability | Severity: 10/10
+Two MikroTik RouterOS SSH bugs—CVE‑2026‑67279 (state‑machine flaw) and CVE‑2026‑86060 (argument‑injection)—were chained in a technique called “MikroTrick,” letting attackers take admin control of routers without passwords or keys. The first skips authentication after a key renegotiation; the second accepts “‑2” as username, causing login program to grant root privileges. Exploitation appeared on Sept 2, before patches (6.49.21, 7.23.4, 7.24.2). CERT Polska warned on Sept 5 to patch.
+
+4. This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move
+Threat: Malware | Severity: 8/10
+Cisco Talos discovered “CLOSEDQUORUM,” Windows malware that consults up to four commercial AI models (DeepSeek, Qwen, Mistral, Google Gemini) instead of a traditional C2 server to decide actions—steal credentials, inject code, persist, or move. The AI‑voted choice is reported to the attacker via a Discord webhook. The public version is non‑functional; the code dates to June 2026 and links its creator to 2025 card‑selling forum posts.
+
+5. Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI
+Threat: Malware | Severity: 9/10
+Threat actors compromised two legitimate MemTensor packages—one on npm and one on PyPI—to inject a Go‑based implant called **sckit** that runs on Windows, Linux and macOS. The malicious code activates when the MemTensor agent starts or when the “memos” module is imported, harvesting credentials from cloud services, source‑code platforms, CI pipelines and developer tools, and exfiltrating them to skyleen.fr. The attackers stole publish tokens from MemTensor’s GitHub Actions, enabling them to republish tainted packages and potentially spread the worm to other npm/PyPI projects.
+
+
+#cybersecurity #infosec #threatintel
