@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions
+Threat: Vulnerability | Severity: 9/10
+A researcher discovered two chained flaws in OnePlus 15’s OxygenOS that let a malicious app—installed with no permissions—gain full root control. The first bug in the AtlasService allows an unprivileged app to execute commands in a restricted zone; the second in the olc2 hardware helper then grants unrestricted Linux privileges, including kernel code execution. OnePlus confirmed the issues affect many of its and OPPO devices, warned that publishing details without consent could incur legal liability, and said a fix is scheduled, though the researcher released the findings on September 24 before a patch was available.
+
+2. ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories
+Threat: Vulnerability | Severity: 8/10
+
+
+3. Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content
+Threat: Malware | Severity: 8/10
+The domain third‑party.com—long used as a generic documentation placeholder—was recently registered and turned into a ClickFix lure. Windows browsers see a Cloudflare check that hijacks the clipboard, prompting users to paste a command that runs a remote PowerShell payload; macOS users get a “Windows‑only” error. The site is now flagged malicious on VirusTotal and Google Safe Browsing, and it appears in over 1,700 public GitHub repos, exposing many projects to potential prompt‑injection and paste‑jacking attacks.
+
+4. Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer
+Threat: Malware | Severity: 7/10
+An active ClickFix campaign hijacks Ukrainian business sites, inserting fake Cloudflare verification pages that copy a malicious msiexec command to the visitor’s clipboard. When pasted into Windows Run, it downloads an MSI installer delivering the previously unknown Psychedelic stealer, which harvests browser passwords, tokens, crypto‑wallet data, sets scheduled‑task persistence, and contacts a C2 server for further tasks. The attack uses injected iframes loading fsputnik.com JavaScript and hosts payloads on newly‑registered domains.
+
+5. Corp MDM Spyware Targets Logistics Firms, Steals New SMS and Redirects Calls
+Threat: Malware | Severity: 7/10
+A new cyber‑campaign targeting the logistics sector distributes Android spyware called Corp MDM via fake Google Play pages for CEVA and TKW Logistics. The APK masquerades as a system service, exfiltrates SMS, forwards calls, and runs a hidden foreground service. It contacts a hard‑coded C2 IP, uses AI‑generated code with bugs, and is part of a broader logistics‑focused credential‑phishing and Windows‑malware operation.
+
+
+#cybersecurity #infosec #threatintel
