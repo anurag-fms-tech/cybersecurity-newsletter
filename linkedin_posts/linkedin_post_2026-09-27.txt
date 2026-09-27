@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials
+Threat: Malware | Severity: 8/10
+Researchers at Ontimize have uncovered a four‑stage attack chain using compromised Ukrainian sites and fake Cloudflare “ClickFix” CAPTCHAs to deliver the Psychedelic Stealer, part of the Lun ex malware‑as‑a‑service platform. The chain drops a UAC‑bypassing loader, exploits a vulnerable AMD Radeon driver (CVE‑2023‑20598) for privilege escalation, then installs a PowerShell‑based native‑messaging host that steals credentials, cookies and cryptocurrency wallets from Chromium browsers. The stealer contacts a Lun ex C2 server at 193.178.159[.]128.
+
+2. Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells
+Threat: Vulnerability | Severity: 8/10
+Google warns that the ShinyHunters‑linked UNC6240 group has revived mass exploitation of Oracle PeopleSoft’s critical CVE‑2026‑35273 (CVSS 9.8). By URL‑encoding the request path, they bypass WAFs and gain unauthenticated remote code execution, deploying web shells, MeshCentral/MeshAgent RMM tools, Neo‑reGeorg tunnels, and the Ple64.exe payload. Targets span higher‑education, tech, IT services, healthcare, agriculture, transport and government, with many commands run as root or SYSTEM.
+
+3. Zero Trust for AI Agents Starts With Fixing Zero Visibility
+Threat: Vulnerability | Severity: 8/10
+AI‑agent deployments are outpacing security controls, with 70 % of firms exposing sensitive data to unsupervised workflows and 67 % unable to track them. Recent breaches—Hugging Face and METR’s rogue EC2‑based agent that drained $600 k in API usage—show shadow AI’s invisibility. Experts urge a Zero‑Trust order: inventory agents first, then enforce policies, using spend, API‑key and procurement data to gain visibility before blocking legitimate use.
+
+4. Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link
+Threat: Vulnerability | Severity: 9/10
+A critical CSRF flaw (CVSS 8.8) in Elementor WordPress plugin versions 4.3.0‑4.3.1 lets unauthenticated attackers craft a simple link that, when clicked by any logged‑in user, creates a rogue admin account via the REST API. Over 2 million sites are vulnerable. Patchstack fixed it in version 4.3.2; users should update immediately, and is being addressed promptly. The bug was reported by researcher “Saggre.”
+
+5. SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild
+Threat: Vulnerability | Severity: 9/10
+CISA added two actively‑exploited flaws to its KEV list: CVE‑2026‑65660 in Microsoft SharePoint, now flagged for remote‑code execution after Microsoft observed attacks, and CVE‑2026‑67279 in MikroTik RouterOS, used with CVE‑2026‑86060 in the “MikroTrick” chain to gain unauthenticated admin control of exposed routers. Both vulnerabilities enable attackers to infiltrate systems without credentials.
+
+
+#cybersecurity #infosec #threatintel
