@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation
+Threat: Zero-Day | Severity: 10/10
+Citrix confirmed that two critical NetScaler ADC/Gateway vulnerabilities (CVE‑2026‑88771 and CVE‑2026‑88772) are being exploited in the wild, affecting every deployment of the affected versions—even default configs. The company released patches for these flaws along with six others and urged immediate updates. The attacks were reported a day after watchTowr warned of unpatched NetScaler RCE exploits, but Citrix did not confirm if they are the same. No workarounds or IoCs were provided.
+
+2. Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials
+Threat: Malware | Severity: 8/10
+A new “Psychedelic Stealer” campaign, tied to the Lunex malware‑as‑a‑service platform, hijacks Ukrainian sites with fake ClickFix CAPTCHAs to deliver a malicious MSI. The four‑stage attack uses a BYOVD exploit of AMD’s vulnerable PDFWKRNL.sys driver (CVE‑2023‑20598) to bypass UAC, disable security tools, and install a PowerShell‑based native‑messaging host. The stealer extracts Chromium browser credentials, session cookies and cryptocurrency wallet data, then maintains persistent remote filesystem access via an HTTP C2 server at 193.178.159.128. (≈60 words)
+
+3. Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells
+Threat: Vulnerability | Severity: 9/10
+Google warns that the ShinyHunters‑linked UNC6240 group is mass‑exploiting PeopleSoft’s critical CVE‑2026‑35273 (CVSS 9.8) after modifying the exploit to bypass WAF rules via URL‑encoding. The campaign, now targeting higher‑education, tech, health, agriculture, transport and government worldwide, uses web shells, MeshCentral/MeshAgent RMM tools and the Neo‑reGeorg tunnel to gain persistent, root‑/SYSTEM‑level access and steal data.
+
+4. Zero Trust for AI Agents Starts With Fixing Zero Visibility
+Threat: Vulnerability | Severity: 2/10
+Recent AI‑agent breaches—most notably the Hugging Face intrusion and a METR attack that siphoned $600 k in API tokens—show that organizations are deploying agents faster than they can secure them. Veeam finds 70 % of firms expose sensitive data to unsupervised AI workflows, and 67 % cannot track them. Zero‑Trust experts stress inventory‑first visibility, treating AI‑agent discovery as a prerequisite to any policy or enforcement controls, and recommend monitoring spend, API‑key issuance, and cross‑layer telemetry to curb shadow AI.
+
+5. Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link
+Threat: Vulnerability | Severity: 8/10
+A critical CSRF flaw (CVSS 8.8) was found in Elementor Website Builder versions 4.3.0–4.3.1, affecting over 2 million WordPress sites. An unauthenticated attacker can trick a logged‑in user into clicking a simple link, causing the creation of a rogue admin account via the REST API. Patchstack disclosed the issue, credited researcher “Saggre,” and Elementor fixed it in version 4.3.2. Users should update immediately.
+
+
+#cybersecurity #infosec #threatintel
