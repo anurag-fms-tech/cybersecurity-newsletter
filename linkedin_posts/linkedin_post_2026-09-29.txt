@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks
+Threat: Vulnerability | Severity: 8/10
+Apple released security patches for older iOS, iPadOS and macOS versions to fix CVE‑2026‑86950, an out‑of‑bounds write in CoreGraphics that could allow arbitrary code execution via a malicious file. Apple says the flaw may have been used in highly sophisticated, targeted attacks on pre‑iOS 27 devices. The vulnerability was discovered by Meta Product Security; no details on impact were given.
+
+2. Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks
+Threat: Malware | Severity: 8/10
+Microsoft’s analysis reveals the NeedyMantis malware family has been used since at least Oct 2025 to keep persistent footholds in breached networks, targeting telecoms, universities, medical NGOs, intergovernmental bodies and contractors. The strain is delivered via DLL sideloading—bundling a legitimate app (e.g., Poedit, curl, Vim, TightVNC) with a malicious DLL and encrypted archive. Operated by the Storm‑3069 group, it contacts C2 over HTTPS/WebSocket, allowing modular payloads. Microsoft supplies hashes, domains and queries for detection.
+
+3. IAM for AI agents: A Practical Enterprise Framework
+Threat: Vulnerability | Severity: 2/10
+AI agents now act across enterprise systems with delegated authority, requiring a new IAM model that treats each agent as a non‑human identity with an owner, purpose, scoped rights, expiration, and monitoring. Traditional provisioning only defines intent, not execution, leaving a gap where agents can exceed permissions. Effective frameworks must identify agents, limit actions, and provide runtime proof of behavior.
+
+4. Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M
+Threat: Vulnerability | Severity: 9/10
+Bitget lost about $388 million after a hacker exploited a zero‑day flaw in a third‑party security product used by the exchange. The bug gave the attacker high‑level internal credentials, allowing fraudulent withdrawal commands to be injected into Bitget’s wallet backend. The theft targeted hot and warm wallets; cold wallets remained safe. No private keys were compromised.
+
+5. RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims
+Threat: Malware | Severity: 8/10
+Cleafy reports that the RatHat group runs an Android banking trojan as malware‑as‑a‑service, letting customers control infected phones via a web console. Since April 2026, nearly 100 console deployments have been seen. The console stores stolen texts and passwords, uses Google’s Gemini AI to gauge victims’ bank balances, and categorises phones by value. New console versions (BlackCat RCM, Panda Workshop V5/V6) automate building, signing and publishing the trojan, rotating hashes to evade detection, and add fake‑download page templates. The phone‑side malware remains largely unchanged.
+
+
+#cybersecurity #infosec #threatintel
