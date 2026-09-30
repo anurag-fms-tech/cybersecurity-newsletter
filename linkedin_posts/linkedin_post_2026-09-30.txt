@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks
+Threat: Data Breach | Severity: 8/10
+In June‑July, attackers stole staff passwords at France’s tax administration (DGFIP) and accessed the E‑Contact messaging tool, extracting data on ~350 000 individuals and ~250 000 businesses. Weak login protection, poorly segmented networks and monitoring gaps enabled the breach, though no data left the agency’s servers. Exposed details include tax IDs, contact info, income figures and limited message content. The theft surfaced on August 12, prompting a national cybersecurity audit.
+
+2. New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses
+Threat: Vulnerability | Severity: 9/10
+Researchers from VUSec and Scuola Superiore Sant'Anna have identified a new Spectre v2 variant, dubbed Branch Target Reuse (BTR), that exploits stale indirect‑branch predictions in JIT engines and the Linux kernel. BTR affects browsers, language runtimes and kernel JITs across CPUs, enabling transient execute‑after‑free attacks. Proof‑of‑concept exploits can steal a root password hash on fully patched Intel systems within minutes.
+
+3. Russia's Star Blizzard Targets 100+ Organizations With Fake Event Invites to Deliver Backdoor
+Threat: Malware | Severity: 8/10
+Microsoft says Russian state‑sponsored group Star Blizzard has been phishing victims with bogus event invitations, installing a backdoor called CosmicPulse via a new RedFlick technique that leverages Windows scheduled tasks. Targeting Ukraine‑linked individuals and orgs, the campaign has hit over 100 entities, mainly in the U.S. and U.K., since January. The group likely operates under FSB’s Center 18.
+
+4. Kiteworks Fixes Critical Flaw Found During Nine-Hour Precautionary Shutdown
+Threat: Vulnerability | Severity: 8/10
+Kiteworks said it collaborated with federal intelligence agencies during a weekend‑wide precautionary shutdown, uncovering a previously unknown critical vulnerability affecting less than 1 % of its customers. The firm patched the flaw, added extra protections across all environments, and found no evidence of malicious exploitation. The nine‑hour shutdown—prompted by intel about a potential attack—was lifted on Sept 27, 2026, and customers are now advised to bring systems back online.
+
+5. 101 Malicious npm Packages Add Developers' WhatsApp Accounts to Groups Without Consent
+Threat: Malware | Severity: 5/10
+Researchers from OX Security uncovered a campaign of 101 malicious npm packages—dubbed “PhantomSub”—that hijack the open‑source Baileys WhatsApp library to auto‑join developers’ accounts to attacker‑controlled WhatsApp groups and channels. The packages have been downloaded 490 K times (116 K in the last month) and push Indonesian bot‑selling, game‑promo, and advertising content, funneling followers to the same malicious channels.
+
+
+#cybersecurity #infosec #threatintel
