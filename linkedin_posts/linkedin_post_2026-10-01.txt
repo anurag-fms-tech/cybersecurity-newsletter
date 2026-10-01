@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft
+Threat: Zero-Day | Severity: 9/10
+Cryptocurrency exchange Bitget confirmed that attackers stole $387.5 million by exploiting a zero‑day vulnerability in third‑party security products, according to SlowMist. The flaw let hackers harvest internal credentials and issue fraudulent withdrawals across 11 blockchains, prompting a withdrawal halt. Circle, Tether and NEAR Intents froze about $632,700. Bitget has alerted the vendor, disabled the affected feature and is awaiting a fix.
+
+2. MetaMask Security Incident Prompts Exit of Affected Ethereum Validators
+Threat: Vulnerability | Severity: 8/10
+MetaMask announced an “ongoing security incident” affecting part of its infrastructure but said no immediate threat to user wallets has been found. The company is working with external partners to remediate and is voluntarily exiting affected validators in its non‑custodial staking service. Lido confirmed the exit of its Ethereum validators, noting possible loss of rewards and downtime penalties, with the process slated to finish by Oct 7 2026.
+
+3. Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs
+Threat: Malware | Severity: 9/10
+Threat actors are actively exploiting a critical pre‑authentication command‑injection flaw (CVE‑2026‑88771, CVSS 9.5) in Citrix NetScaler ADC/Gateway to drop web shells and steal configuration data. LevelBlue observed malicious authentication events with attacker‑controlled usernames, curl/wget payload retrieval, and second‑stage scripts—a Python reverse‑shell to 45.141.21.130:443 and a Perl post‑exploitation tool. The Dutch NCSC warned of active exploitation, but the perpetrators remain unidentified.
+
+4. Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets
+Threat: Vulnerability | Severity: 9/10
+Threat actors exploited the Zimbra Collaboration Suite flaw CVE‑2026‑73570 (CVSS 8.9) to run unauthenticated OS command injection via SMTP requests when SNMP notifications were enabled. They deployed JSP web and reverse shells, escalated privileges, stole mailbox data, and used wget/curl for payloads. Zimbra fixed it in July 2026 (v10.1.20); CERT‑Poland and CISA warned users and added the bug to the KEV list.
+
+5. Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks
+Threat: Malware | Severity: 7/10
+Microsoft warned that phishing emails are delivering a signed MSP360 Monitoring and Management installer disguised as meeting invites, PDFs or update prompts. Once run, the tool grants attackers admin access and installs a second RMM, ConnectWise ScreenConnect, creating a redundant backdoor. The chain drops DLLs, creates services, alters firewall rules and enables credential‑stealing. No group has been linked to the campaign.
+
+
+#cybersecurity #infosec #threatintel
