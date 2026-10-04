@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics
+Threat: Nation State | Severity: 8/10
+MI5’s September 30 2026 alert says the China General Technology Research Institute—identified as a front for the Ministry of State Security—has funded over 100 UK‑linked academics in AI, cyber‑security, covert communications and steganography research. The agency warns that unwitting collaboration could aid Chinese espionage and breach the National Security Act 2023, urging institutions to vet Chinese partnerships. China’s embassy dismissed the claims as fabricated.
+
+2. Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware
+Threat: Ransomware | Severity: 8/10
+China‑linked threat actor Warlock (aka Longlegs, Gold Salem, Storm‑2603) continues weaponizing Microsoft SharePoint flaws in Portuguese‑ and Spanish‑speaking targets. Symantec and Carbon Black report attacks on critical infrastructure, government and education, including a water utility and telecom provider. Warlock exploits SharePoint zero‑days, drops web shells to steal ASP.NET keys, and uses tools like Velociraptor and BYOVD to disable security software and spread via SYSVOL.
+
+3. The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations
+Threat: Vulnerability | Severity: 2/10
+The report notes that cloud expansion, AI, distributed systems and growing digital complexity are reshaping cybersecurity. With more identities, devices, data and internet‑facing assets, security now emphasizes continuous visibility, automated governance and scalable risk response. It surveys shifts across identity, telemetry, human risk, endpoint, exposure, email, device, AI‑native SOC and cloud security, highlighting the move toward least‑privilege, unified controls and proactive threat mitigation.
+
+4. GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers
+Threat: Vulnerability | Severity: 10/10
+GitLab disclosed a critical CVE‑2026‑90970 in its AI Gateway, allowing a logged‑in Duo Agent Platform user to execute commands on the gateway under specific conditions. The flaw, rated 9.9 CVSS, affects self‑hosted gateways (versions 18.1.6‑19.1). Patches are available in versions 19.2.4, 19.3.2 and 19.4.1; GitLab‑hosted gateways are already fixed. CISA reports no exploitation. Affected self‑managed customers should update immediately.
+
+5. Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign
+Threat: Nation State | Severity: 7/10
+A China‑nexus threat actor, tracked by Cisco Talos as UAT‑11587, has been deploying a new Rust‑compiled Windows backdoor called “Antino” against government and policy organizations across eight Asian countries, plus Syria. First seen in a September 2025 spear‑phishing campaign targeting Taiwan’s policy community, the malware uses Microsoft 365 (Graph, Outlook, OneDrive) for C2, enabling reconnaissance, shell execution, file transfer and persistence. Activity peaked in March–June 2026, with a major wave on June 8‑9, 2026. The group shows overlap with clusters like Jewelbug but is treated as a distinct, high‑confidence China‑aligned espionage operation.
+
+
+#cybersecurity #infosec #threatintel
