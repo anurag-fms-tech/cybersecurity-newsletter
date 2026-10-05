@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members
+Threat: Malware | Severity: 5/10
+Jordan authorities detained “Rey,” real name Saif al‑Din Khader, a suspected ShinyHunters extortion group member, on Sept. 29, 2026. He is cooperating with the FBI to help identify other hackers. Rey, previously identified by Brian Krebs as a key admin of the Scattered LAPSUS$ Hunters forum and former Hellcat ransomware site operator, has been aiding law‑enforcement since mid‑2025. His capture follows a recent Amsterdam arrest linked to ShinyHunters, with the FBI promising further arrests.
+
+2. China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing
+Threat: Nation State | Severity: 8/10
+A China‑aligned espionage group dubbed TA419 has been linked to credential‑phishing attacks against AI experts at U.S. think tanks, universities and law firms. The campaign spoofed senior economists, AI policymakers and an Anthropic employee, using a “Request for Feedback on Military Integration of Claude” email that led to a sophisticated OneDrive‑based “Frameless BitB” phishing page. Proofpoint says the operation, active since April 2025, aims to harvest credentials and deepen Chinese insight into U.S. AI policy and regulation amid rising strategic competition.
+
+3. MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics
+Threat: Nation State | Severity: 8/10
+MI5 warned that over 100 UK‑linked academics have unknowingly aided China’s Ministry of State Security by contributing to research funded through the China General Technology Research Institute (CGTRI), a front for MSS. Projects span AI, cyber‑security, covert communications and steganography. Universities are urged to vet collaborations; breaches could breach the National Security Act 2023. China’s embassy called the claims fabricated.
+
+4. Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware
+Threat: Ransomware | Severity: 9/10
+The China‑linked group Warlock (also known as Gold Salem, Longlegs, Storm‑2603) continues weaponising both old and new Microsoft SharePoint flaws against organizations in Portuguese‑ and Spanish‑speaking regions of Europe, Africa and Latin America. Recent attacks hit a water utility, a telecom provider, a regional government and a university, using web‑shells, BYOVD drivers, Velociraptor C2 and SYSVOL staging to disable security tools and deploy ransomware‑capable payloads.
+
+5. The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations
+Threat: Vulnerability | Severity: 1/10
+The report highlights how expanding cloud, AI, and distributed systems are reshaping cybersecurity. With more identities, devices, data and internet‑facing assets, firms are moving from point‑target defenses to continuous visibility, automated governance, least‑privilege controls, and scalable risk response. Core areas—including identity, telemetry, endpoint, exposure, email, device, AI‑native SOC and cloud security—are evolving to counter threats that traverse systems, identities and infrastructure.
+
+
+#cybersecurity #infosec #threatintel
