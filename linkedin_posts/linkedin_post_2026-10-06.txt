@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account
+Threat: Data Breach | Severity: 9/10
+Denmark’s digitalisation ministry revealed that unauthorized actors accessed the names, addresses and CPR numbers of roughly 8.8 million people—about four‑fifths of the national register—by exploiting a private firm’s lawful access to the Central Person Register. The breach lasted ~10 days in September; the firm’s permission was revoked and the case reported to the data‑protection authority. Police are investigating, and officials warn citizens never to share passwords or personal data with callers or emails, even if they appear to know the information.
+
+2. ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits
+Threat: Malware | Severity: 8/10
+Microsoft reports a new ClickFix variant that leverages compromised sites to preload a malicious script into the browser cache disguised as a PNG. When victims paste a command into Win‑R, the cached VBScript runs, bypasses the 260‑character limit, pulls a PowerShell payload, downloads additional stages, injects .NET code into timeout.exe and harvests credentials. Similar cache‑smuggling attacks were seen in 2025.
+
+3. Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes
+Threat: Vulnerability | Severity: 8/10
+Microsoft issued out‑of‑band patches for a high‑severity (CVSS 8.8) flaw in Exchange Server (CVE‑2026‑96940) that lets an authenticated attacker elevate privileges across a network and read other users’ mailboxes. The issue affects on‑premises versions; Exchange Online is already fixed. No cross‑tenant access or known exploits yet, but Microsoft rates exploitation as likely, urging rapid patching.
+
+4. ⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests
+Threat: Zero-Day | Severity: 8/10
+This week’s threats exploited tiny oversights—blank fields, public repos, exposed boxes—and a zero‑day in Citrix NetScaler ADC/Gateway (CVE‑2026‑88779, CVSS 8.7) that targets SAML configurations. Dozens of CVEs hit Wireshark, ServiceNow, WordPress, HPE, GitLab, Apache, Chrome, Firefox and others. Attackers also used exposed secrets and weak mail controls, showing that even simple mistakes can enable breaches. Patch the urgent items immediately.
+
+5. The Credential Layer Is Expanding Faster Than Security Teams Can See It
+Threat: Data Breach | Severity: 8/10
+GitGuardian warns that exploding software production—GitHub logged 2.9 billion commits by August 2026, with a projected 14 billion annual rate—has multiplied the credential surface. In 2025 the firm uncovered 28.65 million new hard‑coded secrets on public repos, a 34 % rise, and AI‑related credential leaks jumped 81 %. Their three‑step approach—Detect, Remediate, Prevent—aims to give enterprises visibility and control over this expanding credential layer.
+
+
+#cybersecurity #infosec #threatintel
