@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm
+Threat: Malware | Severity: 8/10
+Tensorlake’s npm SDK was hijacked in a supply‑chain attack. Version 0.5.144 added a pre‑install hook that runs a Bun loader, deploying a worm that steals credentials from files, CI, Kubernetes and Vault, gains persistence, and executes code. It republished packages, planted fake GitHub Actions, and used a C2 with GitHub fallback. The rogue commit appeared on Oct 7 2026 and was quickly removed.
+
+2. Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains
+Threat: Vulnerability | Severity: 10/10
+Google disclosed that attackers hijacked three country‑code top‑level domains—.gh (Ghana), .sl (Sierra Leone) and .as (American Samoa)—and obtained unauthorized HTTPS certificates for Google and YouTube sites, including google.com.gh, google.sl and google.as. Chrome blocked the certs via CRLSets; Google revoked them with the CAs. No Google systems were breached, but other brands may also be affected, potentially exposing users to data theft.
+
+3. Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer
+Threat: Malware | Severity: 9/10
+Researchers uncovered a npm supply‑chain malware operation dubbed MALFEX. A single actor published 12 packages since Aug 2023; eight are malicious, totaling ~40,000 downloads, with “function‑flag” driving most activity. The packages use post‑install hooks to download Windows RAT loaders or Go/Node stealers, delivering Overload RAT and linking to other campaigns, including a fake Zoom installer tied to a suspected North‑Korean group.
+
+4. SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances
+Threat: Vulnerability | Severity: 10/10
+SonicWall issued hotfixes for four vulnerabilities in its SMA1000 remote‑access appliances (models 6210, 7210, 8200v). The most critical, CVE‑2026‑102255, is a pre‑authentication SSRF bug in the WorkPlace portal, rated 10.0 on CVSS, allowing unauthenticated attackers to reach internal functions. The other three flaws require login. No evidence of active exploitation exists; patches are available via MySonicWall, with no work‑around.
+
+5. Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely
+Threat: Vulnerability | Severity: 10/10
+A critical flaw (CVE‑2026‑105192) affects LMCache’s multiprocess mode used by LLM servers like vLLM. An attacker can send a crafted ZeroMQ message that’s unpickled, executing code as the LMCache process (root). The bug spans v0.3.9 through v0.5.5 and rc 0.5.6, with no patch yet. JFrog rates it 9.8/10 and advises binding the server to localhost or a network and firewalls until a fix is released.
+
+
+#cybersecurity #infosec #threatintel
