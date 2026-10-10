@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories
+Threat: Malware | Severity: 9/10
+Researchers revealed GhostAction’s credential‑theft campaign, which hijacked two high‑profile open‑source maintainer accounts to inject a malicious GitHub Actions workflow into hundreds of repos. Within minutes, the workflow spread to over 340 repositories, exfiltrating more than 3,300 secrets—including API keys, cloud tokens, and Docker credentials—to a hard‑coded IP. The attack, active since early October 2026, has compromised >500 GitHub accounts and thousands of repositories.
+
+2. FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack
+Threat: Data Breach | Severity: 2/10
+The FBI announced the arrest of a Canadian citizen in Pennsylvania as a suspected co‑conspirator of the ShinyHunters extortion group, which claimed to have breached the FBI jobs portal and stolen data on nearly all agents and applicants. No charges or details were released, and other suspects remain at large. This is the third public arrest linked to the September breach, as the FBI vows to keep dismantling the group.
+
+3. P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands
+Threat: Malware | Severity: 8/10
+Researchers disclosed a new DarkSword iOS exploit kit variant, P7 DarkSword, which trims its on‑device footprint, adds on‑device keychain and crypto‑wallet theft, and uses two‑way C2 communication. It chains iOS 18.4‑18.7 vulnerabilities to gain kernel‑level access and injects code into SpringBoard. Since late 2025 it’s been used against targets in Saudi Arabia, Turkey, Malaysia, Ukraine and in a recent Chinese‑language campaign, with attempts to adapt it for iOS 26.x.
+
+4. TP-Link Sued by Four More U.S. States Over Router Security and China Ties
+Threat: Vulnerability | Severity: 7/10
+Four U.S. states—Florida, Iowa, Montana and Nebraska—joined Texas in suing router maker TP‑Link Systems, accusing it of misleading consumers about security features and its separation from China. The suits claim TP‑Link’s firmware could let Chinese authorities access data and cite exploited router flaws. TP‑Link denies the allegations, will contest the claims in court, and notes fixes are available via ISPs.
+
+5. Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access
+Threat: Vulnerability | Severity: 9/10
+Security researchers released a full working exploit, AnyPwn, for a pre‑authentication remote code execution flaw in AnyDesk Linux that grants root before a user approves the session. The bug is a heap‑buffer overflow in the session protocol, exploitable over direct TCP on port 7070. AnyDesk patched it in version 8.0.3 (June) but gave only a vague changelog, no CVE, and no advisory. Users should upgrade to 8.0.3 or later (latest 8.1.0).
+
+
+#cybersecurity #infosec #threatintel
