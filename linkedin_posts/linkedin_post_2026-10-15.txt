@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability
+Threat: Zero-Day | Severity: 10/10
+Cisco warned that a critical unauthenticated flaw (CVE‑2026‑76519, CVSS 9.8) in Secure Email Gateway lets attackers send a crafted attachment, write files to the appliance’s OS and execute commands as root. The bug only affects gateways with File Reputation enabled and a Content Scanner Tools version < 25.3.0.5525. Cisco released patches on Sep 14 (AsyncOS 15.5.5‑014/16.5.0‑780) and a scanner update (≥ 25.3.0.5525). No details on compromise scale were given; customers were notified and advised to verify the update.
+
+2. Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App
+Threat: Vulnerability | Severity: 9/10
+Attackers exploited a flaw in Collabora’s optional “Collabora Online – Built‑in CODE Server” Nextcloud app, injecting web shells via an unauthenticated request that runs commands when the local CODE server is down (e.g., during restart, upgrade or crash). The bug, fixed in version 26.4.303, was disclosed as CVE‑2026‑110447. Users must update or remove the app; merely disabling it is insufficient. The vulnerability does not affect standalone Collabora servers or the standard “richdocuments” app.
+
+3. Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages
+Threat: Malware | Severity: 8/10
+Microsoft, Health‑ISAC, Japan’s Cybercrime Control Center and Resecurity, Cloudflare, Oracle, Proofpoint, TRM Labs disrupted three phishing kits—CoGUI (NX/FA), Haozi (Phoenix) and Iron Man System. Since Jan 2026 the kits sent >1 billion phishing emails/SMS to 75 k organizations across 150+ countries, generating tens of millions in profit. Operated via YAM Store marketplace, they sold access to compromised Microsoft/Google cloud resources and accepted crypto payments.
+
+4. U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud
+Threat: Nation State | Severity: 8/10
+The DOJ charged 14 suspects, seized ~187 computers and KVM devices, and dismantled 40 laptop farms to cripple North Korea’s fraud that victimized over 70 U.S. firms. The scheme, active 2019‑July 2025, used fake identities and U.S. facilitators to place DPRK workers in U.S. companies, funneling salaries to fund the regime’s weapons programs. Two U.S. nationals were arrested; the rest remain fugitives.
+
+5. CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts
+Threat: Vulnerability | Severity: 8/10
+CISA warned that a critical authentication‑bypass flaw (CVE‑2026‑104935, CVSS 8.6) in Ivanti Connect Secure (versions 25.1.1.1, 25.1.2.2, 22.8R2.4 and earlier) is being actively exploited. Federal agencies must patch by Oct 16 2026; organizations should update immediately, review Ivanti’s upgrade guide, and conduct forensics to detect compromise. Threat actors have launched over 100 test attacks from Singapore and the U.S., likely to precede full weaponized exploitation.
+
+
+#cybersecurity #infosec #threatintel
