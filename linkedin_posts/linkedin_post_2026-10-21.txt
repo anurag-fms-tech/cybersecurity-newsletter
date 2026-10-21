@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert
+Threat: Vulnerability | Severity: 10/10
+PHP will release an update at 14:00 UTC on Oct 21 to patch two remote execution flaws (CVSS 9.2 v4.0, CVE‑2026‑109618/109619). Only the four supported branches (8.2‑8.5) receive fixes; older versions remain unsupported. The bugs were leaked a day early, prompting a notice, but details and version impact are still undisclosed. Researchers dubbed “php2shell,” and no exploitation has been observed.
+
+2. Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software
+Threat: Vulnerability | Severity: 9/10
+Mozilla and Google’s Chrome Root Program confirmed that private keys for eight eMudhra intermediate CA certificates were compromised. A researcher reported the breach on Oct 17; within hours Chrome and Firefox revoked the certificates. None had been logged to Certificate Transparency, so they couldn’t be trusted by browsers enforcing CT. The cause and extent of the leak remain unknown, and Go patched the issue on its urgent security track.
+
+3. Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution
+Threat: Vulnerability | Severity: 10/10
+Researchers disclosed a proof‑of‑concept exploit for a newly patched critical path‑traversal flaw in Fortinet FortiSIEM (CVE‑2026‑106173, CVSS 9.4). An unauthenticated attacker can send crafted gRPC packets to port 27918, inject “../” and a NUL byte in the “query‑id” metadata, overwrite files such as the Redis health‑check script, and achieve remote code execution. Fortinet released patches last week. It results from unsafe path handling in SendQueryResult().
+
+4. Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA
+Threat: Vulnerability | Severity: 9/10
+Palo Alto Networks reports ransomware groups continue exploiting the patched CVE‑2026‑0257 (CVSS 7.8), an authentication‑bypass flaw in PAN‑OS and Prisma Access. Despite the May 2026 patch and inclusion in CISA’s KEV catalog, actors such as Spikey Scorpius (Qilin) and Tarnished Scorpius use it to create unauthorized VPN tunnels, bypass MFA, pivot to virtualization layers, disable ESXi controls, dump domain credentials from VMDK files, and chain attacks against Veeam backup systems. The campaigns target sectors ranging from education and finance to government and energy.
+
+5. Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites
+Threat: Data Breach | Severity: 9/10
+A Chinese‑speaking hacker used the open‑source AI tool Cairn to launch autonomous attacks on over 1,200 company websites, compromising more than 100 firms such as Deere, SharkNinja and Cummins. Security researcher Snorre Fagerland of NorForge discovered the campaign by finding exposed Cairn control panels online and monitored the attacks in real time. The agents aimed to gain persistent access to e‑commerce and payment systems, planting web‑shells; the amount of stolen data remains unknown.
+
+
+#cybersecurity #infosec #threatintel
