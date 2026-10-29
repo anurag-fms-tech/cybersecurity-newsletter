@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns
+Threat: Zero-Day | Severity: 9/10
+Volt Typhoon, a China‑state‑backed espionage group, has been linked to the now‑dismantled “Silent Train” covert‑access network. Silent Train rotates compromised SOHO, IoT and enterprise devices to launch zero‑day exploits, harvest credentials and exfiltrate data while employing anti‑forensic cleanup. The campaign, active since late 2023, hit hundreds of targets across telecom, government, defense, critical‑infrastructure and academia, using at least four confirmed zero‑day flaws, including CVE‑2024‑39717.
+
+2. Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.
+Threat: Vulnerability | Severity: 4/10
+Google will let Android app stores join a “Registered App Stores” program that, after identity checks and catalog submission for malware scanning, grants install and updates without confirmations. The feature starts Dec 1 on Android 17 QPR2+ devices in supported (non‑US) countries. Stores must obtain user consent per install, show notifications, can be blocked by admins, and face fees if harmful apps exceed thresholds.
+
+3. Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win
+Threat: Vulnerability | Severity: 8/10
+Researcher Orange Tsai revealed a chain of logic bugs that let a malicious page escape Microsoft Edge’s sandbox and execute code on Windows, without memory corruption. The ~100‑line exploit, shown at Pwn2Own Berlin and winning $175 k, creates a universal XSS primitive affecting any site. Microsoft patched the bugs the day after the contest, so current Edge versions are safe.
+
+4. PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network
+Threat: Data Breach | Severity: 8/10
+Researchers revealed an AI‑assisted attack by a suspected China‑linked group that exploited PHP2Shell and a Linux kernel privilege‑escalation bug to root 25 servers, including three in a U.S. government‑affiliated environment. The custom exploit targeted a firewall’s PHP 8.0.30 session.upload_progress flaw and leveraged CVE‑2026‑46300. Evidence shows Anthropic’s Claude Code, FOFA API keys, and AI‑driven tools (DeepSeek, Kimi) were used.
+
+5. Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch
+Threat: Vulnerability | Severity: 9/10
+Threat intelligence firm Defused Cyber reports that actors are probing a newly patched critical Oracle E‑Business Suite flaw (CVE‑2026‑101767, CVSS 9.8). Discovered by Horizon3.ai and patched last week, the unauthenticated SQL injection in the Thin Client Framework servlet can lead to remote code execution, exposing financial, payroll, HR and procurement data. Both internet‑facing and internal deployments are at risk.
+
+
+#cybersecurity #infosec #threatintel
