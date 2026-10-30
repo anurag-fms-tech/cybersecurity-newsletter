@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen
+Threat: Data Breach | Severity: 9/10
+Binance disclosed a “security incident” that compromised roughly $6.3 billion of assets, with about $3 billion already frozen on‑chain. Tether and Circle froze over $2.3 billion in USDT, and Arbitrum locked $30.5 million. Investigators say a compromised DevOps engineer’s laptop let attackers submit unauthorized withdrawals. Binance will cover losses via its SAFU fund, expects withdrawals to resume in 48 hours, and attributes the heist—estimated at $5.9 billion—to North Korean actors.
+
+2. ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories
+Threat: Vulnerability | Severity: 8/10
+Wordfence reports scans for PHP2Shell (CVE‑2026‑109618/19) but no WordPress compromises. Hudson Rock’s FortiBleed 2.0 uncovered 975 domains and 40,573 leaked credentials from FortiGate configs. Threat actors used DNS‑shadowing to host gambling under school and government sites. Bank of America warns customers never share login data with AI agents. Google will drop WRITE_CONTACTS permission on Android, forcing to use contact‑intent APIs.
+
+3. Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions
+Threat: Vulnerability | Severity: 10/10
+A critical Linux kernel bug (CVE‑2026‑98432) in the TCP handshake—a race condition that causes a use‑after‑free—lets unauthenticated attackers execute commands as root on servers running a multipath TCP listener. The kernel team rates it 9.8 CVSS; vendors rate it lower. Anthropic’s AI generated an exploit and reported the flaw. Fixes have been back‑ported, but Ubuntu and RHEL still lack patched kernels, with release dates undisclosed.
+
+4. Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners
+Threat: Malware | Severity: 7/10
+Threat actors are masquerading malicious loaders and cryptocurrency miners as AI desktop apps for Anthropic Claude and OpenAI ChatGPT in a campaign called Yoba. Fake GitHub repos (e.g., GPT‑5.6 Sol, GPT‑6 Astra, Claude Opus) host ZIPs containing the YobaLoader DLL, which uses DLL sideloading alongside legitimate OpenAI/Anthropic executables. SEO‑poisoning pushes the repos to the top of Google results. The malware includes anti‑analysis checks—checksum validation, a 12‑day sleep loop, and regional language filters that skip several CIS countries but not Ukraine.
+
+5. Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities
+Threat: Vulnerability | Severity: 3/10
+Google unveiled Gemini 4 Carbon, its newest frontier model engineered for cybersecurity. Carbon tops the SEC‑bench Pro (88.2%), ExploitGym (54.8%) and CWE‑bench (71.0%) tests, outscoring Claude Opus 5.5, GPT‑6 Astra and GPT‑6.1 Sol on the Artificial Analysis Intelligence Index (score 59). It generates secure code twice as often as Argon, seeks human input on ambiguous tasks, and resists indirect prompt‑injection attacks. Initially rolled out to a select group of cyber defenders via Google’s Fairwind Program, the model is also undergoing voluntary U.S. government pre‑release testing. OpenAI simultaneously released GPT‑6.1 Terra, claiming comparable cybersecurity readiness and improved alignment.
+
+
+#cybersecurity #infosec #threatintel
