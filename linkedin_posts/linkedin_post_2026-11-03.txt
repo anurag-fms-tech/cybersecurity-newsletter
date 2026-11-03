@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors
+Threat: Vulnerability | Severity: 9/10
+
+
+2. Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials
+Threat: Vulnerability | Severity: 8/10
+Defused Cyber reports active exploitation of CVE‑2026‑81648, a critical (CVSS 10.0) flaw in the CryptoPayment Gateway WordPress plugin (versions 1.2.1‑1.2.2). The unpatched vulnerability lets unauthenticated users delete files, overwrite gateway settings, and retrieve stored wallet credentials. No fix exists; the plugin has been removed from the WordPress directory. Site owners should uninstall it, rotate wallet keys, and audit for suspicious changes.
+
+3. ⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More
+Threat: Vulnerability | Severity: 9/10
+Cyber threats ranged from trivial slip‑ups—fake support calls, trusted extensions, unsecured devices—to massive breaches, including a North Korean group stealing $6.43 billion from Binance, the biggest crypto heist ever. The week also saw dozens of critical CVEs across browsers, cloud tools, and hardware. Experts warn low‑effort attacks remain effective, urging rapid patching and stricter access controls.
+
+4. Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access
+Threat: Malware | Severity: 9/10
+Google helped dismantle a botnet of 1.3 million TV boxes that Videostrong, a maker, embedded with a backdoor (x.cpe) sold for ad fraud and traffic hijacking. It remains on devices and cannot be removed by users. Google sued to shut down C2 domains, cut ties with Videostrong and barred it from certifications. Partners included Japan’s NPA, Lumen, HUMAN Security and Plume.
+
+5. DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment
+Threat: Data Breach | Severity: 9/10
+Iran‑aligned hackers, dubbed DarkBlinders, ran a cyber‑espionage campaign from Aug‑Oct 2026 against Israel and the Kurdistan Region of Iraq, compromising a high‑profile Israeli figure and a government cloud environment. Using spear‑phishing, they delivered trojanized utilities that installed the SHELBYLOADER/DLL‑sideloading backdoor SHELBYC2 with GitHub C2. Earlier “Blinder Tunnel” ops posed as Dubai Airports recruiting, sending fake coding challenges to embed the same loader and a tunneling tool called Blackwood.
+
+
+#cybersecurity #infosec #threatintel
