@@ -7,67 +7,67 @@
 <body style="font-family:Arial">
 
 <h1>Cybersecurity Intelligence Brief</h1>
-<h3>03 November 2026</h3>
+<h3>04 November 2026</h3>
 
 
 <hr>
 
-<h2>Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors</h2>
-
-<b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 9/10<br>
-
-<p></p>
-
-<a href="https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html">Read Full Article</a>
-
-
-<hr>
-
-<h2>Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials</h2>
+<h2>CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades</h2>
 
 <b>Threat:</b> Vulnerability<br>
 <b>Severity:</b> 8/10<br>
 
-<p>Defused Cyber reports active exploitation of CVE‑2026‑81648, a critical (CVSS 10.0) flaw in the CryptoPayment Gateway WordPress plugin (versions 1.2.1‑1.2.2). The unpatched vulnerability lets unauthenticated users delete files, overwrite gateway settings, and retrieve stored wallet credentials. No fix exists; the plugin has been removed from the WordPress directory. Site owners should uninstall it, rotate wallet keys, and audit for suspicious changes.</p>
+<p>CISA has added WordPress Core’s TOCTOU race‑condition flaw (CVE‑2026‑119977, CVSS 8.1) to its Known Exploited Vulnerabilities catalog, confirming active exploitation. The high‑severity bug lets unauthenticated attackers execute code during a full‑package core upgrade via predictable staging paths. Patches were issued last month; over 18,500 exploit attempts were logged in the first 21 hours after disclosure. Federal agencies must apply the fix by Nov 6, 2026.</p>
 
-<a href="https://thehackernews.com/2026/11/attackers-target-unpatched.html">Read Full Article</a>
+<a href="https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html">Read Full Article</a>
 
 
 <hr>
 
-<h2>⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More</h2>
+<h2>mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity</h2>
+
+<b>Threat:</b> Data Breach<br>
+<b>Severity:</b> 7/10<br>
+
+<p>mSecure users received a November 3 email from developer mSeven Software warning of “suspicious activity” linked to the password‑manager app. The notice, sent to current and former customers, urges changing passwords, resetting 2FA and removing passkeys, but gives no details about the incident, its scope, timing or data exposure. mSeven says an investigation is under way, external experts are involved, and vault data remains encrypted on devices, though past Android versions allowed possible developer access.</p>
+
+<a href="https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html">Read Full Article</a>
+
+
+<hr>
+
+<h2>Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes</h2>
+
+<b>Threat:</b> Data Breach<br>
+<b>Severity:</b> 8/10<br>
+
+<p>Chainstack revealed it suffered a cyber breach on Oct. 26, 2026, when an external attacker exploited a third‑party component to infiltrate its development environment, later moving into parts of its production systems. The intrusion—detected and halted on Oct. 31—exposed a customer database (org and user names, emails, password hashes) and node credentials. Chainstack urges customers to rotate credentials, regenerate API keys, change passwords and watch for phishing, noting the attack aligns with a China‑linked AI‑driven campaign also linked to a recent WorkOS incident.</p>
+
+<a href="https://thehackernews.com/2026/11/chainstack-reports-production-systems.html">Read Full Article</a>
+
+
+<hr>
+
+<h2>Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft</h2>
+
+<b>Threat:</b> Data Breach<br>
+<b>Severity:</b> 10/10<br>
+
+<p>Binance said the $6.43 billion theft was the result of a “sophisticated, multi‑stage campaign,” not a single breach. Attackers first infected a Wallet DevOps engineer (Engineer A) with a trojanized Homebrew installer used to download an AI tool. Later, they duped a second engineer (Engineer B) through fake recruitment interviews, delivering malicious code that compromised internal AI tooling and enabled unauthorized transactions, ultimately draining the exchange.</p>
+
+<a href="https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html">Read Full Article</a>
+
+
+<hr>
+
+<h2>Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access</h2>
 
 <b>Threat:</b> Vulnerability<br>
 <b>Severity:</b> 9/10<br>
 
-<p>Cyber threats ranged from trivial slip‑ups—fake support calls, trusted extensions, unsecured devices—to massive breaches, including a North Korean group stealing $6.43 billion from Binance, the biggest crypto heist ever. The week also saw dozens of critical CVEs across browsers, cloud tools, and hardware. Experts warn low‑effort attacks remain effective, urging rapid patching and stricter access controls.</p>
+<p>Barracuda disclosed two linked flaws: CVE‑2026‑116606, a pre‑auth authorization‑bypass (CVSS 9.3) affecting its Email Security Gateway, and CVE‑2026‑111560, a command‑injection bug (CVSS 8.6) present in several other Barracuda products. When exploited together via an exposed admin interface, they can bypass controls and grant root access. Barracuda urges customers to keep firmware patched and limit internet exposure of admin panels.</p>
 
-<a href="https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html">Read Full Article</a>
-
-
-<hr>
-
-<h2>Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access</h2>
-
-<b>Threat:</b> Malware<br>
-<b>Severity:</b> 9/10<br>
-
-<p>Google helped dismantle a botnet of 1.3 million TV boxes that Videostrong, a maker, embedded with a backdoor (x.cpe) sold for ad fraud and traffic hijacking. It remains on devices and cannot be removed by users. Google sued to shut down C2 domains, cut ties with Videostrong and barred it from certifications. Partners included Japan’s NPA, Lumen, HUMAN Security and Plume.</p>
-
-<a href="https://thehackernews.com/2026/11/google-disrupts-13-million-device.html">Read Full Article</a>
-
-
-<hr>
-
-<h2>DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment</h2>
-
-<b>Threat:</b> Data Breach<br>
-<b>Severity:</b> 9/10<br>
-
-<p>Iran‑aligned hackers, dubbed DarkBlinders, ran a cyber‑espionage campaign from Aug‑Oct 2026 against Israel and the Kurdistan Region of Iraq, compromising a high‑profile Israeli figure and a government cloud environment. Using spear‑phishing, they delivered trojanized utilities that installed the SHELBYLOADER/DLL‑sideloading backdoor SHELBYC2 with GitHub C2. Earlier “Blinder Tunnel” ops posed as Dubai Airports recruiting, sending fake coding challenges to embed the same loader and a tunneling tool called Blackwood.</p>
-
-<a href="https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html">Read Full Article</a>
+<a href="https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html">Read Full Article</a>
 
 
 <hr>
@@ -77,7 +77,7 @@
 <b>Threat:</b> Malware<br>
 <b>Severity:</b> 8/10<br>
 
-<p>Google and partners dismantled a botnet of 1.3 million Android TV set‑top boxes infected by malware from Videostrong Technology. The XCPE botnet rented users’ internet as residential proxies, enabling ad fraud and crimes, and also compromised 10 million IoT devices such as telehealth kits and karaoke machines. Google sued Videostrong, shut down its domains, and warned proxy services linked to the scheme.</p>
+<p>Google and industry partners dismantled a botnet of over 1.3 million Android TV set‑top boxes infected by malware from Chinese maker Videostrong Technology. The “XCPE” botnet rented users’ IPs to residential‑proxy services, enabling ad fraud, account takeover and AI data scraping, and also spread to other Android IoT devices (telehealth, karaoke, signage). Google sued Videostrong, seized domains, and warned manufacturers to meet Android security standards.</p>
 
 <a href="https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/">Read Full Article</a>
 
@@ -89,7 +89,7 @@
 <b>Threat:</b> Vulnerability<br>
 <b>Severity:</b> 8/10<br>
 
-<p>Nearly 70 % of websites must patch PHP after two critical, remotely‑exploitable bugs were disclosed, allowing attackers full server control. An emergency PHP update was released, but many sites now show error pages as they scramble to upgrade. Exploits are already active, with Cloudflare blocking attacks and governments taking sites offline. Researchers say the flaws have existed for years; AI‑assisted tools helped turn them into practical exploits, prompting warnings of widespread web‑shell infections.</p>
+<p>Nearly 70 % of sites must patch PHP after two critical, actively‑exploited bugs were disclosed, letting attackers gain full server control. The flaws affect every PHP version of the past decade and power platforms like WordPress, Drupal, Magento and Joomla. PHP issued an emergency update; Cloudflare deployed WAF rules, and governments in Europe temporarily took sites offline. Researchers say the vulnerabilities have existed for years but were finally weaponized with AI‑assisted exploit chains.</p>
 
 <a href="https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/">Read Full Article</a>
 
@@ -101,7 +101,7 @@
 <b>Threat:</b> Ransomware<br>
 <b>Severity:</b> 5/10<br>
 
-<p>U.S. investigators probing ShinyHunters—who stole FBI personnel data and extorted >$70 M—found two ransomware‑negotiation executives close to the group, one even helping run a victim‑pressuring website. The gang, now led by teenage “Rey” from Jordan, saw arrests of Rey, Dutch hacker Pepijn van der Stap (linked to a murder‑for‑hire plot), and Canadian consultant Edward Dubrovsky, who knew of the FBI breach but didn’t warn the agency.</p>
+<p>U.S. investigators probing the ShinyHunters group—responsible for stealing FBI personnel data and extorting over $70 million—have linked two ransomware‑negotiation firm executives to the gang. One U.S. executive helped run a victim‑pressure site. Dutch hacker Pepijn van der Stap’s Signal chats revealed frequent contact with Canadian cyber‑extortion expert Edward Dubrovsky and a U.S. consulting executive, who were aware of breaches before victims. Van der Stap’s arrest uncovered a murder‑for‑hire plot; Dubrovsky was later detained and charged.</p>
 
 <a href="https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/">Read Full Article</a>
 
@@ -111,9 +111,9 @@
 <h2>U.K. Sanctions Cryptomus for RU Money Laundering</h2>
 
 <b>Threat:</b> Nation State<br>
-<b>Severity:</b> 3/10<br>
+<b>Severity:</b> 6/10<br>
 
-<p>The United Kingdom imposed sanctions on Cryptomus (formerly Certa Payments/Xeltox Enterprises), a cryptocurrency platform that has become a key conduit for ransomware, drug, darknet and other cyber‑crime payments aiding Russia’s evasion of financial restrictions. Assets in U.K. banks are frozen and British firms barred from dealing with Cryptomus, Heleket, VexPay, TokenSpot and Tsunami Payments. Chainalysis and TRM Labs cite billions in illicit transactions processed by the platform.</p>
+<p>UK sanctions target Cryptomus (now Heleket), a platform used for ransomware, drug, darknet and illicit payments that help Russia evade restrictions. Measures freeze UK assets and bar firms from dealing with Cryptomus, VexPay, TokenSpot and Tsunami Payments. Chainalysis and TRM Labs say service processed over $7 billion since 2022, including funds for child‑abuse, terrorism and human trafficking, despite Canadian fines and KYC attempts.</p>
 
 <a href="https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/">Read Full Article</a>
 
@@ -125,129 +125,129 @@
 <b>Threat:</b> Vulnerability<br>
 <b>Severity:</b> 8/10<br>
 
-<p>Microsoft released a patch batch fixing over 1,400 Windows and software vulnerabilities, eclipsing September’s near‑1,000 record. It includes a Shell bypass (CVE‑2026‑96951) and a .NET Framework flaw, with 78 critical bugs. Windows 10 support now extends to Oct 2027. AI helped discovery, pushing total 2026 patches past 4,000, but the volume strains IT teams, which should prioritize the 26 CISA‑listed KEV flaws.</p>
+<p>Microsoft released patches for more than 1,400 vulnerabilities—far exceeding September’s near‑1,000 fix record and the typical monthly load. The batch includes a zero‑day (CVE‑2026‑96951) in the Windows Shell and a .NET Framework bypass (CVE‑2026‑108398). At least 78 flaws are “critical,” allowing remote code execution. Microsoft, now extending Windows 10 support to 2027, credits AI‑driven bug hunting, while experts warn the sheer volume strains corporate patch‑testing processes. (≈60 words)</p>
 
 <a href="https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/">Read Full Article</a>
 
 
 <hr>
 
-<h2>One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning</h2>
+<h2>Philippine Migrant Worker Data Likely Leaked in 69GB Government Breach</h2>
+
+<b>Threat:</b> Data Breach<br>
+<b>Severity:</b> 9/10<br>
+
+<p>An unknown threat actor breached the Philippine Overseas Employment Administration, exfiltrating roughly 69 GB of sensitive data—including worker records, contracts, and financial details—within 24 minutes. Using privilege‑escalation tools (GodPotato, SeImpersonate) and the Impacket Python library, the attacker moved 27 SQL Server backups to a Singapore‑based staging server. Hunt.io traced the activity but could not determine who accessed the server afterward or if the data was sold, and attribution remains unclear.</p>
+
+<a href="https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach">Read Full Article</a>
+
+
+<hr>
+
+<h2>Fresh European Fridge Attacks Put Cold-Chain Security in Focus</h2>
+
+<b>Threat:</b> Malware<br>
+<b>Severity:</b> 7/10<br>
+
+<p>A second wave of cyber‑attacks hit supermarket refrigeration systems in Europe, exposing the broader “cold‑chain” vulnerability. Unknown actors accessed Internet‑connected controllers from Danfoss, Dixell and Copeland, forcing defrost mode and raising temperatures to 50 °C, spoiling food. Dozens of stores in seven countries were affected, though the scope was smaller than the October wave that hit 700+ outlets. No group has claimed responsibility; investigations continue.</p>
+
+<a href="https://www.darkreading.com/ics-ot-security/fresh-european-fridge-attacks-cold-chain-security">Read Full Article</a>
+
+
+<hr>
+
+<h2>Germany Busts 'Crime-as-a-Service' Investment Fraud Outfit</h2>
+
+<b>Threat:</b> Malware<br>
+<b>Severity:</b> 8/10<br>
+
+<p>German police, aided by Europol, Eurojust and authorities from Albania, Cyprus, Finland, Israel, Kosovo and North Macedonia, dismantled a crime‑as‑a‑service operation that supplied fake trading platforms and call‑centers to investment scammers. The probe, sparked by a 2022 victim report, led to raids at 17 sites, seizure of 100 servers and seven arrests, with losses estimated over €4 million.</p>
+
+<a href="https://www.darkreading.com/cybersecurity-operations/germany-crime-service-investment-fraud">Read Full Article</a>
+
+
+<hr>
+
+<h2>9 Cyber Awareness Tips That Actually Match Today's Maze of Threats</h2>
+
+<b>Threat:</b> Malware<br>
+<b>Severity:</b> 2/10<br>
+
+<p>Dark Reading’s November 3 article lists nine actionable cybersecurity awareness tips that align with today’s attack vectors—phishing, shadow‑AI, SEO poisoning, fake CAPTCHAs, QR‑code hijacking, and risky data sharing. It stresses continuous, habit‑based training, phishing‑resistant MFA, tighter privileges, safer browsing, and stronger executive protection, turning safe actions into defaults, and improving incident reporting through clear internal channels to cut enterprise risk.</p>
+
+<a href="https://www.darkreading.com/cyber-risk/9-cyber-awareness-tips-todays-maze-threats">Read Full Article</a>
+
+
+<hr>
+
+<h2>LLMjacking Emerges as Thriving Cybercriminal Enterprise</h2>
+
+<b>Threat:</b> Malware<br>
+<b>Severity:</b> 8/10<br>
+
+<p>Cybercriminals are profiting from “LLMjacking,” a scheme where they steal cloud credentials to commercial large‑language‑model APIs and resell the access. Victims can incur up to $1 million in usage fees before the intrusion is halted. Unlike cryptojacking’s gradual drain, LLMjacking spikes resource consumption within hours, using exposed IAM tokens, service‑account keys, GitHub PATs, and other stolen credentials. Google Threat Intelligence Group and Mandiant report the operation has become a global, lucrative underground service.</p>
+
+<a href="https://www.darkreading.com/cloud-security/llmjacking-thriving-cybercriminal-enterprise">Read Full Article</a>
+
+
+<hr>
+
+<h2>Frontline Education Data Breach Impacts Over 1.3 Million</h2>
+
+<b>Threat:</b> Data Breach<br>
+<b>Severity:</b> 8/10<br>
+
+<p>Frontline Education disclosed that hackers exploited a third‑party software vulnerability on Aug. 14, gaining unauthorized access to its K‑12 administration platform. By Aug. 15 the breach was contained, but attackers stole personal data—including names, Social Security numbers, birth dates, driver’s‑license/passport IDs, Medicaid and student IDs—from roughly 1.3 million staff and students. Frontline has notified districts, mailed notices, and is offering two years of free credit monitoring for adults and dark‑web monitoring for eligible minors.</p>
+
+<a href="https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/">Read Full Article</a>
+
+
+<hr>
+
+<h2>CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode</h2>
+
+<b>Threat:</b> Malware<br>
+<b>Severity:</b> 2/10<br>
+
+<p>I’m unable to provide a summary because the content you shared is just a Cloudflare “gateway timeout” error page, not a cybersecurity news article. If you have the actual news text, please share it and I’ll be happy to summarize it.</p>
+
+<a href="https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/">Read Full Article</a>
+
+
+<hr>
+
+<h2>Android’s November 2026 Updates Patch Over 200 Vulnerabilities</h2>
+
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> 8/10<br>
+
+<p>Google released its November 2026 Android security updates, fixing over 200 vulnerabilities across two patch waves (2026‑11‑01 and 2026‑11‑05). The most critical issue, CVE‑2026‑58868 in the Framework, allows unauthenticated remote code execution. In total, 65 Framework flaws, 53 System bugs, and dozens of high‑ and critical‑severity bugs in Kernel, Bluetooth, MediaTek, Qualcomm, and other components were patched, with additional bulletins for Android XR and Wear OS.</p>
+
+<a href="https://www.securityweek.com/androids-november-2026-updates-patch-over-200-vulnerabilities/">Read Full Article</a>
+
+
+<hr>
+
+<h2>Critical Node-RED Flaw Exploited in Attacks</h2>
 
 <b>Threat:</b> Vulnerability<br>
 <b>Severity:</b> 9/10<br>
 
-<p>A $6.3 billion Binance breach on Nov 2, 2026 shows how weak system separation and inadequate controls let one compromise cascade into a systemic loss. The FBI linked the attack to North Korea’s TraderTraitor group, which infected a developer’s laptop, accessed a service container, abused an Ethereum delegation mechanism, and bypassed normal approvals to drain hot‑wallet funds in about 20 minutes. The incident highlights the need for independent, layered safeguards that prevent a single compromised device from authorizing withdrawals.</p>
+<p>Hackers are exploiting a Node‑RED flaw (CVE‑2026‑58115, CVSS 10) that lacks authentication on its HTTP interface, letting attackers create malicious flows and run system commands. VulnCheck saw an attack from a Microsoft‑owned IP on Oct 30 that installed a Linux bot, then 15 more assaults delivering web‑shells. Siemens patched the bug in SIMATIC IoT2050 Advanced v4.3.4.1+; users should block access and audit flows.</p>
 
-<a href="https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths">Read Full Article</a>
-
-
-<hr>
-
-<h2>Microsoft's AI Risk Report Misses This Key Detail</h2>
-
-<b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 4/10<br>
-
-<p>The “2026 Digital Defense Report” warns that AI is amplifying cyber threats to government agencies, yet it ignores a major vector: Microsoft’s legacy software bugs. With an 85 % share of U.S. public‑sector productivity tools, Microsoft accounts for roughly 16 % of this year’s known‑exploited vulnerabilities and 23 % since 2021, making its products a prime target for nation‑state and criminal actors. Vendors and customers must demand stronger security as AI‑driven attacks surge.</p>
-
-<a href="https://www.darkreading.com/cyberattacks-data-breaches/microsoft-ai-cyber-risk-report-miss">Read Full Article</a>
+<a href="https://www.securityweek.com/critical-node-red-flaw-exploited-in-attacks/">Read Full Article</a>
 
 
 <hr>
 
-<h2>PapRAT Cyber-Espionage Campaign Leaves a 'Bitter' Taste in South Asia</h2>
+<h2>UK Cyber Chief Says the UK Will Face AI Cyberattacks on Critical Infrastructure by 2028</h2>
 
 <b>Threat:</b> Nation State<br>
-<b>Severity:</b> 7/10<br>
-
-<p>FortiGuard Labs reports that the India‑linked cyber‑espionage group Bitter (TA397) is intensifying attacks on regional organizations. Using three distinct infection chains, the group exploits native Windows functions and a revamped PapRAT remote‑access Trojan, now rewritten in Rust with expanded commands, PowerShell execution, sleep and clean‑exit features. Targets include government, energy and engineering firms, aiming for persistent control.</p>
-
-<a href="https://www.darkreading.com/cyberattacks-data-breaches/paprat-cyberespionage-campaign-bitter-south-asia">Read Full Article</a>
-
-
-<hr>
-
-<h2>Investors Dish on New Startups &amp; What They'd Back Next</h2>
-
-<b>Threat:</b> Malware<br>
-<b>Severity:</b> 1/10<br>
-
-<p>The DataTribe Challenge, part of the annual Cyber Innovation Conference in Washington, D.C., highlighted AI‑driven risks as a top trend: a cyber‑insurance firm made the finalist slate for the first time, and a People's Choice vote was introduced. With nearly 700 startups competing, judges noted a surge in solutions addressing AI adoption, management, and emerging threats like the recent PHP2Shell vulnerability.</p>
-
-<a href="https://www.darkreading.com/cybersecurity-operations/investors-dish-new-startsup-what-back-next">Read Full Article</a>
-
-
-<hr>
-
-<h2>Devs Hit by Trojanized Claude Code Extension for Cursor</h2>
-
-<b>Threat:</b> Malware<br>
-<b>Severity:</b> 7/10<br>
-
-<p>On Oct. 29‑30, 2026, the official Claude Code extension for Cursor’s VS Code Marketplace was hijacked, distributing a malicious version (2.1.313) that installed a persistent backdoor, stole data and could grant privileged access. Cursor estimates up to 5,000 users were affected. That same day, researchers disclosed an unrelated flaw letting attackers execute arbitrary code via Cursor’s built‑in browser, underscoring the elevated risk of IDE extensions, which have host‑level permissions.</p>
-
-<a href="https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor">Read Full Article</a>
-
-
-<hr>
-
-<h2>Cybersecurity M&A Roundup: 37 Deals Announced in October 2026</h2>
-
-<b>Threat:</b> Malware<br>
-<b>Severity:</b> 1/10<br>
-
-<p>SecurityWeek logged 37 cybersecurity M&A announcements in October 2026, adding to over 420 deals in 2025. Key deals include Absolute Security buying FirmGuard, Aikido acquiring OutKept and Cyberly to launch workforce‑security brand Noon, Anthropic taking on Opaque Systems, Cohere signing an LOI for AISLE, Hex‑Rays purchasing HexAI for $30‑35 M, IonQ’s $1.3 B deal for Elisity, and Proofpoint’s $6.3 B cash purchase of Varonis.</p>
-
-<a href="https://www.securityweek.com/cybersecurity-ma-roundup-37-deals-announced-in-october-2026/">Read Full Article</a>
-
-
-<hr>
-
-<h2>Florida Student Aid Website Hack Puts Data of 4.9 Million People at Risk</h2>
-
-<b>Threat:</b> Data Breach<br>
 <b>Severity:</b> 8/10<br>
 
-<p>The Florida Department of Education confirmed that hackers breached its student financial‑aid website, potentially exposing names, Social Security numbers, birth dates, addresses, phone numbers, email addresses and gender data of roughly 4.9 million people who have applied for state scholarships or grants. The intrusion was detected on Oct. 19, has been contained, and investigators are working with the Florida Digital Service and law‑enforcement. Existing aid remains unaffected.</p>
+<p>Britain’s cyber chief warns that by 2028 AI‑driven attacks will target the UK’s critical infrastructure, with state actors such as China and Russia already using the technology to amplify existing tactics. AI‑found flaws in a core web‑language and recent ransomware hits on utilities show the growing risk. The NCSC says cyber‑crime costs nearly $20 billion a year and urges organisations to update software, restrict admin access and back up data.</p>
 
-<a href="https://www.securityweek.com/florida-student-aid-website-hack-puts-data-of-4-9-million-people-at-risk/">Read Full Article</a>
-
-
-<hr>
-
-<h2>Revolve Data Breach Impacts at Least 200,000 People</h2>
-
-<b>Threat:</b> Data Breach<br>
-<b>Severity:</b> 7/10<br>
-
-<p>Retailer Revolve disclosed a data breach affecting at least 197,072 customers, with hackers accessing its e‑commerce platform on Sept. 11 and exfiltrating names, addresses, payment‑card numbers and expiration dates. The company contained the intrusion, notified law enforcement, and hired a cybersecurity firm, but offers no free credit‑monitoring. Revolve says operations remain unaffected and the impact on business is be minimal.</p>
-
-<a href="https://www.securityweek.com/revolve-data-breach-impacts-at-least-180000-people/">Read Full Article</a>
-
-
-<hr>
-
-<h2>Google Introduces $250,000 Root-in-Cloud Bug Bounty Reward</h2>
-
-<b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 2/10<br>
-
-<p>Google Cloud has expanded its Vulnerability Reward Program with a $250,000 “root‑in‑cloud” bounty for high‑impact architectural research that achieves full administrative (IAM) control over any Google Cloud organization or project. The exploit must not rely on prior access, compromised credentials, or social engineering. Remote code execution in Borg or tenant‑isolation bypasses also qualify, but researchers must stop probing once execution is achieved. The program emphasizes safe, proof‑of‑root validation using a designated service account.</p>
-
-<a href="https://www.securityweek.com/google-introduces-250000-root-in-cloud-bug-bounty-reward/">Read Full Article</a>
-
-
-<hr>
-
-<h2>Malicious Claude Code Extension Served in Cursor Supply Chain Attack</h2>
-
-<b>Threat:</b> Malware<br>
-<b>Severity:</b> 8/10<br>
-
-<p>A malicious copy of Anthropic’s Claude Code VS Code extension (versions 2.1.312/2.1.313) was uploaded to Cursor’s marketplace on Oct 29 and lived for ~11 hours. The tampered JavaScript performed host reconnaissance and tried to install an SSH key, enable SSH and create a reverse tunnel for persistence. About 5,000 developers may have installed it. Cursor removed the extension, suspended the store, rotated keys and helped take the attacker’s server offline. Users should uninstall the extension and run Cursor’s detection script.</p>
-
-<a href="https://www.securityweek.com/malicious-claude-code-extension-served-in-cursor-supply-chain-attack/">Read Full Article</a>
+<a href="https://www.securityweek.com/uk-cyber-chief-says-the-uk-will-face-ai-cyberattacks-on-critical-infrastructure-by-2028/">Read Full Article</a>
 
 
 <hr>
@@ -255,9 +255,9 @@
 <h2>Student Loan Breach Exposes 2.5M Records</h2>
 
 <b>Threat:</b> Data Breach<br>
-<b>Severity:</b> 8/10<br>
+<b>Severity:</b> 7/10<br>
 
-<p>A breach at Nelnet Servicing, the platform used by EdFinancial and the Oklahoma Student Loan Authority, exposed personal data of 2.5 million loan borrowers. Discovered on July 21 2022 and confirmed on August 17, attackers accessed names, addresses, emails, phone numbers and Social Security numbers, though financial details remained safe. Nelnet’s cybersecurity team secured the system, engaged forensic experts, and notified affected users.</p>
+<p>A breach at Nelnet Servicing, the platform used by EdFinancial and the Oklahoma Student Loan Authority, exposed personal data of 2.5 million student‑loan borrowers. Between June 1 and July 22 2022, unauthorized actors accessed names, addresses, emails, phone numbers and Social Security numbers; financial details remained safe. The intrusion was discovered on August 17 2022, prompting immediate security actions and a forensic investigation.</p>
 
 <a href="https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/">Read Full Article</a>
 
@@ -269,7 +269,7 @@
 <b>Threat:</b> Malware<br>
 <b>Severity:</b> 8/10<br>
 
-<p>Researchers identified a watering‑hole campaign likely run by China‑based APT TA423 (Red Ladon) that used targeted links to Australian news sites to deliver the ScanBox JavaScript reconnaissance framework. Active from April to mid‑June 2022, the operation targeted Australian entities and offshore energy firms in the South China Sea. ScanBox enables covert data collection via browsers without installing malware, and TA423 is linked to China’s Ministry of State Security.</p>
+<p>Researchers identified a watering‑hole campaign, likely run by China‑based APT TA423 (Red Ladon), that delivered the ScanBox JavaScript reconnaissance framework. From April to June 2022, victims—including Australian groups and energy firms in the South China Sea—were lured via fake Australian news links. ScanBox enables covert data collection without installing malware, and the group is linked to Hainan’s Ministry of State Security.</p>
 
 <a href="https://threatpost.com/watering-hole-attacks-push-scanbox-keylogger/180490/">Read Full Article</a>
 
@@ -278,10 +278,10 @@
 
 <h2>Tentacles of ‘0ktapus’ Threat Group Victimize 130 Firms</h2>
 
-<b>Threat:</b> Ransomware<br>
+<b>Threat:</b> Malware<br>
 <b>Severity:</b> 8/10<br>
 
-<p>A “0ktapus” phishing operation compromised 9,931 accounts across 130+ organizations—including Twilio and Cloudflare—by spoofing Okta’s multi‑factor authentication page. Attackers first hit telecom firms to harvest phone numbers, then sent SMS links to employees that mimicked Okta login screens, stealing credentials and MFA codes. The campaign affected 114 U.S. firms and victims in 68 other countries, and its full scope remains unknown.</p>
+<p>A phishing campaign dubbed “0ktapus” compromised 9,931 accounts at more than 130 organizations, including Twilio and Cloudflare, by spoofing Okta’s multi‑factor authentication pages. Attackers sent SMS links that mimicked corporate Okta login screens, harvesting credentials and MFA codes. Researchers say the group first targeted telecom firms to collect phone numbers, then expanded globally, affecting 114 U.S. firms and 68 other countries; the full scale remains unclear.</p>
 
 <a href="https://threatpost.com/0ktapus-victimize-130-firms/180487/">Read Full Article</a>
 
@@ -291,9 +291,9 @@
 <h2>Ransomware Attacks are on the Rise</h2>
 
 <b>Threat:</b> Ransomware<br>
-<b>Severity:</b> 8/10<br>
+<b>Severity:</b> 7/10<br>
 
-<p>LockBit dominated July’s ransomware scene, delivering 62 attacks—over twice the combined total of the next two biggest groups. Hiveleaks (27 attacks) and BlackBasta (24 attacks) surged, up 440% and 50% since June, respectively. Overall ransomware campaigns rose 47% to 198 in July, a rebound after a dip. Both emerging groups stem from Conti’s split, suggesting further growth as the threat landscape evolves.</p>
+<p>LockBit remains the summer’s most active ransomware group, delivering 62 attacks in July—double the next two rivals combined. Hiveleaks (27 attacks) and BlackBasta (24) surged, up 440% and 50% since June, both offshoots of the dismantled Conti gang. Overall ransomware campaigns rose 47% to 198 in July, hinting at a resurgence as Conti’s remnants re‑emerge.</p>
 
 <a href="https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/">Read Full Article</a>
 
@@ -302,12 +302,24 @@
 
 <h2>Cybercriminals Are Selling Access to Chinese Surveillance Cameras</h2>
 
-<b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 7/10<br>
+<b>Threat:</b> Data Breach<br>
+<b>Severity:</b> 8/10<br>
 
-<p>Over 80,000 Hikvision surveillance cameras worldwide remain unpatched against CVE‑2021‑36260, a critical command‑injection flaw discovered 11 months ago and rated 9.8/10 by NIST. Despite alerts, many devices still use default credentials and lack automatic updates, making them attractive to Russian and Chinese threat actors. The issue reflects broader IoT security challenges, not just Hikvision’s negligence.</p>
+<p>Over 80,000 Hikvision surveillance cameras worldwide remain unpatched against the critical CVE‑2021‑36260 command‑injection flaw discovered eleven months ago. The vulnerability, rated 9.8/10 by NIST, is being traded on Russian dark‑web forums and could be exploited by Chinese and Russian APT groups. Patch adoption is low because many IoT cameras lack automatic updates, use default credentials, and offer limited forensic visibility.</p>
 
 <a href="https://threatpost.com/cybercriminals-are-selling-access-to-chinese-surveillance-cameras/180478/">Read Full Article</a>
+
+
+<hr>
+
+<h2>AIs Hacking the Law</h2>
+
+<b>Threat:</b> Malware<br>
+<b>Severity:</b> 6/10<br>
+
+<p>A recent blog post reports that large language models have uncovered numerous, previously unknown vulnerabilities in Germany’s legal code, demonstrating how AI can “hack” natural‑language legislation. The author warns that as AI‑driven legal reasoning becomes cheap and widespread, such exploits could undermine judicial stability, prompting lawmakers to harden legislative processes—potentially by employing advanced AI themselves. (≈58 words)</p>
+
+<a href="https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html">Read Full Article</a>
 
 
 <hr>
@@ -317,7 +329,7 @@
 <b>Threat:</b> Vulnerability<br>
 <b>Severity:</b> 5/10<br>
 
-<p>In the past month, 3 % of all historically recorded “critical” software security bugs were discovered—a rate that could yield roughly 100,000 new bugs in 2026, boosting the total vulnerability count by about 26 %. The surge underscores that the attack surface is expanding, not shrinking, and forces security teams to adopt proactive, rather than reactive, defenses.</p>
+<p>In the past month, 3 % of all recorded “critical” software security bugs were discovered—a rate that could total roughly 100,000 new vulnerabilities in 2026, boosting the historic count by about 26 %. The surge underscores that the attack surface is expanding, not shrinking, and highlights the need for proactive, rather than reactive, defensive strategies.</p>
 
 <a href="https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html">Read Full Article</a>
 
@@ -329,7 +341,7 @@
 <b>Threat:</b> Malware<br>
 <b>Severity:</b> 1/10<br>
 
-<p>A recent report warns that a new Claude AI extension is being distributed that can install persistent SSH backdoors on targeted systems. The malicious module embeds covert access mechanisms, allowing attackers continuous remote control even after credential changes. Security experts advise immediate auditing of SSH configurations, removal of unauthorized extensions, and deployment of endpoint detection tools to mitigate the threat.</p>
+<p>A recent report warns that a new Claude AI extension is being distributed with a hidden payload that creates persistent SSH backdoors on compromised systems. The malware silently modifies authorized_keys, enabling long‑term remote access for attackers. Researchers advise immediate removal of the extension, thorough system audits, and updating SSH configurations to mitigate the threat and implement network monitoring strategies promptly.</p>
 
 <a href="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-bigfin-squid-off-california-coast.html">Read Full Article</a>
 
@@ -341,7 +353,7 @@
 <b>Threat:</b> Malware<br>
 <b>Severity:</b> 3/10<br>
 
-<p>A Civic owner bought a cheap aftermarket head unit from Amazon and used Claude to reverse‑engineer its firmware. The analysis found bloatware that functions as spyware: a voice assistant with WebView using a third of CPU idle, Baidu location tracking, a call recorder, a DAB radio client, and Adobe Acrobat. The case exposes IoT security gaps and shows AI can streamline hacking.</p>
+<p>A Civic owner bought a cheap aftermarket head‑unit from Amazon and used Claude AI to reverse‑engineer its firmware. The analysis uncovered pre‑installed bloatware that borders on spyware: a voice assistant with always‑on WebView consuming roughly one‑third of CPU cycles, Baidu location tracking, a call‑recorder, an unused DAB radio client, and Adobe Acrobat. The case spotlights serious IoT security flaws and shows how AI now empowers everyday users to expose them, foreshadowing many similar disclosures.</p>
 
 <a href="https://www.schneier.com/blog/archives/2026/10/bloatware-in-aftermarket-auto-parts.html">Read Full Article</a>
 
@@ -351,83 +363,83 @@
 <h2>Studying Fraudulent North Korean IT Workers</h2>
 
 <b>Threat:</b> Nation State<br>
-<b>Severity:</b> 4/10<br>
+<b>Severity:</b> 3/10<br>
 
-<p>Researchers created a counterfeit startup to lure and analyze fraudulent North Korean IT workers posing as legitimate hires. Their findings reveal that once hired, these operatives gain authorized network access, turning HR processes into an attack surface and posing a classic insider‑threat risk. Past cases show North Korea exploits stolen credentials for espionage, underscoring the need for rigorous vetting and rapid credential resets if a spy is discovered.</p>
+<p>Researchers created a fictitious startup to attract and study fraudulent North Korean IT workers, exposing how these operatives infiltrate companies through legitimate hiring processes. Once employed, they gain insider access without needing zero‑day exploits, using stolen employee credentials to spy, exfiltrate data, and maintain long‑term footholds. The experiment highlights HR as a critical attack surface and stresses rigorous vetting, login rotation, and detection methods.</p>
 
 <a href="https://www.schneier.com/blog/archives/2026/10/studying-fraudulent-north-korean-it-workers.html">Read Full Article</a>
 
 
 <hr>
 
-<h2>Hiding Capabilities in AI Models</h2>
-
-<b>Threat:</b> Malware<br>
-<b>Severity:</b> 6/10<br>
-
-<p>Researchers demonstrate that AI models can be backdoored to hide arbitrary capabilities, embedding encrypted neural networks in model weights that activate only with a secret trigger. Cryptographic proofs show these hidden circuits are provably hard to elicit—even with full weight access—undermining capability‑audit methods. Experiments on a chemical‑reaction task confirm resistance to fine‑tuning, noise, and gradient attacks, and the team releases the models to aid defense development.</p>
-
-<a href="https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html">Read Full Article</a>
-
-
-<hr>
-
-<h2>Chinese hackers use ARTEX AI in automated attacks against 200 orgs</h2>
-
-<b>Threat:</b> Nation State<br>
-<b>Severity:</b> 8/10<br>
-
-<p>Summary unavailable</p>
-
-<a href="https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/">Read Full Article</a>
-
-
-<hr>
-
-<h2>Fintech platform Sageworks taken offline after suspected cyberattack</h2>
+<h2>Hackers hijack cPGuard autoupdate to deploy backdoor, steal data</h2>
 
 <b>Threat:</b> Malware<br>
 <b>Severity:</b> 8/10<br>
 
 <p>Summary unavailable</p>
 
-<a href="https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/">Read Full Article</a>
+<a href="https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/">Read Full Article</a>
 
 
 <hr>
 
-<h2>Google disrupts million-device XCPE Android malware botnet, bans TV box maker</h2>
-
-<b>Threat:</b> Malware<br>
-<b>Severity:</b> 8/10<br>
-
-<p>Summary unavailable</p>
-
-<a href="https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/">Read Full Article</a>
-
-
-<hr>
-
-<h2>BTCPay Server warns of hot wallet crypto thefts on outdated instances</h2>
-
-<b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 8/10<br>
-
-<p>Summary unavailable</p>
-
-<a href="https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/">Read Full Article</a>
-
-
-<hr>
-
-<h2>Your Mobile Carrier Stores Your Call Logs for Years</h2>
+<h2>WorkOS says attacker used ARTEX AI to breach internal sales app</h2>
 
 <b>Threat:</b> Data Breach<br>
-<b>Severity:</b> 6/10<br>
+<b>Severity:</b> 7/10<br>
 
 <p>Summary unavailable</p>
 
-<a href="https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/">Read Full Article</a>
+<a href="https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/">Read Full Article</a>
+
+
+<hr>
+
+<h2>Binance says fake job interview led to $6.3 billion crypto heist</h2>
+
+<b>Threat:</b> Data Breach<br>
+<b>Severity:</b> 9/10<br>
+
+<p>Summary unavailable</p>
+
+<a href="https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/">Read Full Article</a>
+
+
+<hr>
+
+<h2>Google: LLMjacking attacks rack up $1 million in cloud AI charges</h2>
+
+<b>Threat:</b> Malware<br>
+<b>Severity:</b> 9/10<br>
+
+<p>Summary unavailable</p>
+
+<a href="https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/">Read Full Article</a>
+
+
+<hr>
+
+<h2>Barracuda warns of critical flaws allowing root access to devices</h2>
+
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> 10/10<br>
+
+<p>Summary unavailable</p>
+
+<a href="https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/">Read Full Article</a>
+
+
+<hr>
+
+<h2>ISC Stormcast For Wednesday, November 4th, 2026 https://isc.sans.edu/podcastdetail/10164, (Wed, Nov 4th)</h2>
+
+<b>Threat:</b> Malware<br>
+<b>Severity:</b> 1/10<br>
+
+<p>I’m unable to provide a summary because no cybersecurity news content was included. Please share the article or key details you’d like summarized.</p>
+
+<a href="https://isc.sans.edu/diary/rss/33486">Read Full Article</a>
 
 
 <hr>
@@ -437,7 +449,7 @@
 <b>Threat:</b> Malware<br>
 <b>Severity:</b> 1/10<br>
 
-<p>I’m happy to help, but I need the text of the cybersecurity news (or a link to it) in order to create a summary. Could you please provide the article or the relevant details?</p>
+<p>I’m happy to help, but I need the text of the cybersecurity news you’d like summarized. Please provide the article or key details, and I’ll create a 60‑word summary for you.</p>
 
 <a href="https://isc.sans.edu/diary/rss/33484">Read Full Article</a>
 
@@ -446,10 +458,10 @@
 
 <h2>Mutipath TCP: Use and Detection, (Mon, Nov 2nd)</h2>
 
-<b>Threat:</b> Malware<br>
-<b>Severity:</b> 3/10<br>
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> 6/10<br>
 
-<p>A new Linux flaw (CVE‑2026‑98432) in the rarely‑used TCP option defined by RFC 8684 has drawn attention to Multipath TCP (MPTCP). MPTCP lets a single connection span multiple IP addresses, helping mobile devices switch networks and allowing servers to aggregate bandwidth. Apple’s iOS/iPadOS widely employ MPTCP (MP_CAPABLE, MP_JOIN, DSS) for services like Siri, Music, and general Apple‑host traffic.</p>
+<p>Last week a rarely‑used TCP option (RFC 8684) was found vulnerable in Linux (CVE‑2026‑98432). The issue draws attention to Multipath TCP (MPTCP), which splits a connection across multiple IP addresses to handle device mobility and fill high‑bandwidth links in modern networks for better performance. Apple’s iOS/iPadOS widely uses MPTCP (v0/v1) with MP_CAPABLE, MP_JOIN, and DSS options to combine sub‑flows.</p>
 
 <a href="https://isc.sans.edu/diary/rss/33482">Read Full Article</a>
 
@@ -458,10 +470,10 @@
 
 <h2>ISC Stormcast For Monday, November 2nd, 2026 https://isc.sans.edu/podcastdetail/10160, (Mon, Nov 2nd)</h2>
 
-<b>Threat:</b> Vulnerability<br>
+<b>Threat:</b> Malware<br>
 <b>Severity:</b> 1/10<br>
 
-<p>I’m sorry, but I can’t generate a summary without the actual news content. Please provide the text you’d like summarized.</p>
+<p>Could you please provide the text or main points of the cybersecurity news you’d like summarized?</p>
 
 <a href="https://isc.sans.edu/diary/rss/33480">Read Full Article</a>
 
@@ -471,82 +483,70 @@
 <h2>OneNote File Extraction, (Sun, Nov 1st)</h2>
 
 <b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 4/10<br>
+<b>Severity:</b> 7/10<br>
 
-<p>Didier Stevens enhanced his onedump.py utility to streamline extraction of embedded files from OneNote (.one) documents. The new “--jsonoutput” flag generates JSON listings of all embedded items, allowing batch processing of multiple files (e.g., `onedump.py --jsonoutput *.one`). Coupled with his myjson‑filter.py script (`-W hashvir`), the JSON feed can automatically write each extracted file to disk, naming them by their SHA‑256 hash with a “.vir” extension. This simplifies bulk analysis of OneNote‑based malware.</p>
+<p>Didier Stevens enhanced his onedump.py utility to export extraction results as JSON, enabling batch processing of multiple .one files (e.g., `onedump.py --jsonoutput *.one`). The JSON stream can be piped to his myjson-filter.py script, which writes each embedded file to disk using its SHA‑256 hash as the filename with a “.vir” extension. This streamlines bulk extraction of hidden content from OneNote files.</p>
 
 <a href="https://isc.sans.edu/diary/rss/33478">Read Full Article</a>
 
 
 <hr>
 
-<h2>Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)</h2>
+<h2>Russia-Aligned Gorbag Targets Ukraine for Intelligence</h2>
 
-<b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 1/10<br>
-
-<p>Wireshark’s development has reached a milestone with the release of a 5.0.0 Release Candidate, signaling the imminent arrival of the next major version of the popular network protocol analyzer. The announcement, posted by cybersecurity expert Didier Stevens, invites the community to review the new build and join the discussion on his blog.</p>
-
-<a href="https://isc.sans.edu/diary/rss/33476">Read Full Article</a>
-
-
-<hr>
-
-<h2>Iran-Linked DarkBlinders Hackers Breach Government Cloud Systems and Steal Over 1GB of Data</h2>
-
-<b>Threat:</b> Data Breach<br>
+<b>Threat:</b> Nation State<br>
 <b>Severity:</b> 8/10<br>
 
-<p>Summary unavailable</p>
+<p>A Russia‑aligned cyberespionage group dubbed “Gorbag” has been targeting Ukrainian justice, law‑enforcement, local government and defense entities since at least February 2025. Using a custom infostealer called BeautyStealer, it harvests credentials, VPN configs, cookies, browser data and sensitive documents, including e‑signature keys. The campaign began with spear‑phishing Excel macros and later shifted to malicious RAR archives exploiting CVE‑2025‑8088, reflecting Russia’s wartime intelligence priorities.</p>
 
-<a href="https://cybersecuritynews.com/iran-linked-darkblinders-hackers/">Read Full Article</a>
-
-
-<hr>
-
-<h2>Hackers Use Malicious VHDX Files and WebDAV Links to Infect Windows Devices With PapRAT Malware</h2>
-
-<b>Threat:</b> Malware<br>
-<b>Severity:</b> 7/10<br>
-
-<p>Summary unavailable</p>
-
-<a href="https://cybersecuritynews.com/hackers-use-malicious-vhdx-files/">Read Full Article</a>
+<a href="https://www.infosecurity-magazine.com/news/russia-gorbag-targets-ukraine/">Read Full Article</a>
 
 
 <hr>
 
-<h2>BYDFi’s Up to 8,100 USDT Welcome Rewards: A Security-First Guide for New Users</h2>
-
-<b>Threat:</b> Malware<br>
-<b>Severity:</b> 1/10<br>
-
-<p>Summary unavailable</p>
-
-<a href="https://cybersecuritynews.com/bydfis-up-to-8100-usdt-welcome-rewards-a-security-first-guide-for-new-users/">Read Full Article</a>
-
-
-<hr>
-
-<h2>OpenAI Launches New Security Sprint to Hunt Vulnerabilities and Strengthen Defenses</h2>
+<h2>Hackers Exploit BTCPay Server Flaw to Steal Cryptocurrency</h2>
 
 <b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 3/10<br>
+<b>Severity:</b> 8/10<br>
 
-<p>Summary unavailable</p>
+<p>Hackers stole roughly $1.63 million in Bitcoin and Litecoin from hot wallets on outdated BTCPay Server installations (v2.4.1 or earlier). The attackers exploited a vulnerability fixed in v2.4.2, signing in as administrators to sweep funds. Blockchain analysis traced 18.38 BTC and 3,405 LTC across 682 sweeps, with most moves on Nov 1. BTCPay says newer versions are safe; total losses remain unconfirmed.</p>
 
-<a href="https://cybersecuritynews.com/openai-security-sprint/">Read Full Article</a>
+<a href="https://www.infosecurity-magazine.com/news/btcpay-server-flaw-cryptocurrency/">Read Full Article</a>
 
 
 <hr>
 
-<h2>Anthropic Enables EDR Monitoring in Claude Cowork to Detect Hidden AI Agent Activity</h2>
+<h2>Cyber-Attack on Refrigeration Systems Hits Supermarkets Across Europe</h2>
+
+<b>Threat:</b> Ransomware<br>
+<b>Severity:</b> 9/10<br>
+
+<p>Supermarkets in at least nine European nations—including Belgium, Estonia, Finland, Ireland, Italy, Luxembourg, the Netherlands, Portugal and Sweden—have suffered a cyber‑attack that hijacked refrigeration units, raising temperatures up to 50 °C and spoiling food. The incident mirrors a October 2026 attack on Danfoss and Copeland systems. Affected retailers include SuperValu, ICA Sweden and an IKEA store in Belgium; investigations are ongoing, with no confirmed cause or perpetrator yet.</p>
+
+<a href="https://www.infosecurity-magazine.com/news/cyber-refrigeration-supermarkets/">Read Full Article</a>
+
+
+<hr>
+
+<h2>NCSC Chief Warns of Imminent AI Ransomware Threat to UK Critical Infrastructure</h2>
+
+<b>Threat:</b> Ransomware<br>
+<b>Severity:</b> 9/10<br>
+
+<p>The UK’s National Cyber Security Centre warns that AI‑driven malware will likely power ransomware attacks on critical national infrastructure—power stations, airports and hospitals—by 2028. NCSC chief Richard Horne says this will trigger an unprecedented surge in cyber incidents, with both financially motivated hackers and nation‑states such as Russia and China exploiting AI. The threat stems not from new attack methods, but from long‑ignored vulnerabilities being discovered and scaled through cheap, outdated technology and insufficient security‑by‑design practices.</p>
+
+<a href="https://www.infosecurity-magazine.com/news/ncsc-ai-ransomware-threat-uk-cni/">Read Full Article</a>
+
+
+<hr>
+
+<h2>LLMJacking is Costing Some Businesses Up to $1m, Warns Google</h2>
 
 <b>Threat:</b> Malware<br>
-<b>Severity:</b> 2/10<br>
+<b>Severity:</b> 9/10<br>
 
-<p>Summary unavailable</p>
+<p>Google’s Mandiant unit warns that “LLMJacking”—the illicit hijacking of large language model APIs—is becoming a significant threat. Attackers have targeted financial, retail, tech and transport firms, stealing API keys, IAM tokens and credentials to flood cloud accounts with AI compute, generating $100,000‑plus daily charges and up to $1 million before detection. The ecosystem is maturing, with actors bypassing chatbots, escalating privileges and exploiting LLM routing software.</p>
 
-<a href="https://cybersecuritynews.com/anthropic-enables-edr-monitoring/">Read Full Article</a>
+<a href="https://www.infosecurity-magazine.com/news/llmjacking-cost-business-1m-warns/">Read Full Article</a>
 
 </body></html>

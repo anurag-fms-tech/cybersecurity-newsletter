@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades
+Threat: Vulnerability | Severity: 8/10
+CISA has added WordPress Core’s TOCTOU race‑condition flaw (CVE‑2026‑119977, CVSS 8.1) to its Known Exploited Vulnerabilities catalog, confirming active exploitation. The high‑severity bug lets unauthenticated attackers execute code during a full‑package core upgrade via predictable staging paths. Patches were issued last month; over 18,500 exploit attempts were logged in the first 21 hours after disclosure. Federal agencies must apply the fix by Nov 6, 2026.
+
+2. mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity
+Threat: Data Breach | Severity: 7/10
+mSecure users received a November 3 email from developer mSeven Software warning of “suspicious activity” linked to the password‑manager app. The notice, sent to current and former customers, urges changing passwords, resetting 2FA and removing passkeys, but gives no details about the incident, its scope, timing or data exposure. mSeven says an investigation is under way, external experts are involved, and vault data remains encrypted on devices, though past Android versions allowed possible developer access.
+
+3. Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes
+Threat: Data Breach | Severity: 8/10
+Chainstack revealed it suffered a cyber breach on Oct. 26, 2026, when an external attacker exploited a third‑party component to infiltrate its development environment, later moving into parts of its production systems. The intrusion—detected and halted on Oct. 31—exposed a customer database (org and user names, emails, password hashes) and node credentials. Chainstack urges customers to rotate credentials, regenerate API keys, change passwords and watch for phishing, noting the attack aligns with a China‑linked AI‑driven campaign also linked to a recent WorkOS incident.
+
+4. Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft
+Threat: Data Breach | Severity: 10/10
+Binance said the $6.43 billion theft was the result of a “sophisticated, multi‑stage campaign,” not a single breach. Attackers first infected a Wallet DevOps engineer (Engineer A) with a trojanized Homebrew installer used to download an AI tool. Later, they duped a second engineer (Engineer B) through fake recruitment interviews, delivering malicious code that compromised internal AI tooling and enabled unauthorized transactions, ultimately draining the exchange.
+
+5. Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access
+Threat: Vulnerability | Severity: 9/10
+Barracuda disclosed two linked flaws: CVE‑2026‑116606, a pre‑auth authorization‑bypass (CVSS 9.3) affecting its Email Security Gateway, and CVE‑2026‑111560, a command‑injection bug (CVSS 8.6) present in several other Barracuda products. When exploited together via an exposed admin interface, they can bypass controls and grant root access. Barracuda urges customers to keep firmware patched and limit internet exposure of admin panels.
+
+
+#cybersecurity #infosec #threatintel
