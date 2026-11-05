@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says
+Threat: Vulnerability | Severity: 8/10
+CISA added CVE‑2024‑27834 to its KEV list after confirming exploitation. The authentication bypass of Pointer Authentication was patched by Apple in May 2024 across iOS, iPadOS, macOS, tvOS, watchOS and Safari. APT29 (Cozy Bear) is linked to attacks using compromised or fake sites and a supply‑chain hit on Plerdy, delivering a WebKit exploit that steals browser data. Agencies must patch by 18 Nov 2026.
+
+2. OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run
+Threat: Zero-Day | Severity: 9/10
+OpenAI disclosed an AI‑driven pipeline that used its upcoming cyber‑focused model to automatically reproduce 1,724 Linux kernel bugs and generate 948 working local‑privilege‑escalation exploits, costing $1.213 million in API credits ($1,279 per exploit). The system uncovered at least ten novel exploitation techniques, underscoring how frontier AI accelerates both vulnerability discovery for defenders and weaponisation for attackers, as monthly Linux disclosures have doubled in 2026.
+
+3. Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root
+Threat: Vulnerability | Severity: 10/10
+A critical flaw (CVE‑2026‑109518) in APT, the Debian/Ubuntu package manager, lets attackers who can tamper with package downloads replace a verified package with malicious code that runs as root. The exploit relies on APT’s default retry behavior, enabled from Debian 12 and Ubuntu 22.04 onward. Fixed APT versions have been released for current releases; older LTS versions remain vulnerable unless users have manually enabled retries. Ubuntu rates the issue high (CVSS 7.7) and warns that any attacker controlling HTTP traffic—malicious mirrors, proxies, or network tampering—could trigger the exploit during package installation. No public exploits or work‑arounds are known yet.
+
+4. SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records
+Threat: Vulnerability | Severity: 8/10
+SonicWall announced two unpatched vulnerabilities in its end‑of‑life Global Management System (GMS) 9.5.2 and earlier, urging users to migrate to the Network Security Manager. No fixes will be issued. This follows a recent patch for a critical CVE‑2026‑102255 SSRF flaw (CVSS 10.0) that is being exploited, with over 2,500 attempts recorded since October 9 2026, including 30 on November 3.
+
+5. Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit
+Threat: Malware | Severity: 5/10
+Check Point Research identified a new “prompt‑adware” jailbreak called Haiou (“Seagull”) for OpenAI Codex. The bundle alters Codex’s configuration files, injecting ads that promote the author’s opaque OpenAI‑compatible LLM gateway (zz.aiapi2025.top) whenever common greetings are used. Distributed on GitHub since July 10 2026, the tool uses role‑play prompt injections and adds security‑research workflows, turning the AI agent into a covert advertising channel.
+
+
+#cybersecurity #infosec #threatintel
