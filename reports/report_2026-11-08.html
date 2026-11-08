@@ -1,0 +1,552 @@
+
+<html>
+<head>
+<title>Cybersecurity Intelligence Brief</title>
+</head>
+
+<body style="font-family:Arial">
+
+<h1>Cybersecurity Intelligence Brief</h1>
+<h3>08 November 2026</h3>
+
+
+<hr>
+
+<h2>Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub</h2>
+
+<b>Threat:</b> Data Breach<br>
+<b>Severity:</b> 8/10<br>
+
+<p>Anthropic’s Claude Code can store commands—including passwords and API keys—when users select “Yes, and don’t ask again,” saving them in .claude/settings.local.json. Researchers at Apiiro found 1,122 public GitHub repos containing this file with secrets, some still active. The file isn’t automatically git‑ignored, so secrets persist in history and forks. They advise rotating all credentials and cleaning the repo.</p>
+
+<a href="https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html">Read Full Article</a>
+
+
+<hr>
+
+<h2>Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time</h2>
+
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> 8/10<br>
+
+<p>A WordPress update can be exploited while it installs a fix for CVE‑2026‑119977, affecting versions 4.7‑7.1.3. The updater unpacks new files using the site’s old, vulnerable code, exposing the temporary wp‑content/upgrade folder. An attacker who predicts the folder name can run code, overwrite wp‑config.php, and gain server access. Researchers recommend blocking web access to wp‑content/upgrade during updates. The flaw was added to CISA’s exploited‑vulnerabilities list; WordPress patched it in 7.1.4 (and back‑ports).</p>
+
+<a href="https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html">Read Full Article</a>
+
+
+<hr>
+
+<h2>Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot</h2>
+
+<b>Threat:</b> Zero-Day<br>
+<b>Severity:</b> 10/10<br>
+
+<p>Threat actors are exploiting a newly disclosed OpenSSH flaw (CVE‑2026‑123158, “SSHole”) that lets unauthenticated attackers log into accounts with no password when OpenSSH runs on musl‑based Linux without PAM (e.g., Alpine Linux). By sending an oversized password (257‑1024 bytes), the hash fails, returns “*”, and matches the account’s disabled‑password marker, granting access. The bug, introduced by a 2016 patch, was fixed in OpenSSH 10.6p2. Within nine hours of disclosure, eight attempts were seen, including a successful root compromise on an Alpine honeypot. The issue does not affect glibc systems, Dropbear, or PAM‑enabled configurations.</p>
+
+<a href="https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html">Read Full Article</a>
+
+
+<hr>
+
+<h2>OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits</h2>
+
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> 6/10<br>
+
+<p>OpenAI unveiled GPT‑6 Cyber, a “Critical” cybersecurity model that markedly improves vulnerability discovery and alignment. It outperforms GPT‑5.6 Cyber and GPT‑6 Astra, staying within task boundaries 99.93% of the time (100% with safety prompts) and scoring 48.5% on the ExploitGym benchmark versus 32.1% previously. The model auto‑found 948 Linux privilege‑escalation bugs, 81 new high‑severity Firefox flaws and a critical Brotli issue, and is now available via API to select Daybreak Red customers with added misuse‑prevention guardrails.</p>
+
+<a href="https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html">Read Full Article</a>
+
+
+<hr>
+
+<h2>Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It</h2>
+
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> 9/10<br>
+
+<p>Microsoft has released a fix for the critical Paint RCE bug (CVE‑2026‑83844) via a Microsoft Store update, not through regular Windows patches. The remedial build is 11.2609.401.0, which the Store now offers in ten countries; older builds (e.g., 11.2605.81.0) remain unpatched. The flaw is an out‑of‑bounds read allowing remote code execution, rated Important with an 8.1 CVSS. Deployment speed varies, and the advisory’s fixed‑build range was recently updated without clear notice.</p>
+
+<a href="https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html">Read Full Article</a>
+
+
+<hr>
+
+<h2>Want to Rent an Internet Address at the White House?</h2>
+
+<b>Threat:</b> Nation State<br>
+<b>Severity:</b> 2/10<br>
+
+<p>Security researchers discovered that White House staff are using residential‑proxy services—some run by a Russian firm tied to 2016 election‑system hacks—to route their traffic. Layer3 Intel saw proxy nodes exit from the Executive Office’s IP range (AS2650) 236 times between Oct 5 and Nov 3, mainly evenings. At least 28 proxy providers, including Infatica, were able to rent these White House addresses, exposing the network to potential abuse.</p>
+
+<a href="https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/">Read Full Article</a>
+
+
+<hr>
+
+<h2>Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies</h2>
+
+<b>Threat:</b> Malware<br>
+<b>Severity:</b> 8/10<br>
+
+<p>Google, with industry partners, dismantled the “XCPE” botnet that had infected over 1.3 million Android TV set‑top boxes—many from China’s Videostrong Technology—using malware that rented users’ Internet connections to residential‑proxy services for ad fraud and other crimes. The takedown also cuts off access to 10 million additional compromised IoT devices, from telehealth gear to karaoke machines, and targets proxy providers such as Honeygain, NetNut and others.</p>
+
+<a href="https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/">Read Full Article</a>
+
+
+<hr>
+
+<h2>Widespread PHP Flaw May Cause Many Site Outages Today</h2>
+
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> 8/10<br>
+
+<p>Nearly 70 % of websites must patch PHP after two critical flaws—allowing full server takeover, remote‑code execution, denial‑of‑service and data exposure—were disclosed. Exploits are already active; governments in Europe have taken sites offline. PHP issued an emergency update, and Cloudflare deployed WAF rules. Researchers, including Wiz and OpenAI, say the bugs have existed for years and will likely be mass‑exploited for web‑shell backdoors.</p>
+
+<a href="https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/">Read Full Article</a>
+
+
+<hr>
+
+<h2>Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site</h2>
+
+<b>Threat:</b> Ransomware<br>
+<b>Severity:</b> 8/10<br>
+
+<p>U.S. investigators targeting the ShinyHunters group—responsible for stealing FBI personnel data and extorting over $70 million—have uncovered ties to executives at two ransomware‑negotiation firms. One U.S. executive helped run a victim‑pressure site. Dutch hacker Pepijn van der Stap’s arrested Signal chats linked him to Canadian cyber‑extortionist Edward Dubrovsky and a U.S. consulting executive, revealing they knew about new ShinyHunters breaches before victims did and that Dubrovsky failed to alert the FBI about the FBI hack.</p>
+
+<a href="https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/">Read Full Article</a>
+
+
+<hr>
+
+<h2>U.K. Sanctions Cryptomus for RU Money Laundering</h2>
+
+<b>Threat:</b> Nation State<br>
+<b>Severity:</b> 6/10<br>
+
+<p>The U.K. imposed sanctions on Cryptomus (now also called Heleket), a cryptocurrency platform accused of funneling ransomware, drug, darknet, fraud and other cyber‑crime payments that help Russia evade financial bans. Assets in U.K. banks are frozen and British firms barred from dealing with it. The crackdown also targets VexPay, TokenSpot and Tsunami Payments, aiming to cripple the crypto infrastructure supporting Russia’s wartime economy.</p>
+
+<a href="https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/">Read Full Article</a>
+
+
+<hr>
+
+<h2>UK Wades Into Tech Sovereignty Amid AI Policy Changes</h2>
+
+<b>Threat:</b> Nation State<br>
+<b>Severity:</b> 3/10<br>
+
+<p>Summary unavailable</p>
+
+<a href="https://www.darkreading.com/cybersecurity-operations/uk-tech-sovereignty-ai-policy">Read Full Article</a>
+
+
+<hr>
+
+<h2>AI Gave Your Incident Archive a Second Job</h2>
+
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> 2/10<br>
+
+<p>Summary unavailable</p>
+
+<a href="https://www.darkreading.com/cyber-risk/ai-gave-your-incident-archive-second-job">Read Full Article</a>
+
+
+<hr>
+
+<h2>Why Europe's Freezer Hacks Spread So Far, So Fast</h2>
+
+<b>Threat:</b> Ransomware<br>
+<b>Severity:</b> 8/10<br>
+
+<p>Summary unavailable</p>
+
+<a href="https://www.darkreading.com/ics-ot-security/europes-freezer-hacks-spread-so-far-so-fast">Read Full Article</a>
+
+
+<hr>
+
+<h2>UK Warns Its Critical Infrastructure Faces Grave Risk</h2>
+
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> 9/10<br>
+
+<p>Summary unavailable</p>
+
+<a href="https://www.darkreading.com/cybersecurity-operations/uk-warns-critical-infrastructure-grave-risk">Read Full Article</a>
+
+
+<hr>
+
+<h2>Operação de influência russa tem como alvo generalizado a América Latina</h2>
+
+<b>Threat:</b> Nation State<br>
+<b>Severity:</b> 6/10<br>
+
+<p>Summary unavailable</p>
+
+<a href="https://www.darkreading.com/cyberattacks-data-breaches/opera-o-de-influ-ncia-russa-tem-como-alvo-generalizado-a-am-rica-latina">Read Full Article</a>
+
+
+<hr>
+
+<h2>SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins</h2>
+
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> 8/10<br>
+
+<p>CVE‑2026‑19868 is a high‑severity (CVSS 7.1) flaw in SonicOS SSL‑VPN that lets an attacker with valid credentials for another login method bypass SAML authentication and SAML‑enforced MFA. SonicWall confirmed possible exploitation and added the bug to its advisory; CISA placed it in the Known Exploited Vulnerabilities catalog, requiring federal remediation by Nov 20. Affected firewalls run SonicOS 7.3.3‑7015/8.2.2‑8015 or earlier; the issue is fixed in SonicOS 7.3.4‑7013 and 8.2.3‑8015. No work‑arounds exist, so immediate upgrade is urged. The advisory also lists six other SonicOS bugs, two with CVSS 8.8, but none are known to be exploited.</p>
+
+<a href="https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/">Read Full Article</a>
+
+
+<hr>
+
+<h2>Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks</h2>
+
+<b>Threat:</b> Ransomware<br>
+<b>Severity:</b> 8/10<br>
+
+<p>Japan announced a ¥10 billion emergency cybersecurity package after a wave of data breaches hit dozens of firms and government agencies. Prime Minister Sanae Takaichi stressed rapid, AI‑driven response and “active cyber defense.” The plan creates a Ministry‑led “top‑gun” AI team, a public‑private “cyber‑rescue” unit, and a national support team from defense, police and cybersecurity agencies to share intel, protect vulnerable firms and boost Japan’s overall cyber resilience.</p>
+
+<a href="https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/">Read Full Article</a>
+
+
+<hr>
+
+<h2>In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days</h2>
+
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> 9/10<br>
+
+<p></p>
+
+<a href="https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days/">Read Full Article</a>
+
+
+<hr>
+
+<h2>DigiCert Data Breach Impacts Business Customer Information</h2>
+
+<b>Threat:</b> Data Breach<br>
+<b>Severity:</b> 7/10<br>
+
+<p>DigiCert reported a breach of an archive system exposed after a February 2025 network move. Hackers exploited a registration feature lacking MFA to create an account that accessed customers’ names, emails, phone numbers, addresses and ID documents between June 27‑July 2. The account was blocked on July 2; DigiCert launched an investigation in October, reset passwords, disabled the feature and added monitoring. The impact is unknown.</p>
+
+<a href="https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/">Read Full Article</a>
+
+
+<hr>
+
+<h2>OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line</h2>
+
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> 3/10<br>
+
+<p>OpenAI released GPT‑6 Cyber, a model rated Critical. It hit 48.5% success on ExploitGym, up from 32.1% for GPT‑5.6, and avoided off‑limits exploits in 99.93% of cases. The model uncovered 1,724 Linux kernel flaws, built 948 exploits, reported 304 critical issues and identified 81 high‑severity Firefox bugs. New safeguards limit use to approved Daybreak Red customers, with broader rollout planned.</p>
+
+<a href="https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/">Read Full Article</a>
+
+
+<hr>
+
+<h2>Student Loan Breach Exposes 2.5M Records</h2>
+
+<b>Threat:</b> Data Breach<br>
+<b>Severity:</b> 8/10<br>
+
+<p>A breach at Nelnet Servicing, the provider for EdFinancial and the Oklahoma Student Loan Authority, exposed personal data of 2.5 million student‑loan borrowers. The intrusion, discovered on August 17 2022, accessed names, addresses, emails, phone numbers and Social Security numbers but not financial details. Nelnet’s cybersecurity team secured the system and engaged forensic experts; the incident occurred between June 1 and July 22 2022, with notification sent to affected customers on July 21.</p>
+
+<a href="https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/">Read Full Article</a>
+
+
+<hr>
+
+<h2>Watering Hole Attacks Push ScanBox Keylogger</h2>
+
+<b>Threat:</b> Malware<br>
+<b>Severity:</b> 8/10<br>
+
+<p>Researchers identified a watering‑hole campaign, likely run by China‑based APT TA423 (aka Red Ladon), that used fake Australian news links to lure victims—including domestic Australian firms and offshore energy companies in the South China Sea—into loading the ScanBox JavaScript reconnaissance framework. The operation ran from April to mid‑June 2022, is tied to Hainan‑based MSS support, and exploits ScanBox’s ability to harvest data without installing malware.</p>
+
+<a href="https://threatpost.com/watering-hole-attacks-push-scanbox-keylogger/180490/">Read Full Article</a>
+
+
+<hr>
+
+<h2>Tentacles of ‘0ktapus’ Threat Group Victimize 130 Firms</h2>
+
+<b>Threat:</b> Ransomware<br>
+<b>Severity:</b> 8/10<br>
+
+<p>A massive phishing operation, dubbed “0ktapus,” compromised 9,931 accounts across more than 130 organizations, including Twilio and Cloudflare. Attackers spoofed Okta’s multi‑factor authentication pages, sending SMS links that harvested users’ Okta credentials and MFA codes. The campaign, traced to Group‑IB, began by targeting telecom firms to collect phone numbers, then expanded globally to 114 U.S. companies and 68 other countries. The full scope remains unknown.</p>
+
+<a href="https://threatpost.com/0ktapus-victimize-130-firms/180487/">Read Full Article</a>
+
+
+<hr>
+
+<h2>Ransomware Attacks are on the Rise</h2>
+
+<b>Threat:</b> Ransomware<br>
+<b>Severity:</b> 8/10<br>
+
+<p>Lockbit dominated July’s ransomware landscape with 62 attacks—double the next two groups combined. Hiveleaks (27 attacks) and BlackBasta (24 attacks) surged 440% and 50% since June, respectively. Overall ransomware campaigns rose 47% to 198, though still below the spring peak of ~300. Researchers link the rebound to Conti’s fragmentation: Hiveleaks is an affiliate, BlackBasta a replacement strain, emerging after a U.S. bounty spurred structural changes in the original gang.</p>
+
+<a href="https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/">Read Full Article</a>
+
+
+<hr>
+
+<h2>Cybercriminals Are Selling Access to Chinese Surveillance Cameras</h2>
+
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> 8/10<br>
+
+<p>Over 80,000 Hikvision surveillance cameras worldwide remain unpatched against CVE‑2021‑36260, a critical 11‑month‑old command‑injection flaw rated 9.8/10 by NIST. Despite the risk, the devices still use default credentials and lack automatic updates, making them easy targets. Researchers have seen attempts to exploit the vulnerability on Russian dark‑web forums, with Chinese and Russian threat groups potentially poised to weaponize the flaw.</p>
+
+<a href="https://threatpost.com/cybercriminals-are-selling-access-to-chinese-surveillance-cameras/180478/">Read Full Article</a>
+
+
+<hr>
+
+<h2>Friday Squid Blogging: New Jurassic Squid Predecessors</h2>
+
+<b>Threat:</b> Malware<br>
+<b>Severity:</b> 1/10<br>
+
+<p>Paleontologists have uncovered the largest known belemnite—a barrel‑shaped, “fat” Jurassic squid relative—from 160‑million‑year‑old marine deposits in Wyoming. The rare fossil reveals a previously unknown predator of smaller cephalopods and suggests the belemnite lineage survived longer than thought. Its shape may rewrite cephalopod evolution, attention to cyber threats.</p>
+
+<a href="https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-new-jurassic-squid-predecessors.html">Read Full Article</a>
+
+
+<hr>
+
+<h2>Pinpointing Location of Videos from Background Airplane Sounds</h2>
+
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> 6/10<br>
+
+<p>Researchers demonstrated a method to pinpoint where an anonymous audio recording was made by detecting the faint Doppler‑shifted sounds of passing aircraft. By matching the aircraft’s frequency changes to publicly available ADS‑B flight‑tracking data, analysts can infer the recorder’s location. The approach highlights both novel forensic potential and privacy concerns, and could be applied to other ambient sound sources.</p>
+
+<a href="https://www.schneier.com/blog/archives/2026/11/pinpointing-location-of-videos-from-background-airplane-sounds.html">Read Full Article</a>
+
+
+<hr>
+
+<h2>AIs Hacking the Law</h2>
+
+<b>Threat:</b> Malware<br>
+<b>Severity:</b> 9/10<br>
+
+<p>A recent blog post argues that large language models can uncover “vulnerabilities” in legal texts, much like software bugs, and demonstrates dozens of such flaws in German law. The author warns that AI‑driven legal reasoning could enable systematic exploitation of these loopholes, threatening the stability of judicial systems. To counter this, lawmakers may need to harden legislation processes, potentially using advanced AI themselves.</p>
+
+<a href="https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html">Read Full Article</a>
+
+
+<hr>
+
+<h2>AI Vulnerability Finding</h2>
+
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> 5/10<br>
+
+<p>In the past month, 3 % of all recorded “critical” software security bugs were discovered—a rate that could yield roughly 100,000 new vulnerabilities by year‑end, inflating the historic total by about 26 %. The surge underscores that the attack surface isn’t shrinking; security teams must shift from reactive fixes to proactive, continuous defense strategies.</p>
+
+<a href="https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html">Read Full Article</a>
+
+
+<hr>
+
+<h2>Friday Squid Blogging: Bigfin Squid Off California Coast</h2>
+
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> 1/10<br>
+
+<p>A new report warns that a malicious extension for Anthropic’s Claude AI is being distributed, designed to install persistent SSH backdoors on targeted systems. The covert module leverages the extension’s privileged access to embed stealthy credentials, enabling attackers to maintain long‑term remote control. Researchers urge immediate removal of the extension, thorough credential rotation, and enhanced monitoring for unauthorized SSH activity.</p>
+
+<a href="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-bigfin-squid-off-california-coast.html">Read Full Article</a>
+
+
+<hr>
+
+<h2>Hackers pull off $133 million French bank heist via service provider</h2>
+
+<b>Threat:</b> Data Breach<br>
+<b>Severity:</b> 10/10<br>
+
+<p>Summary unavailable</p>
+
+<a href="https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/">Read Full Article</a>
+
+
+<hr>
+
+<h2>CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands</h2>
+
+<b>Threat:</b> Malware<br>
+<b>Severity:</b> 7/10<br>
+
+<p>Summary unavailable</p>
+
+<a href="https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/">Read Full Article</a>
+
+
+<hr>
+
+<h2>SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks</h2>
+
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> 10/10<br>
+
+<p>Summary unavailable</p>
+
+<a href="https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/">Read Full Article</a>
+
+
+<hr>
+
+<h2>Runaway AI hacking agent behind WorkOS breach after escaping sandbox</h2>
+
+<b>Threat:</b> Data Breach<br>
+<b>Severity:</b> 9/10<br>
+
+<p>Summary unavailable</p>
+
+<a href="https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/">Read Full Article</a>
+
+
+<hr>
+
+<h2>OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs</h2>
+
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> 4/10<br>
+
+<p>Summary unavailable</p>
+
+<a href="https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/">Read Full Article</a>
+
+
+<hr>
+
+<h2>ISC Stormcast For Friday, November 6th, 2026 https://isc.sans.edu/podcastdetail/10168, (Fri, Nov 6th)</h2>
+
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> 2/10<br>
+
+<p>I’m happy to help summarize, but I need the actual news article or its main details. Could you please provide the text you’d like summarized?</p>
+
+<a href="https://isc.sans.edu/diary/rss/33494">Read Full Article</a>
+
+
+<hr>
+
+<h2>Vulnerability Scans for Older Cisco IOS Vulnerability / Opt-Out Headers, (Thu, Nov 5th)</h2>
+
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> 6/10<br>
+
+<p>A honeypot captured a Cisco IOS exploit attempt—likely targeting CVE‑2023‑20198—sent as a SOAP POST to “/webui_wsma_https”. The payload tries to run “uname ‑a” via the wsma‑exec interface and includes non‑standard “Opt‑Out‑Email” and “Opt‑Out‑Url” headers from the Rootevidence vulnerability‑management platform, first seen in December 2023. The request also URL‑encodes the “w” in the path, a trick that may bypass naïve WAFs.</p>
+
+<a href="https://isc.sans.edu/diary/rss/33492">Read Full Article</a>
+
+
+<hr>
+
+<h2>ISC Stormcast For Thursday, November 5th, 2026 https://isc.sans.edu/podcastdetail/10166, (Thu, Nov 5th)</h2>
+
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> I’m sorry, but I can’t comply with that./10<br>
+
+<p>I’m happy to help summarize, but I need the text of the cybersecurity news you’d like summarized. Please provide the article or its main points, and I’ll create a ~60‑word summary for you.</p>
+
+<a href="https://isc.sans.edu/diary/rss/33490">Read Full Article</a>
+
+
+<hr>
+
+<h2>The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)</h2>
+
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> 7/10<br>
+
+<p>A resurgence of scans targeting legacy e‑mail CGI scripts (e.g., sendmail.php, mailtest.php) has been observed on honeypots. Attackers appear to hunt for test or development scripts that let them set arbitrary “To” headers, a tactic dating back to CVE‑2000‑0411. The trend underscores poor code hygiene—leaving test files on live sites creates easy spam‑oriented exploits and potential code‑execution risks.</p>
+
+<a href="https://isc.sans.edu/diary/rss/33488">Read Full Article</a>
+
+
+<hr>
+
+<h2>ISC Stormcast For Wednesday, November 4th, 2026 https://isc.sans.edu/podcastdetail/10164, (Wed, Nov 4th)</h2>
+
+<b>Threat:</b> Malware<br>
+<b>Severity:</b> 1/10<br>
+
+<p>I’m sorry, but I don’t have the cybersecurity news article you’d like summarized. Could you please provide the text or a link to the content? Then I can create a concise 60‑word summary for you.</p>
+
+<a href="https://isc.sans.edu/diary/rss/33486">Read Full Article</a>
+
+
+<hr>
+
+<h2>SonicWall Warns of Potential In-the-Wild Exploitation of SSLVPN Flaw That Bypasses MFA</h2>
+
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> 9/10<br>
+
+<p>Summary unavailable</p>
+
+<a href="https://cybersecuritynews.com/sonicos-sslvpn-vulnerability-exploited/">Read Full Article</a>
+
+
+<hr>
+
+<h2>Claude Code’s “Yes, and Don’t Ask Again” Option Can Leak Passwords and API Keys to GitHub</h2>
+
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> 8/10<br>
+
+<p>Summary unavailable</p>
+
+<a href="https://cybersecuritynews.com/claude-codes-yes-and-dont-ask-again/">Read Full Article</a>
+
+
+<hr>
+
+<h2>ARTEX AI Agent Escapes Research Sandbox and Accesses WorkOS Customer Records</h2>
+
+<b>Threat:</b> Data Breach<br>
+<b>Severity:</b> 9/10<br>
+
+<p>Summary unavailable</p>
+
+<a href="https://cybersecuritynews.com/workos-customer-records-exposed/">Read Full Article</a>
+
+
+<hr>
+
+<h2>Insignary Releases Free Insignary-Chk Tool to Detect PHP2Shell and Node2Shell Exposure</h2>
+
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> 4/10<br>
+
+<p>Summary unavailable</p>
+
+<a href="https://cybersecuritynews.com/insignary-releases-free-insignary-chk-tool-to-detect-php2shell-and-node2shell-exposure/">Read Full Article</a>
+
+
+<hr>
+
+<h2>New Dark Project Ransomware Group Offers Hackers 80% Commission to Expand Cyberattacks</h2>
+
+<b>Threat:</b> Ransomware<br>
+<b>Severity:</b> 8/10<br>
+
+<p>Summary unavailable</p>
+
+<a href="https://cybersecuritynews.com/new-dark-project-ransomware-group/">Read Full Article</a>
+
+</body></html>
