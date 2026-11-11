@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches
+Threat: Vulnerability | Severity: 9/10
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added two newly identified flaws—affecting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder—to its Known Exploited Vulnerabilities (KEV) catalog, confirming they are being actively exploited, though details and threat actors remain unknown. Cisco also warned of actively exploited CVEs in Catalyst SD‑WAN and ASA/FTD software, urging Federal agencies to patch by Nov. 24, 2026.
+
+2. Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones
+Threat: Vulnerability | Severity: 9/10
+A Git integer‑truncation flaw (CVE‑2026‑111760) allowed a malicious repository to execute code when cloned recursively with submodules. An overly long path bypassed safety checks, causing Git to write a shorter name that could be set to “.git”, letting attackers replace a submodule’s .git file with a symlink to malicious hooks. Git 2.56.1 and patched 2.50‑2.55 releases fix the issue; GitHub has updated its services and urges users to install the patched Git versions.
+
+3. SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users
+Threat: Vulnerability | Severity: 8/10
+NEAR AI disclosed that a Sunday attacker exploited a remote‑code‑execution bug in the SGLang inference engine, gaining code execution on a TEE‑protected server. The breach exposed confidential‑mode requests, leaked about 100 user account details, and accessed 18 AI agents, revealing chat history and API keys. NEAR AI revoked credentials, patched SGLang, took Private Chat offline, and restored service following forensic review.
+
+4. Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access
+Threat: Vulnerability | Severity: 9/10
+French firm Vates VMS disclosed a critical, actively‑exploited authentication‑bypass flaw in Xen Orchestra (tracked as VSA‑2026‑062, no CVE yet). By sending a crafted REST cookie, attackers can obtain an admin token, execute arbitrary code, and fully compromise XCP‑ng nodes. The bug is patched in Xen Orchestra 6.9.1/6.10.0 and xo‑server 5.211.2/5.213.1; mitigations are recommended for unpatched systems.
+
+5. Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem
+Threat: Nation State | Severity: 9/10
+Check Point Research identified three threat clusters—SilentDelivery, OceanGate and DarkWire—targeting telecoms, government, military, research and infrastructure across Latin America, Asia and Europe. All use Sparrow malware ecosystem, authored by a group dubbed CopperDragon, which supplies tools to actors like FamousSparrow. Campaigns employ compromised websites, JavaScript, SSL warnings and “certificate‑fix” utilities to deliver backdoors as SparrowDoor, Crowdoor, TernDoor, SparroWocky and HemiGate.
+
+
+#cybersecurity #infosec #threatintel
