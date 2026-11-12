@@ -7,67 +7,79 @@
 <body style="font-family:Arial">
 
 <h1>Cybersecurity Intelligence Brief</h1>
-<h3>11 November 2026</h3>
+<h3>12 November 2026</h3>
 
 
 <hr>
 
-<h2>Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches</h2>
+<h2>Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories</h2>
 
-<b>Threat:</b> Vulnerability<br>
+<b>Threat:</b> Malware<br>
 <b>Severity:</b> 9/10<br>
 
-<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added two newly identified flaws—affecting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder—to its Known Exploited Vulnerabilities (KEV) catalog, confirming they are being actively exploited, though details and threat actors remain unknown. Cisco also warned of actively exploited CVEs in Catalyst SD‑WAN and ASA/FTD software, urging Federal agencies to patch by Nov. 24, 2026.</p>
+<p>An attacker compromised 4,837 GitHub accounts and used them to inject a secret‑stealing tool into public repositories. The malicious code targeted CI workflows and npm post‑install hooks, affecting at least 1,806 repositories and 8,093 with malicious commits. After brief exposure, changes were reverted and logs deleted. Victims should revoke tokens, enable 2FA, and immediately rotate all exposed secrets and credentials.</p>
 
-<a href="https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html">Read Full Article</a>
+<a href="https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html">Read Full Article</a>
 
 
 <hr>
 
-<h2>Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones</h2>
+<h2>Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely</h2>
 
 <b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 9/10<br>
+<b>Severity:</b> 10/10<br>
 
-<p>A Git integer‑truncation flaw (CVE‑2026‑111760) allowed a malicious repository to execute code when cloned recursively with submodules. An overly long path bypassed safety checks, causing Git to write a shorter name that could be set to “.git”, letting attackers replace a submodule’s .git file with a symlink to malicious hooks. Git 2.56.1 and patched 2.50‑2.55 releases fix the issue; GitHub has updated its services and urges users to install the patched Git versions.</p>
+<p>A critical vulnerability (CVE‑2026‑119618) in Apache HTTP Server’s HTTP/2 module, mod_http2, allows unauthenticated remote code execution on servers with HTTP/2 enabled. It impacts versions 2.4.55‑2.4.70 (and mod_h2 2.0.8‑2.0.42) and is patched in 2.4.71 (released yesterday). Red Hat rates it “Important” for RHEL 9/10 and notes a reliable exploit exists, though no wild attacks have been reported. Administrators should verify HTTP/2 settings and upgrade immediately.</p>
 
-<a href="https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html">Read Full Article</a>
+<a href="https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html">Read Full Article</a>
 
 
 <hr>
 
-<h2>SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users</h2>
+<h2>ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients</h2>
 
 <b>Threat:</b> Vulnerability<br>
 <b>Severity:</b> 8/10<br>
 
-<p>NEAR AI disclosed that a Sunday attacker exploited a remote‑code‑execution bug in the SGLang inference engine, gaining code execution on a TEE‑protected server. The breach exposed confidential‑mode requests, leaked about 100 user account details, and accessed 18 AI agents, revealing chat history and API keys. NEAR AI revoked credentials, patched SGLang, took Private Chat offline, and restored service following forensic review.</p>
+<p>ConnectWise disabled five third‑party extensions in about 400 partner environments after reports of unauthorized access. The firm says there’s no sign its own infrastructure or ScreenConnect is compromised; the breach likely stems from abuse of the extensions, which require a passphrase. Huntress observed attackers exploiting ScreenConnect panels to run commands and install rogue clients on 288 endpoints across 48 organizations. Investigations continue.</p>
 
-<a href="https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html">Read Full Article</a>
+<a href="https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html">Read Full Article</a>
 
 
 <hr>
 
-<h2>Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access</h2>
+<h2>Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation</h2>
 
 <b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 9/10<br>
+<b>Severity:</b> 10/10<br>
 
-<p>French firm Vates VMS disclosed a critical, actively‑exploited authentication‑bypass flaw in Xen Orchestra (tracked as VSA‑2026‑062, no CVE yet). By sending a crafted REST cookie, attackers can obtain an admin token, execute arbitrary code, and fully compromise XCP‑ng nodes. The bug is patched in Xen Orchestra 6.9.1/6.10.0 and xo‑server 5.211.2/5.213.1; mitigations are recommended for unpatched systems.</p>
+<p>Zoom has issued patches for two new Windows Workplace vulnerabilities, a critical privilege‑escalation flaw (CVE‑2026‑108187, affecting versions before 7.1.5) and another (CVE‑2026‑108186, affecting 7.1.0‑7.1.8). Earlier in July Zoom also fixed a high‑severity input‑validation bug (CVE‑2026‑53412, CVSS 9.8). No evidence of active exploits, but users are urged to update immediately.</p>
 
-<a href="https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html">Read Full Article</a>
+<a href="https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html">Read Full Article</a>
 
 
 <hr>
 
-<h2>Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem</h2>
+<h2>AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets</h2>
 
-<b>Threat:</b> Nation State<br>
+<b>Threat:</b> Data Breach<br>
 <b>Severity:</b> 9/10<br>
 
-<p>Check Point Research identified three threat clusters—SilentDelivery, OceanGate and DarkWire—targeting telecoms, government, military, research and infrastructure across Latin America, Asia and Europe. All use Sparrow malware ecosystem, authored by a group dubbed CopperDragon, which supplies tools to actors like FamousSparrow. Campaigns employ compromised websites, JavaScript, SSL warnings and “certificate‑fix” utilities to deliver backdoors as SparrowDoor, Crowdoor, TernDoor, SparroWocky and HemiGate.</p>
+<p>Researchers reported that the AI‑driven penetration‑testing platform AntiFox, hosted on Alibaba Cloud and available on GitHub, has been weaponized to steal AWS credentials and move laterally within victim networks. Attackers exploited vulnerable IIS web apps, deployed ASPX web shells via w3wp.exe, then performed recon, credential validation, cloud enumeration, and secret extraction, turning findings into actionable reports.</p>
 
-<a href="https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html">Read Full Article</a>
+<a href="https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html">Read Full Article</a>
+
+
+<hr>
+
+<h2>Who Runs the Ransomware Group Qilin?</h2>
+
+<b>Threat:</b> Ransomware<br>
+<b>Severity:</b> 5/10<br>
+
+<p>Russia‑based ransomware‑as‑a‑service group Qilin has become the world’s most active affiliate program, hitting at least 365 victims in the last three months. Its leader, known as “Haise,” offers affiliates 80% of extortion proceeds and uses double extortion. Operational‑security slips reveal Haise is the same person behind older handles “Rjun” and “Alexbigboss44,” tying him to a 36‑year‑old St. Petersburg man.</p>
+
+<a href="https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/">Read Full Article</a>
 
 
 <hr>
@@ -77,7 +89,7 @@
 <b>Threat:</b> Vulnerability<br>
 <b>Severity:</b> 8/10<br>
 
-<p>Microsoft released a massive four‑digit Patch Tuesday, fixing 1,093 Windows flaws—including 63 critical bugs and a zero‑day in Outlook—most of which allow remote code execution or privilege escalation. The update brings Microsoft’s 2024 patch count past 5,100, thanks to AI‑assisted bug hunting. Simultaneously, Apple, Google, Mozilla and Adobe rolled out critical updates for iOS, macOS, Chrome, Firefox and Adobe products.</p>
+<p>Microsoft released a four‑digit Patch Tuesday, fixing 1,093 Windows flaws, including 63 critical bugs—nearly half remote‑code execution and one actively exploited Outlook spoofing zero‑day. The update brings Microsoft’s 2026 patch total past 5,100, a surge attributed to AI‑assisted bug hunting. Meanwhile, Apple, Google, Mozilla and Adobe also pushed critical updates for iOS/macOS, Chrome, Firefox and Adobe apps.</p>
 
 <a href="https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/">Read Full Article</a>
 
@@ -87,9 +99,9 @@
 <h2>Want to Rent an Internet Address at the White House?</h2>
 
 <b>Threat:</b> Nation State<br>
-<b>Severity:</b> 2/10<br>
+<b>Severity:</b> 6/10<br>
 
-<p>White House staff are inadvertently using residential‑proxy services that expose their IPs for rent, security firm Layer3 Intel found. From Oct 5‑Nov 3, proxy nodes linked to the Executive Office’s network (AS2650) exited 236 times, mainly via Windows 11 devices running Infatica—a service tied to Russian founder Vladimir Fomenko, whose hosting firm facilitated 2016 election‑system hacks. Layer3 detected 28 proxy providers accessing the White House IPs, raising concerns about malicious traffic and data exposure.</p>
+<p>Security firm Layer3 Intel discovered White House staff using residential‑proxy services—some run by a Russian firm linked to 2016 election‑system hacks. Between Oct 5‑Nov 3, proxy nodes exited the Executive Office’s network (AS2650) 236 times, mostly evenings, via 28 different services, including Infatica. These proxies let users rent the White House’s IP addresses, exposing the network to typical proxy‑related abuse. The White House has not commented.</p>
 
 <a href="https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/">Read Full Article</a>
 
@@ -101,7 +113,7 @@
 <b>Threat:</b> Malware<br>
 <b>Severity:</b> 8/10<br>
 
-<p>Google and industry partners dismantled the “XCPE” botnet, which had infected more than 1.3 million Android TV set‑top boxes from Chinese maker Videostrong Technology. The malware turned devices into residential proxies, renting users’ Internet for ad fraud, account takeover and AI‑scraping, and also spread to other IoT gear such as telehealth and karaoke units. Google severed ties with Videostrong, sued the domains used to control the botnet, and highlighted several proxy providers—Honeygain (Oxylabs), NetNut, EarnFM, Traffmonetizer, Jaguar, LINKFOG, BMW/IPWeb and GaGaNode—linked to the illicit network.</p>
+<p>Google, with industry partners, dismantled a botnet of >1.3 million Android TV set‑top boxes infected by malware from Chinese maker Videostrong Technology. The “XCPE” botnet rented users’ IPs to residential‑proxy services, fueling ad fraud, account takeover and AI‑data scraping, and spread to other IoT devices such as telehealth gear and karaoke machines. Google sued Videostrong, shut down its control domains, and highlighted proxy providers linked to the scheme.</p>
 
 <a href="https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/">Read Full Article</a>
 
@@ -113,141 +125,129 @@
 <b>Threat:</b> Vulnerability<br>
 <b>Severity:</b> 8/10<br>
 
-<p>Nearly 70 % of websites must update PHP after two critical bugs—allowing remote code execution, denial‑of‑service and data exposure—were disclosed. The flaws, present in every PHP release of the past decade, are already being exploited in the wild; governments in Europe went offline and Cloudflare deployed WAF rules. Researchers from Wiz, OpenAI and others warned the vulnerabilities are among the most severe ever seen.</p>
+<p>Nearly 70 % of websites must patch PHP after two critical flaws—allowing remote code execution, denial‑of‑service and data exposure—were disclosed. The bugs, present in every PHP version from the past decade, are already being exploited; cloud services like Cloudflare have deployed WAF rules. Researchers, aided by OpenAI’s AI models, confirmed the vulnerabilities and coordinated emergency updates, prompting many government sites to go offline.</p>
 
 <a href="https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/">Read Full Article</a>
 
 
 <hr>
 
-<h2>Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site</h2>
+<h2>Chinese AI Project Scouts Spies in Taiwan Chip Industry</h2>
 
-<b>Threat:</b> Ransomware<br>
-<b>Severity:</b> 7/10<br>
-
-<p>U.S. investigators tracking ShinyHunters, which stole FBI staff data, say two ransomware‑negotiation executives in the U.S. and Canada closely aided the group, even running a pressure‑payment site. Dutch hacker Pepijn van der Stap’s arrest revealed contacts with Canadian exec Edward Dubrovsky and a U.S. consulting firm, who knew victim details before breaches were disclosed. Dubrovsky was later charged with extortion.</p>
-
-<a href="https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/">Read Full Article</a>
-
-
-<hr>
-
-<h2>November Patch Tuesday: An Overflowing Cornucopia of CVEs</h2>
-
-<b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 7/10<br>
+<b>Threat:</b> Nation State<br>
+<b>Severity:</b> 9/10<br>
 
 <p>Summary unavailable</p>
 
-<a href="https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves">Read Full Article</a>
+<a href="https://www.darkreading.com/threat-intelligence/chinese-ai-project-scouts-spies-taiwan-chip-industry">Read Full Article</a>
 
 
 <hr>
 
-<h2>Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon</h2>
+<h2>Japan Pushes Emergency Funding for Cybersecurity as AI-Assisted Breaches Rise</h2>
 
-<b>Threat:</b> Malware<br>
+<b>Threat:</b> Data Breach<br>
 <b>Severity:</b> 8/10<br>
 
 <p>Summary unavailable</p>
 
-<a href="https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon">Read Full Article</a>
+<a href="https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches">Read Full Article</a>
 
 
 <hr>
 
-<h2>F-Secure Identifies 26 Ways AI Can Harm Consumers, and Where to Stop Them</h2>
+<h2>Attackers Say 'Hello' to a Different Scale of Cloud Attack</h2>
 
-<b>Threat:</b> Malware<br>
-<b>Severity:</b> 6/10<br>
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> 8/10<br>
 
 <p>Summary unavailable</p>
 
-<a href="https://www.darkreading.com/application-security/f-secure-26-ways-ai-harm-consumers-where-to-stop-them">Read Full Article</a>
+<a href="https://www.darkreading.com/cloud-security/attackers-hello-scale-cloud-attack">Read Full Article</a>
 
 
 <hr>
 
-<h2>Checkmarx Appoints Kobi Sivilya as Chief Information Security Officer</h2>
+<h2>AI Raises the Stakes for Cyber Resilience</h2>
 
-<b>Threat:</b> Zero-Day<br>
+<b>Threat:</b> Malware<br>
+<b>Severity:</b> 5/10<br>
+
+<p>Summary unavailable</p>
+
+<a href="https://www.darkreading.com/cyber-risk/ai-raises-stakes-cyber-resilience">Read Full Article</a>
+
+
+<hr>
+
+<h2>N-able Takes N-central Platform Offline After Discovery of 33 Flaws</h2>
+
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> 8/10<br>
+
+<p>Summary unavailable</p>
+
+<a href="https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws">Read Full Article</a>
+
+
+<hr>
+
+<h2>Today: CISO Forum Virtual Summit 2026 Day 2 – Join Cybersecurity Leaders Online</h2>
+
+<b>Threat:</b> Vulnerability<br>
 <b>Severity:</b> 1/10<br>
 
-<p>Summary unavailable</p>
+<p>The CISO Forum Virtual Summit 2026 is a two‑day online conference for senior cybersecurity leaders, offering live and on‑demand sessions that tackle AI‑driven threats, governance, third‑party risk, and team resilience. Day 1 covers AI security frameworks, identity protection, and burnout; Day 2 focuses on autonomous AI agents, supply‑chain defense, accountability, and alert‑fatigue reduction. Registration remains open at virtual.cisoforum.com.</p>
 
-<a href="https://www.darkreading.com/cybersecurity-careers/checkmarx-appoints-kobi-sivilya-chief-information-security-officer">Read Full Article</a>
+<a href="https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/">Read Full Article</a>
 
 
 <hr>
 
-<h2>How to Assess OT Incident Response Preparedness</h2>
+<h2>Critical Xen Orchestra Flaws Exploited in Attacks</h2>
 
 <b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 2/10<br>
+<b>Severity:</b> 9/10<br>
 
-<p>Summary unavailable</p>
+<p>Vates warns that a critical authentication‑bypass flaw in Xen Orchestra’s REST API (affecting versions before 6.9.2 stable and 6.10.1) lets unauthenticated attackers reuse token IDs, gain admin rights, execute arbitrary code and take over XCP‑ng nodes. A concurrent zero‑day also enables malicious VM imports. No CVE is assigned yet; Vates urges network isolation, WAF blocking, credential rotation, and full reinstall after compromise.</p>
 
-<a href="https://www.darkreading.com/ics-ot-security/assess-ot-incident-response-preparedness">Read Full Article</a>
+<a href="https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/">Read Full Article</a>
 
 
 <hr>
 
-<h2>Bluetooth, AirPlay Pairing Vulnerabilities Patched Across Apple Platforms</h2>
+<h2>Asus, Zoom Release Security Patches</h2>
 
 <b>Threat:</b> Vulnerability<br>
 <b>Severity:</b> 6/10<br>
 
-<p>Apple issued updates for iOS, iPadOS, macOS, watchOS and visionOS, fixing ten flaws. Five affect Bluetooth/AirPlay pairing—allowing code‑guess bypasses, unauthenticated pairing, or memory corruption. Two iMessage bugs let attackers join groups or view prior chats. A Brotli “Node2Shell” bug, an App Intents authorization issue, and a lock‑screen AirPlay pairing flaw were also patched. No reports of active exploitation.</p>
+<p>Asus warned of four high‑ and medium‑severity router‑firmware bugs that could let attackers run commands as root or crash devices. Zoom patched two Windows Workplace flaws, including unauthenticated privilege‑escalation (CVE‑2026‑108186, CVSS 9.6) and a second CVE‑2026‑108187 (CVSS 8.1). Cisco refreshed advisories on Node2Shell, ISE bypasses and Meraki fixes, while Cisco and SonicWall revoked compromised eMudhra root certificates. Vendors including Apple, Microsoft and Intel released updates.</p>
 
-<a href="https://www.securityweek.com/bluetooth-airplay-pairing-vulnerabilities-patched-across-apple-platforms/">Read Full Article</a>
-
-
-<hr>
-
-<h2>Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft</h2>
-
-<b>Threat:</b> Zero-Day<br>
-<b>Severity:</b> 8/10<br>
-
-<p>Microsoft’s November Patch Tuesday fixed 1,094 flaws, including an Outlook zero‑day (CVE‑2026‑124194). The spoofing flaw, rated moderate with CVSS 6.5, lets an unauthenticated attacker send a crafted file that, when opened, bypasses external‑content warnings and leaks the user’s NTLMv2 hash. It affects Microsoft 365 Apps and Office LTSC 2021/2024 and was patched before disclosure. This update marks the final security patches for Windows 11 23H2 Enterprise and Education editions.</p>
-
-<a href="https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/">Read Full Article</a>
+<a href="https://www.securityweek.com/asus-zoom-release-security-patches/">Read Full Article</a>
 
 
 <hr>
 
-<h2>Adobe Patches 110 Vulnerabilities Across 9 Products</h2>
+<h2>Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities</h2>
 
 <b>Threat:</b> Vulnerability<br>
 <b>Severity:</b> 8/10<br>
 
-<p>Adobe’s November 2026 Patch Tuesday patches 110 flaws in nine products, including AEM, Connect, Photoshop, Premiere, After Effects, Audition, Dimension, Media Encoder, and Content Credentials SDK. CVSS‑10 bugs—SSRF, path traversal, XXE, code/SQL injection, XSS—were fixed in AEM and Connect. High‑severity bugs were addressed in apps; low‑ to medium‑severity issues were resolved in SDK. Adobe sees no exploits; AEM/Connect patches are priority‑2, others priority‑3.</p>
+<p>Ivanti and Citrix released patches on Tuesday for a total of 19 flaws. Ivanti fixed 13 issues across five products, including critical CVE‑2026‑121683 (missing auth) and CVE‑2026‑121653 (SQL‑injection RCE) in its Cloud Services Application and Endpoint Manager. Citrix addressed six XenServer bugs, one high‑severity secret‑leak and several privilege‑escalation flaws, plus mitigations for AMD CPU VM attacks. No known wild exploits.</p>
 
-<a href="https://www.securityweek.com/adobe-patches-110-vulnerabilities-across-9-products/">Read Full Article</a>
-
-
-<hr>
-
-<h2>Software Transparency Is Changing: Allan Friedman on SBOM, AI BOMs and What Comes Next</h2>
-
-<b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 2/10<br>
-
-<p>Allan Friedman, a pioneer of Software Bill of Materials (SBOM), explained on the SecurityWeek Podcast that SBOMs are just the start of supply‑chain security. The real value lies in integrating SBOM data with vulnerability management, asset tracking and risk tools, and using VEX to filter exploitable flaws. He warned AI‑driven applications will need “AI BOMs” to capture models, data and runtime sources, urging continuous, actionable software transparency over static compliance.</p>
-
-<a href="https://www.securityweek.com/software-transparency-is-changing-allan-friedman-on-sbom-ai-boms-and-what-comes-next/">Read Full Article</a>
+<a href="https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/">Read Full Article</a>
 
 
 <hr>
 
-<h2>Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code</h2>
+<h2>Finite State Raises $27 Million to Secure Software and Firmware in Connected Devices</h2>
 
 <b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 2/10<br>
+<b>Severity:</b> 1/10<br>
 
-<p>Google has opened its Carbon AI model to paying developers and businesses through the Gemini API and Gemini for Business (intro rates $2/$10 per M tokens until Nov 30). Previously limited to Fairwind cyber‑defenders, Carbon is now being used to discover zero‑days and confirm exploitability of bugs. DeepMind’s AlphaProof Code, pairing human experts with Carbon‑powered agents, formally verified the Signal protocol’s libsignal implementation—producing ≈6.5 million Lean proofs and confirming forward secrecy, post‑compromise security and authentication—in weeks, and the specifications and proofs are being released publicly.</p>
+<p>Finite State secured $27 million in a Series C led by the O.H.I.O. Fund with CIBC Innovation Banking and Energy Impact Partners, to add capabilities to its device‑security platform. The tool scans shipped firmware and binaries for known and zero‑day flaws and creates SBOMs, VEX and compliance packages for EU CRA, FDA, UNECE and IEC standards, addressing the AI‑driven ‘Vulnpocalypse’ and tighter regulations.</p>
 
-<a href="https://www.securityweek.com/google-widens-gemini-4-carbon-access-after-ai-agents-verify-signal-code/">Read Full Article</a>
+<a href="https://www.securityweek.com/finite-state-raises-27-million-to-secure-software-and-firmware-in-connected-devices/">Read Full Article</a>
 
 
 <hr>
@@ -257,7 +257,7 @@
 <b>Threat:</b> Data Breach<br>
 <b>Severity:</b> 8/10<br>
 
-<p>A breach at Nelnet Servicing, the platform used by EdFinancial and the Oklahoma Student Loan Authority, exposed personal data of 2.5 million student‑loan borrowers. Between June 1 and July 22 2022, unauthorized actors accessed names, addresses, emails, phone numbers and Social Security numbers, though financial details remained safe. Nelnet detected the vulnerability on July 21, disclosed it on August 17, and engaged forensic experts to investigate.</p>
+<p>A data breach at Nelnet Servicing, the web‑portal provider for EdFinancial and the Oklahoma Student Loan Authority, exposed personal information of 2,501,324 student‑loan borrowers. Discovered on August 17, 2022, the breach stemmed from a vulnerability identified July 21, 2022. Exposed data included names, addresses, emails, phone numbers and Social Security numbers; financial details remained safe. A forensic investigation confirmed the unauthorized access.</p>
 
 <a href="https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/">Read Full Article</a>
 
@@ -267,9 +267,9 @@
 <h2>Watering Hole Attacks Push ScanBox Keylogger</h2>
 
 <b>Threat:</b> Malware<br>
-<b>Severity:</b> 8/10<br>
+<b>Severity:</b> 7/10<br>
 
-<p>Researchers identified a watering‑hole campaign (April‑June 2022) likely run by China‑based APT TA423 (Red Ladon) that distributed the ScanBox JavaScript reconnaissance framework. Victims included Australian domestic entities and offshore energy firms in the South China Sea, lured by fake links to Australian news sites. ScanBox enables covert data collection via browsers without installing malware, and TA423 is linked to China’s Ministry of State Security.</p>
+<p>Researchers identified a watering‑hole attack, likely by China‑based APT TA423 (Red Ladon), that delivered the ScanBox JavaScript reconnaissance framework to Australian domestic firms and offshore energy companies in the South China Sea. The campaign, active from April to mid‑June 2022, used fake Australian news links as bait. ScanBox enables covert data gathering without installing malware, and TA423 is linked to China’s MSS.</p>
 
 <a href="https://threatpost.com/watering-hole-attacks-push-scanbox-keylogger/180490/">Read Full Article</a>
 
@@ -279,9 +279,9 @@
 <h2>Tentacles of ‘0ktapus’ Threat Group Victimize 130 Firms</h2>
 
 <b>Threat:</b> Ransomware<br>
-<b>Severity:</b> 8/10<br>
+<b>Severity:</b> 9/10<br>
 
-<p>Over 130 organizations, including Twilio and Cloudflare, fell victim to the 0ktapus phishing campaign that spoofed Okta’s multi‑factor authentication pages. Attackers sent SMS links to fake Okta login sites, stealing credentials and MFA codes, compromising 9,931 accounts across 114 U.S. firms and 68 other countries. Researchers say the campaign began by targeting telecoms to harvest phone numbers, and its full scope remains unknown.</p>
+<p>A “0ktapus” phishing campaign spoofed Okta’s multi‑factor authentication pages, compromising 9,931 accounts at more than 130 organizations—including Twilio, Cloudflare and 114 US firms—across 68 countries. Attackers first hit telecom operators to harvest phone numbers, then sent SMS links to fake Okta login portals, stealing credentials and MFA codes. Group‑IB warns the full scale of the operation remains unknown.</p>
 
 <a href="https://threatpost.com/0ktapus-victimize-130-firms/180487/">Read Full Article</a>
 
@@ -291,9 +291,9 @@
 <h2>Ransomware Attacks are on the Rise</h2>
 
 <b>Threat:</b> Ransomware<br>
-<b>Severity:</b> 8/10<br>
+<b>Severity:</b> 9/10<br>
 
-<p>Lockbit dominated ransomware activity in July, delivering 62 attacks—double the combined total of the next two biggest groups. Hiveleaks (27 attacks) and BlackBasta (24 attacks) surged, up 440% and 50% since June, respectively. Overall ransomware campaigns rose 47% to 198 in July, though still below the spring peak of ~300. Both newcomers stem from Conti’s recent split, suggesting further growth ahead.</p>
+<p>LockBit remains the most active ransomware gang this summer, delivering 62 attacks in July—double the combined total of the next two groups. Hiveleaks (27 attacks) and BlackBasta (24 attacks) surged after the Conti crackdown, showing 440% and 50% growth since June. Overall ransomware campaigns rose 47% to 198 in July, hinting at further increases and may keep climbing into August.</p>
 
 <a href="https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/">Read Full Article</a>
 
@@ -302,12 +302,24 @@
 
 <h2>Cybercriminals Are Selling Access to Chinese Surveillance Cameras</h2>
 
-<b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 7/10<br>
+<b>Threat:</b> Data Breach<br>
+<b>Severity:</b> 6/10<br>
 
-<p>Over 80,000 Hikvision surveillance cameras worldwide remain unpatched against the critical CVE‑2021‑36260 command‑injection flaw discovered last fall, despite its 9.8‑rating severity. Researchers report hacker interest on Russian dark‑web forums and warn that state‑linked groups such as APT41, APT10, and Russian actors could exploit the vulnerability. The issue stems from systemic IoT security weaknesses, default credentials, and lack of automatic updates, leaving countless organizations exposed.</p>
+<p>Over 80,000 Hikvision surveillance cameras worldwide remain unpatched against the critical CVE‑2021‑36260 command‑injection flaw discovered last fall. Despite a 9.8/10 severity rating, the vulnerability persists, with hackers trading leaked credentials on Russian dark‑web forums. Experts cite default passwords, poor update mechanisms, and inadequate vendor security practices as reasons the IoT devices stay exposed, affecting both public and private sector organizations globally.</p>
 
 <a href="https://threatpost.com/cybercriminals-are-selling-access-to-chinese-surveillance-cameras/180478/">Read Full Article</a>
+
+
+<hr>
+
+<h2>Three People Arrested for AI-Enhanced Impersonation Fraud</h2>
+
+<b>Threat:</b> Malware<br>
+<b>Severity:</b> 6/10<br>
+
+<p>U.S. prosecutors say three men—Jacob Soall, Sharon Hazan and Guy Sheetrit—used AI‑generated deep‑fake voices and images to impersonate corporate executives and lawyers, tricking employees into wiring funds. Arrested in Spain and the U.K., they allegedly swindled over $129 million from global firms between 2024‑2026, highlighting the need for robust AI security measures.</p>
+
+<a href="https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html">Read Full Article</a>
 
 
 <hr>
@@ -317,7 +329,7 @@
 <b>Threat:</b> Vulnerability<br>
 <b>Severity:</b> 8/10<br>
 
-<p>A new vulnerability, dubbed “sshole,” stems from a decade‑old flaw in the interaction between OpenSSH and the musl C library. It lets attackers gain shell access on Alpine Linux and other musl‑based systems that have password authentication disabled by submitting a password longer than 256 bytes. The oversized‑password attack bypasses the intended block, effectively logging the attacker into the account.</p>
+<p>A new vulnerability called “sshole” has been discovered in OpenSSH when compiled with the musl C library, affecting Alpine Linux and other musl‑based distributions. The flaw, present for roughly a decade, lets attackers bypass password‑disabled accounts by submitting a password longer than 256 bytes, which tricks the authentication routine into granting access. The issue has been disclosed and patches are being prepared.</p>
 
 <a href="https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html">Read Full Article</a>
 
@@ -327,9 +339,9 @@
 <h2>AI Security</h2>
 
 <b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 5/10<br>
+<b>Severity:</b> 2/10<br>
 
-<p>The recent [un]prompted AI security conference in San Francisco featured three days of dense talks on the three pillars of AI security: securing AI systems themselves, using AI to enhance security, and defending against AI‑driven threats. Attendees highlighted the need for researchers to know which pillar they’re tackling and for the community to address all three. Recordings and slide decks are forthcoming.</p>
+<p>The recent [un]prompted AI security conference in San Francisco delivered three days of dense talks covering all facets of AI security. Organizers highlighted three key domains: securing AI systems themselves, using AI to enhance security, and defending against threats generated by AI. The author presented on “integrous AI” and will share the talk once online, emphasizing the community’s need to address all three areas.</p>
 
 <a href="https://www.schneier.com/blog/archives/2026/11/ai-security.html">Read Full Article</a>
 
@@ -341,7 +353,7 @@
 <b>Threat:</b> Malware<br>
 <b>Severity:</b> 1/10<br>
 
-<p>Scientists have uncovered the largest known belemnite—a barrel‑shaped, “fat” Jurassic squid relative—from Wyoming’s 160‑million‑year‑old seas. The rare fossil reveals an unusually stout predator likely feeding on smaller squid‑like creatures, overturning the belief that its family vanished long ago. This discovery reshapes understanding of belemnite diversity and survival during the Jurassic period.</p>
+<p>Scientists have uncovered the “fattest” belemnite ever found—a barrel‑shaped, squid‑like predator that roamed Wyoming’s seas 160 million years ago during the Jurassic. The rare fossils reveal a uniquely massive creature, likely hunting smaller squid relatives, and suggest a surprising survival of a lineage thought extinct. This discovery reshapes understanding of ancient marine ecosystems.</p>
 
 <a href="https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-new-jurassic-squid-predecessors.html">Read Full Article</a>
 
@@ -350,108 +362,108 @@
 
 <h2>Pinpointing Location of Videos from Background Airplane Sounds</h2>
 
-<b>Threat:</b> Nation State<br>
+<b>Threat:</b> Vulnerability<br>
 <b>Severity:</b> 5/10<br>
 
-<p>A new technique can pinpoint the location where an otherwise anonymous audio recording was made by analyzing faint aircraft noises. By examining Doppler curves—how a plane’s pitch shifts as it flies overhead—the method matches these sound patterns to publicly available ADS‑B flight‑tracking data (position, speed, altitude). This shows how ordinary acoustic clues combined with open aviation data can de‑anonymize recordings, raising fresh privacy concerns.</p>
+<p>A new technique can pinpoint where an otherwise anonymous audio recording was made by analyzing faint aircraft sounds. By extracting Doppler‑shift curves—frequency changes as a plane flies overhead—and matching them to publicly available ADS‑B flight‑tracking data (position, speed, altitude), investigators can locate the recording’s source. The method showcases both the power and privacy risks of combining acoustic analysis with open air‑traffic data.</p>
 
 <a href="https://www.schneier.com/blog/archives/2026/11/pinpointing-location-of-videos-from-background-airplane-sounds.html">Read Full Article</a>
 
 
 <hr>
 
-<h2>AIs Hacking the Law</h2>
-
-<b>Threat:</b> Zero-Day<br>
-<b>Severity:</b> 7/10<br>
-
-<p>A recent blog post claims that large‑language models have uncovered numerous, previously undocumented vulnerabilities in Germany’s legal code—akin to software bugs that can be exploited. The author argues that AI‑driven legal reasoning could scale such exploits, threatening the stability of judicial systems, and urges lawmakers to harden legislation, possibly by employing advanced AI themselves. The post shares select, low‑risk examples of these legal “exploits.”</p>
-
-<a href="https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html">Read Full Article</a>
-
-
-<hr>
-
-<h2>Railway breach leads to $740,000 in fraudulent AI charges</h2>
+<h2>Baker Tilly notifies clients of data breach at third-party provider</h2>
 
 <b>Threat:</b> Data Breach<br>
-<b>Severity:</b> 7/10<br>
+<b>Severity:</b> 6/10<br>
 
 <p>Summary unavailable</p>
 
-<a href="https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/">Read Full Article</a>
+<a href="https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/">Read Full Article</a>
 
 
 <hr>
 
-<h2>Japanese furniture giant Nitori says hackers stole 37.6M customer records</h2>
+<h2>Active ScreenConnect attacks breach MSPs, impact dozens of organizations</h2>
+
+<b>Threat:</b> Malware<br>
+<b>Severity:</b> 8/10<br>
+
+<p>Summary unavailable</p>
+
+<a href="https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/">Read Full Article</a>
+
+
+<hr>
+
+<h2>eMudhra revokes 8 more CA certificates after private key mishap</h2>
+
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> 8/10<br>
+
+<p>Summary unavailable</p>
+
+<a href="https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/">Read Full Article</a>
+
+
+<hr>
+
+<h2>Notion says Fireworks breach exposed customer AI chat transcripts</h2>
 
 <b>Threat:</b> Data Breach<br>
-<b>Severity:</b> 9/10<br>
+<b>Severity:</b> 6/10<br>
 
 <p>Summary unavailable</p>
 
-<a href="https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/">Read Full Article</a>
+<a href="https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/">Read Full Article</a>
 
 
 <hr>
 
-<h2>Microsoft releases Windows 10 KB5131096 extended security update</h2>
+<h2>Maersk confirms data breach as WhiteArmor ransomware demands $5 million</h2>
 
-<b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 5/10<br>
+<b>Threat:</b> Ransomware<br>
+<b>Severity:</b> 8/10<br>
 
 <p>Summary unavailable</p>
 
-<a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/">Read Full Article</a>
+<a href="https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/">Read Full Article</a>
 
 
 <hr>
 
-<h2>Hackers exploit trusted AWS access to breach multiple cloud environments</h2>
-
-<b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 9/10<br>
-
-<p>Summary unavailable</p>
-
-<a href="https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/">Read Full Article</a>
-
-
-<hr>
-
-<h2>Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day</h2>
+<h2>ISC Stormcast For Thursday, November 12th, 2026 https://isc.sans.edu/podcastdetail/10176, (Thu, Nov 12th)</h2>
 
 <b>Threat:</b> Zero-Day<br>
-<b>Severity:</b> 9/10<br>
+<b>Severity:</b> 1/10<br>
 
-<p>Summary unavailable</p>
+<p>I’m sorry, but I didn’t receive the cybersecurity news article you’d like summarized. Could you please provide the text or a link to the article? Once I have the content, I’ll be able to create a concise 60‑word summary for you.</p>
 
-<a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/">Read Full Article</a>
+<a href="https://isc.sans.edu/diary/rss/33512">Read Full Article</a>
+
+
+<hr>
+
+<h2>Microsoft Patch Tuesday November 2026, (Tue, Nov 10th)</h2>
+
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> 2/10<br>
+
+<p>Microsoft has released patches for 1,260 vulnerabilities this month, 68 of them critical, continuing its AI‑driven surge in updates. Among them, 167 affect Chromium components in Edge, and CVE‑2026‑124194—a spoofing flaw in Outlook—is already being exploited. The rapid patching effort underscores heightened threat activity and the need for swift remediation.</p>
+
+<a href="https://isc.sans.edu/diary/rss/33508">Read Full Article</a>
 
 
 <hr>
 
 <h2>ISC Stormcast For Wednesday, November 11th, 2026 https://isc.sans.edu/podcastdetail/10174, (Wed, Nov 11th)</h2>
 
-<b>Threat:</b> Malware<br>
+<b>Threat:</b> Vulnerability<br>
 <b>Severity:</b> 1/10<br>
 
-<p>I’m happy to help, but I need the text of the cybersecurity news article you’d like summarized. Could you please paste the article or provide the key details?</p>
+<p>I’m unable to create a summary because the cybersecurity news content wasn’t included in your request. Please provide the article or the relevant text you’d like summarized.</p>
 
 <a href="https://isc.sans.edu/diary/rss/33510">Read Full Article</a>
-
-
-<hr>
-
-<h2>Microsoft Patch Tuesday November 2027 , (Tue, Nov 10th)</h2>
-
-<b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 3/10<br>
-
-<p>Microsoft has issued patches for 1,260 vulnerabilities this month, with 68 classified as critical. Among them, 167 affect Chromium components in Microsoft Edge. Notably, CVE‑2026‑124194—a spoofing flaw in Outlook—is already being exploited. The surge reflects Microsoft’s AI‑driven approach to identifying and remediating security issues.</p>
-
-<a href="https://isc.sans.edu/diary/rss/33508">Read Full Article</a>
 
 
 <hr>
@@ -459,9 +471,9 @@
 <h2>Apple Patches Everyting: November 2026 Edition, (Tue, Nov 10th)</h2>
 
 <b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 9/10<br>
+<b>Severity:</b> 1/10<br>
 
-<p>Summary unavailable</p>
+<p>Apple released updates for iOS/iPadOS, macOS, watchOS, and visionOS, fixing nine vulnerabilities. CVE‑2026‑113971 affects only iOS/iPadOS 26, and several flaws involve Bluetooth, potentially weakening device pairing. Although the patch count is modest, Apple is accelerating its update cadence to address risks faster, especially the Bluetooth‑related weaknesses that could be exploited during pairing in the handshake process, improving overall security posture.</p>
 
 <a href="https://isc.sans.edu/diary/rss/33506">Read Full Article</a>
 
@@ -470,83 +482,71 @@
 
 <h2>ISC Stormcast For Tuesday, November 10th, 2026 https://isc.sans.edu/podcastdetail/10172, (Tue, Nov 10th)</h2>
 
-<b>Threat:</b> Malware<br>
+<b>Threat:</b> Vulnerability<br>
 <b>Severity:</b> 1/10<br>
 
-<p>Summary unavailable</p>
+<p>I’m unable to create a summary because the news content isn’t provided. Please share the article or key details you’d like summarized.</p>
 
 <a href="https://isc.sans.edu/diary/rss/33504">Read Full Article</a>
 
 
 <hr>
 
-<h2>Attackers Searching for SAP Netweaver Webshells, (Mon, Nov 9th)</h2>
+<h2>Top 10 Best Cybersecurity Maturity Assessment Tools in 2026 [Ranked & Scored]</h2>
 
 <b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 8/10<br>
+<b>Severity:</b> 1/10<br>
 
 <p>Summary unavailable</p>
 
-<a href="https://isc.sans.edu/diary/rss/33502">Read Full Article</a>
+<a href="https://cybersecuritynews.com/best-maturity-assessment-tools/">Read Full Article</a>
 
 
 <hr>
 
-<h2>Windows Active Directory RCE Vulnerability Allows Attacker to Execute Code Over a Network</h2>
+<h2>Top 10 Best GDPR Compliance Software in 2026 [Ranked & Scored]</h2>
+
+<b>Threat:</b> Data Breach<br>
+<b>Severity:</b> 1/10<br>
+
+<p>Summary unavailable</p>
+
+<a href="https://cybersecuritynews.com/best-gdpr-compliance-software/">Read Full Article</a>
+
+
+<hr>
+
+<h2>Top 10 Best HIPAA Compliance Software in 2026 [Ranked & Scored]</h2>
 
 <b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 10/10<br>
+<b>Severity:</b> 1/10<br>
 
 <p>Summary unavailable</p>
 
-<a href="https://cybersecuritynews.com/windows-active-directory-rce-vulnerability/">Read Full Article</a>
+<a href="https://cybersecuritynews.com/best-hipaa-compliance-software/">Read Full Article</a>
 
 
 <hr>
 
-<h2>Critical Fortinet2Shell Vulnerability Enables RCE Attacks in FortiClient with FortiPAM Enabled</h2>
+<h2>Top 10 Best PCI DSS Compliance Tools in 2026 [Ranked & Scored]</h2>
 
 <b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 9/10<br>
+<b>Severity:</b> 1/10<br>
 
 <p>Summary unavailable</p>
 
-<a href="https://cybersecuritynews.com/fortinet2shell-vulnerability/">Read Full Article</a>
+<a href="https://cybersecuritynews.com/top-10-best-pci-dss-compliance-tools-in-2026-ranked-scored-best-pci-dss-compliance-tools/">Read Full Article</a>
 
 
 <hr>
 
-<h2>New GhostFrame Malware Lets Hackers Hijack VMware ESXi VMs and Steal Windows Credentials</h2>
-
-<b>Threat:</b> Malware<br>
-<b>Severity:</b> 9/10<br>
-
-<p>Summary unavailable</p>
-
-<a href="https://cybersecuritynews.com/ghostframe-malware-hijack-vmware-esxi/">Read Full Article</a>
-
-
-<hr>
-
-<h2>Critical Fortinet Flaws Expose FortiManager and FortiAnalyzer to Remote Code Execution Without Login</h2>
+<h2>Top 10 Best IT & Cyber Risk Management Tools in 2026 [Ranked & Scored]</h2>
 
 <b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 10/10<br>
+<b>Severity:</b> 1/10<br>
 
 <p>Summary unavailable</p>
 
-<a href="https://cybersecuritynews.com/critical-fortinet-flaws-patched/">Read Full Article</a>
-
-
-<hr>
-
-<h2>Microsoft Confirms Hackers Are Exploiting Outlook 0-Day to Steal Windows Authentication Hashes</h2>
-
-<b>Threat:</b> Zero-Day<br>
-<b>Severity:</b> 9/10<br>
-
-<p>Summary unavailable</p>
-
-<a href="https://cybersecuritynews.com/outlook-0-day-vulnerability/">Read Full Article</a>
+<a href="https://cybersecuritynews.com/best-it-cyber-risk-tools/">Read Full Article</a>
 
 </body></html>
