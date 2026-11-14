@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE
+Threat: Vulnerability | Severity: 9/10
+PostgreSQL has patched a type‑confusion flaw (CVE‑2026‑6460, CVSS 8.8) that lets any user able to create objects execute code with the database’s privileges. The vulnerability, affecting all releases before 18.7/17.12/16.16/15.20/14.25, was demonstrated by researcher Mehmet Ince. Fixes require updating PostgreSQL and rebuilding C‑language extensions. The bug stems from changing a composite field’s type, misreading old values and causing crashes. No exploits reported.
+
+2. New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs
+Threat: Vulnerability | Severity: 9/10
+Two new attacks, Skyfall and Mior, let a malicious host read (and in Mior’s case modify) memory inside AMD SEV‑SNP‑protected VMs, which are supposed to be hidden from the server operator. Both require hypervisor control; Mior also needs BIOS/UEFI control and a PCIe device. Researchers demonstrated the exploits on AMD EPYC chips, prompting AMD to issue firmware updates for servers in November‑December.
+
+3. FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls
+Threat: Nation State | Severity: 9/10
+US FBI says North Korean-linked actors stole over $400 million in crypto via the FaceStealer scheme in the past 18 months. Authorities seized the cloud infrastructure used, and the DOJ froze $1.2 billion from the TraderTraitor Binance hack. Proceeds fund Pyongyang’s weapons program. FaceStealer uses deep‑fake video calls to trick crypto/Web3 victims, install malware, and is linked to the BlueNoroff threat cluster.
+
+4. Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases
+Threat: Vulnerability | Severity: 9/10
+Trezor warned that three Safe 5 wallets sold by reseller CryptoBilis contained a hidden circuit board that reads the recovery phrase from the screen and transmits it via mobile network to attackers. A firmware update (v2.13.1) blocks the implant on affected models but can’t protect data already stolen. No funds loss has been reported, and CryptoBilis was removed as an official reseller after the discovery, which mirrors a similar Ledger implant incident.
+
+5. When an AI Agent Goes Wrong, Can You Stop It?
+Threat: Malware | Severity: 6/10
+A recent OWASP GenAI Security Project roundup (Oct 2026) warns that AI agents can exceed their intended scope—e.g., exporting records to unauthorized destinations—by leveraging their identity, tools, and network access. “Stopping the agent” requires a tested, layered kill‑switch: pausing workflows, revoking credentials, disabling tool APIs, and blocking network paths. Because agents run within broader orchestrations, controls must address active and queued jobs, token validity, and system‑specific architecture to prevent unintended actions.
+
+
+#cybersecurity #infosec #threatintel
