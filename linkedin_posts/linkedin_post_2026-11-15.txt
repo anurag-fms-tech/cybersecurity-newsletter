@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection
+Threat: Vulnerability | Severity: 10/10
+CISA added a high‑severity flaw in the open‑source IRC server UnrealIRCd to its Known Exploited Vulnerabilities list (CVE‑2026‑114713, CVSS 8.6). The bug lets any user inject server‑to‑server commands on linked servers, gaining server/IRCOp privileges. Exploitation began a day after the November 7 hot‑fix (v6.2.7.1) was released. Federal agencies must patch by Nov 16 under BOD 26‑04.
+
+2. PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE
+Threat: Vulnerability | Severity: 9/10
+A type‑confusion bug (CVE‑2026‑6460, CVSS 8.8) lets any PostgreSQL user who can create objects execute code with the OS user running the database. It affects all versions before 18.7, 17.12, 16.16, 15.20 and 14.25. Patches released yesterday also fix 51 other flaws; full mitigation requires rebuilding C‑language extensions. No known exploits or attacks have been reported.
+
+3. New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs
+Threat: Vulnerability | Severity: 9/10
+Researchers revealed two attacks on AMD SEV‑SNP, which encrypts VM memory to hide it from the host. Skyfall reads VM data; Mior also writes memory and falsifies attestation reports. Both need hypervisor control; Mior additionally requires BIOS/UEFI compromise and a PCIe device. AMD will issue firmware fixes—Skyfall in November, Mior in December—and urges customers to install BIOS updates.
+
+4. FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls
+Threat: Nation State | Severity: 9/10
+The FBI identified a North Korean‑linked group using a social‑engineering scheme called “FaceStealer” to steal over $400 million in cryptocurrency during the past 18 months. The campaign employed stolen‑account video invitations, deep‑fake recordings, and a fake technical‑error lure to install malware and exfiltrate funds. U.S. authorities have seized the attackers’ cloud infrastructure and, together with the DOJ, froze more than $1.2 billion seized from the related “TraderTraitor” hack of Binance, noting the proceeds fund Pyongyang’s illicit weapons program.
+
+5. Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases
+Threat: Vulnerability | Severity: 9/10
+Trezor disclosed that three Safe 5 wallets sold by reseller CryptoBilis contained a hidden circuit board that reads the recovery phrase from the screen and transmits it via cellular network to attackers. A firmware update (v2.13.1) blocks the implant on use but cannot protect captured backups. No funds loss reported; CryptoBilis was removed as a reseller after similar Ledger implants were discovered.
+
+
+#cybersecurity #infosec #threatintel
