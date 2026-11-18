@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials
+Threat: Vulnerability | Severity: 9/10
+Threat actors hijacked Microsoft’s open‑source agent‑framework package, publishing malicious versions 1.26.1 and 1.26.2 on Nov 17, 2026. The wheels add a .pth file that runs a credential‑stealer on every Python start, exfiltrating passwords, environment data and cloud tokens to a webhook. Both releases have been removed from PyPI; how the attackers gained publishing rights remains unknown.
+
+2. Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization
+Threat: Nation State | Severity: 8/10
+Cold Relic—a Russia‑linked espionage group also known as Callisto, Gossamer Bear and Star Blizzard—leveraged a single cloud breach in late 2025 to launch a chain of intrusions against U.S. organizations. Using stolen Super‑Admin credentials, MFA fatigue attacks, rogue MFA devices, passkeys and backup codes, the group gained persistent access, harvested emails, chats and cloud files, and erased logs to hide its activity. Targets included government officials, defense contractors and NGOs in Europe and North America.
+
+3. Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More
+Threat: Vulnerability | Severity: 10/10
+Researchers at Calif disclosed Java4Shell, a CVE‑2026‑114938 vulnerability in Java 17.0.6+ that exploits a fast AVX‑512‑VBMI Base64 decoder on x86‑64 chips, allowing unauthenticated code execution in Jira, Jenkins, Keycloak and five other popular apps. Oracle and OpenJDK patched it; Amazon updated Corretto, Red Hat still pending. The flaw writes past buffer limits, enabling a “JavaBleed” memory‑corruption exploit, rated 9.2 CVSS 4.0.
+
+4. Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses
+Threat: Zero-Day | Severity: 9/10
+NebuSec found malicious Telegram widgets can evade the Android security filter and run code outside the app. Using two bugs—a widget flaw and a kernel issue—they showed a widget opening the calculator on version 13.2.2. Telegram moved QuickJS to its own process and added a seccomp filter, but it leaves key syscalls (e.g., ioctl) unblocked. Details and CVE IDs remain undisclosed.
+
+5. Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges
+Threat: Vulnerability | Severity: 9/10
+Oracle will issue patches on Nov 17, 2026 for 11 Java SE bugs that can be exploited remotely without authentication, each scoring up to 8.1 CVSS 3.1, though Oracle has not disclosed CVE IDs or affected components. Separately, a reported OpenJDK RCE flaw (CVE‑2026‑114938, “Java4Shell”) with a 9.2 CVSS 4.0 score affects OpenJDK 17.0.6+, but it’s unclear if it’s among the patched bugs. Analysts suggest the issue stems from the Base64 decoder and may cause JVM crashes. Oracle advises moving off current Java 8, 11, 17, 21, 25, 27 builds to the new releases.
+
+
+#cybersecurity #infosec #threatintel
