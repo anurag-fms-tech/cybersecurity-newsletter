@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs
+Threat: Malware | Severity: 8/10
+Blackpoint Cyber reports that the ROMULUS ClickFix platform is now delivering a previously unseen remote‑access trojan (RAT) similar to CNCMachineRMS, alongside the Legion Loader, via separate infection chains. Attackers use ClickFix lures, DLL sideloading (including a signed IBM SPSS IDE executable) and malicious MSI installers to drop the RAT, which offers remote desktop, audio/video capture, file control and DoH‑based C2. ChatGPT Custom GPTs are also being abused to direct victims to these malicious sites.
+
+2. China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data
+Threat: Zero-Day | Severity: 9/10
+The China‑linked espionage group Armory Castle (formerly UNC5221) exploited a critical VMware vCenter Server zero‑day (CVE‑2026‑123890, CVSS 9.8) in early September 2026, using a Golang tool called BONESAW to bypass authentication, steal the LMDB database, hijack SAML SSO and create an admin account. The same campaign also weaponized a BeyondTrust zero‑day (CVE‑2026‑102764) and deployed the BARECLAW proxy. Patches were released on 19 Nov 2026.
+
+3. New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It
+Threat: Zero-Day | Severity: 9/10
+Researchers MSNightmare and Nightmare Eclipse disclosed a zero‑day, FastUnlock, that lets anyone with physical access to a locked Windows PC launch programs via the built‑in Narrator screen reader. It creates a limited “WSIAccount,” not admin, and works when an account is reachable and the drive is unlocked by TPM. No Microsoft fix or known exploits exist; mitigation relies on physical control.
+
+4. ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories
+Threat: Malware | Severity: 9/10
+Cyber threats keep exploiting familiar cues—job offers, outage alerts, trusted apps—while AI makes attacks easier to craft and harder to detect. Google rolled out Gemini 4 Neon for faster, cost‑efficient code hardening; OpenAI launched GPT‑6.2 Astra/Sol with stronger vulnerability work, yet a universal jailbreak was quickly found and patched. WordPress issued a critical 7.1.5 security update. OpenAI will embed independent evaluators to audit model safety. Finally, a Kazakh citizen was extradited from Italy to face up to 27 years for a ransomware‑extortion campaign that hit U.S. schools and hospitals.
+
+5. phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution
+Threat: Vulnerability | Severity: 9/10
+PHP’s default file‑based session handler had a critical flaw (CVE‑2026‑126714, “phpAfterShell”) that lets an attacker interrupt a session write, inject arbitrary objects, and—if a suitable gadget chain exists—execute code on the server. The bug, discovered by Depthfirst, is patched in today’s PHP releases (including 8.6.0) but remains in older builds and in versions that used the earlier “PHP2Shell” fixes. No attacks have been reported.
+
+
+#cybersecurity #infosec #threatintel
