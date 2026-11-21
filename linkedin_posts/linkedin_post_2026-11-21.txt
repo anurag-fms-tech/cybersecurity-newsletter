@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams
+Threat: Vulnerability | Severity: 7/10
+Meta’s WhatsApp patched three Android flaws, the most critical (CVE‑2026‑23871, CVSS 3.5) allowing an attacker to expose a user’s IP via a crafted “Click to WhatsApp” ad‑reply link, likely abused with scam messages. Researchers on WhatsApp’s security team reported it while disrupting a scam campaign. Two additional bugs (CVE‑2026‑102769 – a timing side‑channel leak, and CVE‑2026‑44908 – a hardware root‑of‑trust bypass via an unsigned VCEK) were also fixed, though no wild exploitation has been confirmed.
+
+2. Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control
+Threat: Malware | Severity: 8/10
+ThreatFabric uncovered an Android malware framework, Bazuka, in October 2026. The trojan includes a dropper, core and 23 plugins for keylogging, 2FA bypass, SMS interception, crypto‑address swapping and an overlay that disguises activity by showing a home‑screen screenshot. Its control panel integrates LLMs—locally or via API—to score and prioritize victims. Distribution occurs through ads, bogus sites and a fake “TikTok Premium” app on Google Play.
+
+3. Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts
+Threat: Vulnerability | Severity: 9/10
+A flaw in Linux KVM (CVE‑2026‑99312) allowed researchers on a DigitalOcean VM to read ~127 GB of host memory and even write to it, but only on AMD CPUs with nested virtualization enabled. The kernel fix was merged upstream on Nov 2 and patched by DigitalOcean. Users need only update host kernels or disable nesting; Intel hosts are unaffected.
+
+4. The Path to AI Autonomy in the SOC
+Threat: Malware | Severity: 2/10
+A recent a16z survey shows 36% of CISOs at firms with > 1,000 employees are comfortable letting AI agents act autonomously on low‑risk security tasks today, rising to 60% in a year. AI‑driven SOC is the top 2027 priority, driven by fears that AI‑accelerated attacks will outpace response. Leaders favor granular, stage‑by‑stage autonomy—heavy automation for data collection and analysis, but cautious control over decision‑making and action implementation—using a five‑level autonomy framework to balance capability and risk.
+
+5. SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws
+Threat: Vulnerability | Severity: 9/10
+SonicWall warns that its unsupported Generation 6 firewalls are now prime targets for AI‑driven, automated attacks and should be retired immediately. With no patches for critical flaws, any internet‑facing Gen 6 device is a high‑risk exposure. Customers must replace them with supported Gen 8 units running SonicOS 8, and apply interim mitigations while migration is underway.
+
+
+#cybersecurity #infosec #threatintel
