@@ -7,67 +7,67 @@
 <body style="font-family:Arial">
 
 <h1>Cybersecurity Intelligence Brief</h1>
-<h3>21 November 2026</h3>
+<h3>22 November 2026</h3>
 
 
 <hr>
 
-<h2>WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams</h2>
+<h2>OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms</h2>
+
+<b>Threat:</b> Data Breach<br>
+<b>Severity:</b> 5/10<br>
+
+<p>Researchers at Dragos uncovered that attackers exfiltrated data from three AI inference providers for months without the providers’ knowledge. Using canary‑token prompts, the thieves captured real customer requests—including “Zero Data Retention” prompts—and AWS credentials, later testing and abusing them. OpenRouter removed the compromised providers and 125 endpoints, warned customers, and confirmed its own platform remained unbreached. The breach began in mid‑July and persisted through November.</p>
+
+<a href="https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html">Read Full Article</a>
+
+
+<hr>
+
+<h2>Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps</h2>
 
 <b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 7/10<br>
+<b>Severity:</b> 10/10<br>
 
-<p>Meta’s WhatsApp patched three Android flaws, the most critical (CVE‑2026‑23871, CVSS 3.5) allowing an attacker to expose a user’s IP via a crafted “Click to WhatsApp” ad‑reply link, likely abused with scam messages. Researchers on WhatsApp’s security team reported it while disrupting a scam campaign. Two additional bugs (CVE‑2026‑102769 – a timing side‑channel leak, and CVE‑2026‑44908 – a hardware root‑of‑trust bypass via an unsigned VCEK) were also fixed, though no wild exploitation has been confirmed.</p>
+<p>A use‑after‑free bug in Ghostscript (CVE‑2026‑125396) let a crafted PDF/PostScript/EPS file bypass the –dSAFER sandbox and execute commands on the server. Because many Linux apps (ImageMagick, Pillow, libvips, Qt plugins, etc.) invoke Ghostscript indirectly for thumbnails or previews, attackers could trigger the flaw via uploads, email attachments, or print jobs. Artifex patched it in Ghostscript 10.08.0 on Sept 8; no abuse reports yet, but an 8.5‑score CVSS urges immediate updates.</p>
 
-<a href="https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html">Read Full Article</a>
+<a href="https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html">Read Full Article</a>
 
 
 <hr>
 
-<h2>Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control</h2>
+<h2>A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats</h2>
 
-<b>Threat:</b> Malware<br>
+<b>Threat:</b> Vulnerability<br>
 <b>Severity:</b> 8/10<br>
 
-<p>ThreatFabric uncovered an Android malware framework, Bazuka, in October 2026. The trojan includes a dropper, core and 23 plugins for keylogging, 2FA bypass, SMS interception, crypto‑address swapping and an overlay that disguises activity by showing a home‑screen screenshot. Its control panel integrates LLMs—locally or via API—to score and prioritize victims. Distribution occurs through ads, bogus sites and a fake “TikTok Premium” app on Google Play.</p>
+<p>Researchers at NebuSec demonstrated a lab‑only attack on Meta’s Muse AI assistant, showing that a malicious webpage opened by the agent can steal private conversations, memories and connected‑account credentials without prompting the user. By exploiting a browser bug and a Linux kernel flaw, the attackers gained full control of the user’s isolated cloud VM, compromising the credential store and Sentinel. Meta has since patched the vulnerabilities.</p>
 
-<a href="https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html">Read Full Article</a>
+<a href="https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html">Read Full Article</a>
 
 
 <hr>
 
-<h2>Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts</h2>
+<h2>GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys</h2>
 
 <b>Threat:</b> Vulnerability<br>
 <b>Severity:</b> 9/10<br>
 
-<p>A flaw in Linux KVM (CVE‑2026‑99312) allowed researchers on a DigitalOcean VM to read ~127 GB of host memory and even write to it, but only on AMD CPUs with nested virtualization enabled. The kernel fix was merged upstream on Nov 2 and patched by DigitalOcean. Users need only update host kernels or disable nesting; Intel hosts are unaffected.</p>
+<p>A malicious OpenPGP key with an unusually long user ID triggers a double‑free memory bug in GPGME, the library used by many apps to interface with GnuPG. The flaw (CVE‑2026‑129975) can lead to data theft or remote code execution and affects all software using GPGME prior to version 2.3.0—including mail/XMPP clients, Samba, Gpg4win, and GnuPG desktop suites. No exploits are known. Fixed in GPGME 2.3.1, released this week.</p>
 
-<a href="https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html">Read Full Article</a>
-
-
-<hr>
-
-<h2>The Path to AI Autonomy in the SOC</h2>
-
-<b>Threat:</b> Malware<br>
-<b>Severity:</b> 2/10<br>
-
-<p>A recent a16z survey shows 36% of CISOs at firms with > 1,000 employees are comfortable letting AI agents act autonomously on low‑risk security tasks today, rising to 60% in a year. AI‑driven SOC is the top 2027 priority, driven by fears that AI‑accelerated attacks will outpace response. Leaders favor granular, stage‑by‑stage autonomy—heavy automation for data collection and analysis, but cautious control over decision‑making and action implementation—using a five‑level autonomy framework to balance capability and risk.</p>
-
-<a href="https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html">Read Full Article</a>
+<a href="https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html">Read Full Article</a>
 
 
 <hr>
 
-<h2>SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws</h2>
+<h2>Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access</h2>
 
-<b>Threat:</b> Vulnerability<br>
+<b>Threat:</b> Zero-Day<br>
 <b>Severity:</b> 9/10<br>
 
-<p>SonicWall warns that its unsupported Generation 6 firewalls are now prime targets for AI‑driven, automated attacks and should be retired immediately. With no patches for critical flaws, any internet‑facing Gen 6 device is a high‑risk exposure. Customers must replace them with supported Gen 8 units running SonicOS 8, and apply interim mitigations while migration is underway.</p>
+<p>Amazon Threat Intelligence reports suspected China‑linked hackers used AI agents to discover a path‑traversal flaw in MONAI Label 0.8.5 and earlier. The bug lets unauthenticated users write files outside the storage folder, granting root access on a university server. A fix has been merged but not yet released. The campaign, linked to Chinese actors, ran for 48 hours in September.</p>
 
-<a href="https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html">Read Full Article</a>
+<a href="https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html">Read Full Article</a>
 
 
 <hr>
@@ -75,9 +75,9 @@
 <h2>CTO of ‘RansomwareHelp’ Indicted for Wire Fraud</h2>
 
 <b>Threat:</b> Ransomware<br>
-<b>Severity:</b> 5/10<br>
+<b>Severity:</b> 7/10<br>
 
-<p>The CTO and co‑founder of Florida‑based ransomwarehelp.com, Juan Ricardo Palacio Escobar, was charged with wire fraud after an FBI sting revealed his firm didn’t use proprietary cryptography but simply bought decryption keys from attackers and overcharged victims. Despite claiming a 99% success rate and “no ransom” policy, investigators showed Palacio paid the ransomware group a few thousand dollars and billed clients up to $438,000 for fake services.</p>
+<p>Ransomwarehelp.com CTO Juan Ricardo Palacio Escobar was indicted for wire fraud after an FBI sting showed his firm lied about “advanced cryptographic tools.” He paid ransomware gangs for decryption keys, then overcharged victims for services never performed, quoting $13‑$16 k to a fake victim while paying $4‑6 k to the fake attacker, and even offered a $438,880 recovery proposal to a small firm.</p>
 
 <a href="https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/">Read Full Article</a>
 
@@ -87,9 +87,9 @@
 <h2>Attackers Used Optimizely to A/B Test Malware on Top Websites</h2>
 
 <b>Threat:</b> Malware<br>
-<b>Severity:</b> 8/10<br>
+<b>Severity:</b> 9/10<br>
 
-<p>A vulnerability in Optimizely’s experimentation platform let attackers inject malicious JavaScript into 178 high‑profile sites—including BBC, CNN, Equifax, Ledger and Zoom—over a 24‑hour period on Nov 16, 2026. The payload, rebuilt 26 times, delivered a multi‑purpose malware kit that stole payment data, cookies and screenshots, and deployed zero‑click iOS/iPad exploits (“DarkSword,” “Coruna”). Optimizely confirmed the breach, blocked the vulnerable path, removed the code, revoked tokens and applied additional Cloudflare protections, but the incident underscores how third‑party JavaScript can turn trusted sites into supply‑chain attack vectors.</p>
+<p>A vulnerability in Optimizely’s experimentation platform let attackers inject malicious JavaScript into 178 high‑traffic sites—including the BBC, CNN, Equifax, Ledger and Zoom—over a 24‑hour period on Nov 16, 2026. The payload, rebuilt 26 times, delivered a multi‑purpose malware kit that stole payment data, cookies, screenshots and hijacked crypto addresses, and exploited zero‑click iOS/iPad exploits. Optimizely confirmed the breach, blocked the vulnerable path, removed the code, reset tokens and is working with investigators. This supply‑chain attack underscores the risk of trusted third‑party JavaScript.</p>
 
 <a href="https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/">Read Full Article</a>
 
@@ -99,9 +99,9 @@
 <h2>Who Runs the Ransomware Group Qilin?</h2>
 
 <b>Threat:</b> Ransomware<br>
-<b>Severity:</b> 6/10<br>
+<b>Severity:</b> 7/10<br>
 
-<p>The ransomware‑as‑a‑service gang Qilin, run from St. Petersburg, has become the world’s most active affiliate program, hitting at least 365 victims in the last three months. Its admin “Haise” offers affiliates 80 % of extortion proceeds and uses double‑extortion. Operational‑security slips—reusing old handles “Rjun”/“Alexbigboss44” and forum applications—linked Haise to a 36‑year‑old Russian, exposing his identity. (≈60 words)</p>
+<p>Qilin, a Russia‑based ransomware‑as‑a‑service gang, has become the world’s most active affiliate program, targeting at least 365 victims in the past three months. Its leader, known as “Haise,” offers affiliates 80 % of extortion proceeds and uses double‑extortion tactics. Operational‑security blunders—reused aliases like Rjun and Alexbigboss44—allowed Intel 471, Flashpoint and IntelHawk to trace Haise to a 36‑year‑old man in St Petersburg, Russia.</p>
 
 <a href="https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/">Read Full Article</a>
 
@@ -111,9 +111,9 @@
 <h2>Microsoft Fixes Nearly 1,100 Security Vulnerabilities</h2>
 
 <b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 8/10<br>
+<b>Severity:</b> 2/10<br>
 
-<p>Microsoft’s latest Patch Tuesday delivered updates for nearly 1,100 Windows flaws, including 63 critical bugs—half remote‑code execution and one actively exploited Outlook zero‑day (CVE‑2026‑124194). The month’s total brings Microsoft’s 2026 patch count past 5,100, a surge credited to AI‑assisted testing. Simultaneously, Apple, Google, Mozilla and Adobe issued out‑of‑cycle fixes for dozens of high‑severity vulnerabilities across their platforms.</p>
+<p>Microsoft’s November Patch Tuesday shipped updates for 1,093 Windows flaws, including 63 critical bugs—nearly half remote code execution and a zero‑day Outlook spoof (CVE‑2026‑124194). AI helped identify the surge, bringing Microsoft’s 2024 total to >5,100 patches. Apple, Google, Mozilla and Adobe also released out‑of‑cycle fixes for dozens of high‑severity vulnerabilities across iOS, macOS, Chrome, Firefox and Adobe products.</p>
 
 <a href="https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/">Read Full Article</a>
 
@@ -123,9 +123,9 @@
 <h2>Want to Rent an Internet Address at the White House?</h2>
 
 <b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 5/10<br>
+<b>Severity:</b> 8/10<br>
 
-<p>Security researchers discovered White House staff using residential‑proxy services, which let others rent their IP addresses. One proxy, Infatica, is tied to Russian founder Vladimir Fomenko, whose hosting firm was linked to 2016 election‑system attacks in Arizona and Illinois. Layer3 Intel logged 236 proxy exits from the Executive Office network (AS2650) between Oct 5‑Nov 3, via 28 different services, mostly evenings. This exposes government traffic to anonymizing and potentially malicious use.</p>
+<p>Security researchers discovered that White House staff are using residential proxy services—some run by a Russian firm linked to 2016 election‑system hacks—to route their internet traffic. Layer3 Intel found proxy nodes from the Executive Office’s AS2650 network 236 times between Oct 5 and Nov 3, mainly in evenings, with 28 different proxy providers involved. The proxies, often bundled in free apps, expose White House IPs to public rent, raising concerns about anonymity, potential misuse, and broader cyber‑crime risks.</p>
 
 <a href="https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/">Read Full Article</a>
 
@@ -147,7 +147,7 @@
 <h2>In Security, Words Matter as Much as Tools, Maybe More</h2>
 
 <b>Threat:</b> Malware<br>
-<b>Severity:</b> 1/10<br>
+<b>Severity:</b> 2/10<br>
 
 <p>Summary unavailable</p>
 
@@ -158,8 +158,8 @@
 
 <h2>What We Missed: Nvidia CEO Scandal Rocks AI Industry</h2>
 
-<b>Threat:</b> Malware<br>
-<b>Severity:</b> 1/10<br>
+<b>Threat:</b> Data Breach<br>
+<b>Severity:</b> 2/10<br>
 
 <p>Summary unavailable</p>
 
@@ -171,7 +171,7 @@
 <h2>Qwen Incidents Show Self-Hosted AI Models Need Stronger Steering</h2>
 
 <b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 7/10<br>
+<b>Severity:</b> 4/10<br>
 
 <p>Summary unavailable</p>
 
@@ -183,7 +183,7 @@
 <h2>Second Norwegian Energy Company Breached in 2 Days</h2>
 
 <b>Threat:</b> Data Breach<br>
-<b>Severity:</b> 9/10<br>
+<b>Severity:</b> 7/10<br>
 
 <p>Summary unavailable</p>
 
@@ -192,12 +192,48 @@
 
 <hr>
 
+<h2>FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says</h2>
+
+<b>Threat:</b> Data Breach<br>
+<b>Severity:</b> 10/10<br>
+
+<p>The FBI is probing a suspected breach of the National Crime Information Center (NCIC), a nationwide law‑enforcement database containing records on fugitives, missing persons, criminal histories and stolen property. The agency declined comment; the hack’s scope is unknown. President Trump called the news “not good.” The incident follows previous FBI cyber‑attacks, including a September breach by the ShinyHunters group. (≈60 words)</p>
+
+<a href="https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/">Read Full Article</a>
+
+
+<hr>
+
+<h2>President Trump Taps Kirsten Davies as National Cyber Director</h2>
+
+<b>Threat:</b> Nation State<br>
+<b>Severity:</b> 1/10<br>
+
+<p>Kirsten Davies, former DOW CIO and veteran CISO at Unilever, HP, Siemens and others, has been named the new U.S. National Cyber Director, tasked with advancing President Trump’s “America First” cyber agenda. Her appointment comes as the nation grapples with high‑profile outages—from Microsoft 365 and FAA communications to JPMorgan and United Airlines—and a rise in AI‑driven attacks linked to China’s Artex framework. The administration says the disruptions are unrelated system‑maintenance issues, not coordinated cyber‑attacks.</p>
+
+<a href="https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/">Read Full Article</a>
+
+
+<hr>
+
+<h2>Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day</h2>
+
+<b>Threat:</b> Zero-Day<br>
+<b>Severity:</b> 9/10<br>
+
+<p>A China‑linked threat actor used autonomous Cairn AI agents to find and exploit a zero‑day path‑traversal bug in MONAI Label, an open‑source medical‑image annotation tool. Within 11 minutes the agents gained file‑write access, planted a Python reverse shell and achieved root on university servers in East Asia. Amazon’s threat intel uncovered the 48‑hour campaign, prompting a critical advisory and a pending fix for versions ≤0.8.5.</p>
+
+<a href="https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/">Read Full Article</a>
+
+
+<hr>
+
 <h2>WhatsApp Fixes Flaw Uncovered While Disrupting Scam Campaign</h2>
 
 <b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 3/10<br>
+<b>Severity:</b> 5/10<br>
 
-<p>WhatsApp patched a low‑impact Android flaw (CVE‑2026‑23871) in WhatsApp and WhatsApp Business that let attackers craft “Click to WhatsApp” ad‑reply URLs to reveal a device’s IP and make scam messages appear more credible. The company also disclosed two medium‑impact bugs: CVE‑2026‑102769, an SQL‑injection that could delete files or leak minimal chat data, and CVE‑2026‑44908, a remote‑attestation issue that could bypass hardware trust if a rogue certificate were used. No evidence of exploitation was found for the latter two.</p>
+<p>WhatsApp patched a low‑impact Android flaw (CVE‑2026‑23871) in WhatsApp and WhatsApp Business before version 2.26.17.4. The bug allowed incomplete validation of ad‑reply URLs in Click‑to‑WhatsApp ads, potentially exposing a device’s IP and letting scammers make phishing messages appear more credible. WhatsApp also disclosed two medium‑impact issues—a pre‑2.26.35.74 SQL‑injection (CVE‑2026‑102769) and a remote‑attestation bypass (CVE‑2026‑44908)—but saw no evidence of exploitation.</p>
 
 <a href="https://www.securityweek.com/whatsapp-fixes-flaw-uncovered-while-disrupting-scam-campaign/">Read Full Article</a>
 
@@ -206,48 +242,12 @@
 
 <h2>In Other News: Norwegian Energy Firm Cyberattacks, Supercomputer Hack, New Nightmare Eclipse Exploit</h2>
 
-<b>Threat:</b> Zero-Day<br>
+<b>Threat:</b> Vulnerability<br>
 <b>Severity:</b> 9/10<br>
 
-<p></p>
+<p>EU sanctions the pro‑Russian hacking group NoName057(16); Infoblox data was exposed via a compromised migration vendor; Japan’s Riken shut down the Fugaku supercomputer after a breach; Ukrainian police and the FBI arrested key ransomware actors, including an 8‑Digits affiliate; Google released Gemini 4 Neon for defenders; NSA warns malware is harvesting CAC PINs from DoD PCs; major Japanese broker Rakuten Securities and Norway’s Equinor/Skagerak Energi reported data‑leak and intrusion attempts; researcher Nightmare Eclipse disclosed an unpatched Windows 11 lock‑screen zero‑day.</p>
 
 <a href="https://www.securityweek.com/in-other-news-norwegian-energy-firm-cyberattacks-supercomputer-hack-new-nightmare-eclipse-exploit/">Read Full Article</a>
-
-
-<hr>
-
-<h2>Industry Reactions to Major Outages and AI Patching Debate: Feedback Friday</h2>
-
-<b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 6/10<br>
-
-<p>A wave of U.S. outages—including a near‑day Microsoft 365 failure, a nationwide FAA ground stop, JPMorgan‑related banking delays, an NSA network hiccup, plus disruptions at United Airlines and Apple—were traced to a software defect, a new router and routine maintenance, with no cyber‑attack evidence. Officials and security experts warn that AI‑driven, rapid‑patch cycles are stressing fragile, tightly coupled infrastructures, highlighting the need for tested rollback plans, better change management and resilient system design.</p>
-
-<a href="https://www.securityweek.com/industry-reactions-to-major-outages-and-ai-patching-questions-feedback-friday/">Read Full Article</a>
-
-
-<hr>
-
-<h2>SBC Medical Group Data Breach Impacts Over 2 Million</h2>
-
-<b>Threat:</b> Data Breach<br>
-<b>Severity:</b> 9/10<br>
-
-<p>SBC Medical Group Holdings (NASDAQ: SBC) disclosed two breaches affecting Japanese clinic data. Hackers accessed the company’s platform and stole basic personal details of 1.62 million people—names, addresses, contact info, birth dates, patient IDs and survey responses—and reservation data for 255,416 individuals. A secondary breach of the third‑party reservation service Tribeau exposed information for ≈19,000 people, including names, phone numbers and treatment requests. Credit‑card data was limited to 14 expired cards; employee credentials and some payroll details were also compromised. SBC has isolated the servers, evicted attackers, rotated passwords and is assessing the impact.</p>
-
-<a href="https://www.securityweek.com/sbc-medical-group-data-breach-impacts-over-2-million/">Read Full Article</a>
-
-
-<hr>
-
-<h2>European Commission Confirms AI-Assisted Cyberattack Disrupted Services</h2>
-
-<b>Threat:</b> Nation State<br>
-<b>Severity:</b> 9/10<br>
-
-<p>The European Commission confirmed an AI‑assisted cyberattack that struck its IT systems in late October, forcing temporary shutdown of several applications—including HR, medical‑reimbursement, and translation platforms. Detected on Oct 22 and confirmed on Oct 26, the breach appears contained with no evidence of staff data loss, and no ransom demand was reported. EU security agency CERT‑EU linked the attack to the publicly available AI penetration‑testing framework Artex, warning that such tools could enable faster, more automated assaults.</p>
-
-<a href="https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/">Read Full Article</a>
 
 
 <hr>
@@ -257,7 +257,7 @@
 <b>Threat:</b> Data Breach<br>
 <b>Severity:</b> 9/10<br>
 
-<p>A breach at Nelnet Servicing, the portal provider for EdFinancial and the Oklahoma Student Loan Authority, exposed personal data of 2.5 million student‑loan borrowers. Discovered on Aug. 17, 2022, the intrusion accessed names, addresses, emails, phone numbers and Social Security numbers, though not financial details. Nelnet’s cybersecurity team secured the system and hired forensic experts; the breach likely occurred between June 1 and July 22, 2022, with notification sent on July 21.</p>
+<p>EdFinancial and the Oklahoma Student Loan Authority warned more than 2.5 million borrowers that a breach at Nelnet Servicing—its loan‑servicing platform—exposed personal data. The intrusion, discovered on July 21, 2022 and confirmed August 17, accessed names, addresses, emails, phone numbers and Social Security numbers, but not financial details. Nelnet’s security team sealed the vulnerability and hired forensic experts to assess the incident.</p>
 
 <a href="https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/">Read Full Article</a>
 
@@ -269,7 +269,7 @@
 <b>Threat:</b> Malware<br>
 <b>Severity:</b> 8/10<br>
 
-<p>Researchers say a China‑based APT, TA423 (aka Red Ladon), ran a watering‑hole campaign from April to June 2022 targeting Australian entities and offshore energy firms in the South China Sea. Victims were lured by fake news‑site links that delivered the ScanBox JavaScript reconnaissance framework, which harvests data via browser‑based keylogging without installing malware. Proofpoint and PwC link the group to Hainan’s Ministry of State Security.</p>
+<p>Proofpoint and PwC report a watering‑hole campaign from April‑June 2022 that used targeted Australian news links to deliver the ScanBox JavaScript reconnaissance framework. Researchers attribute the operation to China‑based APT TA423 (Red Ladon), linked to Hainan’s Ministry of State Security. ScanBox enables covert data collection via browsers without installing malware, threatening domestic Australian firms and offshore energy companies.</p>
 
 <a href="https://threatpost.com/watering-hole-attacks-push-scanbox-keylogger/180490/">Read Full Article</a>
 
@@ -281,7 +281,7 @@
 <b>Threat:</b> Ransomware<br>
 <b>Severity:</b> 8/10<br>
 
-<p>Over 130 firms, including Twilio and Cloudflare, fell victim to the “0ktapus” phishing campaign that spoofed Okta’s multi‑factor authentication pages. Group‑IB says attackers sent SMS links mimicking Okta login portals, stealing credentials and MFA codes, compromising 9,931 accounts across 114 U.S. companies and 68 nations. The operation began by targeting telecoms to harvest phone numbers, and its scope remains unknown.</p>
+<p>A sprawling phishing operation, dubbed “0ktapus,” compromised 9,931 accounts across more than 130 organizations, including Twilio and Cloudflare. Attackers spoofed Okta’s MFA login pages, sending SMS links that harvested users’ Okta credentials and MFA codes. The campaign began by targeting telecom firms to collect phone numbers, then expanded to 114 U.S. companies and 68 other countries. Group‑IB warns the full impact remains unclear.</p>
 
 <a href="https://threatpost.com/0ktapus-victimize-130-firms/180487/">Read Full Article</a>
 
@@ -291,9 +291,9 @@
 <h2>Ransomware Attacks are on the Rise</h2>
 
 <b>Threat:</b> Ransomware<br>
-<b>Severity:</b> 8/10<br>
+<b>Severity:</b> 9/10<br>
 
-<p>LockBit dominated July’s ransomware landscape, conducting 62 attacks—double the total of the next two groups combined. Hiveleaks (27 attacks) and BlackBasta (24 attacks) surged, up 440% and 50% since June, respectively. Overall ransomware campaigns rose 47% to 198, though still below the spring peak of ~300. Both newcomers stem from Conti’s recent split, suggesting further growth into August.</p>
+<p>LockBit dominated July’s ransomware landscape, executing 62 attacks—double the total of the next two groups. Hiveleaks (27 attacks) and BlackBasta (24 attacks) surged, up 440% and 50% since June, after the Conti gang fragmented following a U.S. bounty on its members. Overall ransomware campaigns rose 47% in July, hinting at further growth as Conti’s offshoots solidify.</p>
 
 <a href="https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/">Read Full Article</a>
 
@@ -305,7 +305,7 @@
 <b>Threat:</b> Vulnerability<br>
 <b>Severity:</b> 8/10<br>
 
-<p>Over 80,000 Hikvision surveillance cameras worldwide remain unpatched against the critical CVE‑2021‑36260 command‑injection flaw disclosed last fall, despite a 9.8/10 severity rating. The vulnerability, tied to default credentials and poor forensics, is being traded on Russian dark‑web forums, with Chinese and Russian APT groups potentially exploiting it. Industry‑wide IoT update challenges, not just user laziness, hinder timely remediation.</p>
+<p>Over 80,000 Hikvision surveillance cameras worldwide remain unpatched against the critical CVE‑2021‑36260 command‑injection flaw discovered last fall, despite a 9.8/10 severity rating. Researchers report active exploitation attempts on Russian dark‑web forums, with Chinese and Russian APT groups potentially targeting the devices. The issue stems from systemic IoT security weaknesses—default credentials, hard‑to‑apply updates, and lack of forensic tools—rather than solely user negligence.</p>
 
 <a href="https://threatpost.com/cybercriminals-are-selling-access-to-chinese-surveillance-cameras/180478/">Read Full Article</a>
 
@@ -314,10 +314,10 @@
 
 <h2>Friday Squid Blogging: The Largest Squid Ever Filmed</h2>
 
-<b>Threat:</b> Malware<br>
+<b>Threat:</b> Vulnerability<br>
 <b>Severity:</b> 1/10<br>
 
-<p>A recent AI‑generated music video, shared on YouTube, satirically exposes common AI hype by highlighting how underspecified prompts can produce unpredictable or misleading outputs. The clip demonstrates risks of prompt engineering, model interpretability, and the potential for malicious actors to exploit ambiguous requests, underscoring the need for clearer AI governance and robust security testing through systematic evaluation and stakeholder awareness.</p>
+<p>A new AI‑generated music video released recently mocks AI hype while exposing a core security flaw: underspecified prompts that can be exploited for prompt‑injection attacks. By showing how vague requests lead to unintended outputs, the video underscores the need for tighter model guardrails, rigorous testing, and clearer specification to prevent malicious manipulation of generative AI systems.</p>
 
 <a href="https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-the-largest-squid-ever-filmed.html">Read Full Article</a>
 
@@ -329,7 +329,7 @@
 <b>Threat:</b> Vulnerability<br>
 <b>Severity:</b> 1/10<br>
 
-<p>Researchers employed CT‑scan imaging to decipher the internal mechanism of a 400‑year‑old cryptex padlock, successfully retrieving its combination without tampering. The non‑invasive method reveals how early “ladies locks” functioned as precursors to modern cash‑box and briefcase locks, emphasizing information security over brute force. The study highlights the potential for similar historic devices and even modern USB‑drive cryptexes.</p>
+<p>Researchers employed CT‑scan imaging to non‑invasively decode the internal mechanism of a 400‑year‑old cryptex‑style padlock, revealing its combination without damaging the artifact. The technique demonstrates how modern imaging can recover historic cryptographic secrets and informs the design of contemporary “USB‑drive cryptex” devices. Commenters liken the device to an early “ladies lock,” an ancestor of today’s portable secure containers.</p>
 
 <a href="https://www.schneier.com/blog/archives/2026/11/opening-a-400-year-old-cryptex.html">Read Full Article</a>
 
@@ -341,7 +341,7 @@
 <b>Threat:</b> Nation State<br>
 <b>Severity:</b> 5/10<br>
 
-<p>U.S. intelligence agencies have issued a “low‑confidence” judgment that Iran, though not a specific unit like the Revolutionary Guards, likely orchestrated recent cyber‑attacks on French infrastructure and may be behind similar incidents across Europe. The assessment is based on fragmented intelligence and could change as further information emerges. This judgment reflects early‑stage investigations into the attacks.</p>
+<p>U.S. intelligence agencies have issued a “low‑confidence” judgment that Iran, rather than a specific unit like the Revolutionary Guard, was behind recent cyber‑attacks on French infrastructure and likely responsible for similar incidents across Europe. The assessment, based on fragmented intelligence, could change as investigations progress.</p>
 
 <a href="https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html">Read Full Article</a>
 
@@ -353,7 +353,7 @@
 <b>Threat:</b> Vulnerability<br>
 <b>Severity:</b> 1/10<br>
 
-<p>Google DeepMind used its new AlphaProof Code AI framework to formally verify key cryptographic guarantees of the Signal protocol within four weeks. The proof—produced via Gemini‑Carbon agents and over six million lines of Lean code—found no new flaws and correctly identified known, already‑fixed vulnerabilities in older Signal versions. The team released the specifications and proofs to support further formal‑verification research.</p>
+<p>Google DeepMind researchers used an agentic AI framework called AlphaProof Code to formally verify key cryptographic guarantees of the Signal protocol—a cornerstone of secure messaging on Signal, Google Messages and WhatsApp. In a four‑week proof‑of‑concept, the AI generated six million lines of Lean code, found no new flaws, and correctly flagged known, fixed vulnerabilities in older protocol versions. The team is releasing their specifications and proofs to support further formal‑verification efforts.</p>
 
 <a href="https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html">Read Full Article</a>
 
@@ -363,11 +363,59 @@
 <h2>Usable Security at Luxury Hotels</h2>
 
 <b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 2/10<br>
+<b>Severity:</b> 3/10<br>
 
-<p>A luxury hotel chain fell victim to a phishing attack after an employee opened a fake booking request, granting attackers access to the reservations inbox. The criminals copied legitimate refund emails and injected fraudulent ones, which were approved under the hotel’s guest‑first culture. The case highlights flaws in split security responsibilities among owner, operator, and brand, and shows that simple “don’t click links” advice fails when email handling is core to the job.</p>
+<p>A luxury‑hotel chain fell victim to a phishing scam when attackers sent a fake booking request, infiltrated the shared reservations inbox, and duplicated authentic refund requests to approve fraudulent ones. The incident shows that “don’t click links” advice fails when email handling is core work, and that fragmented security responsibility among owner, operator and brand creates accountability gaps, leading to staff being blamed.</p>
 
 <a href="https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html">Read Full Article</a>
+
+
+<hr>
+
+<h2>Rackspace Spot breach let hackers access customer Kubernetes secrets</h2>
+
+<b>Threat:</b> Data Breach<br>
+<b>Severity:</b> 8/10<br>
+
+<p>Summary unavailable</p>
+
+<a href="https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/">Read Full Article</a>
+
+
+<hr>
+
+<h2>Microsoft Entra Connect Health flaw exploited to steal tenant data</h2>
+
+<b>Threat:</b> Vulnerability<br>
+<b>Severity:</b> 8/10<br>
+
+<p>Summary unavailable</p>
+
+<a href="https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/">Read Full Article</a>
+
+
+<hr>
+
+<h2>BADBOX botnet returns with record-breaking 40 billion daily ad requests</h2>
+
+<b>Threat:</b> Malware<br>
+<b>Severity:</b> 8/10<br>
+
+<p>Summary unavailable</p>
+
+<a href="https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/">Read Full Article</a>
+
+
+<hr>
+
+<h2>FBI reportedly hacked again, this time targeting nationwide police database</h2>
+
+<b>Threat:</b> Data Breach<br>
+<b>Severity:</b> I’m not certain whether the claim that the FBI hacked a nationwide police database is accurate. I don’t have enough information to confirm its authenticity, so I can’t reliably rate its cybersecurity severity./10<br>
+
+<p>Summary unavailable</p>
+
+<a href="https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/">Read Full Article</a>
 
 
 <hr>
@@ -384,60 +432,12 @@
 
 <hr>
 
-<h2>Hackers use autonomous AI tool Cairn to find zero-day, take over server</h2>
-
-<b>Threat:</b> Zero-Day<br>
-<b>Severity:</b> 9/10<br>
-
-<p>Summary unavailable</p>
-
-<a href="https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/">Read Full Article</a>
-
-
-<hr>
-
-<h2>Vendor data breach exposes Chase, Visa, Mastercard customer info</h2>
-
-<b>Threat:</b> Data Breach<br>
-<b>Severity:</b> 9/10<br>
-
-<p>Summary unavailable</p>
-
-<a href="https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/">Read Full Article</a>
-
-
-<hr>
-
-<h2>Still tracking company passwords in spreadsheets? You’re flying blind.</h2>
-
-<b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 8/10<br>
-
-<p>Summary unavailable</p>
-
-<a href="https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/">Read Full Article</a>
-
-
-<hr>
-
-<h2>N-able says recent security breach led to major service outage</h2>
-
-<b>Threat:</b> Data Breach<br>
-<b>Severity:</b> 8/10<br>
-
-<p>Summary unavailable</p>
-
-<a href="https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/">Read Full Article</a>
-
-
-<hr>
-
 <h2>ISC Stormcast For Friday, November 20th, 2026 https://isc.sans.edu/podcastdetail/10188, (Fri, Nov 20th)</h2>
 
 <b>Threat:</b> Malware<br>
-<b>Severity:</b> 2/10<br>
+<b>Severity:</b> 1/10<br>
 
-<p>I’m happy to help, but I need the text of the cybersecurity news you’d like summarized. Please provide the article or key details, and I’ll create a concise 60‑word summary for you.</p>
+<p>I’m happy to help, but I don’t have the news article you’d like summarized. Could you please provide the text or a link to the cybersecurity news you want condensed?</p>
 
 <a href="https://isc.sans.edu/diary/rss/33538">Read Full Article</a>
 
@@ -446,10 +446,10 @@
 
 <h2>ISC Stormcast For Thursday, November 19th, 2026 https://isc.sans.edu/podcastdetail/10186, (Thu, Nov 19th)</h2>
 
-<b>Threat:</b> Malware<br>
+<b>Threat:</b> Vulnerability<br>
 <b>Severity:</b> 1/10<br>
 
-<p>I’m happy to help, but I need the text of the cybersecurity news you’d like summarized. Could you please provide the article or its main details?</p>
+<p>Could you please provide the text or link to the cybersecurity news you’d like summarized?</p>
 
 <a href="https://isc.sans.edu/diary/rss/33536">Read Full Article</a>
 
@@ -461,7 +461,7 @@
 <b>Threat:</b> Malware<br>
 <b>Severity:</b> 2/10<br>
 
-<p>Kevin Truong, an ISC intern, describes using a public Git repo and mandatory pull‑request reviews to document honeypot attacks, replacing manual screenshots and word‑processor drafts. He integrated Claude Code, an AI coding assistant, as a separate GitHub machine account that could propose but not merge changes. This workflow enforces version control and human oversight, testing whether AI‑generated security analysis can be reliable enough for publication.</p>
+<p>Kevin Truong, an ISC intern, documented his honeypot analysis workflow by storing reports in a public Git repo and using pull requests for changes. He paired this with Claude Code, an AI coding assistant that drafted reports via a dedicated GitHub bot account, which could propose but not merge changes. The mandatory human review of each PR served as a gate and spot‑check, demonstrating how version control and review can make AI‑generated security analyses more trustworthy for publication.</p>
 
 <a href="https://isc.sans.edu/diary/rss/33534">Read Full Article</a>
 
@@ -473,7 +473,7 @@
 <b>Threat:</b> Vulnerability<br>
 <b>Severity:</b> 9/10<br>
 
-<p>A month after covering php2shell at Infocon Yellow, SANS reports a surge of high‑profile flaws—Microsoft 365 outage, critical Java and NGINX vulnerabilities—yet warns against treating every incident as an emergency. The “Green” infocon reflects a baseline of constant threat; organizations should adopt sustainable tooling, automation and AI to manage the “new normal” rather than chase every new exploit.</p>
+<p>Recent events – a Microsoft 365 outage, critical Java and NGINX flaws (NGINX2Shell disclosed today) – raise alarm. Although attacks on our Java honeypot are numerous, none target Java4Shell yet. The author keeps Infocon “Green,” treating these issues as the new normal, and urges organizations to adopt sustainable tooling, AI automation, and measured patching rather than constant emergencies.</p>
 
 <a href="https://isc.sans.edu/diary/rss/33532">Read Full Article</a>
 
@@ -485,68 +485,68 @@
 <b>Threat:</b> Vulnerability<br>
 <b>Severity:</b> 1/10<br>
 
-<p>I’m happy to help, but I need the text of the cybersecurity news you’d like summarized. Could you please provide the article or the relevant excerpt?</p>
+<p>I’m happy to help, but I need the actual news article or its key details in order to create a summary. Could you please provide the text you’d like summarized?</p>
 
 <a href="https://isc.sans.edu/diary/rss/33528">Read Full Article</a>
 
 
 <hr>
 
-<h2>6 Critical F5 BIG-IP Vulnerabilities Could Let Hackers Disrupt Websites and Execute Malicious Code</h2>
+<h2>JPMorgan Confirms Customer Data Breach Following Third-Party Compromise</h2>
 
-<b>Threat:</b> Vulnerability<br>
+<b>Threat:</b> Data Breach<br>
+<b>Severity:</b> 8/10<br>
+
+<p>JPMorgan Chase confirmed a data breach after attackers infiltrated third‑party vendors, exposing marketing data that may include customer names and email addresses. The breach, disclosed on X on Nov 19, did not disrupt services; affected customers will be contacted and offered free credit monitoring. The incident is separate from a Nov 16 outage caused by a software bug. Ransomware group N0n also claimed leaks from JPMorgan, Visa and Mastercard, though Visa says no payment data was affected and Mastercard limits the breach to a small benefit‑program cohort. The compromised vendors remain unidentified.</p>
+
+<a href="https://www.infosecurity-magazine.com/news/jpmorgan-data-breach-third-party/">Read Full Article</a>
+
+
+<hr>
+
+<h2>Ransomware Recovery Takes 20 Days for the Typical Victim, Report Finds</h2>
+
+<b>Threat:</b> Ransomware<br>
+<b>Severity:</b> 8/10<br>
+
+<p>Rubrik’s Zero Labs report (Nov 19, 2026) shows ransomware recovery takes a median 20 days, yet 28% of victims need over six weeks to resume normal operations. While 68% get forensic findings within two days, only 32% finish recovery in two weeks. Attackers now target backup systems—21% of ransomware groups infiltrated customer backups, accounting for 62% of attacks—and 67% of extortions involve data theft, underscoring the shift from pure encryption to double‑extortion.</p>
+
+<a href="https://www.infosecurity-magazine.com/news/ransomware-recovery-20-days/">Read Full Article</a>
+
+
+<hr>
+
+<h2>Mail Bombing Attacks Fuel IT Helpdesk Impersonation Scams</h2>
+
+<b>Threat:</b> Malware<br>
+<b>Severity:</b> 7/10<br>
+
+<p>Cybercriminals are launching large‑scale mail‑bombing campaigns, flooding target inboxes with thousands of subscription‑based messages to overwhelm users and hide phishing or IT‑helpdesk impersonation attempts. Fortra’s FIRE team reports attackers submit addresses to countless newsletter forms—often via AI agents that scrape sites—using services like Mailchimp, Amazon SES and SendGrid, delivering up to 10 k emails per campaign. The noise is followed by vishing calls via Teams to further compromise accounts.</p>
+
+<a href="https://www.infosecurity-magazine.com/news/mail-bombing-attacks-it-helpdesk/">Read Full Article</a>
+
+
+<hr>
+
+<h2>Suspected North Korea-Aligned Group Hides C2 on Solana Blockchain</h2>
+
+<b>Threat:</b> Nation State<br>
 <b>Severity:</b> 9/10<br>
 
-<p>Summary unavailable</p>
+<p>A financially motivated threat group, tracked as UAT‑12643 and suspected of North Korean APT links, hid its C2 server addresses on the Solana blockchain. Using a Go‑based Overlord RAT, an infostealer and a crypto‑clipboard hijacker, the malware fetched encrypted C2 data from wallet memos, resisted removal (triggering BSODs and persisting in Windows Recovery), and performed keylogging, screen capture, file control, lateral movement and in‑memory plugin delivery. Targets included crypto holders, gamers and VoIP users.</p>
 
-<a href="https://cybersecuritynews.com/critical-f5-big-ip-vulnerabilities/">Read Full Article</a>
-
-
-<hr>
-
-<h2>WhatsApp Android Flaws Could Let Hackers Delete Users’ Files and Expose IP Addresses</h2>
-
-<b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 6/10<br>
-
-<p>Summary unavailable</p>
-
-<a href="https://cybersecuritynews.com/whatsapp-android-flaws/">Read Full Article</a>
+<a href="https://www.infosecurity-magazine.com/news/overlord-rat-solana-blockchain-c2/">Read Full Article</a>
 
 
 <hr>
 
-<h2>14 Best Enterprise Risk Management Tools 2027</h2>
+<h2>CyberPower PowerPanel Exploited to Run Malicious Code on Domain Controller</h2>
 
 <b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 1/10<br>
+<b>Severity:</b> 10/10<br>
 
-<p>Summary unavailable</p>
+<p>A Symantec report shows attackers abusing CyberPower PowerPanel Business (PBB) to execute malicious scripts on a Windows domain controller. By uploading scripts through the PBB web console, they leveraged the software’s “run‑as‑SYSTEM” feature to deploy an antivirus killer, steal the Active Directory database, and install a persistent DLL‑sideloaded implant. The breach likely stemmed from stolen admin credentials or known product flaws (default passwords, hard‑coded creds, upload bug). Symantec urges treating power‑management tools as high‑value remote‑admin assets: restrict console access, keep it offline, change default passwords, apply patches, monitor script folders, and reset AD credentials if compromised.</p>
 
-<a href="https://cybersecuritynews.com/enterprise-risk-management-tools/">Read Full Article</a>
-
-
-<hr>
-
-<h2>Microsoft Investigates Attachment Upload Failures in New Outlook</h2>
-
-<b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 5/10<br>
-
-<p>Summary unavailable</p>
-
-<a href="https://cybersecuritynews.com/microsoft-attachment-upload-failures/">Read Full Article</a>
-
-
-<hr>
-
-<h2>Over 100 Debian Packages Still Contain Distrusted CA Certificates Despite Security Updates</h2>
-
-<b>Threat:</b> Vulnerability<br>
-<b>Severity:</b> 4/10<br>
-
-<p>Summary unavailable</p>
-
-<a href="https://cybersecuritynews.com/debian-packages-ca-certificates/">Read Full Article</a>
+<a href="https://www.infosecurity-magazine.com/news/ups-software-abused-domain/">Read Full Article</a>
 
 </body></html>
