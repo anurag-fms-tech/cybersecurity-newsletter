@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms
+Threat: Data Breach | Severity: 5/10
+Researchers at Dragos discovered that three AI inference providers had been exfiltrating data for months without their knowledge. Using canary‑token prompts, the team found “Zero Data Retention” requests were being copied, including hundreds of AWS keys. OpenRouter removed the compromised providers and 125 endpoints, warned customers, and noted no breach of its own platform. The attackers accessed secrets, tested keys, and performed extensive AWS API activity.
+
+2. Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps
+Threat: Vulnerability | Severity: 9/10
+A use‑after‑free bug in Ghostscript (CVE‑2026‑125396) let a crafted PDF/PostScript/EPS file bypass the -dSAFER sandbox and execute commands on the server processing it. pwn.ai showed the flaw could be triggered through ordinary upload, preview or print features in about ten popular apps—ImageMagick, Pillow, libvips, WordPress plugins, Roundcube, etc.—often without direct calls to Ghostscript. The bug, fixed in Ghostscript 10.08.0 on Sept 8, scores 8.5/10; no attacks have been reported. Updating both Ghostscript and affected applications (e.g., WordPress 7.0.4) is required.
+
+3. A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats
+Threat: Vulnerability | Severity: 9/10
+Researchers demonstrated a malicious webpage that can steal a Meta Muse user’s private chats, memories, and connected‑account credentials without any approval prompt. By exploiting a flaw in Muse’s built‑in browser and a Linux kernel bug, the attackers gained full control of the user’s isolated cloud VM, even bypassing Sentinel and the credential store. Meta patched all reported weaknesses after the lab‑only proof‑of‑concept.
+
+4. GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys
+Threat: Vulnerability | Severity: 9/10
+A malicious OpenPGP key with an unusually long user ID can trigger a critical double‑free memory bug in GPGME, the library used by many applications to interact with GnuPG. CVE‑2026‑129975 affects all software using GPGME prior to version 2.3.0, including mail and XMPP clients, Samba, and Gpg4win. The flaw could lead to data theft or remote code execution. Fixed in GPGME 2.3.1, released this week.
+
+5. Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access
+Threat: Zero-Day | Severity: 10/10
+Suspected China‑linked hackers employed autonomous AI agents (Cairn) to exploit a path‑traversal flaw in MONAI Label 0.8.5 and earlier, letting them write files outside the storage folder and gain root on a university server. The vulnerability—no authentication by default—was patched in the source but no fixed release exists. Amazon’s investigation linked the rapid, 11‑minute exploit to Chinese‑language prompts, suggesting a China‑affiliated actor.
+
+
+#cybersecurity #infosec #threatintel
