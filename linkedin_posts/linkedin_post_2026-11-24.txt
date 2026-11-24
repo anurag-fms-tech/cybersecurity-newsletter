@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. WHMCS SQL Injection Could Expose Customer Data and Admin Password Hashes without Login
+Threat: Vulnerability | Severity: 9/10
+A critical SQL injection in WHMCS’s shopping cart (CVE‑2026‑82981, CVSS 8.7) lets anyone online pull customer data and admin password hashes without logging in. WHMCS disclosed the flaw with two others—one logged‑in client SQL injection (CVE‑2026‑82979, CVSS 7.1) and an email‑campaign issue (CVE‑2026‑93700, CVSS 9.0). Patches were released in versions 9.0.10, 8.13.8 and 9.1.2; administrators must apply them, as no attacks have been reported.
+
+2. OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching
+Threat: Vulnerability | Severity: 2/10
+OpenAI and Cisco have released Shirudo, an open‑source Linux runtime that lets AI agents generate eBPF “shields” to block exploits without downtime. The guardian agent writes dynamic eBPF controls, tests them in a sandbox, and once approved, deploys cryptographically signed shields that protect vulnerable code paths while legitimate traffic continues. Built on Isovalent’s Tetragon, Shirudo aims at self‑defending infrastructure.
+
+3. Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day
+Threat: Zero-Day | Severity: 9/10
+CISA added two critical flaws to its KEV catalog after confirming active exploitation. N‑able’s MailAssure/SpamExperts cloud services suffered a breach (CVE‑2026‑134624) on Nov 16, 2026, affecting a single hosted server; the issue was remediated and services restored. Separately, a China‑linked threat actor used the AI engine CAIRN to exploit a zero‑day in MONAI Label (CVE‑2026‑133968), gaining root‑level reverse shells on targeted university systems within minutes.
+
+4. Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access
+Threat: Malware | Severity: 8/10
+Webworm, a China‑aligned state‑sponsored group, is weaponising a custom‑compiled SoftEther VPN Bridge (v4.44) dubbed “NtMonitor VPN” to hide remote‑access capabilities. The modified Windows binary (netcapa.exe) masquerades as network‑monitoring software, rewrites registry keys, swaps GIF watermarks for PNG, and uses benign‑looking HTTP endpoints to evade detection. Rapid7’s analysis links the tool to recent attacks on governments, IT services, and power firms across Russia, Georgia, Mongolia and other Asian nations.
+
+5. ⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble
+Threat: Vulnerability | Severity: 9/10
+A China‑linked espionage group, Armory Castle, leveraged a critical VMware vCenter Server zero‑day (CVE‑2026‑123890, CVSS 9.8) and a BeyondTrust Remote Support flaw to breach networks, plant Linux backdoors and harvest reconnaissance data. AI‑generated phishing is now faster, prompting AI‑driven training. Meanwhile, a flood of high‑severity CVEs—including macOS Unicode, Java4Shell, NGINX2Root, F5 BIG‑IP, Chrome, Drupal and many VMware‑related bugs—are being weaponised, shrinking the patch‑to‑exploit window. Vigilance on trusted tools and rapid patching are essential.
+
+
+#cybersecurity #infosec #threatintel
