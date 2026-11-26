@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation
+Threat: Vulnerability | Severity: 10/10
+Drupal warned of a new “highly critical” core flaw (CVE‑2026‑136716) that’s already being exploited. It stems from improper handling of unusual install states, extending the earlier CVE‑2026‑132165 (“Fail2Install”) issue. Sites that left install.php exposed after the prior fix may be compromised. Drupal urges updating to the latest core, running update.php, and securing the installer. About 55,800 Drupal sites are internet‑facing; ~31,500 run vulnerable branches, with ~15,000 on EOL 8/9.
+
+2. Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products
+Threat: Vulnerability | Severity: 8/10
+CISA added ten flaws to its Known Exploited Vulnerabilities catalog. Five affect Mitel MiCollab 10.3‑earlier; Mitel released patch 10.3.0.18 and advises upgrading or restricting external AWV access. Others include CVE‑2026‑133469 (exploited via a specific IP/TOR), CVE‑2026‑103406 (Juniper SIRT report) and three Danfoss AK‑SM 800A controller bugs linked to recent supermarket attacks in Europe. Federal agencies must patch most by 28 Nov 2026, two by 9 Dec 2026.
+
+3. 1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach
+Threat: Data Breach | Severity: 9/10
+1Password revealed that a threat actor compromised an employee’s GitHub account on Nov 19, 2026, using it to inject malicious code into backend services. The breach exposed limited customer data—names, emails, and some administrative details—but no vault contents, passwords, or recovery keys. 1Password has disabled the account, revoked tokens, hardened its CI/CD pipeline, rotated credentials, and extended invitation/recovery codes, advising users to stay alert for phishing.
+
+4. 13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps
+Threat: Malware | Severity: 8/10
+Researchers uncovered 13 malicious NuGet packages posing as WinUI 3 and WPF button controls, distributed through a fake take‑home job assessment for .NET developers. When included in a project, the packages download files from GitHub, stage a DLL sideloading pair with the Windows On‑Screen Keyboard (osk.exe), or pull and run executables (e.g., avast.exe). All packages have now been removed from NuGet after a campaign spanning July–November 2026.
+
+5. Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains
+Threat: Vulnerability | Severity: 9/10
+WatchTowr reports active exploitation of two patched GeoServer flaws—CVE‑2026‑120705 and CVE‑2026‑129243. Attackers probe vulnerable servers by creating, verifying, and deleting stored queries, allowing bypass of security controls, secret retrieval, credential forgery, and code execution. Eye Security flagged CVE‑2026‑120705, which can combine with other bugs for an unauthenticated RCE chain, while maintainers warn disclosed admin password digests enable system compromise.
+
+
+#cybersecurity #infosec #threatintel
