@@ -1,0 +1,24 @@
+Cybersecurity Intelligence Brief
+
+1. Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators
+Threat: Nation State | Severity: 9/10
+Switzerland’s National Cyber Security Centre reported five breaches, four using AI agents—its first cases in the country. Three targets were operators; two attacks succeeded without disruption. Victims, including SMEs, were not named. The agency warned “agentic offensive frameworks” like ARTEX and CyberStrikeAI can scan and exploit flaws, shifting tactics and shrinking detection time. AI attack tools have nearly doubled since October.
+
+2. Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access
+Threat: Zero-Day | Severity: 9/10
+A new unauthenticated zero‑day in Cacti Core 1.2.31 (tracked as 4HTTP2SHELL/4HTTP2ROOT) lets attackers execute remote code via the default guest account. By sending four crafted HTTP requests, an attacker injects arbitrary SQL into the “preview_graphs_per_page” setting, then triggers a poller update that is passed unchecked to PHP’s popen(). Successful exploitation compromises the monitoring server and can expose network credentials and pivot further.
+
+3. ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories
+Threat: Vulnerability | Severity: 9/10
+Todoist’s version‑control breach exposed 6% of users; CrowdStrike announced a $43.9 bn Zscaler purchase to build an AI‑centric security OS. Microsoft researchers found “SleeperWidget,” 250+ extensions that become malicious when installed via paid ads. Rapid7 identified thousands of unauthenticated AI notebook servers (Ollama) vulnerable to hijacking, and SonicWall uncovered SilentNet’s Java loader masquerading as a Minecraft mod, stealing tokens via blockchain C2.
+
+4. North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware
+Threat: Nation State | Severity: 9/10
+PolinRider actors inserted a Python loader into GitHub repositories. Hidden in utils or conftest.py, it runs on import, reads an Ethereum wallet transaction, decodes the data as JavaScript and executes it via Node.js. It contacts a server, launches a Node shell and downloads a payload that drops malware. Found in 375 repos across 260 accounts, it has not spread via PyPI or npm.
+
+5. Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls
+Threat: Malware | Severity: 7/10
+Push Security’s “breakthrough rate” measures the share of phishing attacks that evade email security, web gateways, and safe‑browsing to reach users. From Aug‑Oct 2026, the DOMDIFFER kit—an AiTM phishing tool targeting corporate Google and Microsoft accounts—had the highest breakthrough rate, outpacing the next kit by 2–4× each month. Using DOM mirroring and fake calendar‑event lures, it resurged after a spring lull and now dominates the top‑five list.
+
+
+#cybersecurity #infosec #threatintel
